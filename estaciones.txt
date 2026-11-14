@@ -1,0 +1,285 @@
+# Estaciones que guarda el recolector: un station_id por línea.
+# Lo que va después de # es solo un comentario (código CE y nombre).
+
+# --- Primeras 30 estaciones ---
+353  # CE-026 Reforma - Versalles
+240  # CE-010 Reforma - Ramírez
+115  # CE-113 General Prim-Versalles
+110  # CE-112 Av. Morelos-Abraham González
+323  # CE-008 Reforma - General Prim
+113  # CE-003 Reforma - Insurgentes
+215  # CE-114 Lucerna-Abraham González
+121  # CE-116 Londres-Roma
+320  # CE-086 Sullivan-Insurgentes
+243  # CE-270 De la República-Ponciano Arriaga
+125  # CE-263 Sadi Carnot - Gómez Farias
+117  # CE-259 Tómas Alva Edison-Ponciano Arriaga
+106  # CE-029 Reforma - Bucareli
+133  # CE-115 Roma-Dinamarca
+234  # CE-041 Reforma - Av. de la República
+260  # CE-020 Reforma- Río Támesis
+237  # CE-256 Gómez Farías-Sadi Carnot
+238  # CE-119 Turín-Abraham González
+174  # CE-118 Liverpool-Dinamarca
+241  # CE-450 Ramos Arizpe- Av México Tenochtitlan
+136  # CE-012 Río Lerma - Villalongín
+490  # CE-098 Emilio Dondé-Av. Balderas
+266  # CE-085 Rosas Moreno - Sullivan
+705  # CE-260 Av. Juárez-Balderas
+282  # CE-117 Londres-Nápoles
+104  # CE-107-108 Tolsa-Balderas
+171  # CE-031 Hamburgo - Insurgentes
+242  # CE-555 Ribera de San Cosme - Insurgentes Centro
+129  # CE-255 José Rosas Moreno-Guillermo Prieto
+228  # CE-048 Independencia - Azueta
+
+# --- Resto de estaciones ---
+141  # CE-271-272 Jesús García - Carlos J. Meneses
+315  # CE-208 Hesiodo-Lamartine
+252  # CE-235-236 Campos Elíseos-Moliere
+279  # CE-027 Reforma- Havre
+356  # CE-052 Hidalgo - Trujano
+126  # CE-111 Guillermo Prieto - Joaquín Velázquez de León
+267  # CE-014 Reforma - Río de Plata
+255  # CE-183 Gabino Barreda-Guillermo Prieto
+292  # CE-001 Río Sena-Río Balsas
+311  # CE-257 Manuel Maria Contreras-Villalongin
+359  # CE-194 Circuito Mahatma Gandhi-Reforma
+225  # CE-043 Revillagigedo - Juárez
+298  # CE-028 Toledo- Tokio
+309  # CE-465 Lago Ginebra-Lago Wetter
+295  # CE-018 Reforma - Río Rhin
+245  # CE-476 Lago Como-Laguna de Mayrán
+175  # CE-134 Álvaro Obregón-Orizaba
+122  # CE-019 Reforma - Río Rhin
+539  # CE-563 Doctor Velasco - Niños Héroes
+361  # CE-096 López-Ayuntamiento
+296  # CE-038 Cozumel - Puebla
+203  # CE-466 Lago Onega-Lago Ladoga
+263  # CE-017 Reforma - Río Tiber
+261  # CE-015 Reforma - Río Mississippi
+657  # CE-197 Presa Falcón - Miguel De Cervantes Saavedra
+152  # CE-158-159 Huatabampo-Eje 1 Pte. Av. Cuauhtémoc
+116  # CE-123 Claudio Bernard-Dr. Lavista
+268  # CE-135 Álvaro Obregón-Morelia
+321  # CE-233 Julio Verne-Luis G. Urbina
+207  # CE-459 Volcán-Montes Urales
+166  # CE-195 Reforma-Circuito Mahatma Gandhi
+271  # CE-141 Zacatecas-Luis Cabrera
+173  # CE-032 Londres - Sevilla
+82   # CE-064 Sonora - Ámsterdam
+259  # CE-087 Gante - Venustiano Carranza
+337  # CE-130 Mérida-Durango
+304  # CE-474 Bahía de San Hipólito-Bahía del Espíritu Santo
+196  # CE-467 Lago Mayor-Lago Alberto
+552  # CE-463 Lago Andrómaco-Lago Zurich
+193  # CE-126 Jalapa-Puebla
+184  # CE-030 Hamburgo - Amberes
+301  # CE-227 Campos Elíseos-Periférico
+131  # CE-007 Río Elba - Río Lerma
+134  # CE-273-274 Luis Donaldo Colosio - Av. Jesús García
+83   # CE-056 Alvaro Obregón - Medellin
+284  # CE-217 Euler-Horacio
+307  # CE-219 Esopo-FC de Cuernavaca
+143  # CE-137 Álvaro Obregón-Mérida
+458  # CE-230 Edgar Allan Poe - Carlos Dickens
+137  # CE-006 Río Pánuco - Río Sena
+119  # CE-016 Reforma - Río Tiber
+540  # CE-560 Doctor Liceaga - Eje Central
+289  # CE-047 Plaza Madrid-Medellín
+144  # CE-139 Tonalá-Guanajuato
+381  # CE-182 Progreso-Astrónomos
+551  # CE-548 Dr. Mariano Azuela - Jose Antonio Alzate
+291  # CE-011 Río Amazonas - Río Lerma
+446  # CE-055 5 De Mayo - Bolívar
+120  # CE-025 Reforma - Estocolmo
+250  # CE-082 Independencia - Marroquí
+355  # CE-045 Durango - Sonora
+256  # CE-095 20 de Noviembre-Venustiano Carranza
+138  # CE-132 Colima-Frontera
+352  # CE-024 Reforma- Florencia
+480  # CE-492 Lago Cuitzeo - Felipe Carrillo Puerto
+312  # CE-455 Pedregal-Ferrocarril De Cuernavaca
+183  # CE-131 Colima-Jalapa
+71   # CE-059 Popocatépetl - Ámsterdam
+316  # CE-221 Emilio Castelar-Presidente Masaryk
+176  # CE-033 Londres - Florencia
+265  # CE-023 Reforma - Praga
+302  # CE-211 Isaac Newton-Horacio
+485  # CE-458 Montes Urales-Volcán
+474  # CE-481 Lago Garda - Mariano Escobedo
+154  # CE-222 Alejandro Dumas-Presidente Masarik
+164  # CE-192-193 Rubén Darío.Reforma
+324  # CE-223 Isaac Newton-Presidente Masaryk
+249  # CE-124 Claudio Bernard-Dr. Liceaga
+322  # CE-451 Campos Elíseos-Goldsmith
+167  # CE-120 Marsella-Nápoles
+319  # CE-206 Homero-Moliere
+157  # CE-140 Mérida-Zacatecas
+317  # CE-210 Eugenio Sue-Horacio
+158  # CE-229 Carlos Dickens-Séneca
+468  # CE-149 Mérida-Antonio M. Anza
+329  # CE-142 San Luis Potosí-Eje 2 Pte. Monterrey
+367  # CE-154 Tuxpan-Tlaxcala
+346  # CE-151 Campeche-Tonalá
+465  # CE-004 Río Nilo - Río Panuco
+165  # CE-464 Mateo Alemán-Prolongación Moliere
+112  # CE-088 2a Cerrada de 5 de Mayo - Palma
+300  # CE-232 Taine - Rubén Darío
+160  # CE-460 Juan Vázquez De Mella-Homero
+88   # CE-128 Orizaba-Río de Janeiro
+149  # CE-204 Temístocles-Homero
+218  # CE-009 Río Guadalquivir - Río Lerma
+467  # CE-146 Coahuila-Manzanillo
+135  # CE-035 Liverpool - Génova
+538  # CE-494 Tláloc - Calzada México Tacuba
+103  # CE-099 Ernesto Pugibet-Luis Moya
+123  # CE-005 Río Pánuco Río Tiber
+201  # CE-461 Presa Don Martín-Boulevard Miguel De Cervantes Saavedra
+169  # CE-150 Campeche-Medellín
+342  # CE-448 Dr. Andrade-Arcos De Belén
+257  # CE-036 Puebla - Veracruz
+79   # CE-074 Nuevo León - Ozulama
+272  # CE-092 San Ildefonso-República de Argentina
+294  # CE-013 Reforma - Río Mississippi
+233  # CE-480 Lago Iseo-Av. Marina Nacional
+91   # CE-040 Oaxaca - Puebla
+187  # CE-175 Mutualismo-José Martí
+441  # CE-477 Lago Iseo-Laguna de Mayrán
+333  # CE-051 Colima - Oaxaca
+142  # CE-002 Río Guadalquivir - Río Nazas
+194  # CE-127 Puebla-Merida
+459  # CE-485 Lago de Pátzcuaro - Marina Nacional
+447  # CE-138 Guanajuato-Frontera
+328  # CE-145 Yucatán-Chiapas
+96   # CE-302 Luz Saviñón-Magdalena
+239  # CE-475 Lago Muritz-Lago Alberto
+523  # CE-562 Claudio Bernard - José María Vertiz
+1    # CE-710 Molino del Rey - Glorieta de la Lealtad
+72   # CE-072 Mazatlán - Alfonso Reyes
+156  # CE-212 Hegel-Horacio
+393  # CE-295 Anaxágoras-Eje 4 Sur Xola
+376  # CE-054 Parque España - Sonora
+285  # CE-224 Hegel-Presidente Masaryk
+111  # CE-065 Marconi - Tacuba
+97   # CE-070 Parque México - Michoacán
+318  # CE-021 Reforma - Dublín
+124  # CE-261 Paseo de la Reforma-Río de la Plata
+299  # CE-034 Liverpool - Génova
+90   # CE-066 Mazatlán - Francisco Márquez
+93   # CE-046 Durango - Salamanca
+332  # CE-553 Jaime Torres Bodet - Ribera de San Cosme
+555  # CE-571 Manuel M. Flores - Calzada San Antonio Abad
+341  # CE-068 Tamaulipas - Michoacán
+303  # CE-478 Laguna de Mayrán-Lago Chalco
+102  # CE-097 República de Salvador-Pino Suárez
+451  # CE-198 Sócrates-Ejército Nacional
+330  # CE-155 Jalapa-Tlaxcala
+80   # CE-042 Sinaloa - Valladolid
+232  # CE-281 Pitágoras-La Morena
+440  # CE-462 Presa Falcón-Presa Danxhó
+180  # CE-037 Guadalajara - Puebla
+558  # CE-556 Plaza Tlaxcoaque - Diagonal 20 de noviembre
+168  # CE-143 Córdoba-San Luis Potosí
+139  # CE-144 Frontera-San Luis Potosí
+172  # CE-280 Anaxágoras-Obrero Mundial
+297  # CE-449 Acapulco-Puebla
+251  # CE-262 República de Cuba-República de Brasil
+155  # CE-216 Alejandro Dumas-Horacio
+461  # CE-453 Pedregal-Teapa
+153  # CE-207 Torquato Tasso-Homero
+306  # CE-244 Lago Victoria-Miguel de Cervantes Saavedra
+397  # CE-340 Anaxágoras-Avenida Eugenia
+475  # CE-502 Mar Mediterráneo - Callejón de la Zanja
+200  # CE-200 Emerson-Av. Ejército Nacional
+651  # CE-489 Lago Chalco - Laguna Tamiahua
+331  # CE-225 Petrarca-Presidente Masaryk
+585  # CE-594 Xochicalco - Obrero Mundial
+469  # CE-495 Amado Nervo - de los Maestros
+399  # CE-209 Solón-Horacio
+14   # CE-022 Reforma - Manchester
+162  # CE-218 Hegel-Ibarbourou
+293  # CE-103 Joaquín Velázquez de León - García Icazbalceta
+339  # CE-061 Avenida México - Sonora
+455  # CE-039 Puebla - Medellín
+198  # CE-196 Lago Tanganica- Av. Ejército Nacional
+700  # CE-711 Molino del Rey - Av. Constituyentes
+662  # CE-566 Dr. Jiménez - Dr. García Diego
+658  # CE-576 Doctor Arce - Jose Maria Vertiz
+409  # CE-292 Adolfo Prieto-Eje 4 Sur Xola
+132  # CE-254 Alfonso Herrera-Miguel Shultz
+109  # CE-091 Republica de Cuba-Allende
+275  # CE-239 Rincón del Bosque-Ruben Darío
+86   # CE-081 Aguascalientes - Insurgentes
+349  # CE-549 Sor Juana Ines de la Cruz - Dr. Atl
+92   # CE-053 Fernando Montes de Oca - Tula
+471  # CE-069 Michoacán - Ámsterdam
+375  # CE-163 Toluca-Bajío
+130  # CE-268-269 Luis Donaldo Colosio - Av. Jesús García
+581  # CE-557 5 de Febrero - Fernando de Alva Ixtlilxochitl
+206  # CE-456 Alpes-Montes Escandinavos
+235  # CE-226 Wallon-Presidente Masaryk
+385  # CE-291 Magdalena-División Del Norte
+159  # CE-231 Isaac Newton-Aristóteles
+127  # CE-265 Mina - Jesús García
+343  # CE-253 Dante-Tolstoi
+283  # CE-250 Darwin-Mariano Escobedo
+609  # CE-685 Av De la Paz - Insurgentes
+544  # CE-564 Doctor Carmona y Valle - Doctor Velasco
+639  # CE-186 Gob. Gregorio V. Gelati-Gral. Francisco Molinos del Campo
+114  # CE-109 Nezahualcóyotl-Isabel la Católica
+101  # CE-102 Echeveste-Bolivar
+84   # CE-071 Amsterdam - Michoacan
+227  # CE-472 Bahía de Santa Bárbara-Bahía de Ballenas
+334  # CE-170 Observatorio Oriente-Revolución
+489  # CE-486 Izcoatl - Circuito Interior Melchor Ocampo
+269  # CE-089 República de Guatemala - Monte de Piedad
+314  # CE-201 Lope de Vega-Av. Ejército Nacional
+358  # CE-160 Alfonso Herrera-Gabino Barreda
+663  # CE-565 Dr. Martinez del Rio - Dr. Lucio
+105  # CE-122 José María Vértiz-Av. Dr. Río de la Loza
+177  # CE-165 Bajío-Eje 2 Pte. Monterrey
+535  # CE-568 Doctor Barragán - Doctor Erazo
+202  # CE-454 Montes Urales-Monte Pelvoux
+600  # CE-561 Dr. Jiménez - Dr. Lavista
+140  # CE-147 Coahuila-Orizaba
+161  # CE-214 Platón-Horacio
+81   # CE-076 Chilpancingo - Campeche
+617  # CE-648 Rafael Olivia - 20 de agosto
+94   # CE-447 Agustín Melgar-Zamora
+190  # CE-166 Progreso-Cda. Antonio Maceo
+607  # CE-484 Laguna Mayran - Lago Cuitzeo
+195  # CE-180 Quintana Roo-Villahermosa
+280  # CE-252 Víctor Hugo-Shakespeare
+438  # CE-203 Tennyson-Av. Homero
+199  # CE-152 Tlacotalpan-Campeche
+421  # CE-205 Taine-Homero
+472  # CE-245 Lago Onega-Av. Ejército Nacional
+563  # CE-501 Plan de Guadalupe /Ferrocarril de Cuernavaca - Eligio Ancona
+347  # CE-550 Sor Juana Ines de la Cruz - Fresno
+204  # CE-213 Solón-Cicerón
+624  # CE-558 Chimalpopoca - Simón Bolívar
+345  # CE-554 Heroes Ferrocarrileros - Mariano Azuela
+208  # CE-457 Av. Prado Norte-Explanada
+377  # CE-169 Prosperidad-Progreso
+24   # CE-377 Heriberto Frías-Miguel Laurent
+95   # CE-060 Mazatlán - Fernando Montes de Oca
+488  # CE-545 Sabino - Salvador Díaz Mirón
+128  # CE-264-275 Héroes Ferrocarrileros - Jesús Garcia
+392  # CE-164 Bajío-Tlacotalpan
+493  # CE-543 Jaime Torres Bodet - Manuel Carpio
+305  # CE-176 Av. Jesús García-Luis Donaldo Colosio
+442  # CE-471 Bahía de Chachalacas-Bahía de Santa Bárbara
+641  # CE-570 Alfredo Chavero - Simón Bolívar
+348  # CE-551 Nogal - Ribera de San Cosme
+108  # CE-093 Palma Norte-República de Cuba
+405  # CE-352 Tintoreto-Giorgione
+372  # CE-077 Choapan - Tamaulipas
+214  # CE-044 Durango - Veracruz
+542  # CE-567 Doctor Martínez del Río - Doctor José Terrés
+273  # CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos
+99   # CE-100 20 de Noviembre-Mesones
+73   # CE-067 Vicente Suárez - Michoacán
+420  # CE-389 Santander-Félix Cuevas
+148  # CE-220 Plinio-Presidente Masaryk
+403  # CE-090 José María Pino Suárez - Corregidora

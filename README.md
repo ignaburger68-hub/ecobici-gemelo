@@ -10,3 +10,7 @@ Cada 30min el sistema recupera el estado de cada estación (registrada cada minu
 
 ## Pagina web
 Pueden visitar la pagina https://ecobici.cdmx.gob.mx/datos-abiertos/ que es en donde se enucuentra mayor informacion de la base de dato y los permisos correspondientes.
+
+
+## Estaciones recolectadas
+El recolector guarda solo las estaciones listadas en `estaciones.txt` (un `station_id` del feed por línea; después de `#` va el código CE y el nombre como referencia). Para agregar o quitar estaciones basta editar ese archivo. Si se borra el archivo, se vuelven a guardar todas las estaciones.
