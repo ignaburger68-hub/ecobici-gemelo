@@ -12,6 +12,10 @@
 #      coordenadas):  datos/info/info_AAAA-MM-DD.csv
 #   5. Anota cualquier error en datos/errores.log sin detenerse.
 #
+# Estaciones: si existe el archivo estaciones.txt (junto a este script, un
+# station_id por línea; las líneas con # se ignoran), solo se guarda el
+# estado de esas estaciones. Si no existe, se guardan todas.
+#
 # Uso:
 #   Rscript recolector_ecobici.R          -> una sola lectura (para cron o
 #                                            el Programador de tareas)
@@ -40,6 +44,18 @@ carpeta_base   <- if (length(archivo_script)) dirname(normalizePath(archivo_scri
 CARPETA        <- file.path(carpeta_base, "datos")
 dir.create(file.path(CARPETA, "status"), recursive = TRUE, showWarnings = FALSE)
 dir.create(file.path(CARPETA, "info"),   recursive = TRUE, showWarnings = FALSE)
+
+# Lista de estaciones a guardar (NULL = todas)
+leer_estaciones <- function(archivo) {
+  if (!file.exists(archivo)) return(NULL)
+  ids <- trimws(sub("#.*$", "", readLines(archivo, warn = FALSE, encoding = "UTF-8")))
+  ids <- unique(ids[ids != ""])
+  if (length(ids) == 0) return(NULL)
+  ids
+}
+ESTACIONES <- leer_estaciones(file.path(carpeta_base, "estaciones.txt"))
+AVISADAS   <- character(0)
+if (!is.null(ESTACIONES)) message("Guardando solo ", length(ESTACIONES), " estaciones de estaciones.txt")
 
 registrar_error <- function(mensaje) {
   linea <- sprintf("%s  %s\n", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), mensaje)
@@ -110,6 +126,14 @@ leer_status <- function(indice) {
     last_reported        = columna(est, "last_reported"),
     stringsAsFactors = FALSE
   )
+  if (!is.null(ESTACIONES)) {
+    faltan <- setdiff(ESTACIONES, df$station_id)
+    if (length(faltan) && !identical(faltan, AVISADAS)) registrar_error(paste("estaciones que no vienen en el feed:",
+                                              paste(faltan, collapse = ", ")))
+    AVISADAS <<- faltan   # avisa una vez por cambio, no cada minuto
+    df <- df[df$station_id %in% ESTACIONES, ]
+    if (nrow(df) == 0) stop("ninguna estación de estaciones.txt viene en el feed")
+  }
   guardar_status(df, archivo_status(hora_lectura))
   message(format(hora_lectura, "%H:%M:%S"), "  ", nrow(df), " estaciones guardadas")
 }
