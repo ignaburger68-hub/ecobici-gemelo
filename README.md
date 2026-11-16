@@ -11,21 +11,6 @@ Datos abiertos y condiciones de uso: https://ecobici.cdmx.gob.mx/datos-abiertos/
 
 ---
 
-## Índice
-
-1. [Qué corre solo en GitHub](#1-qué-corre-solo-en-github)
-2. [Preparar el computador (una sola vez)](#2-preparar-el-computador-una-sola-vez)
-3. [Información histórica: qué hay y qué agregar](#3-información-histórica-qué-hay-y-qué-agregar)
-4. [Comandos del gemelo](#4-comandos-del-gemelo)
-5. [Tablero (presentación)](#5-tablero-presentación)
-6. [Otras herramientas](#6-otras-herramientas)
-7. [Calendario de la investigación](#7-calendario-de-la-investigación)
-8. [Administrar la recolección en GitHub](#8-administrar-la-recolección-en-github)
-9. [Archivos del repositorio](#9-archivos-del-repositorio)
-10. [Reglas de oro y problemas frecuentes](#10-reglas-de-oro-y-problemas-frecuentes)
-
----
-
 ## 1. Qué corre solo en GitHub
 
 El workflow `.github/workflows/recolectar.yml` corre sin que nadie haga nada. En cada ejecución, que dura unas 5,5 horas:
