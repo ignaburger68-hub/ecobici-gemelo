@@ -80,6 +80,15 @@ jobs:
         timeout-minutes: 10
         run: pip install pandas numpy scipy matplotlib certifi
 
+      - name: Actualizar el clima histórico
+        timeout-minutes: 5
+        continue-on-error: true   # si Open-Meteo falla, la recolección sigue igual
+        run: |
+          # La primera vez trae desde julio (cubre los 3 meses del perfil base); después, los últimos 30 días
+          if [ -f datos/clima/clima_horario.csv ]; then DESDE="--dias 30"; else DESDE="2026-07-01"; fi
+          python clima_ecobici.py historico $DESDE || echo "No se pudo actualizar el clima; el gemelo usa el pronóstico en vivo"
+          rm -f datos/clima/clima_20*_a_*.csv   # solo se guarda el acumulado, no un archivo por consulta
+
       - name: Leer el feed y subir los datos cada bloque
         env:
           BLOQUES_MANUAL: ${{ github.event.inputs.bloques }}
