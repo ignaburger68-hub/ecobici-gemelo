@@ -1,7 +1,9 @@
-# Recolector del feed GBFS de Ecobici en GitHub Actions (versión 3)
+# Recolector del feed GBFS de Ecobici + gemelo digital en GitHub Actions (versión 4)
 #
 # Cada ejecución dura casi 6 horas (el máximo que permite GitHub): lee el feed
-# una vez por minuto y cada 30 minutos sube un archivo .csv.gz al repositorio.
+# una vez por minuto y cada 15 minutos corre un ciclo del gemelo digital
+# (python gemelo.py ciclo) y sube al repositorio el .csv.gz del bloque y la
+# carpeta gemelo_vivo/. Si el gemelo falla, la recolección sigue igual.
 # Al empezar, cada ejecución lanza la siguiente, que queda en espera y parte
 # apenas termine la actual: la cadena se sostiene sola. La programación horaria
 # queda solo como respaldo, porque GitHub no siempre la respeta.
@@ -9,6 +11,8 @@
 # reemplazadas por otra más nueva.
 # Para detener todo: Actions -> Recolectar Ecobici -> "..." -> Disable workflow,
 # y luego cancelar la ejecución que esté en espera.
+# Ejecutada a mano en otra rama (para probar), corre aparte de la cadena de main:
+# no la cancela, no lanza la siguiente y sube sus datos a esa rama.
 
 name: Recolectar Ecobici
 
@@ -18,25 +22,28 @@ on:
   workflow_dispatch:          # botón "Run workflow" para probar a mano
     inputs:
       bloques:
-        description: "Número de bloques (11 = unas 5,5 horas)"
+        description: "Número de bloques (22 = unas 5,5 horas)"
         required: false
-        default: "11"
+        default: "22"
       minutos:
         description: "Minutos por bloque"
         required: false
-        default: "30"
+        default: "15"
 
 permissions:
   contents: write             # permite subir los datos al repositorio
   actions: write              # permite lanzar la ejecución siguiente
 
 concurrency:
-  group: recolector           # nunca dos ejecuciones al mismo tiempo
+  # main: nunca dos ejecuciones al mismo tiempo. Otra rama: grupo propio (pruebas)
+  group: ${{ github.ref_name == 'main' && 'recolector' || format('prueba-{0}', github.ref_name) }}
   cancel-in-progress: false
 
 jobs:
   recolectar:
     runs-on: ubuntu-latest
+    # 22 bloques x (~14 min de lecturas + ~15-30 s del gemelo + subir) ≈ 325 min,
+    # + instalación (~2 min) + primer ciclo del gemelo (1-2 min) ≈ 330 min < 350
     timeout-minutes: 350
     steps:
       - name: Descargar el repositorio
@@ -45,6 +52,7 @@ jobs:
           ref: ${{ github.ref_name }}   # la rama al día, no la copia de cuando se encoló
 
       - name: Dejar lanzada la ejecución siguiente
+        if: github.ref_name == 'main'   # una prueba en otra rama no continúa la cadena
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -62,12 +70,22 @@ jobs:
         timeout-minutes: 10
         run: Rscript -e 'install.packages("jsonlite")'
 
+      - name: Instalar Python
+        timeout-minutes: 10
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar paquetes del gemelo
+        timeout-minutes: 10
+        run: pip install pandas numpy scipy matplotlib certifi
+
       - name: Leer el feed y subir los datos cada bloque
         env:
           BLOQUES_MANUAL: ${{ github.event.inputs.bloques }}
           MINUTOS_MANUAL: ${{ github.event.inputs.minutos }}
         run: |
-          BLOQUES=11; MINUTOS=30
+          BLOQUES=22; MINUTOS=15
           RAMA="${{ github.ref_name }}"
           [[ "$BLOQUES_MANUAL" =~ ^[0-9]+$ ]] && BLOQUES=$BLOQUES_MANUAL
           [[ "$MINUTOS_MANUAL" =~ ^[0-9]+$ ]] && MINUTOS=$MINUTOS_MANUAL
@@ -76,6 +94,7 @@ jobs:
 
           subir() {
             git add datos
+            if [ -d gemelo_vivo ]; then git add gemelo_vivo; fi
             if git diff --cached --quiet; then echo "Sin datos nuevos"; return 0; fi
             git commit -q -m "Lecturas $(date -u +'%Y-%m-%d %H:%M') UTC"
             for intento in 1 2 3; do
@@ -83,7 +102,7 @@ jobs:
               # Si dos versiones de un archivo chocan (p. ej. datos/info del día),
               # quedarse con una sin detenerse; si igual falla, deshacer el rebase
               # para que el bloque siguiente lo intente con todo lo acumulado.
-              if ! git rebase -q -X theirs "origin/$RAMA"; then git rebase --abort 2>/dev/null || true; fi
+              if ! git rebase -q --autostash -X theirs "origin/$RAMA"; then git rebase --abort 2>/dev/null || true; fi
               git push -q origin "HEAD:$RAMA" && return 0
               sleep 10
             done
@@ -93,5 +112,7 @@ jobs:
           for i in $(seq 1 $BLOQUES); do
             echo "Bloque $i de $BLOQUES: $MINUTOS minutos"
             Rscript recolector_ecobici.R --minutos=$MINUTOS || echo "El bloque $i terminó con error"
+            # timeout: si el gemelo se cuelga, se corta a los 10 min y la recolección sigue
+            timeout 10m python gemelo.py ciclo || echo 'El ciclo del gemelo falló; la recolección sigue'
             subir
           done
