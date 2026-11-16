@@ -34,7 +34,7 @@ def cargar(en_vivo):
 
 
 def empaquetar(res):
-    return {k: res[k] for k in ("t0", "tabla", "brier", "texto")} | {
+    return {k: res[k] for k in ("t0", "tabla", "brier", "texto", "clima")} | {
         "traslados": res["plan"]["traslados"], "comparacion": res["plan"]["comparacion"],
         "fig_mapa": res["fig_mapa"], "fig_abanico": res["fig_abanico"], "info": res["pron"]["info"]}
 
@@ -57,6 +57,41 @@ def correr_vivo(tramo, R, pull):
     return empaquetar(simulacion_una_hora(gem, en_vivo=True, R=R, guardar=False))
 
 
+def mostrar_clima(cl):
+    """Clima de la hora simulada y cuánto cambia la demanda por él."""
+    h = cl["hora"]
+    st.markdown(f"**Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} y su efecto en la demanda** "
+                f"(día {cl['tipo_dia']})")
+    c1, c2, c3, c4, c5 = st.columns(5)
+    if cl["hay_dato"]:
+        dif = cl["temp_dif_c"]
+        c1.metric("Temperatura", f"{cl['temperatura_c']:.1f} °C",
+                  delta=f"{dif:+.1f} °C vs lo normal" if np.isfinite(dif) else None, delta_color="off")
+        ll = cl["precipitacion_mm"]
+        c2.metric("Lluvia", "sin dato" if not np.isfinite(ll) else
+                  ("sin lluvia" if ll < cfg.UMBRAL_LLUVIA else f"{ll:.1f} mm/h"))
+        c3.metric("Viento", f"{cl['viento_kmh']:.0f} km/h")
+    else:
+        c1.metric("Temperatura", "sin dato")
+        c2.metric("Lluvia", "sin dato")
+        c3.metric("Viento", "sin dato")
+    c4.metric("Efecto en retiros", f"×{cl['efecto_ret']:.2f}", delta=f"{100 * (cl['efecto_ret'] - 1):+.0f} %",
+              delta_color="off")
+    c5.metric("Efecto en devoluciones", f"×{cl['efecto_dev']:.2f}", delta=f"{100 * (cl['efecto_dev'] - 1):+.0f} %",
+              delta_color="off")
+    if cl["factores"] is not None:
+        with st.expander("¿De dónde sale el efecto del clima?"):
+            st.caption("Cada condición tiene un factor (resultados_clima/factores_clima_gemelo.csv) y el modelo "
+                       "multiplica los cuatro: ×1,00 = sin efecto; ×0,90 = 10 % menos viajes que con clima normal. "
+                       "El efecto de arriba es el promedio de los 4 bloques de 15 minutos de la hora simulada.")
+            st.dataframe(cl["factores"].rename(columns={
+                "variable": "Variable", "categoria": "Condición", "factor_retiros": "Factor retiros",
+                "factor_devoluciones": "Factor devoluciones"}).round(3), hide_index=True)
+    elif not cl["hay_dato"]:
+        st.caption("Sin datos de clima para esta hora: se toma como normal (factor 1). "
+                   "Haz git pull para traer datos/clima/clima_horario.csv.")
+
+
 def mostrar(r):
     tabla, t0 = r["tabla"], r["t0"]
     st.subheader(f"{DIAS[t0.dayofweek]} {t0:%d/%m/%Y %H:%M} → {t0 + pd.Timedelta(minutes=60):%H:%M}")
@@ -68,6 +103,7 @@ def mostrar(r):
         c3.metric("Usuarios atendidos de más con el plan",
                   f"{comp.loc['Gemelo (voraz)', 'atendidos_extra_vs_sin_accion']:.1f}")
     c4.metric("Factor del día (retiros)", f"{r['info']['F']['ret']:.2f}")
+    mostrar_clima(r["clima"])
     izq, der = st.columns([1.1, 1])
     with izq:
         st.pyplot(r["fig_mapa"])
