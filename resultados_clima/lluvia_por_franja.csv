@@ -1,0 +1,97 @@
+tipo_dia,demanda,franja,categoria,indice,ic_inf,ic_sup,n_horas
+hábil,retiros,05-07 temprano,sin lluvia,0.997,0.955,1.038,18
+hábil,retiros,05-07 temprano,ligera (<1 mm/h),0.938,0.655,1.221,3
+hábil,retiros,05-07 temprano,moderada (1-4 mm/h),,,,0
+hábil,retiros,05-07 temprano,fuerte (≥4 mm/h),,,,0
+hábil,retiros,07-10 punta mañana,sin lluvia,0.999,0.973,1.024,50
+hábil,retiros,07-10 punta mañana,ligera (<1 mm/h),0.981,0.918,1.044,13
+hábil,retiros,07-10 punta mañana,moderada (1-4 mm/h),,,,0
+hábil,retiros,07-10 punta mañana,fuerte (≥4 mm/h),,,,0
+hábil,retiros,10-14 mediodía,sin lluvia,0.997,0.966,1.028,48
+hábil,retiros,10-14 mediodía,ligera (<1 mm/h),1.031,0.997,1.065,36
+hábil,retiros,10-14 mediodía,moderada (1-4 mm/h),,,,0
+hábil,retiros,10-14 mediodía,fuerte (≥4 mm/h),,,,0
+hábil,retiros,14-17 tarde,sin lluvia,0.992,0.92,1.065,19
+hábil,retiros,14-17 tarde,ligera (<1 mm/h),1.02,0.954,1.085,38
+hábil,retiros,14-17 tarde,moderada (1-4 mm/h),1.115,1.011,1.218,4
+hábil,retiros,14-17 tarde,fuerte (≥4 mm/h),1.061,0.628,1.495,2
+hábil,retiros,17-20 punta tarde,sin lluvia,0.992,0.953,1.03,11
+hábil,retiros,17-20 punta tarde,ligera (<1 mm/h),0.866,0.761,0.971,26
+hábil,retiros,17-20 punta tarde,moderada (1-4 mm/h),0.766,0.659,0.874,20
+hábil,retiros,17-20 punta tarde,fuerte (≥4 mm/h),0.585,0.336,0.834,6
+hábil,retiros,20-24 noche,sin lluvia,0.943,0.87,1.016,50
+hábil,retiros,20-24 noche,ligera (<1 mm/h),0.785,0.653,0.918,27
+hábil,retiros,20-24 noche,moderada (1-4 mm/h),0.773,0.387,1.16,6
+hábil,retiros,20-24 noche,fuerte (≥4 mm/h),,,,1
+hábil,arribos,05-07 temprano,sin lluvia,0.999,0.952,1.045,18
+hábil,arribos,05-07 temprano,ligera (<1 mm/h),0.834,0.608,1.06,3
+hábil,arribos,05-07 temprano,moderada (1-4 mm/h),,,,0
+hábil,arribos,05-07 temprano,fuerte (≥4 mm/h),,,,0
+hábil,arribos,07-10 punta mañana,sin lluvia,0.996,0.974,1.018,50
+hábil,arribos,07-10 punta mañana,ligera (<1 mm/h),0.998,0.932,1.065,13
+hábil,arribos,07-10 punta mañana,moderada (1-4 mm/h),,,,0
+hábil,arribos,07-10 punta mañana,fuerte (≥4 mm/h),,,,0
+hábil,arribos,10-14 mediodía,sin lluvia,1.0,0.976,1.023,48
+hábil,arribos,10-14 mediodía,ligera (<1 mm/h),0.986,0.954,1.017,36
+hábil,arribos,10-14 mediodía,moderada (1-4 mm/h),,,,0
+hábil,arribos,10-14 mediodía,fuerte (≥4 mm/h),,,,0
+hábil,arribos,14-17 tarde,sin lluvia,0.995,0.911,1.08,19
+hábil,arribos,14-17 tarde,ligera (<1 mm/h),1.061,0.999,1.122,38
+hábil,arribos,14-17 tarde,moderada (1-4 mm/h),1.185,1.072,1.298,4
+hábil,arribos,14-17 tarde,fuerte (≥4 mm/h),1.335,1.107,1.563,2
+hábil,arribos,17-20 punta tarde,sin lluvia,0.973,0.904,1.042,11
+hábil,arribos,17-20 punta tarde,ligera (<1 mm/h),0.913,0.809,1.017,26
+hábil,arribos,17-20 punta tarde,moderada (1-4 mm/h),0.807,0.699,0.914,20
+hábil,arribos,17-20 punta tarde,fuerte (≥4 mm/h),0.571,0.364,0.778,6
+hábil,arribos,20-24 noche,sin lluvia,0.911,0.833,0.989,50
+hábil,arribos,20-24 noche,ligera (<1 mm/h),0.804,0.682,0.925,27
+hábil,arribos,20-24 noche,moderada (1-4 mm/h),0.776,0.336,1.215,6
+hábil,arribos,20-24 noche,fuerte (≥4 mm/h),,,,1
+fin de semana,retiros,05-07 temprano,sin lluvia,1.0,0.774,1.226,7
+fin de semana,retiros,05-07 temprano,ligera (<1 mm/h),0.737,0.544,0.929,3
+fin de semana,retiros,05-07 temprano,moderada (1-4 mm/h),,,,0
+fin de semana,retiros,05-07 temprano,fuerte (≥4 mm/h),,,,0
+fin de semana,retiros,07-10 punta mañana,sin lluvia,0.993,0.894,1.091,28
+fin de semana,retiros,07-10 punta mañana,ligera (<1 mm/h),1.057,0.473,1.64,2
+fin de semana,retiros,07-10 punta mañana,moderada (1-4 mm/h),,,,0
+fin de semana,retiros,07-10 punta mañana,fuerte (≥4 mm/h),,,,0
+fin de semana,retiros,10-14 mediodía,sin lluvia,1.011,0.893,1.128,34
+fin de semana,retiros,10-14 mediodía,ligera (<1 mm/h),1.145,0.843,1.448,6
+fin de semana,retiros,10-14 mediodía,moderada (1-4 mm/h),,,,0
+fin de semana,retiros,10-14 mediodía,fuerte (≥4 mm/h),,,,0
+fin de semana,retiros,14-17 tarde,sin lluvia,0.983,0.918,1.048,15
+fin de semana,retiros,14-17 tarde,ligera (<1 mm/h),1.092,0.934,1.25,8
+fin de semana,retiros,14-17 tarde,moderada (1-4 mm/h),0.875,0.644,1.106,7
+fin de semana,retiros,14-17 tarde,fuerte (≥4 mm/h),,,,0
+fin de semana,retiros,17-20 punta tarde,sin lluvia,0.967,0.892,1.043,6
+fin de semana,retiros,17-20 punta tarde,ligera (<1 mm/h),0.814,0.664,0.964,13
+fin de semana,retiros,17-20 punta tarde,moderada (1-4 mm/h),0.719,0.504,0.935,8
+fin de semana,retiros,17-20 punta tarde,fuerte (≥4 mm/h),0.572,0.424,0.72,3
+fin de semana,retiros,20-24 noche,sin lluvia,0.921,0.831,1.011,21
+fin de semana,retiros,20-24 noche,ligera (<1 mm/h),0.634,0.495,0.773,19
+fin de semana,retiros,20-24 noche,moderada (1-4 mm/h),,,,0
+fin de semana,retiros,20-24 noche,fuerte (≥4 mm/h),,,,0
+fin de semana,arribos,05-07 temprano,sin lluvia,1.0,0.772,1.228,7
+fin de semana,arribos,05-07 temprano,ligera (<1 mm/h),0.76,0.599,0.92,3
+fin de semana,arribos,05-07 temprano,moderada (1-4 mm/h),,,,0
+fin de semana,arribos,05-07 temprano,fuerte (≥4 mm/h),,,,0
+fin de semana,arribos,07-10 punta mañana,sin lluvia,0.994,0.92,1.067,28
+fin de semana,arribos,07-10 punta mañana,ligera (<1 mm/h),0.941,0.71,1.171,2
+fin de semana,arribos,07-10 punta mañana,moderada (1-4 mm/h),,,,0
+fin de semana,arribos,07-10 punta mañana,fuerte (≥4 mm/h),,,,0
+fin de semana,arribos,10-14 mediodía,sin lluvia,1.016,0.891,1.142,34
+fin de semana,arribos,10-14 mediodía,ligera (<1 mm/h),1.15,0.821,1.479,6
+fin de semana,arribos,10-14 mediodía,moderada (1-4 mm/h),,,,0
+fin de semana,arribos,10-14 mediodía,fuerte (≥4 mm/h),,,,0
+fin de semana,arribos,14-17 tarde,sin lluvia,0.984,0.916,1.052,15
+fin de semana,arribos,14-17 tarde,ligera (<1 mm/h),1.008,0.936,1.081,8
+fin de semana,arribos,14-17 tarde,moderada (1-4 mm/h),0.909,0.692,1.127,7
+fin de semana,arribos,14-17 tarde,fuerte (≥4 mm/h),,,,0
+fin de semana,arribos,17-20 punta tarde,sin lluvia,1.047,0.979,1.114,6
+fin de semana,arribos,17-20 punta tarde,ligera (<1 mm/h),0.873,0.74,1.007,13
+fin de semana,arribos,17-20 punta tarde,moderada (1-4 mm/h),0.881,0.612,1.151,8
+fin de semana,arribos,17-20 punta tarde,fuerte (≥4 mm/h),0.717,0.575,0.859,3
+fin de semana,arribos,20-24 noche,sin lluvia,0.89,0.785,0.996,21
+fin de semana,arribos,20-24 noche,ligera (<1 mm/h),0.596,0.465,0.728,19
+fin de semana,arribos,20-24 noche,moderada (1-4 mm/h),,,,0
+fin de semana,arribos,20-24 noche,fuerte (≥4 mm/h),,,,0

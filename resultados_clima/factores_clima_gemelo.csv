@@ -1,0 +1,61 @@
+tipo_dia,demanda,variable,categoria,n_horas,factor,ic_inf,ic_sup,p_valor,metodo,nota
+hábil,retiros,lluvia,sin lluvia,196,0.988,0.968,1.007,,índice descriptivo,
+hábil,retiros,lluvia,ligera (<1 mm/h),143,0.945,0.903,0.988,,índice descriptivo,
+hábil,retiros,lluvia,moderada (1-4 mm/h),30,0.804,0.705,0.903,,índice descriptivo,
+hábil,retiros,lluvia,fuerte (≥4 mm/h),9,0.633,0.404,0.863,,índice descriptivo,pocos datos: usar con cuidado
+hábil,retiros,lluvia previa,seco antes,266,0.99,0.967,1.013,,índice descriptivo,
+hábil,retiros,lluvia previa,llovió en las 3 h previas,112,0.816,0.757,0.875,,índice descriptivo,
+hábil,retiros,temperatura,normal (±1 °C),230,0.944,0.914,0.975,,índice descriptivo,
+hábil,retiros,temperatura,mucho más frío (< −3 °C),12,0.84,0.665,1.015,,índice descriptivo,
+hábil,retiros,temperatura,más frío (−3 a −1 °C),52,0.841,0.755,0.928,,índice descriptivo,
+hábil,retiros,temperatura,más cálido (1 a 3 °C),69,1.019,0.986,1.053,,índice descriptivo,
+hábil,retiros,temperatura,mucho más cálido (> 3 °C),15,0.925,0.804,1.047,,índice descriptivo,
+hábil,retiros,viento,< 5 km/h,242,0.988,0.968,1.009,,índice descriptivo,
+hábil,retiros,viento,5-10 km/h,118,0.872,0.819,0.926,,índice descriptivo,
+hábil,retiros,viento,10-15 km/h,18,0.862,0.734,0.99,,índice descriptivo,
+hábil,retiros,viento,≥ 15 km/h,0,,,,,índice descriptivo,pocos datos: usar con cuidado
+hábil,arribos,lluvia,sin lluvia,196,0.981,0.961,1.002,,índice descriptivo,
+hábil,arribos,lluvia,ligera (<1 mm/h),143,0.967,0.928,1.006,,índice descriptivo,
+hábil,arribos,lluvia,moderada (1-4 mm/h),30,0.846,0.744,0.949,,índice descriptivo,
+hábil,arribos,lluvia,fuerte (≥4 mm/h),9,0.677,0.433,0.922,,índice descriptivo,pocos datos: usar con cuidado
+hábil,arribos,lluvia previa,seco antes,266,1.001,0.98,1.023,,índice descriptivo,
+hábil,arribos,lluvia previa,llovió en las 3 h previas,112,0.829,0.772,0.887,,índice descriptivo,
+hábil,arribos,temperatura,normal (±1 °C),230,0.951,0.922,0.98,,índice descriptivo,
+hábil,arribos,temperatura,mucho más frío (< −3 °C),12,0.889,0.732,1.046,,índice descriptivo,
+hábil,arribos,temperatura,más frío (−3 a −1 °C),52,0.872,0.788,0.956,,índice descriptivo,
+hábil,arribos,temperatura,más cálido (1 a 3 °C),69,1.036,1.001,1.072,,índice descriptivo,
+hábil,arribos,temperatura,mucho más cálido (> 3 °C),15,0.927,0.821,1.033,,índice descriptivo,
+hábil,arribos,viento,< 5 km/h,242,0.985,0.965,1.006,,índice descriptivo,
+hábil,arribos,viento,5-10 km/h,118,0.905,0.853,0.957,,índice descriptivo,
+hábil,arribos,viento,10-15 km/h,18,0.898,0.771,1.025,,índice descriptivo,
+hábil,arribos,viento,≥ 15 km/h,0,,,,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,retiros,lluvia,sin lluvia,111,0.991,0.931,1.052,,índice descriptivo,
+fin de semana,retiros,lluvia,ligera (<1 mm/h),51,0.901,0.796,1.006,,índice descriptivo,
+fin de semana,retiros,lluvia,moderada (1-4 mm/h),15,0.797,0.639,0.955,,índice descriptivo,
+fin de semana,retiros,lluvia,fuerte (≥4 mm/h),3,0.572,0.424,0.72,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,retiros,lluvia previa,seco antes,129,1.006,0.95,1.061,,índice descriptivo,
+fin de semana,retiros,lluvia previa,llovió en las 3 h previas,51,0.743,0.649,0.837,,índice descriptivo,
+fin de semana,retiros,temperatura,normal (±1 °C),99,0.977,0.91,1.045,,índice descriptivo,
+fin de semana,retiros,temperatura,mucho más frío (< −3 °C),8,0.81,0.569,1.052,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,retiros,temperatura,más frío (−3 a −1 °C),40,0.843,0.724,0.962,,índice descriptivo,
+fin de semana,retiros,temperatura,más cálido (1 a 3 °C),25,1.039,0.937,1.142,,índice descriptivo,
+fin de semana,retiros,temperatura,mucho más cálido (> 3 °C),8,0.936,0.872,1.0,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,retiros,viento,< 5 km/h,111,0.943,0.873,1.013,,índice descriptivo,
+fin de semana,retiros,viento,5-10 km/h,59,0.93,0.855,1.006,,índice descriptivo,
+fin de semana,retiros,viento,10-15 km/h,9,0.964,0.702,1.225,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,retiros,viento,≥ 15 km/h,1,,,,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,arribos,lluvia,sin lluvia,111,0.996,0.931,1.06,,índice descriptivo,
+fin de semana,arribos,lluvia,ligera (<1 mm/h),51,0.896,0.796,0.997,,índice descriptivo,
+fin de semana,arribos,lluvia,moderada (1-4 mm/h),15,0.897,0.732,1.061,,índice descriptivo,
+fin de semana,arribos,lluvia,fuerte (≥4 mm/h),3,0.717,0.575,0.859,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,arribos,lluvia previa,seco antes,129,1.009,0.951,1.067,,índice descriptivo,
+fin de semana,arribos,lluvia previa,llovió en las 3 h previas,51,0.789,0.693,0.884,,índice descriptivo,
+fin de semana,arribos,temperatura,normal (±1 °C),99,0.981,0.912,1.05,,índice descriptivo,
+fin de semana,arribos,temperatura,mucho más frío (< −3 °C),8,0.839,0.603,1.075,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,arribos,temperatura,más frío (−3 a −1 °C),40,0.875,0.758,0.991,,índice descriptivo,
+fin de semana,arribos,temperatura,más cálido (1 a 3 °C),25,1.054,0.932,1.176,,índice descriptivo,
+fin de semana,arribos,temperatura,mucho más cálido (> 3 °C),8,0.984,0.914,1.054,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,arribos,viento,< 5 km/h,111,0.954,0.881,1.027,,índice descriptivo,
+fin de semana,arribos,viento,5-10 km/h,59,0.955,0.882,1.028,,índice descriptivo,
+fin de semana,arribos,viento,10-15 km/h,9,0.994,0.845,1.142,,índice descriptivo,pocos datos: usar con cuidado
+fin de semana,arribos,viento,≥ 15 km/h,1,,,,,índice descriptivo,pocos datos: usar con cuidado
