@@ -1,0 +1,9 @@
+# Archivos locales del gemelo (no se suben)
+cache_gemelo/
+resultados_gemelo/
+gemelo_vivo_prueba/
+__pycache__/
+*.pyc
+
+# Viajes históricos de Ecobici: pesan mucho, quedan solo en el computador
+public_data_web_*.csv
