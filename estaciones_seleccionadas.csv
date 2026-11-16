@@ -1,0 +1,31 @@
+code,station_id,name,lat,lon,capacity,demanda_dia,neto_am,neto_pm,perfil,dist_central_km
+026,353,CE-026 Reforma - Versalles,19.432595000000003,-99.154995,15,190.8,7.8,-4.9,Se llena en la mañana,0.0
+010,240,CE-010 Reforma - Ramírez,19.433431,-99.155142,27,307.2,8.2,-8.6,Se llena en la mañana,0.09
+113,115,CE-113 General Prim-Versalles,19.430369,-99.15441899999999,15,176.5,14.4,-6.3,Se llena en la mañana,0.25
+112,110,CE-112 Av. Morelos-Abraham González,19.432819,-99.15173399999999,23,197.2,0.6,-0.9,Equilibrada,0.34
+008,323,CE-008 Reforma - General Prim,19.431256,-99.158153,17,157.1,4.0,-4.9,Se llena en la mañana,0.36
+003,113,CE-003 Reforma - Insurgentes,19.43163,-99.158547,31,214.8,-0.5,-4.4,Equilibrada,0.39
+114,215,CE-114 Lucerna-Abraham González,19.428989,-99.15361800000001,23,183.0,11.7,-7.0,Se llena en la mañana,0.43
+116,121,CE-116 Londres-Roma,19.428985,-99.15664,23,297.9,6.8,-2.5,Se llena en la mañana,0.44
+086,320,CE-086 Sullivan-Insurgentes,19.432451999999998,-99.15924,17,329.0,-1.9,-0.6,Equilibrada,0.45
+270,243,CE-270 De la República-Ponciano Arriaga,19.436764,-99.153865,33,320.5,-9.4,4.4,Se vacía en la mañana,0.48
+263,125,CE-263 Sadi Carnot - Gómez Farias,19.436273999999997,-99.158425,29,92.3,-7.7,2.6,Se vacía en la mañana,0.54
+259,117,CE-259 Tómas Alva Edison-Ponciano Arriaga,19.437569,-99.15468,27,152.6,-8.2,4.5,Se vacía en la mañana,0.55
+029,106,CE-029 Reforma - Bucareli,19.434944,-99.150295,35,380.1,8.2,6.2,Se llena en la mañana,0.56
+115,133,CE-115 Roma-Dinamarca,19.4299248147726,-99.15965178055559,27,275.0,16.8,-13.6,Se llena en la mañana,0.57
+041,234,CE-041 Reforma - Av. de la República,19.43542,-99.150317,33,344.6,-4.4,5.5,Equilibrada,0.58
+020,260,CE-020 Reforma- Río Támesis,19.430861527109002,-99.1602589935337,23,229.0,2.0,-6.0,Equilibrada,0.58
+256,237,CE-256 Gómez Farías-Sadi Carnot,19.437128,-99.158363,23,205.0,-5.6,2.2,Se vacía en la mañana,0.62
+119,238,CE-119 Turín-Abraham González,19.426852288765897,-99.1556279361248,29,261.7,-6.0,-3.7,Se vacía en la mañana,0.64
+118,174,CE-118 Liverpool-Dinamarca,19.427170999999998,-99.158108,19,202.8,18.7,-8.3,Se llena en la mañana,0.69
+450,241,CE-450 Ramos Arizpe- Av México Tenochtitlan,19.438325733203,-99.15223784747471,31,175.1,-16.3,9.6,Se vacía en la mañana,0.7
+012,136,CE-012 Río Lerma - Villalongín,19.432223,-99.161686,15,198.5,-1.3,-5.0,Equilibrada,0.7
+098,490,CE-098 Emilio Dondé-Av. Balderas,19.430267,-99.14860999999999,31,160.3,-4.5,5.5,Equilibrada,0.72
+085,266,CE-085 Rosas Moreno - Sullivan,19.434059327049198,-99.162438176586,15,200.2,-4.4,-1.8,Se vacía en la mañana,0.8
+260,705,CE-260 Av. Juárez-Balderas,19.435311399999996,-99.14778559999999,21,302.1,-8.6,15.8,Se vacía en la mañana,0.81
+117,282,CE-117 Londres-Nápoles,19.427166592328,-99.1602910682695,31,240.5,27.9,-16.1,Se llena en la mañana,0.82
+107-108,104,CE-107-108 Tolsa-Balderas,19.427305,-99.14953299999999,59,309.8,-29.2,10.8,Se vacía en la mañana,0.82
+031,171,CE-031 Hamburgo - Insurgentes,19.427922277979103,-99.1612459346788,37,397.6,11.4,-6.9,Se llena en la mañana,0.84
+555,242,CE-555 Ribera de San Cosme - Insurgentes Centro,19.44021597,-99.15616779999999,35,463.7,-17.6,10.0,Se vacía en la mañana,0.86
+255,129,CE-255 José Rosas Moreno-Guillermo Prieto,19.437117999999998,-99.161862,35,173.7,-10.5,2.9,Se vacía en la mañana,0.88
+048,228,CE-048 Independencia - Azueta,19.433705,-99.146665,11,189.5,0.1,2.0,Equilibrada,0.88
