@@ -38,7 +38,7 @@ import pandas as pd
 import matplotlib
 
 import config_gemelo as cfg
-from datos_gemelo import es_habil
+from datos_gemelo import DEMANDA_ES, TIPO_ES, es_habil, tabla_factores_clima, tipo_idx
 from modelo_gemelo import Gemelo, delta_de, grupo_persistencia, tabla_persistencia
 
 AZUL, ROJO, VERDE, GRIS, NARANJA = "#1f4e79", "#c0392b", "#2e8b57", "#9a9a9a", "#d68910"
@@ -163,6 +163,7 @@ def simulacion_una_hora(gem, t0=None, en_vivo=False, R=None, guardar=True, con_r
 
     res = {"t0": t0, "tabla": tabla, "pron": pron, "plan": plan, "obs": obs, "brier": brier,
            "en_vivo": en_vivo, "segundos": time.time() - inicio}
+    res["clima"] = clima_de_la_hora(gem, t0, pron["detalle"])
     res["fig_mapa"] = figura_mapa(gem, res)
     res["fig_abanico"] = figura_abanico(gem, res)
     res["texto"] = texto_hora(gem, res)
@@ -178,6 +179,7 @@ def simulacion_una_hora(gem, t0=None, en_vivo=False, R=None, guardar=True, con_r
         pron["detalle"].round(3).to_csv(os.path.join(c, "detalle_tasas.csv"), index=False)
         if brier is not None:
             brier.round(4).to_csv(os.path.join(c, "brier_esta_hora.csv"), index=False)
+        tabla_clima(res["clima"]).to_csv(os.path.join(c, "clima.csv"), index=False)
         res["fig_mapa"].savefig(os.path.join(c, "mapa.png"), dpi=130)
         res["fig_abanico"].savefig(os.path.join(c, "abanico.png"), dpi=130)
         with open(os.path.join(c, "resumen.txt"), "w", encoding="utf-8") as fh:
@@ -185,6 +187,94 @@ def simulacion_una_hora(gem, t0=None, en_vivo=False, R=None, guardar=True, con_r
         plt.close("all")
         res["carpeta"] = c
     return res
+
+
+# ---------------------------------------------------------------------
+# Clima de la hora simulada y cómo cambia la demanda
+# ---------------------------------------------------------------------
+VARIABLES_CLIMA = [("lluvia", "lluvia_cat"), ("lluvia previa", "previa_cat"),
+                   ("temperatura", "temp_cat"), ("viento", "viento_cat")]
+
+
+def _num(x):
+    try:
+        x = float(x)
+    except (TypeError, ValueError):
+        return np.nan
+    return x if np.isfinite(x) else np.nan
+
+
+def clima_de_la_hora(gem, t0, detalle=None):
+    """
+    Clima de la hora que cubre la mayor parte de [t0, t0+60) (la misma tabla por hora que usa el modelo) y su efecto:
+    para cada variable, la categoría y el factor de resultados_clima/factores_clima_gemelo.csv;
+    el efecto aplicado es el producto de los cuatro factores (promedio de los 4 bloques de 15 min).
+    """
+    t0 = pd.Timestamp(t0)
+    h = (t0 + pd.Timedelta(minutes=30)).floor("h")   # la hora que cubre la mayor parte de la simulación
+    t = tipo_idx(t0)
+    out = {"hora": h, "tipo_dia": TIPO_ES[t], "hay_dato": False, "factores": None,
+           "efecto_ret": 1.0, "efecto_dev": 1.0}
+    if detalle is not None and len(detalle) and "clima_ret" in detalle:
+        out["efecto_ret"] = float(detalle.drop_duplicates("bloque")["clima_ret"].mean())
+        out["efecto_dev"] = float(detalle.drop_duplicates("bloque")["clima_dev"].mean())
+    else:
+        out["efecto_ret"], out["efecto_dev"] = gem.fc(t0, t, "ret"), gem.fc(t0, t, "dev")
+    c = gem.clima
+    if c is None or h not in c.index or not np.isfinite(_num(c.loc[h, "temperatura_c"])):
+        return out
+    r = c.loc[h]
+    out.update(hay_dato=True, temperatura_c=_num(r["temperatura_c"]), temp_dif_c=_num(r.get("temp_dif_c")),
+               precipitacion_mm=_num(r["precipitacion_mm"]), lluvia_previa_mm=_num(r.get("lluvia_previa_mm")),
+               viento_kmh=_num(r["viento_kmh"]))
+    tabla = tabla_factores_clima()
+    filas = []
+    for var, col in VARIABLES_CLIMA:
+        cat = r.get(col)
+        cat = cat if isinstance(cat, str) else "sin dato"
+        filas.append({"variable": var, "categoria": cat,
+                      "factor_retiros": tabla.get((TIPO_ES[t], DEMANDA_ES["ret"], var, cat), 1.0),
+                      "factor_devoluciones": tabla.get((TIPO_ES[t], DEMANDA_ES["dev"], var, cat), 1.0)})
+    out["factores"] = pd.DataFrame(filas)
+    return out
+
+
+def _pct(f):
+    return f"×{f:.2f} ({100 * (f - 1):+.0f} %)"
+
+
+def lineas_clima(cl):
+    """Texto corto del clima de la hora y su efecto (para resumen.txt, la terminal y el tablero)."""
+    h = cl["hora"]
+    L = []
+    if cl["hay_dato"]:
+        dif = cl["temp_dif_c"]
+        dif_txt = f" ({dif:+.1f} °C respecto de lo normal a esa hora)" if np.isfinite(dif) else ""
+        ll = cl["precipitacion_mm"]
+        ll_txt = "sin dato de lluvia" if not np.isfinite(ll) else ("sin lluvia" if ll < cfg.UMBRAL_LLUVIA
+                                                                     else f"lluvia {ll:.1f} mm/h")
+        L.append(f"Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} (día {cl['tipo_dia']}): "
+                 f"{cl['temperatura_c']:.1f} °C{dif_txt}, {ll_txt}, viento {cl['viento_kmh']:.0f} km/h")
+    else:
+        L.append(f"Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M}: sin datos (el clima se toma como normal)")
+    L.append(f"Efecto del clima en la hora: retiros {_pct(cl['efecto_ret'])}, "
+             f"devoluciones {_pct(cl['efecto_dev'])}  (×1,00 = sin efecto)")
+    if cl["factores"] is not None:
+        for _, f in cl["factores"].iterrows():
+            L.append(f"  {f['variable']:<14} {f['categoria']:<30} retiros ×{f['factor_retiros']:.3f}  "
+                     f"devoluciones ×{f['factor_devoluciones']:.3f}")
+    return L
+
+
+def tabla_clima(cl):
+    """Tabla para guardar (clima.csv): una fila por variable y una fila final con el efecto total."""
+    base = {"hora": f"{cl['hora']:%Y-%m-%d %H:%M}", "tipo_dia": cl["tipo_dia"],
+            "temperatura_c": cl.get("temperatura_c", np.nan), "temp_dif_c": cl.get("temp_dif_c", np.nan),
+            "precipitacion_mm": cl.get("precipitacion_mm", np.nan), "viento_kmh": cl.get("viento_kmh", np.nan)}
+    filas = [] if cl["factores"] is None else [dict(base, **f) for f in cl["factores"].to_dict("records")]
+    filas.append(dict(base, variable="efecto total en la hora", categoria="",
+                      factor_retiros=cl["efecto_ret"], factor_devoluciones=cl["efecto_dev"]))
+    return pd.DataFrame(filas).round(3)
 
 
 def texto_hora(gem, res):
@@ -196,6 +286,8 @@ def texto_hora(gem, res):
          f"Réplicas: {pron['R']} · phi = {pron['phi']} · ventana: {', '.join(info['dias_ventana']) or 'sin ventana'}",
          f"Factor del día: retiros {info['F']['ret']:.2f}, devoluciones {info['F']['dev']:.2f}",
          f"Estaciones con dato: {int(np.isfinite(tabla['p_vacia']).sum())} de {len(tabla)}", ""]
+    if res.get("clima") is not None:
+        L += lineas_clima(res["clima"]) + [""]
     t = tabla.assign(riesgo=np.fmax(tabla["p_vacia"], tabla["p_llena"])).sort_values("riesgo", ascending=False)
     L.append("Estaciones con más riesgo:")
     for _, r in t.head(8).iterrows():
@@ -770,6 +862,27 @@ def escribir_pagina(resumen, cv=cfg.CARPETA_VIVO):
         t0 = resumen["pron"]["t0"].max()
         L += [f"## Último pronóstico: {t0:%d/%m %H:%M} a {t0 + pd.Timedelta(minutes=60):%H:%M}", "",
               "![Mapa](ultimo/mapa.png)", ""]
+        a = os.path.join(ult, "clima.csv")
+        if os.path.isfile(a):
+            cl = pd.read_csv(a)
+            tot = cl[cl["variable"] == "efecto total en la hora"].iloc[-1]
+            L += ["### Clima de la hora y su efecto en la demanda", ""]
+            if np.isfinite(tot["temperatura_c"]):
+                ll = tot["precipitacion_mm"]
+                L.append(f"**{tot['temperatura_c']:.1f} °C** · "
+                         + ("sin lluvia" if not np.isfinite(ll) or ll < cfg.UMBRAL_LLUVIA else f"lluvia {ll:.1f} mm/h")
+                         + f" · viento {tot['viento_kmh']:.0f} km/h · día {tot['tipo_dia']}")
+            else:
+                L.append("Sin datos de clima para esta hora: se toma como normal.")
+            L += ["", f"El clima multiplica los **retiros por {tot['factor_retiros']:.2f}** y las "
+                  f"**devoluciones por {tot['factor_devoluciones']:.2f}** (1,00 = sin efecto).", ""]
+            det = cl[cl["variable"] != "efecto total en la hora"]
+            if len(det):
+                L += ["| Variable | Condición | Factor retiros | Factor devoluciones |", "| --- | --- | --- | --- |"]
+                for _, r in det.iterrows():
+                    L.append(f"| {r['variable']} | {r['categoria']} | {r['factor_retiros']:.3f} | "
+                             f"{r['factor_devoluciones']:.3f} |")
+                L.append("")
         a = os.path.join(ult, "pronostico_estaciones.csv")
         if os.path.isfile(a):
             t = pd.read_csv(a, dtype={"code": str})

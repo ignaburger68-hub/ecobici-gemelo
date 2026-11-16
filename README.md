@@ -111,7 +111,9 @@ Desde el estado actual del feed y el pronóstico del clima:
 ```bash
 py -3.14 gemelo.py hora --en-vivo
 ```
-Resultados en `resultados_gemelo/hora_AAAA-MM-DD_HHMM/`: `pronostico_estaciones.csv`, `plan_traslados.csv`, `comparacion_planes.csv`, `mapa.png`, `abanico.png`, `resumen.txt` y, si la hora ya pasó, `brier_esta_hora.csv`.
+Resultados en `resultados_gemelo/hora_AAAA-MM-DD_HHMM/`: `pronostico_estaciones.csv`, `plan_traslados.csv`, `comparacion_planes.csv`, `clima.csv` (clima de la hora y cuánto cambia la demanda), `mapa.png`, `abanico.png`, `resumen.txt` y, si la hora ya pasó, `brier_esta_hora.csv`.
+
+El resumen muestra también **el clima de la hora simulada** (temperatura y cuánto se aleja de lo normal, lluvia y viento) y **su efecto en la demanda**: el factor por el que se multiplican los retiros y las devoluciones, con el detalle por variable. Lo mismo aparece en el tablero y en la página de `gemelo_vivo/`.
 
 ### `validar`: comprobar la simulación
 ```bash
