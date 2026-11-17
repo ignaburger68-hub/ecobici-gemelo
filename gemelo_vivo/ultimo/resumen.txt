@@ -1,39 +1,39 @@
-Simulación de una hora — lunes 16/11/2026 19:49 a 20:49 (en vivo)
-Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 0.75, devoluciones 0.86
+Simulación de una hora — lunes 16/11/2026 20:03 a 21:03 (en vivo)
+Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
+Factor del día: retiros 0.68, devoluciones 0.72
 Estaciones con dato: 30 de 30
 
 Clima de 20:00 a 21:00 (día fin de semana): 15.2 °C (-1.0 °C respecto de lo normal a esa hora), sin lluvia, viento 10 km/h
-Efecto del clima en la hora: retiros ×0.80 (-20 %), devoluciones ×0.85 (-15 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.78 (-22 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.991  devoluciones ×0.996
   lluvia previa  seco antes                     retiros ×1.006  devoluciones ×1.009
   temperatura    más frío (−3 a −1 °C)          retiros ×0.843  devoluciones ×0.875
   viento         5-10 km/h                      retiros ×0.930  devoluciones ×0.955
 
 Estaciones con más riesgo:
-   107-108 Tolsa-Balderas             B=0/52  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       118 Liverpool-Dinamarca        B=15/15  p vacía 0.00  p llena 0.96  B(t+60) 12-15
-       020 Reforma- Río Támesis       B=10/12  p vacía 0.01  p llena 0.70  B(t+60) 5-12
-       026 Reforma - Versalles        B=8/11  p vacía 0.03  p llena 0.64  B(t+60) 5-11
-       003 Reforma - Insurgentes      B=2/30  p vacía 0.62  p llena 0.00  B(t+60) 1-10
-       041 Reforma - Av. de la Repúbl B=2/23  p vacía 0.57  p llena 0.01  B(t+60) 1-13
-       115 Roma-Dinamarca             B=2/23  p vacía 0.47  p llena 0.00  B(t+60) 1-11
-       555 Ribera de San Cosme - Insu B=2/31  p vacía 0.44  p llena 0.00  B(t+60) 0-8
+   107-108 Tolsa-Balderas             B=0/53  p vacía 0.96  p llena 0.00  B(t+60) 0-6
+       041 Reforma - Av. de la Repúbl B=0/23  p vacía 0.94  p llena 0.00  B(t+60) 1-11
+       020 Reforma- Río Támesis       B=11/12  p vacía 0.00  p llena 0.84  B(t+60) 7-12
+       003 Reforma - Insurgentes      B=1/30  p vacía 0.72  p llena 0.00  B(t+60) 0-9
+       115 Roma-Dinamarca             B=2/23  p vacía 0.55  p llena 0.00  B(t+60) 0-8
+       026 Reforma - Versalles        B=8/11  p vacía 0.03  p llena 0.52  B(t+60) 5-11
+       118 Liverpool-Dinamarca        B=15/16  p vacía 0.00  p llena 0.52  B(t+60) 12-16
+       048 Independencia - Azueta     B=8/10  p vacía 0.01  p llena 0.46  B(t+60) 5-10
 
 Plan Regla umbral:
-  1. llevar 7 bicis de 118 (15/15) a 107-108 (0/52)
-  2. llevar 4 bicis de 020 (10/12) a 555 (2/31)
+  1. llevar 7 bicis de 118 (15/16) a 041 (0/23)
+  2. llevar 5 bicis de 020 (11/12) a 107-108 (0/53)
 Plan Gemelo (voraz):
-  1. llevar 6 bicis de 020 (10/12) a 041 (2/23)
-  2. llevar 9 bicis de 118 (15/15) a 003 (2/30)
-  3. llevar 4 bicis de 026 (8/11) a 107-108 (0/52)
+  1. llevar 7 bicis de 020 (11/12) a 041 (0/23)
+  2. llevar 4 bicis de 026 (8/11) a 003 (1/30)
+  3. llevar 4 bicis de 048 (8/10) a 115 (2/23)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               14.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             10.3  (atiende +4.5 vs sin acción, IC95 +4.3 a +4.6)
-  Gemelo (voraz)                            6.8  (atiende +7.9 vs sin acción, IC95 +7.6 a +8.2)
-  Gemelo (voraz) con tiempos de viaje      11.0  (atiende +3.7 vs sin acción, IC95 +3.5 a +4.0)
+  Sin acción                               15.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                              9.3  (atiende +6.3 vs sin acción, IC95 +6.1 a +6.6)
+  Gemelo (voraz)                            7.0  (atiende +8.6 vs sin acción, IC95 +8.2 a +8.9)
+  Gemelo (voraz) con tiempos de viaje      10.9  (atiende +4.7 vs sin acción, IC95 +4.5 a +5.0)
 
-Validación: |simulada − exacta| máx 0.030, media 0.006 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.026, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.9 s
+Tiempo de cálculo: 1.7 s
