@@ -1,5 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,008,Reforma - General Prim,114,Lucerna-Abraham González,7,15,16,0,20,,5.0,12.79879533928932
-Gemelo (voraz),1,008,Reforma - General Prim,555,Ribera de San Cosme - Insurgentes Centro,9,15,16,0,30,4.939999639987946,5.0,15.292651861884782
-Gemelo (voraz),2,117,Londres-Nápoles,012,Río Lerma - Villalongín,7,20,30,0,15,2.3469999879598618,28.165822911944993,36.186831362028364
-Gemelo (voraz),3,026,Reforma - Versalles,020,Reforma- Río Támesis,4,7,9,0,9,2.333000123500824,44.84160450308205,52.88191434453414
+Gemelo (voraz),1,117,Londres-Nápoles,086,Sullivan-Insurgentes,6,23,30,0,7,3.4989999681711197,5.0,13.109371934457926
+Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,10,23,30,1,20,2.980000052601099,21.21874386891585,33.454290911305286
+Gemelo (voraz),3,008,Reforma - General Prim,048,Independencia - Azueta,5,12,15,0,10,2.599999949336052,43.3587131604546,54.78089386841105
