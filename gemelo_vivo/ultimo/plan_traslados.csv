@@ -1,0 +1,6 @@
+plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
+Regla umbral,1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,15,15,0,52,,5.0,14.676527828528236
+Regla umbral,2,020,Reforma- Río Támesis,555,Ribera de San Cosme - Insurgentes Centro,4,10,12,2,31,,25.876260364285336,36.727092236934055
+Gemelo (voraz),1,020,Reforma- Río Támesis,041,Reforma - Av. de la República,6,10,12,2,23,3.143999934196472,5.0,16.027903608655105
+Gemelo (voraz),2,118,Liverpool-Dinamarca,003,Reforma - Insurgentes,9,15,15,2,30,2.4860000610351562,27.415210304039103,35.0045537254001
+Gemelo (voraz),3,026,Reforma - Versalles,107-108,Tolsa-Balderas,4,8,11,0,52,2.1629998683929443,42.02014712084943,51.289392832783264
