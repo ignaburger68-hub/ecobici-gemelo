@@ -1,9 +1,9 @@
-Simulación de una hora — martes 17/11/2026 11:29 a 12:29 (en vivo)
+Simulación de una hora — martes 17/11/2026 11:43 a 12:43 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.13, devoluciones 1.02
+Factor del día: retiros 1.26, devoluciones 1.10
 Estaciones con dato: 30 de 30
 
-Clima pronosticado de 11:00 a 12:00 (día hábil): 17.1 °C (-2.7 °C respecto de lo normal a esa hora), sin lluvia, viento 1 km/h
+Clima pronosticado de 12:00 a 13:00 (día hábil): 18.6 °C (-2.5 °C respecto de lo normal a esa hora), sin lluvia, viento 1 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,28 +11,29 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       020 Reforma- Río Támesis       B=0/9  p vacía 1.00  p llena 0.01  B(t+60) 0-4
+       113 General Prim-Versalles     B=0/10  p vacía 0.99  p llena 0.01  B(t+60) 0-5
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       048 Independencia - Azueta     B=0/10  p vacía 0.98  p llena 0.01  B(t+60) 0-5
-       086 Sullivan-Insurgentes       B=1/7  p vacía 0.83  p llena 0.03  B(t+60) 0-4
-       270 De la República-Ponciano A B=1/25  p vacía 0.81  p llena 0.00  B(t+60) 0-7
-       116 Londres-Roma               B=1/18  p vacía 0.80  p llena 0.00  B(t+60) 0-7
+       026 Reforma - Versalles        B=9/9  p vacía 0.02  p llena 0.97  B(t+60) 4-9
+       008 Reforma - General Prim     B=16/16  p vacía 0.00  p llena 0.96  B(t+60) 11-16
+       086 Sullivan-Insurgentes       B=2/7  p vacía 0.79  p llena 0.06  B(t+60) 0-4
+       555 Ribera de San Cosme - Insu B=4/31  p vacía 0.77  p llena 0.00  B(t+60) 0-5
+       020 Reforma- Río Támesis       B=1/9  p vacía 0.74  p llena 0.01  B(t+60) 0-4
+       114 Lucerna-Abraham González   B=1/21  p vacía 0.71  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 7 bicis de 008 (15/16) a 263 (0/29)
+  1. llevar 4 bicis de 026 (9/9) a 113 (0/10)
+  2. llevar 8 bicis de 008 (16/16) a 263 (0/29)
 Plan Gemelo (voraz):
-  1. llevar 13 bicis de 117 (19/30) a 555 (4/31)
-  2. llevar 7 bicis de 008 (15/16) a 256 (0/19)
-  3. llevar 9 bicis de 107-108 (17/50) a 270 (1/25)
+  1. llevar 10 bicis de 008 (16/16) a 555 (4/31)
+  2. llevar 5 bicis de 026 (9/9) a 113 (0/10)
+  3. llevar 10 bicis de 117 (22/30) a 263 (0/29)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
   Sin acción                               26.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             24.6  (atiende +1.7 vs sin acción, IC95 +1.6 a +1.8)
-  Gemelo (voraz)                           19.1  (atiende +7.2 vs sin acción, IC95 +6.9 a +7.5)
-  Gemelo (voraz) con tiempos de viaje      22.9  (atiende +3.5 vs sin acción, IC95 +3.3 a +3.7)
+  Regla umbral                             19.5  (atiende +6.8 vs sin acción, IC95 +6.6 a +7.0)
+  Gemelo (voraz)                           15.6  (atiende +10.7 vs sin acción, IC95 +10.4 a +11.1)
+  Gemelo (voraz) con tiempos de viaje      20.9  (atiende +5.4 vs sin acción, IC95 +5.2 a +5.7)
 
-Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.004 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.9 s
