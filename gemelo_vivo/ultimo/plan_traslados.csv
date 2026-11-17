@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,9,19,20,0,31,,5.0,13.091219284422253
-Regla umbral,2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,8,17,18,1,31,,19.940620213230446,31.439622316777267
-Gemelo (voraz),1,116,Londres-Roma,003,Reforma - Insurgentes,8,17,18,0,31,1.9970000684261322,5.0,11.849400928808194
-Gemelo (voraz),2,114,Lucerna-Abraham González,270,De la República-Ponciano Arriaga,10,19,20,1,28,1.4729999750852585,19.940620213230446,29.438248103462463
-Gemelo (voraz),3,112,Av. Morelos-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,8,16,20,1,31,1.1160000562667847,36.99820202972718,46.91121271480738
+Regla umbral,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,3,20,20,0,7,,5.0,13.661576594091802
+Regla umbral,2,012,Río Lerma - Villalongín,085,Rosas Moreno - Sullivan,5,13,15,0,14,,20.00187756179772,26.140127382770174
+Regla umbral,3,260,Av. Juárez-Balderas,098,Emilio Dondé-Av. Balderas,6,17,21,0,19,,39.16243940801331,47.11361690575474
+Gemelo (voraz),1,010,Reforma - Ramírez,555,Ribera de San Cosme - Insurgentes Centro,12,12,27,1,31,7.015999734401703,5.0,13.96283342196559
+Gemelo (voraz),2,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,10,11,16,3,53,5.973999857902527,26.579443318448295,36.255971146976535
+Gemelo (voraz),3,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,9,13,15,2,28,2.4000000953674316,48.46716991118683,56.29915205640998

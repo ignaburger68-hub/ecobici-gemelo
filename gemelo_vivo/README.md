@@ -1,42 +1,42 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 17/11/2026 05:57 (hora de Ciudad de México).
+Página actualizada automáticamente el 17/11/2026 06:13 (hora de Ciudad de México).
 
-## Último pronóstico: 16/11 22:53 a 23:53
+## Último pronóstico: 17/11 06:13 a 07:13
 
 ![Mapa](ultimo/mapa.png)
 
 ### Clima de la hora y su efecto en la demanda
 
-**13.5 °C** · sin lluvia · viento 9 km/h · día fin de semana
+**11.1 °C** · sin lluvia · viento 4 km/h · día hábil
 
-El clima multiplica los **retiros por 0.88** y las **devoluciones por 0.92** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
-| lluvia | sin lluvia | 0.991 | 0.996 |
-| lluvia previa | seco antes | 1.006 | 1.009 |
-| temperatura | normal (±1 °C) | 0.977 | 0.981 |
-| viento | 5-10 km/h | 0.930 | 0.955 |
+| lluvia | sin lluvia | 0.988 | 0.981 |
+| lluvia previa | seco antes | 0.990 | 1.001 |
+| temperatura | normal (±1 °C) | 0.944 | 0.951 |
+| viento | < 5 km/h | 0.988 | 0.985 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 003 Reforma - Insurgentes | 0 / 31 | 0.99 | 0.00 | 0-2 |
-| 270 De la República-Ponciano Arr | 1 / 28 | 0.78 | 0.00 | 0-3 |
-| 555 Ribera de San Cosme - Insurg | 1 / 31 | 0.73 | 0.00 | 0-4 |
-| 256 Gómez Farías-Sadi Carnot | 2 / 18 | 0.46 | 0.00 | 0-3 |
-| 085 Rosas Moreno - Sullivan | 1 / 14 | 0.45 | 0.00 | 0-3 |
-| 041 Reforma - Av. de la Repúblic | 3 / 22 | 0.39 | 0.00 | 0-4 |
-| 114 Lucerna-Abraham González | 19 / 20 | 0.00 | 0.34 | 17-20 |
-| 116 Londres-Roma | 17 / 18 | 0.00 | 0.31 | 13-18 |
-| 086 Sullivan-Insurgentes | 3 / 8 | 0.27 | 0.01 | 0-5 |
-| 107-108 Tolsa-Balderas | 3 / 53 | 0.26 | 0.00 | 0-5 |
+| 085 Rosas Moreno - Sullivan | 0 / 14 | 0.99 | 0.00 | 0-4 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 19 | 0.99 | 0.00 | 0-2 |
+| 114 Lucerna-Abraham González | 20 / 20 | 0.00 | 0.99 | 15-20 |
+| 086 Sullivan-Insurgentes | 0 / 7 | 0.98 | 0.11 | 0-5 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 17 | 0.95 | 0.00 | 2-9 |
+| 555 Ribera de San Cosme - Insurg | 1 / 31 | 0.93 | 0.00 | 0-3 |
+| 107-108 Tolsa-Balderas | 3 / 53 | 0.89 | 0.00 | 0-2 |
+| 255 José Rosas Moreno-Guillermo  | 2 / 28 | 0.77 | 0.00 | 0-2 |
+| 119 Turín-Abraham González | 2 / 25 | 0.66 | 0.00 | 0-3 |
+| 020 Reforma- Río Támesis | 1 / 12 | 0.59 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 116 (17/18) a 003 (0/31)
-2. Llevar **10 bicis** de 114 (19/20) a 270 (1/28)
-3. Llevar **8 bicis** de 112 (16/20) a 555 (1/31)
+1. Llevar **12 bicis** de 010 (12/27) a 555 (1/31)
+2. Llevar **10 bicis** de 118 (11/16) a 107-108 (3/53)
+3. Llevar **9 bicis** de 012 (13/15) a 255 (2/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
