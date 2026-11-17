@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 15:58 a 16:58 (en vivo)
+Simulación de una hora — martes 17/11/2026 16:12 a 17:12 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 0.97, devoluciones 0.94
+Factor del día: retiros 1.08, devoluciones 0.91
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 16:00 a 17:00 (día hábil): 19.8 °C (-2.1 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       115 Roma-Dinamarca             B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-8
-       112 Av. Morelos-Abraham Gonzál B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-6
-       086 Sullivan-Insurgentes       B=0/6  p vacía 0.99  p llena 0.38  B(t+60) 1-6
-       118 Liverpool-Dinamarca        B=0/16  p vacía 0.98  p llena 0.00  B(t+60) 0-4
-       260 Av. Juárez-Balderas        B=0/18  p vacía 0.98  p llena 0.01  B(t+60) 2-11
-       020 Reforma- Río Támesis       B=0/9  p vacía 0.97  p llena 0.06  B(t+60) 0-6
+       115 Roma-Dinamarca             B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-7
+       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 1-7
+       085 Rosas Moreno - Sullivan    B=0/14  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       270 De la República-Ponciano A B=1/24  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       259 Tómas Alva Edison-Ponciano B=1/24  p vacía 0.97  p llena 0.00  B(t+60) 0-4
+       118 Liverpool-Dinamarca        B=1/16  p vacía 0.95  p llena 0.00  B(t+60) 0-5
+       041 Reforma - Av. de la Repúbl B=1/20  p vacía 0.90  p llena 0.00  B(t+60) 0-5
+       114 Lucerna-Abraham González   B=2/20  p vacía 0.86  p llena 0.00  B(t+60) 0-6
 
 Plan Regla umbral:
   sin traslados
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 031 (19/27) a 118 (0/16)
-  2. llevar 8 bicis de 117 (22/30) a 259 (0/24)
-  3. llevar 5 bicis de 031 (19/27) a 115 (0/24)
+  1. llevar 9 bicis de 117 (23/30) a 270 (1/24)
+  2. llevar 7 bicis de 119 (13/25) a 115 (0/24)
+  3. llevar 7 bicis de 031 (17/27) a 118 (1/16)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               56.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             56.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Gemelo (voraz)                           46.4  (atiende +10.2 vs sin acción, IC95 +9.9 a +10.5)
-  Gemelo (voraz) con tiempos de viaje      52.1  (atiende +4.5 vs sin acción, IC95 +4.2 a +4.8)
+  Sin acción                               64.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             64.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                           52.9  (atiende +11.5 vs sin acción, IC95 +11.2 a +11.9)
+  Gemelo (voraz) con tiempos de viaje      61.8  (atiende +2.7 vs sin acción, IC95 +2.4 a +3.0)
 
-Validación: |simulada − exacta| máx 0.035, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.029, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.3 s
+Tiempo de cálculo: 1.2 s
