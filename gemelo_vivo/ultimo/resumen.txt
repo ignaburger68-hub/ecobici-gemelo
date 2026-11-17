@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 13:08 a 14:08 (en vivo)
+Simulación de una hora — martes 17/11/2026 13:22 a 14:22 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.09, devoluciones 0.98
+Factor del día: retiros 1.07, devoluciones 0.98
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 13:00 a 14:00 (día hábil): 20.1 °C (-1.7 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       255 José Rosas Moreno-Guillerm B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-6
-       270 De la República-Ponciano A B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       020 Reforma- Río Támesis       B=0/9  p vacía 0.98  p llena 0.01  B(t+60) 0-3
+       270 De la República-Ponciano A B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       555 Ribera de San Cosme - Insu B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-4
        256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       041 Reforma - Av. de la Repúbl B=1/20  p vacía 0.93  p llena 0.00  B(t+60) 0-4
-       263 Sadi Carnot - Gómez Farias B=1/29  p vacía 0.84  p llena 0.00  B(t+60) 0-4
-       118 Liverpool-Dinamarca        B=1/16  p vacía 0.82  p llena 0.00  B(t+60) 0-4
-       555 Ribera de San Cosme - Insu B=3/31  p vacía 0.81  p llena 0.00  B(t+60) 0-5
+       114 Lucerna-Abraham González   B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       041 Reforma - Av. de la Repúbl B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       118 Liverpool-Dinamarca        B=1/16  p vacía 0.97  p llena 0.00  B(t+60) 0-2
 
 Plan Regla umbral:
-  1. llevar 3 bicis de 026 (8/9) a 020 (0/9)
+  1. llevar 5 bicis de 116 (14/17) a 114 (0/20)
 Plan Gemelo (voraz):
-  1. llevar 13 bicis de 117 (24/30) a 270 (0/24)
-  2. llevar 5 bicis de 026 (8/9) a 041 (1/20)
-  3. llevar 5 bicis de 116 (12/17) a 255 (0/27)
+  1. llevar 10 bicis de 116 (14/17) a 555 (0/31)
+  2. llevar 12 bicis de 117 (23/30) a 270 (0/25)
+  3. llevar 8 bicis de 003 (11/31) a 118 (1/16)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               43.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             41.1  (atiende +2.5 vs sin acción, IC95 +2.4 a +2.6)
-  Gemelo (voraz)                           32.2  (atiende +11.4 vs sin acción, IC95 +11.1 a +11.7)
-  Gemelo (voraz) con tiempos de viaje      38.6  (atiende +5.0 vs sin acción, IC95 +4.7 a +5.3)
+  Sin acción                               50.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             47.5  (atiende +3.3 vs sin acción, IC95 +3.1 a +3.5)
+  Gemelo (voraz)                           34.3  (atiende +16.6 vs sin acción, IC95 +16.1 a +17.0)
+  Gemelo (voraz) con tiempos de viaje      45.4  (atiende +5.4 vs sin acción, IC95 +5.1 a +5.7)
 
-Validación: |simulada − exacta| máx 0.034, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.030, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.0 s
+Tiempo de cálculo: 1.1 s

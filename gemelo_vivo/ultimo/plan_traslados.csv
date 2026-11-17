@@ -1,5 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,020,Reforma- Río Támesis,3,8,9,0,9,,5.0,13.040309841452084
-Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,13,24,30,0,24,5.590000081807375,5.0,16.563019873060178
-Gemelo (voraz),2,026,Reforma - Versalles,041,Reforma - Av. de la República,5,8,9,1,20,3.1790000200271606,24.05109226730688,32.08005507592327
-Gemelo (voraz),3,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,5,12,17,0,27,2.5760000348091125,42.15268573536437,52.65017045639847
+Regla umbral,1,116,Londres-Roma,114,Lucerna-Abraham González,5,14,17,0,20,,5.0,11.647858784737117
+Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,10,14,17,0,31,6.814000189304352,5.0,16.49900210354682
+Gemelo (voraz),2,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,12,23,30,0,25,5.528999924659729,29.372173153607033,40.93519302666721
+Gemelo (voraz),3,003,Reforma - Insurgentes,118,Liverpool-Dinamarca,8,11,31,1,16,4.356000065803528,49.85052741396694,57.43987083532793
