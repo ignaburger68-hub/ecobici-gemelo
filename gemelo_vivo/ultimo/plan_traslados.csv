@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,5,10,10,0,20,,5.0,12.037235495643506
-Regla umbral,2,008,Reforma - General Prim,086,Sullivan-Insurgentes,3,14,16,0,7,,20.652159921353643,26.562953634480458
-Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,10,10,1,31,4.952999711036682,5.0,15.772950117080928
-Gemelo (voraz),2,008,Reforma - General Prim,256,Gómez Farías-Sadi Carnot,8,14,16,0,20,3.1489999890327454,26.06560197896571,34.46280268422369
-Gemelo (voraz),3,026,Reforma - Versalles,255,José Rosas Moreno-Guillermo Prieto,5,7,9,0,28,3.0379998683929443,42.66318520992587,52.23043208412142
+Regla umbral,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,4,8,8,0,20,,5.0,11.782850894024618
+Regla umbral,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,10,10,0,24,,18.820086389668123,27.9856562381611
+Regla umbral,3,008,Reforma - General Prim,270,De la República-Ponciano Arriaga,7,15,16,0,25,,37.09790451703629,46.04882229722417
+Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,10,10,1,31,5.721000075340271,5.0,15.772950117080928
+Gemelo (voraz),2,026,Reforma - Versalles,098,Emilio Dondé-Av. Balderas,5,8,8,1,30,4.080000162124634,25.225658263929667,33.958419541829926
+Gemelo (voraz),3,008,Reforma - General Prim,270,De la República-Ponciano Arriaga,7,15,16,0,25,3.0990000665187836,44.19336375860281,53.144281538790686
