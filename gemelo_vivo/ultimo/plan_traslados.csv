@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,012,Río Lerma - Villalongín,003,Reforma - Insurgentes,6,14,15,0,31,,5.0,11.745630679826496
-Regla umbral,2,114,Lucerna-Abraham González,259,Tómas Alva Edison-Ponciano Arriaga,8,18,20,0,24,,19.83684996424875,29.83160489210258
-Regla umbral,3,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,16,18,0,29,,39.9087488130165,49.2342763074642
-Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,13,13,16,2,31,15.23799991607666,5.0,17.616609896482704
-Gemelo (voraz),2,010,Reforma - Ramírez,107-108,Tolsa-Balderas,15,17,27,3,52,9.622000455856323,26.57944331844829,36.25930269216387
-Gemelo (voraz),3,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,9,14,15,0,29,4.7459999322891235,48.470501456374166,56.41129970689822
+Regla umbral,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.325527494447694
+Regla umbral,2,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,7,15,16,0,24,,24.591843553221103,35.887974048537174
+Regla umbral,3,012,Río Lerma - Villalongín,119,Turín-Abraham González,5,13,15,0,24,,45.80209297661428,55.33595332662183
+Gemelo (voraz),1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,15,15,16,1,52,20.066999435424805,5.0,14.676527828528236
+Gemelo (voraz),2,010,Reforma - Ramírez,555,Ribera de San Cosme - Insurgentes Centro,16,23,27,2,31,13.439000129699707,24.356387202243816,33.31922062420941
+Gemelo (voraz),3,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,12,17,18,0,29,7.892000079154968,44.81822272775623,54.14375022220392

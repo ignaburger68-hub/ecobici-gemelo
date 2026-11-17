@@ -1,10 +1,10 @@
-Simulación de una hora — martes 17/11/2026 06:41 a 07:41 (en vivo)
+Simulación de una hora — martes 17/11/2026 06:55 a 07:55 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
 Factor del día: retiros 1.12, devoluciones 0.98
 Estaciones con dato: 30 de 30
 
 Clima de 07:00 a 08:00 (día hábil): 11.3 °C (-0.5 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
-Efecto del clima en la hora: retiros ×0.86 (-14 %), devoluciones ×0.88 (-12 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.89 (-11 %), devoluciones ×0.90 (-10 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
@@ -12,29 +12,29 @@ Efecto del clima en la hora: retiros ×0.86 (-14 %), devoluciones ×0.88 (-12 %)
 
 Estaciones con más riesgo:
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       086 Sullivan-Insurgentes       B=0/7  p vacía 1.00  p llena 0.01  B(t+60) 0-3
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       118 Liverpool-Dinamarca        B=15/16  p vacía 0.00  p llena 1.00  B(t+60) 11-16
+   107-108 Tolsa-Balderas             B=1/52  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       119 Turín-Abraham González     B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       555 Ribera de San Cosme - Insu B=2/31  p vacía 0.99  p llena 0.00  B(t+60) 0-2
        098 Emilio Dondé-Av. Balderas  B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       555 Ribera de San Cosme - Insu B=2/31  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       003 Reforma - Insurgentes      B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-   107-108 Tolsa-Balderas             B=3/52  p vacía 0.97  p llena 0.00  B(t+60) 0-2
-       118 Liverpool-Dinamarca        B=13/16  p vacía 0.00  p llena 0.95  B(t+60) 15-16
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       086 Sullivan-Insurgentes       B=1/7  p vacía 0.95  p llena 0.03  B(t+60) 0-3
 
 Plan Regla umbral:
-  1. llevar 6 bicis de 012 (14/15) a 003 (0/31)
-  2. llevar 8 bicis de 114 (18/20) a 259 (0/24)
-  3. llevar 7 bicis de 116 (16/18) a 263 (0/29)
+  1. llevar 8 bicis de 116 (17/18) a 263 (0/29)
+  2. llevar 7 bicis de 118 (15/16) a 259 (0/24)
+  3. llevar 5 bicis de 012 (13/15) a 119 (0/24)
 Plan Gemelo (voraz):
-  1. llevar 13 bicis de 118 (13/16) a 555 (2/31)
-  2. llevar 15 bicis de 010 (17/27) a 107-108 (3/52)
-  3. llevar 9 bicis de 012 (14/15) a 263 (0/29)
+  1. llevar 15 bicis de 118 (15/16) a 107-108 (1/52)
+  2. llevar 16 bicis de 010 (23/27) a 555 (2/31)
+  3. llevar 12 bicis de 116 (17/18) a 263 (0/29)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               65.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             57.9  (atiende +7.9 vs sin acción, IC95 +7.6 a +8.1)
-  Gemelo (voraz)                           36.8  (atiende +29.0 vs sin acción, IC95 +28.2 a +29.8)
-  Gemelo (voraz) con tiempos de viaje      45.3  (atiende +20.5 vs sin acción, IC95 +19.9 a +21.1)
+  Sin acción                               88.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             70.5  (atiende +18.0 vs sin acción, IC95 +17.7 a +18.4)
+  Gemelo (voraz)                           47.1  (atiende +41.4 vs sin acción, IC95 +40.5 a +42.3)
+  Gemelo (voraz) con tiempos de viaje      62.8  (atiende +25.7 vs sin acción, IC95 +25.1 a +26.3)
 
-Validación: |simulada − exacta| máx 0.016, media 0.002 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.5 s
+Tiempo de cálculo: 1.4 s
