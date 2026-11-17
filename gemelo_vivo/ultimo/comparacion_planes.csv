@@ -1,5 +1,5 @@
 plan,traslados,bicis_movidas,no_atendida_media,ic95_inf,ic95_sup,atendidos_extra_vs_sin_accion,dif_ic95_inf,dif_ic95_sup
-Sin acción,0,0,32.342,31.382,33.302,0.0,0.0,0.0
-Regla umbral,0,0,32.342,31.382,33.302,0.0,0.0,0.0
-Gemelo (voraz),3,21,23.573,22.734,24.412,8.769,8.459,9.079
-Gemelo (voraz) con tiempos de viaje,3,21,29.07,28.172,29.968,3.272,3.004,3.54
+Sin acción,0,0,31.765,30.818,32.712,0.0,0.0,0.0
+Regla umbral,2,13,25.044,24.193,25.895,6.721,6.485,6.957
+Gemelo (voraz),3,27,22.016,21.233,22.799,9.749,9.429,10.069
+Gemelo (voraz) con tiempos de viaje,3,27,26.621,25.768,27.474,5.144,4.906,5.382
