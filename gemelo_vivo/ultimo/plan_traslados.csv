@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,7,15,16,0,23,,5.0,16.387306695383998
-Regla umbral,2,020,Reforma- Río Támesis,107-108,Tolsa-Balderas,5,11,12,0,53,,27.415210304039103,38.6149428397962
-Gemelo (voraz),1,020,Reforma- Río Támesis,041,Reforma - Av. de la República,7,11,12,0,23,5.042999744415283,5.0,16.027903608655105
-Gemelo (voraz),2,026,Reforma - Versalles,003,Reforma - Insurgentes,4,8,11,1,30,2.23199999332428,24.056866417271493,31.072459812720822
-Gemelo (voraz),3,048,Independencia - Azueta,115,Roma-Dinamarca,4,8,10,2,23,1.5510000586509705,42.661566897415256,55.07262148116803
+Regla umbral,1,118,Liverpool-Dinamarca,003,Reforma - Insurgentes,7,15,16,1,30,,5.0,12.589343421360994
+Regla umbral,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,6,16,19,1,28,,19.438744350169188,29.936229071203282
+Regla umbral,3,020,Reforma- Río Támesis,107-108,Tolsa-Balderas,4,10,12,3,53,,38.65790483404989,49.85763736980699
+Gemelo (voraz),1,020,Reforma- Río Támesis,003,Reforma - Insurgentes,5,10,12,1,30,2.4970000982284546,5.0,11.03387095371946
+Gemelo (voraz),2,116,Londres-Roma,041,Reforma - Av. de la República,9,16,19,2,23,1.9980000853538513,17.88327188252765,27.955902541968754
+Gemelo (voraz),3,026,Reforma - Versalles,086,Sullivan-Insurgentes,3,8,11,1,8,1.121999979019165,35.98486535058514,43.30103439362983
