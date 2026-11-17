@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 09:32 a 10:32 (en vivo)
+Simulación de una hora — martes 17/11/2026 09:46 a 10:46 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.27, devoluciones 0.67
+Factor del día: retiros 1.15, devoluciones 0.75
 Estaciones con dato: 30 de 30
 
 Clima de 10:00 a 11:00 (día hábil): 15.7 °C (-2.3 °C respecto de lo normal a esa hora), sin lluvia, viento 1 km/h
@@ -11,29 +11,29 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       255 José Rosas Moreno-Guillerm B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-   107-108 Tolsa-Balderas             B=0/54  p vacía 1.00  p llena 0.00  B(t+60) 0-8
-       085 Rosas Moreno - Sullivan    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       260 Av. Juárez-Balderas        B=0/20  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       048 Independencia - Azueta     B=0/9  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        086 Sullivan-Insurgentes       B=0/7  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-8
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       119 Turín-Abraham González     B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       085 Rosas Moreno - Sullivan    B=0/14  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       260 Av. Juárez-Balderas        B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       255 José Rosas Moreno-Guillerm B=0/28  p vacía 0.99  p llena 0.00  B(t+60) 0-3
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 117 (29/30) a 113 (0/10)
-  2. llevar 7 bicis de 008 (16/17) a 263 (0/29)
+  1. llevar 5 bicis de 008 (16/16) a 113 (0/10)
+  2. llevar 12 bicis de 117 (30/30) a 259 (0/24)
 Plan Gemelo (voraz):
-  1. llevar 10 bicis de 117 (29/30) a 119 (0/25)
-  2. llevar 10 bicis de 008 (16/17) a 085 (0/14)
-  3. llevar 6 bicis de 117 (29/30) a 555 (0/31)
+  1. llevar 10 bicis de 008 (16/16) a 119 (0/25)
+  2. llevar 7 bicis de 555 (17/31) a 048 (0/9)
+  3. llevar 9 bicis de 107-108 (17/53) a 260 (0/20)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              113.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            106.2  (atiende +7.6 vs sin acción, IC95 +7.4 a +7.8)
-  Gemelo (voraz)                           97.9  (atiende +15.9 vs sin acción, IC95 +15.5 a +16.3)
-  Gemelo (voraz) con tiempos de viaje     108.3  (atiende +5.4 vs sin acción, IC95 +5.1 a +5.8)
+  Sin acción                               63.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             58.0  (atiende +5.2 vs sin acción, IC95 +5.0 a +5.5)
+  Gemelo (voraz)                           48.9  (atiende +14.3 vs sin acción, IC95 +13.9 a +14.6)
+  Gemelo (voraz) con tiempos de viaje      57.2  (atiende +6.0 vs sin acción, IC95 +5.7 a +6.2)
 
-Validación: |simulada − exacta| máx 0.043, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.026, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.4 s
+Tiempo de cálculo: 1.2 s
