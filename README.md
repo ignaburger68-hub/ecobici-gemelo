@@ -171,10 +171,13 @@ Se abre en el navegador (si no, entra a http://localhost:8501).
 
 - **Pestaña "Pronóstico":**
   - *Reproducción*: eliges día y hora ya recolectados. Muestra el pronóstico, el mapa, el plan del camión y, como ya pasó, lo que ocurrió y el puntaje de Brier de esa hora.
+    El **día de hoy** también aparece (marcado «hoy») si es hábil y ya tiene lecturas, con horas solo hasta la última lectura: así, por ejemplo, a las 20:00 puedes ver el pronóstico de las 19:00 y compararlo con lo que pasó. Si la hora todavía no termina en los datos, se muestra el pronóstico sin «lo que ocurrió».
   - *En vivo*: lee el feed ahora y pronostica la próxima hora. Con "Actualizar sola" se repite cada 15 minutos; con "git pull" trae antes las lecturas nuevas (solo trae, nunca sube).
 - **Pestaña "Rendimiento":**
   - *Pronósticos hechos en tiempo real*: lee `gemelo_vivo/resumen_vivo.csv`, que llega con `git pull`;
   - *Evaluación de la semana*: aparece después de correr `evaluar`.
+
+El botón **«Recargar datos (git pull)»** del panel izquierdo trae las lecturas nuevas de GitHub y vuelve a leer todo, sin reiniciar el tablero. Debajo indica la última lectura cargada.
 
 Para cerrar el tablero: `Ctrl + C` en PowerShell.
 

@@ -33,6 +33,33 @@ def cargar(en_vivo):
     return Gemelo(en_vivo=en_vivo)
 
 
+def recargar_datos():
+    """git pull y volver a leer todo (sin reiniciar el tablero)."""
+    try:
+        r = subprocess.run(["git", "pull"], capture_output=True, text=True, timeout=180)
+        salida = (r.stdout + r.stderr).strip().splitlines()
+        msg = salida[-1] if salida else "listo"
+        st.session_state["aviso_recarga"] = ("ok" if r.returncode == 0 else "error", f"git pull: {msg}")
+    except Exception as e:
+        st.session_state["aviso_recarga"] = ("error", f"No se pudo hacer git pull ({e}); se releen los datos locales")
+    st.cache_resource.clear()
+    for k in ("pasado", "vivo"):
+        st.session_state.pop(k, None)
+
+
+def dias_y_horas(gem):
+    """
+    Días para Reproducción: hábiles con buena cobertura y, además, el día de hoy si tiene lecturas
+    (aunque todavía no llegue al 50 % del día completo).
+    """
+    ultima = gem.panel.ultima_lectura()
+    dias = [d for d in gem.panel.fechas if es_habil([d])[0] and gem.panel.cobertura_dia[d] >= cfg.MIN_COBERTURA_DIA]
+    hoy = ahora_local().normalize()
+    if ultima is not None and ultima.normalize() == hoy and es_habil([hoy])[0] and hoy not in dias:
+        dias.append(hoy)
+    return dias, ultima
+
+
 def empaquetar(res):
     return {k: res[k] for k in ("t0", "tabla", "brier", "texto", "clima")} | {
         "traslados": res["plan"]["traslados"], "comparacion": res["plan"]["comparacion"],
@@ -142,15 +169,41 @@ with st.sidebar:
         pull = st.checkbox("Traer lecturas nuevas (git pull) antes de cada actualización", value=True,
                            help="Necesita que esta carpeta sea el repositorio del recolector")
     else:
-        dias = [d for d in gem.panel.fechas if es_habil([d])[0] and gem.panel.cobertura_dia[d] >= cfg.MIN_COBERTURA_DIA]
-        dia = st.selectbox("Día", dias[::-1], format_func=lambda d: f"{DIAS[d.dayofweek]} {d:%d/%m/%Y}")
+        dias, ultima = dias_y_horas(gem)
+        hoy = ahora_local().normalize()
+        if not dias:
+            st.warning("No hay días con lecturas suficientes. Usa «Recargar datos».")
+            dias = [hoy]
+        dia = st.selectbox("Día", dias[::-1], format_func=lambda d: f"{DIAS[d.dayofweek]} {d:%d/%m/%Y}"
+                           + (" (hoy)" if d == hoy else ""))
         horas = pd.date_range(dia + pd.Timedelta(cfg.PRIMER_T0 + ":00"), dia + pd.Timedelta(cfg.ULTIMO_T0 + ":00"),
                               freq=f"{cfg.PASO_T0_MIN}min")
-        t0 = st.select_slider("Hora (t0)", list(horas), value=horas[7] if len(horas) > 7 else horas[0],
-                              format_func=lambda t: f"{t:%H:%M}")
+        if ultima is not None and ultima.normalize() == dia:
+            horas = horas[horas <= ultima]          # hoy: sólo hasta la última lectura
+        if len(horas) == 0:
+            st.warning(f"Todavía no hay lecturas desde las {cfg.PRIMER_T0} de este día. "
+                       "Usa «Recargar datos» más tarde.")
+        else:
+            completas = horas[horas + pd.Timedelta(minutes=60) <= ultima] if ultima is not None else horas
+            defecto = completas[-1] if dia == hoy and len(completas) else (horas[7] if len(horas) > 7 else horas[0])
+            t0 = st.select_slider("Hora (t0)", list(horas), value=defecto, format_func=lambda t: f"{t:%H:%M}")
+            if ultima is not None and t0 + pd.Timedelta(minutes=60) > ultima:
+                st.caption("Esta hora todavía no termina en los datos: se muestra el pronóstico, "
+                           "pero aún no «lo que ocurrió».")
+    ult = gem.panel.ultima_lectura()
+    if ult is not None:
+        st.caption(f"Última lectura cargada: {DIAS[ult.dayofweek]} {ult:%d/%m %H:%M}")
+    if st.button("Recargar datos (git pull)", help="Trae las lecturas nuevas de GitHub y vuelve a leer todo, "
+                 "sin reiniciar el tablero"):
+        with st.spinner("Trayendo lecturas nuevas..."):
+            recargar_datos()
+        st.rerun()
+    if "aviso_recarga" in st.session_state:
+        tipo, msg = st.session_state.pop("aviso_recarga")
+        (st.success if tipo == "ok" else st.warning)(msg)
     st.caption(f"W = {gem.params['W']} días · m = {gem.params['m']} · "
                f"phi {'sí' if gem.params['usar_phi'] else 'no'} · semilla {cfg.SEMILLA}")
-    ejecutar = st.button("Simular la próxima hora", type="primary")
+    ejecutar = st.button("Simular la próxima hora", type="primary", disabled=(not en_vivo and t0 is None))
 
 pest_pron, pest_rend = st.tabs(["Pronóstico", "Rendimiento"])
 
