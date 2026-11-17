@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.325527494447694
-Regla umbral,2,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,7,15,16,0,24,,24.591843553221103,35.887974048537174
-Regla umbral,3,012,Río Lerma - Villalongín,119,Turín-Abraham González,5,13,15,0,24,,45.80209297661428,55.33595332662183
-Gemelo (voraz),1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,15,15,16,1,52,20.066999435424805,5.0,14.676527828528236
-Gemelo (voraz),2,010,Reforma - Ramírez,555,Ribera de San Cosme - Insurgentes Centro,16,23,27,2,31,13.439000129699707,24.356387202243816,33.31922062420941
-Gemelo (voraz),3,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,12,17,18,0,29,7.892000079154968,44.81822272775623,54.14375022220392
+Regla umbral,1,010,Reforma - Ramírez,270,De la República-Ponciano Arriaga,13,27,27,0,28,,5.0,12.049118548205584
+Regla umbral,2,116,Londres-Roma,107-108,Tolsa-Balderas,9,18,18,0,52,,21.79473712628327,30.79000217579635
+Regla umbral,3,118,Liverpool-Dinamarca,098,Emilio Dondé-Av. Balderas,8,16,16,0,19,,40.46653000432459,50.94632627938501
+Gemelo (voraz),1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,16,16,16,0,52,21.740999221801758,5.0,14.676527828528236
+Gemelo (voraz),2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,15,18,18,1,31,12.750000238418579,23.671792878041316,35.17079498158814
+Gemelo (voraz),3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,8,9,10,1,29,8.644000053405762,45.94374509866907,54.99704370057204
