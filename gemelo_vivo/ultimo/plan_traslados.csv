@@ -1,5 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,5,10,10,0,25,,5.0,13.709994753492722
-Gemelo (voraz),1,117,Londres-Nápoles,118,Liverpool-Dinamarca,11,21,29,0,16,5.604999989271164,5.0,11.190414689364202
-Gemelo (voraz),2,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,10,10,1,19,4.57200014591217,18.922752512220157,28.383521906747646
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,260,Av. Juárez-Balderas,6,10,30,0,18,2.947000026702881,40.01824167387189,47.96941917161331
+Regla umbral,1,113,General Prim-Versalles,026,Reforma - Versalles,4,9,10,0,9,,5.0,11.324870556847111
+Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,10,19,28,0,25,5.605999976396561,5.0,16.563019873060178
+Gemelo (voraz),2,113,General Prim-Versalles,260,Av. Juárez-Balderas,6,9,10,1,18,3.9779999256134033,25.2730146265529,34.882748632574504
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,7,12,30,1,27,3.5959999561309814,42.83392613031593,51.8380523985814
