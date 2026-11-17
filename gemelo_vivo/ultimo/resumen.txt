@@ -1,9 +1,9 @@
-Simulación de una hora — martes 17/11/2026 13:22 a 14:22 (en vivo)
+Simulación de una hora — martes 17/11/2026 13:36 a 14:36 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.07, devoluciones 0.98
+Factor del día: retiros 1.18, devoluciones 0.99
 Estaciones con dato: 30 de 30
 
-Clima pronosticado de 13:00 a 14:00 (día hábil): 20.1 °C (-1.7 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
+Clima pronosticado de 14:00 a 15:00 (día hábil): 20.5 °C (-1.7 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       270 De la República-Ponciano A B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       114 Lucerna-Abraham González   B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-5
-       041 Reforma - Av. de la Repúbl B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-5
-       118 Liverpool-Dinamarca        B=1/16  p vacía 0.97  p llena 0.00  B(t+60) 0-2
+       118 Liverpool-Dinamarca        B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       112 Av. Morelos-Abraham Gonzál B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-6
+       041 Reforma - Av. de la Repúbl B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       255 José Rosas Moreno-Guillerm B=0/27  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       086 Sullivan-Insurgentes       B=1/7  p vacía 0.92  p llena 0.11  B(t+60) 0-6
+       260 Av. Juárez-Balderas        B=1/18  p vacía 0.86  p llena 0.00  B(t+60) 0-7
+       270 De la República-Ponciano A B=3/25  p vacía 0.86  p llena 0.00  B(t+60) 0-6
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 116 (14/17) a 114 (0/20)
+  sin traslados
 Plan Gemelo (voraz):
-  1. llevar 10 bicis de 116 (14/17) a 555 (0/31)
-  2. llevar 12 bicis de 117 (23/30) a 270 (0/25)
-  3. llevar 8 bicis de 003 (11/31) a 118 (1/16)
+  1. llevar 9 bicis de 116 (12/17) a 118 (0/16)
+  2. llevar 9 bicis de 117 (21/30) a 041 (0/20)
+  3. llevar 6 bicis de 003 (11/31) a 270 (3/25)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               50.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             47.5  (atiende +3.3 vs sin acción, IC95 +3.1 a +3.5)
-  Gemelo (voraz)                           34.3  (atiende +16.6 vs sin acción, IC95 +16.1 a +17.0)
-  Gemelo (voraz) con tiempos de viaje      45.4  (atiende +5.4 vs sin acción, IC95 +5.1 a +5.7)
+  Sin acción                               56.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             56.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                           42.9  (atiende +13.6 vs sin acción, IC95 +13.2 a +13.9)
+  Gemelo (voraz) con tiempos de viaje      48.9  (atiende +7.5 vs sin acción, IC95 +7.2 a +7.8)
 
-Validación: |simulada − exacta| máx 0.030, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.1 s
+Tiempo de cálculo: 1.2 s
