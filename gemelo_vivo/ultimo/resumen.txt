@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 11:57 a 12:57 (en vivo)
+Simulación de una hora — martes 17/11/2026 12:11 a 13:11 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.12, devoluciones 1.23
+Factor del día: retiros 1.06, devoluciones 1.17
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 12:00 a 13:00 (día hábil): 18.6 °C (-2.5 °C respecto de lo normal a esa hora), sin lluvia, viento 1 km/h
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       086 Sullivan-Insurgentes       B=0/7  p vacía 0.99  p llena 0.05  B(t+60) 0-4
-       008 Reforma - General Prim     B=16/16  p vacía 0.00  p llena 0.99  B(t+60) 10-16
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       048 Independencia - Azueta     B=0/10  p vacía 0.97  p llena 0.01  B(t+60) 0-4
-       041 Reforma - Av. de la Repúbl B=0/20  p vacía 0.97  p llena 0.00  B(t+60) 0-5
-       012 Río Lerma - Villalongín    B=1/15  p vacía 0.69  p llena 0.00  B(t+60) 0-6
-       114 Lucerna-Abraham González   B=1/20  p vacía 0.65  p llena 0.00  B(t+60) 1-8
-       450 Ramos Arizpe- Av México Te B=1/28  p vacía 0.57  p llena 0.00  B(t+60) 0-5
+       555 Ribera de San Cosme - Insu B=0/30  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-2
+       020 Reforma- Río Támesis       B=0/9  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       086 Sullivan-Insurgentes       B=0/7  p vacía 0.98  p llena 0.05  B(t+60) 0-5
+       048 Independencia - Azueta     B=0/10  p vacía 0.97  p llena 0.00  B(t+60) 0-4
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.97  p llena 0.00  B(t+60) 0-4
+       012 Río Lerma - Villalongín    B=0/15  p vacía 0.97  p llena 0.00  B(t+60) 0-5
+       114 Lucerna-Abraham González   B=0/20  p vacía 0.95  p llena 0.00  B(t+60) 1-7
 
 Plan Regla umbral:
-  1. llevar 8 bicis de 008 (16/16) a 263 (0/29)
+  1. llevar 7 bicis de 008 (15/16) a 114 (0/20)
 Plan Gemelo (voraz):
-  1. llevar 8 bicis de 008 (16/16) a 041 (0/20)
-  2. llevar 4 bicis de 085 (10/14) a 086 (0/7)
-  3. llevar 4 bicis de 026 (7/9) a 048 (0/10)
+  1. llevar 9 bicis de 008 (15/16) a 555 (0/30)
+  2. llevar 7 bicis de 117 (20/30) a 012 (0/15)
+  3. llevar 4 bicis de 026 (7/9) a 020 (0/9)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               21.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             18.1  (atiende +3.3 vs sin acción, IC95 +3.1 a +3.4)
-  Gemelo (voraz)                           12.9  (atiende +8.5 vs sin acción, IC95 +8.2 a +8.8)
-  Gemelo (voraz) con tiempos de viaje      16.5  (atiende +4.9 vs sin acción, IC95 +4.7 a +5.1)
+  Sin acción                               29.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             28.0  (atiende +1.9 vs sin acción, IC95 +1.8 a +2.0)
+  Gemelo (voraz)                           20.1  (atiende +9.8 vs sin acción, IC95 +9.5 a +10.1)
+  Gemelo (voraz) con tiempos de viaje      25.1  (atiende +4.8 vs sin acción, IC95 +4.5 a +5.0)
 
-Validación: |simulada − exacta| máx 0.043, media 0.006 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.018, media 0.003 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.9 s
