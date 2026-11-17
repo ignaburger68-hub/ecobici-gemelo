@@ -1,6 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,008,Reforma - General Prim,113,General Prim-Versalles,5,16,16,0,10,,5.0,12.099680277735938
-Regla umbral,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,30,30,0,24,,20.798503409886887,32.54676289628651
-Gemelo (voraz),1,008,Reforma - General Prim,119,Turín-Abraham González,10,16,16,0,25,6.210000157356262,5.0,12.894715950915806
-Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,048,Independencia - Azueta,7,17,31,0,9,4.4539998061954975,25.627383652521864,37.03215759755237
-Gemelo (voraz),3,107-108,Tolsa-Balderas,260,Av. Juárez-Balderas,9,17,53,0,20,3.871000036597252,46.04960473824599,55.776051599905315
+Regla umbral,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,27,,5.0,12.06813541955165
+Gemelo (voraz),1,008,Reforma - General Prim,270,De la República-Ponciano Arriaga,10,16,16,0,25,5.447999954223633,5.0,13.950917780187877
+Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,048,Independencia - Azueta,7,14,31,1,10,3.663999855518341,21.30898589501755,32.713759840048056
+Gemelo (voraz),3,107-108,Tolsa-Balderas,098,Emilio Dondé-Av. Balderas,10,16,54,1,30,3.0930002108216286,41.731206980741675,48.516296775950494
