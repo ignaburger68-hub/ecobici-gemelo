@@ -114,6 +114,9 @@ def simulacion_una_hora(gem, t0=None, en_vivo=False, R=None, guardar=True, con_r
     pv_ex, pl_ex = gem.exactas(pron0)
     plan = gem.planificar(pron)
     obs = None if en_vivo else gem.observado(t0)
+    ultima = gem.panel.ultima_lectura()
+    if obs is not None and (ultima is None or t0 + pd.Timedelta(minutes=60) > ultima):
+        obs = None          # la hora todavía no termina en los datos: no hay "lo que ocurrió"
     est, e = gem.est, pron["estado"]
 
     tabla = pd.DataFrame({
