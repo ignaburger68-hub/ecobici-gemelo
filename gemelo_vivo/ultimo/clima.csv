@@ -3,4 +3,4 @@ hora,tipo_dia,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variable,cate
 2026-11-16 22:00,fin de semana,13.8,-1.182,0.0,8.8,lluvia previa,seco antes,1.006,1.009
 2026-11-16 22:00,fin de semana,13.8,-1.182,0.0,8.8,temperatura,más frío (−3 a −1 °C),0.843,0.875
 2026-11-16 22:00,fin de semana,13.8,-1.182,0.0,8.8,viento,5-10 km/h,0.93,0.955
-2026-11-16 22:00,fin de semana,13.8,-1.182,0.0,8.8,efecto total en la hora,,0.782,0.84
+2026-11-16 22:00,fin de semana,13.8,-1.182,0.0,8.8,efecto total en la hora,,0.813,0.865
