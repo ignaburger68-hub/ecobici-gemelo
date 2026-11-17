@@ -152,14 +152,18 @@ def clima_por_hora(clima):
 
 
 def leer_clima(extra=None):
-    """Clima por hora (DataFrame indexado por el inicio de la hora) o None si no hay archivo."""
+    """
+    Clima por hora (DataFrame indexado por el inicio de la hora) o None si no hay datos.
+    `extra` (descarga de Open-Meteo) completa las horas que no están en el archivo; si una hora
+    está en ambos, gana el archivo (lo registrado), porque clima_por_hora se queda con la última.
+    """
     partes = []
-    if os.path.isfile(cfg.ARCHIVO_CLIMA):
-        partes.append(pd.read_csv(cfg.ARCHIVO_CLIMA, parse_dates=["fecha_hora_local"]))
-    else:
-        print(f"Aviso: no encontré {cfg.ARCHIVO_CLIMA}; el clima se toma como normal (factor 1)")
     if extra is not None:
         partes.append(extra)
+    if os.path.isfile(cfg.ARCHIVO_CLIMA):
+        partes.append(pd.read_csv(cfg.ARCHIVO_CLIMA, parse_dates=["fecha_hora_local"]))
+    elif extra is None:
+        print(f"Aviso: no encontré {cfg.ARCHIVO_CLIMA}; el clima se toma como normal (factor 1)")
     if not partes:
         return None
     return clima_por_hora(pd.concat(partes, ignore_index=True))
@@ -214,6 +218,21 @@ def pronostico_clima_en_vivo():
     except Exception as e:
         print(f"Aviso: no pude traer el pronóstico del clima ({e}); se usa el clima guardado")
         return None
+
+
+def clima_reciente():
+    """
+    Para reproducción: si al archivo de clima le faltan las horas recientes (GitHub lo actualiza
+    una vez por ejecución), las trae de Open-Meteo. Sin internet, devuelve None y se usa el archivo.
+    """
+    if os.path.isfile(cfg.ARCHIVO_CLIMA):
+        try:
+            ult = pd.to_datetime(pd.read_csv(cfg.ARCHIVO_CLIMA, usecols=["fecha_hora_utc"])["fecha_hora_utc"]).max()
+            if ult >= pd.Timestamp.now(tz="UTC").tz_localize(None).floor("h") - pd.Timedelta(hours=1):
+                return None                       # el archivo ya está al día
+        except Exception:
+            pass
+    return pronostico_clima_en_vivo()
 
 
 # =====================================================================

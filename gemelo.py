@@ -216,7 +216,9 @@ def clima_de_la_hora(gem, t0, detalle=None):
     t0 = pd.Timestamp(t0)
     h = (t0 + pd.Timedelta(minutes=30)).floor("h")   # la hora que cubre la mayor parte de la simulación
     t = tipo_idx(t0)
-    out = {"hora": h, "tipo_dia": TIPO_ES[t], "hay_dato": False, "factores": None,
+    # Si la hora todavía no termina, el clima es el pronóstico meteorológico (no puede ser lo registrado)
+    fuente = "pronosticado" if h + pd.Timedelta(hours=1) > ahora_local() else "registrado"
+    out = {"hora": h, "tipo_dia": TIPO_ES[t], "hay_dato": False, "factores": None, "fuente": fuente,
            "efecto_ret": 1.0, "efecto_dev": 1.0}
     if detalle is not None and len(detalle) and "clima_ret" in detalle:
         out["efecto_ret"] = float(detalle.drop_duplicates("bloque")["clima_ret"].mean())
@@ -256,10 +258,11 @@ def lineas_clima(cl):
         ll = cl["precipitacion_mm"]
         ll_txt = "sin dato de lluvia" if not np.isfinite(ll) else ("sin lluvia" if ll < cfg.UMBRAL_LLUVIA
                                                                      else f"lluvia {ll:.1f} mm/h")
-        L.append(f"Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} (día {cl['tipo_dia']}): "
+        L.append(f"Clima {cl['fuente']} de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} (día {cl['tipo_dia']}): "
                  f"{cl['temperatura_c']:.1f} °C{dif_txt}, {ll_txt}, viento {cl['viento_kmh']:.0f} km/h")
     else:
-        L.append(f"Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M}: sin datos (el clima se toma como normal)")
+        L.append(f"Clima {cl['fuente']} de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M}: sin datos "
+                 "(el clima se toma como normal)")
     L.append(f"Efecto del clima en la hora: retiros {_pct(cl['efecto_ret'])}, "
              f"devoluciones {_pct(cl['efecto_dev'])}  (×1,00 = sin efecto)")
     if cl["factores"] is not None:
@@ -271,7 +274,7 @@ def lineas_clima(cl):
 
 def tabla_clima(cl):
     """Tabla para guardar (clima.csv): una fila por variable y una fila final con el efecto total."""
-    base = {"hora": f"{cl['hora']:%Y-%m-%d %H:%M}", "tipo_dia": cl["tipo_dia"],
+    base = {"hora": f"{cl['hora']:%Y-%m-%d %H:%M}", "tipo_dia": cl["tipo_dia"], "fuente": cl["fuente"],
             "temperatura_c": cl.get("temperatura_c", np.nan), "temp_dif_c": cl.get("temp_dif_c", np.nan),
             "precipitacion_mm": cl.get("precipitacion_mm", np.nan), "viento_kmh": cl.get("viento_kmh", np.nan)}
     filas = [] if cl["factores"] is None else [dict(base, **f) for f in cl["factores"].to_dict("records")]
@@ -869,7 +872,10 @@ def escribir_pagina(resumen, cv=cfg.CARPETA_VIVO):
         if os.path.isfile(a):
             cl = pd.read_csv(a)
             tot = cl[cl["variable"] == "efecto total en la hora"].iloc[-1]
-            L += ["### Clima de la hora y su efecto en la demanda", ""]
+            fuente = tot["fuente"] if "fuente" in cl and isinstance(tot["fuente"], str) else ""
+            L += [f"### Clima {fuente} de la hora y su efecto en la demanda".replace("  ", " "), ""]
+            if fuente == "pronosticado":
+                L += ["_La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._", ""]
             if np.isfinite(tot["temperatura_c"]):
                 ll = tot["precipitacion_mm"]
                 L.append(f"**{tot['temperatura_c']:.1f} °C** · "
