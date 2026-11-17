@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 11:11 a 12:11 (en vivo)
+Simulación de una hora — martes 17/11/2026 11:29 a 12:29 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.14, devoluciones 0.91
+Factor del día: retiros 1.13, devoluciones 1.02
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 11:00 a 12:00 (día hábil): 17.1 °C (-2.7 °C respecto de lo normal a esa hora), sin lluvia, viento 1 km/h
@@ -11,29 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       256 Gómez Farías-Sadi Carnot   B=0/18  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-2
+       020 Reforma- Río Támesis       B=0/9  p vacía 1.00  p llena 0.01  B(t+60) 0-4
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-3
        259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       086 Sullivan-Insurgentes       B=0/7  p vacía 0.99  p llena 0.01  B(t+60) 0-3
-       026 Reforma - Versalles        B=9/9  p vacía 0.02  p llena 0.96  B(t+60) 3-9
-       031 Hamburgo - Insurgentes     B=0/29  p vacía 0.95  p llena 0.00  B(t+60) 0-6
-       008 Reforma - General Prim     B=16/16  p vacía 0.00  p llena 0.95  B(t+60) 9-16
-       555 Ribera de San Cosme - Insu B=3/31  p vacía 0.85  p llena 0.00  B(t+60) 0-3
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-3
+       048 Independencia - Azueta     B=0/10  p vacía 0.98  p llena 0.01  B(t+60) 0-5
+       086 Sullivan-Insurgentes       B=1/7  p vacía 0.83  p llena 0.03  B(t+60) 0-4
+       270 De la República-Ponciano A B=1/25  p vacía 0.81  p llena 0.00  B(t+60) 0-7
+       116 Londres-Roma               B=1/18  p vacía 0.80  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 026 (9/9) a 263 (0/29)
-  2. llevar 8 bicis de 008 (16/16) a 259 (0/24)
+  1. llevar 7 bicis de 008 (15/16) a 263 (0/29)
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 008 (16/16) a 256 (0/18)
-  2. llevar 13 bicis de 107-108 (21/51) a 555 (3/31)
-  3. llevar 4 bicis de 026 (9/9) a 086 (0/7)
+  1. llevar 13 bicis de 117 (19/30) a 555 (4/31)
+  2. llevar 7 bicis de 008 (15/16) a 256 (0/19)
+  3. llevar 9 bicis de 107-108 (17/50) a 270 (1/25)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               38.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             33.2  (atiende +5.7 vs sin acción, IC95 +5.5 a +5.9)
-  Gemelo (voraz)                           25.6  (atiende +13.3 vs sin acción, IC95 +12.9 a +13.6)
-  Gemelo (voraz) con tiempos de viaje      34.5  (atiende +4.3 vs sin acción, IC95 +4.1 a +4.5)
+  Sin acción                               26.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             24.6  (atiende +1.7 vs sin acción, IC95 +1.6 a +1.8)
+  Gemelo (voraz)                           19.1  (atiende +7.2 vs sin acción, IC95 +6.9 a +7.5)
+  Gemelo (voraz) con tiempos de viaje      22.9  (atiende +3.5 vs sin acción, IC95 +3.3 a +3.7)
 
-Validación: |simulada − exacta| máx 0.020, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.9 s

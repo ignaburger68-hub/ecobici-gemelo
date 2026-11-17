@@ -1,6 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,4,9,9,0,29,,5.0,12.83250757122101
-Regla umbral,2,008,Reforma - General Prim,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,24,,20.737771684501638,29.850019963376827
-Gemelo (voraz),1,008,Reforma - General Prim,256,Gómez Farías-Sadi Carnot,9,16,16,0,18,5.586999773979187,5.0,13.39720070525798
-Gemelo (voraz),2,107-108,Tolsa-Balderas,555,Ribera de San Cosme - Insurgentes Centro,13,21,51,3,31,4.11599999293685,25.843154312258875,39.138869908845976
-Gemelo (voraz),3,026,Reforma - Versalles,086,Sullivan-Insurgentes,4,9,9,0,7,3.478999972343445,48.59157805569472,55.90774709873941
+Regla umbral,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,15,16,0,29,,5.0,12.905264113280627
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,13,19,30,4,31,2.8740001767873764,5.0,17.87317105006021
+Gemelo (voraz),2,008,Reforma - General Prim,256,Gómez Farías-Sadi Carnot,7,15,16,0,19,2.537000060081482,28.165822911944993,36.56302361720297
+Gemelo (voraz),3,107-108,Tolsa-Balderas,270,De la República-Ponciano Arriaga,9,17,50,1,25,1.9530000127851963,49.00897722420387,59.9665933022052
