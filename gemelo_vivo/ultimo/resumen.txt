@@ -1,9 +1,9 @@
-Simulación de una hora — martes 17/11/2026 15:16 a 16:16 (en vivo)
+Simulación de una hora — martes 17/11/2026 15:30 a 16:30 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.04, devoluciones 0.97
+Factor del día: retiros 1.05, devoluciones 0.94
 Estaciones con dato: 30 de 30
 
-Clima pronosticado de 15:00 a 16:00 (día hábil): 20.4 °C (-1.9 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
+Clima pronosticado de 16:00 a 17:00 (día hábil): 19.8 °C (-2.1 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       010 Reforma - Ramírez          B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-6
-       118 Liverpool-Dinamarca        B=0/16  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       008 Reforma - General Prim     B=0/17  p vacía 0.98  p llena 0.00  B(t+60) 0-4
-       012 Río Lerma - Villalongín    B=0/13  p vacía 0.98  p llena 0.00  B(t+60) 0-5
-       112 Av. Morelos-Abraham Gonzál B=0/20  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       026 Reforma - Versalles        B=1/9  p vacía 0.95  p llena 0.01  B(t+60) 0-4
-       115 Roma-Dinamarca             B=1/24  p vacía 0.94  p llena 0.00  B(t+60) 0-4
+       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       010 Reforma - Ramírez          B=1/27  p vacía 0.98  p llena 0.00  B(t+60) 0-6
+       048 Independencia - Azueta     B=0/9  p vacía 0.97  p llena 0.03  B(t+60) 0-5
+       020 Reforma- Río Támesis       B=0/8  p vacía 0.97  p llena 0.09  B(t+60) 0-7
+       115 Roma-Dinamarca             B=1/24  p vacía 0.95  p llena 0.00  B(t+60) 0-5
+       260 Av. Juárez-Balderas        B=1/18  p vacía 0.92  p llena 0.00  B(t+60) 1-8
 
 Plan Regla umbral:
   sin traslados
 Plan Gemelo (voraz):
-  1. llevar 10 bicis de 117 (20/30) a 010 (0/27)
-  2. llevar 8 bicis de 098 (12/30) a 115 (1/24)
-  3. llevar 6 bicis de 031 (10/26) a 118 (0/16)
+  1. llevar 10 bicis de 098 (14/30) a 010 (1/27)
+  2. llevar 8 bicis de 117 (22/30) a 259 (0/24)
+  3. llevar 5 bicis de 117 (22/30) a 115 (1/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               64.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             64.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Gemelo (voraz)                           52.3  (atiende +12.0 vs sin acción, IC95 +11.6 a +12.3)
-  Gemelo (voraz) con tiempos de viaje      58.3  (atiende +6.0 vs sin acción, IC95 +5.7 a +6.3)
+  Sin acción                               73.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             73.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                           62.3  (atiende +11.4 vs sin acción, IC95 +11.1 a +11.7)
+  Gemelo (voraz) con tiempos de viaje      70.0  (atiende +3.7 vs sin acción, IC95 +3.5 a +4.0)
 
-Validación: |simulada − exacta| máx 0.030, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.033, media 0.004 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.3 s
