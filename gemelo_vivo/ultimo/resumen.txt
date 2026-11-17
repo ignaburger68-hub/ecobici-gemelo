@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 08:06 a 09:06 (en vivo)
+Simulación de una hora — martes 17/11/2026 08:21 a 09:21 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.18, devoluciones 0.90
+Factor del día: retiros 1.29, devoluciones 0.79
 Estaciones con dato: 30 de 30
 
 Clima de 08:00 a 09:00 (día hábil): 12.7 °C (-1.3 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
@@ -11,30 +11,29 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       259 Tómas Alva Edison-Ponciano B=1/24  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-   107-108 Tolsa-Balderas             B=1/55  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       255 José Rosas Moreno-Guillerm B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       450 Ramos Arizpe- Av México Te B=1/28  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       085 Rosas Moreno - Sullivan    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       119 Turín-Abraham González     B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       086 Sullivan-Insurgentes       B=0/6  p vacía 1.00  p llena 0.01  B(t+60) 0-1
+       270 De la República-Ponciano A B=1/26  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-0
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       012 Río Lerma - Villalongín    B=0/15  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-2
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 026 (10/10) a 041 (0/22)
-  2. llevar 11 bicis de 117 (26/29) a 263 (0/29)
-  3. llevar 7 bicis de 029 (23/28) a 085 (0/14)
+  1. llevar 5 bicis de 117 (27/28) a 026 (0/10)
+  2. llevar 10 bicis de 029 (25/29) a 003 (0/31)
 Plan Gemelo (voraz):
-  1. llevar 20 bicis de 117 (26/29) a 555 (0/31)
-  2. llevar 10 bicis de 026 (10/10) a 107-108 (1/55)
-  3. llevar 16 bicis de 029 (23/28) a 259 (1/24)
+  1. llevar 20 bicis de 117 (27/28) a 270 (1/26)
+  2. llevar 16 bicis de 029 (25/29) a 555 (0/31)
+  3. llevar 11 bicis de 008 (12/17) a 259 (0/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              168.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            143.3  (atiende +24.7 vs sin acción, IC95 +24.3 a +25.1)
-  Gemelo (voraz)                          120.0  (atiende +47.9 vs sin acción, IC95 +47.1 a +48.7)
-  Gemelo (voraz) con tiempos de viaje     142.3  (atiende +25.7 vs sin acción, IC95 +25.0 a +26.4)
+  Sin acción                              201.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            189.6  (atiende +11.6 vs sin acción, IC95 +11.3 a +11.9)
+  Gemelo (voraz)                          157.9  (atiende +43.3 vs sin acción, IC95 +42.8 a +43.8)
+  Gemelo (voraz) con tiempos de viaje     173.7  (atiende +27.5 vs sin acción, IC95 +27.0 a +28.1)
 
-Validación: |simulada − exacta| máx 0.036, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.018, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.5 s
+Tiempo de cálculo: 1.6 s

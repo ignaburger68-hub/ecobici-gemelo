@@ -1,7 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,041,Reforma - Av. de la República,5,10,10,0,22,,5.0,13.028962808616388
-Regla umbral,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,11,26,29,0,29,,25.264509851005823,35.62794160160761
-Regla umbral,3,029,Reforma - Bucareli,085,Rosas Moreno - Sullivan,7,23,28,0,14,,45.127153322083686,56.76817402250799
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,20,26,29,0,31,24.856000900268555,5.0,17.87317105006021
-Gemelo (voraz),2,026,Reforma - Versalles,107-108,Tolsa-Balderas,10,10,10,1,55,12.478000402450562,27.32587919690895,36.595124908842784
-Gemelo (voraz),3,029,Reforma - Bucareli,259,Tómas Alva Edison-Ponciano Arriaga,16,23,28,1,24,11.68299913406372,46.031598816376004,53.863650525724516
+Regla umbral,1,117,Londres-Nápoles,026,Reforma - Versalles,5,27,28,0,10,,5.0,14.265170149388133
+Regla umbral,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,10,25,29,0,31,,22.165614654942836,32.056230297335446
+Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,20,27,28,1,26,24.239999771118164,5.0,16.563019873060178
+Gemelo (voraz),2,029,Reforma - Bucareli,555,Ribera de San Cosme - Insurgentes Centro,16,25,29,0,31,10.26599931716919,23.775859400544988,33.196981025996024
+Gemelo (voraz),3,008,Reforma - General Prim,259,Tómas Alva Edison-Ponciano Arriaga,11,12,17,0,24,8.856001138687134,43.4896328878808,52.60188116675599
