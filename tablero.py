@@ -87,8 +87,11 @@ def correr_vivo(tramo, R, pull):
 def mostrar_clima(cl):
     """Clima de la hora simulada y cuánto cambia la demanda por él."""
     h = cl["hora"]
-    st.markdown(f"**Clima de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} y su efecto en la demanda** "
-                f"(día {cl['tipo_dia']})")
+    st.markdown(f"**Clima {cl['fuente']} de {h:%H:%M} a {h + pd.Timedelta(hours=1):%H:%M} y su efecto en la "
+                f"demanda** (día {cl['tipo_dia']})")
+    if cl["fuente"] == "pronosticado":
+        st.caption("Esta hora todavía no termina: el clima es el pronóstico meteorológico de Open-Meteo, "
+                   "no lo registrado.")
     c1, c2, c3, c4, c5 = st.columns(5)
     if cl["hay_dato"]:
         dif = cl["temp_dif_c"]
@@ -239,6 +242,13 @@ with pest_rend:
     a = os.path.join(cfg.CARPETA_VIVO, "resumen_vivo.csv")
     if os.path.isfile(a):
         tb = pd.read_csv(a)
+        ev = os.path.join(cfg.CARPETA_VIVO, "evaluaciones.csv")
+        if os.path.isfile(ev):
+            t_ev = pd.to_datetime(pd.read_csv(ev, usecols=["t0"])["t0"]).drop_duplicates()
+            st.info(f"Evalúa {len(t_ev)} pronósticos que hizo GitHub entre el {t_ev.min():%d/%m %H:%M} y el "
+                    f"{t_ev.max():%d/%m %H:%M} (hora de Ciudad de México), cuya hora ya terminó. "
+                    "El pronóstico que ves en la pestaña «Pronóstico» no está aquí: se evaluará una hora "
+                    "después, cuando ya se sepa qué pasó. Haz «Recargar datos» para traer las evaluaciones nuevas.")
         st.caption("Cada pronóstico se hizo en el momento, sólo con la información de ese momento, "
                    "y se comparó con lo que ocurrió una hora después. Menor es mejor; 0,25 = decir siempre 50 %.")
         st.dataframe(tb.round(4), hide_index=True)

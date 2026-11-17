@@ -20,7 +20,7 @@ import pandas as pd
 import config_gemelo as cfg
 from datos_gemelo import (Panel, bloque_de, buscar_viajes, dias_historia, es_habil, estado_en_vivo,
                           factores_por_hora, leer_clima, leer_estaciones, leer_feed, leer_perfil_guardado,
-                          leer_viajes, perfil_base, pronostico_clima_en_vivo, tabla_factores_clima, tipo_idx)
+                          leer_viajes, perfil_base, pronostico_clima_en_vivo, clima_reciente, tabla_factores_clima, tipo_idx)
 
 H = cfg.HORIZONTE_MIN
 K_BLOQUES = H // 15
@@ -291,7 +291,7 @@ class Gemelo:
         self.kappa = self.est["kappa"].astype(float).values
         self.en_vivo = en_vivo
         self.feed_desde = feed_desde
-        extra = pronostico_clima_en_vivo() if en_vivo else None
+        extra = pronostico_clima_en_vivo() if en_vivo else clima_reciente()
         self.clima = leer_clima(extra)
         self.fclima = factores_por_hora(self.clima, tabla_factores_clima())
         self.panel = Panel(leer_feed(self.est, desde=feed_desde), self.est)
