@@ -1,7 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,010,Reforma - Ramírez,003,Reforma - Insurgentes,13,27,27,0,31,,5.0,12.128762190832367
-Regla umbral,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,3,16,16,0,7,,19.718105612193362,27.83341553298275
-Regla umbral,3,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,35.28874632571386,44.61427382016156
-Gemelo (voraz),1,116,Londres-Roma,107-108,Tolsa-Balderas,17,17,18,0,53,20.375,5.0,13.99526504951308
-Gemelo (voraz),2,118,Liverpool-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,14,16,16,1,28,15.194999694824219,23.671792878041316,35.87217892850239
-Gemelo (voraz),3,026,Reforma - Versalles,555,Ribera de San Cosme - Insurgentes Centro,9,9,10,0,31,12.727999687194824,44.51086204644965,53.963570193298395
+Regla umbral,1,026,Reforma - Versalles,003,Reforma - Insurgentes,5,10,10,0,31,,5.0,12.01559339544933
+Regla umbral,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,10,10,0,24,,19.38165604048192,28.5472258889749
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,17,17,30,2,53,15.440001130104065,5.0,15.86684333071258
+Gemelo (voraz),2,113,General Prim-Versalles,450,Ramos Arizpe- Av México Tenochtitlan,10,10,10,1,28,15.040000438690186,24.066388611604463,33.81831788638561
+Gemelo (voraz),3,026,Reforma - Versalles,259,Tómas Alva Edison-Ponciano Arriaga,10,10,10,0,24,14.44700002670288,42.45700100433287,50.338159764654634
