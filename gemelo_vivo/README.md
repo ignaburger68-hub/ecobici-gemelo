@@ -1,14 +1,14 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 16/11/2026 20:17 (hora de Ciudad de México).
+Página actualizada automáticamente el 16/11/2026 20:32 (hora de Ciudad de México).
 
-## Último pronóstico: 16/11 20:17 a 21:17
+## Último pronóstico: 16/11 20:31 a 21:31
 
 ![Mapa](ultimo/mapa.png)
 
 ### Clima de la hora y su efecto en la demanda
 
-**15.2 °C** · sin lluvia · viento 10 km/h · día fin de semana
+**14.3 °C** · sin lluvia · viento 8 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
@@ -21,22 +21,22 @@ El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.84** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 003 Reforma - Insurgentes | 1 / 30 | 0.73 | 0.00 | 0-8 |
-| 086 Sullivan-Insurgentes | 1 / 8 | 0.65 | 0.03 | 0-5 |
-| 020 Reforma- Río Támesis | 10 / 12 | 0.01 | 0.61 | 6-12 |
-| 041 Reforma - Av. de la Repúblic | 2 / 23 | 0.61 | 0.00 | 0-10 |
-| 255 José Rosas Moreno-Guillermo  | 1 / 28 | 0.56 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 15 / 16 | 0.00 | 0.50 | 13-16 |
-| 048 Independencia - Azueta | 8 / 10 | 0.00 | 0.44 | 5-10 |
-| 026 Reforma - Versalles | 8 / 11 | 0.02 | 0.42 | 4-11 |
-| 116 Londres-Roma | 16 / 19 | 0.00 | 0.35 | 14-19 |
-| 555 Ribera de San Cosme - Insurg | 3 / 31 | 0.34 | 0.00 | 0-7 |
+| 255 José Rosas Moreno-Guillermo  | 0 / 28 | 0.99 | 0.00 | 0-3 |
+| 041 Reforma - Av. de la Repúblic | 1 / 23 | 0.84 | 0.00 | 0-8 |
+| 020 Reforma- Río Támesis | 11 / 12 | 0.00 | 0.78 | 7-12 |
+| 003 Reforma - Insurgentes | 1 / 31 | 0.76 | 0.00 | 0-6 |
+| 260 Av. Juárez-Balderas | 19 / 21 | 0.00 | 0.64 | 16-21 |
+| 048 Independencia - Azueta | 8 / 9 | 0.00 | 0.62 | 5-9 |
+| 026 Reforma - Versalles | 9 / 11 | 0.01 | 0.57 | 6-11 |
+| 113 General Prim-Versalles | 9 / 10 | 0.00 | 0.54 | 7-10 |
+| 116 Londres-Roma | 17 / 19 | 0.00 | 0.54 | 15-19 |
+| 555 Ribera de San Cosme - Insurg | 2 / 31 | 0.48 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **5 bicis** de 020 (10/12) a 003 (1/30)
-2. Llevar **9 bicis** de 116 (16/19) a 041 (2/23)
-3. Llevar **3 bicis** de 026 (8/11) a 086 (1/8)
+1. Llevar **10 bicis** de 260 (19/21) a 041 (1/23)
+2. Llevar **6 bicis** de 020 (11/12) a 003 (1/31)
+3. Llevar **10 bicis** de 116 (17/19) a 255 (0/28)
 
 ## Detalle
 
