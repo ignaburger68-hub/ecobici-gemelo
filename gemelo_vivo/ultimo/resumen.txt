@@ -1,6 +1,6 @@
-Simulación de una hora — lunes 16/11/2026 20:31 a 21:31 (en vivo)
+Simulación de una hora — lunes 16/11/2026 20:46 a 21:46 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 0.56, devoluciones 0.55
+Factor del día: retiros 0.49, devoluciones 0.49
 Estaciones con dato: 30 de 30
 
 Clima de 21:00 a 22:00 (día fin de semana): 14.3 °C (-1.2 °C respecto de lo normal a esa hora), sin lluvia, viento 8 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.78 (-22 %), devoluciones ×0.84 (-16 %)
   viento         5-10 km/h                      retiros ×0.930  devoluciones ×0.955
 
 Estaciones con más riesgo:
-       255 José Rosas Moreno-Guillerm B=0/28  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       041 Reforma - Av. de la Repúbl B=1/23  p vacía 0.84  p llena 0.00  B(t+60) 0-8
-       020 Reforma- Río Támesis       B=11/12  p vacía 0.00  p llena 0.78  B(t+60) 7-12
-       003 Reforma - Insurgentes      B=1/31  p vacía 0.76  p llena 0.00  B(t+60) 0-6
-       260 Av. Juárez-Balderas        B=19/21  p vacía 0.00  p llena 0.64  B(t+60) 16-21
-       048 Independencia - Azueta     B=8/9  p vacía 0.00  p llena 0.62  B(t+60) 5-9
-       026 Reforma - Versalles        B=9/11  p vacía 0.01  p llena 0.57  B(t+60) 6-11
-       113 General Prim-Versalles     B=9/10  p vacía 0.00  p llena 0.54  B(t+60) 7-10
+       255 José Rosas Moreno-Guillerm B=0/28  p vacía 0.99  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.95  p llena 0.00  B(t+60) 0-6
+       041 Reforma - Av. de la Repúbl B=0/23  p vacía 0.95  p llena 0.00  B(t+60) 0-7
+       020 Reforma- Río Támesis       B=11/12  p vacía 0.00  p llena 0.77  B(t+60) 7-12
+       116 Londres-Roma               B=17/18  p vacía 0.00  p llena 0.73  B(t+60) 16-18
+       555 Ribera de San Cosme - Insu B=1/31  p vacía 0.68  p llena 0.00  B(t+60) 0-4
+       048 Independencia - Azueta     B=8/9  p vacía 0.00  p llena 0.66  B(t+60) 5-9
+       113 General Prim-Versalles     B=9/10  p vacía 0.00  p llena 0.55  B(t+60) 7-10
 
 Plan Regla umbral:
-  1. llevar 7 bicis de 118 (15/16) a 255 (0/28)
-  2. llevar 5 bicis de 020 (11/12) a 003 (1/31)
-  3. llevar 8 bicis de 260 (19/21) a 107-108 (2/52)
+  1. llevar 8 bicis de 116 (17/18) a 003 (0/31)
+  2. llevar 7 bicis de 118 (15/16) a 041 (0/23)
+  3. llevar 5 bicis de 020 (11/12) a 255 (0/28)
 Plan Gemelo (voraz):
-  1. llevar 10 bicis de 260 (19/21) a 041 (1/23)
-  2. llevar 6 bicis de 020 (11/12) a 003 (1/31)
-  3. llevar 10 bicis de 116 (17/19) a 255 (0/28)
+  1. llevar 7 bicis de 020 (11/12) a 041 (0/23)
+  2. llevar 10 bicis de 116 (17/18) a 003 (0/31)
+  3. llevar 4 bicis de 048 (8/9) a 255 (0/28)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               12.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                              7.2  (atiende +5.4 vs sin acción, IC95 +5.2 a +5.6)
-  Gemelo (voraz)                            4.6  (atiende +7.9 vs sin acción, IC95 +7.6 a +8.3)
-  Gemelo (voraz) con tiempos de viaje       8.0  (atiende +4.6 vs sin acción, IC95 +4.3 a +4.8)
+  Sin acción                               11.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                              3.8  (atiende +7.5 vs sin acción, IC95 +7.2 a +7.7)
+  Gemelo (voraz)                            3.3  (atiende +7.9 vs sin acción, IC95 +7.6 a +8.2)
+  Gemelo (voraz) con tiempos de viaje       7.7  (atiende +3.6 vs sin acción, IC95 +3.4 a +3.8)
 
-Validación: |simulada − exacta| máx 0.043, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.031, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.3 s
+Tiempo de cálculo: 1.1 s
