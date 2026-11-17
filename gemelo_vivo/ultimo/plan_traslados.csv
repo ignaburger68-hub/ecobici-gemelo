@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,010,Reforma - Ramírez,270,De la República-Ponciano Arriaga,13,27,27,0,28,,5.0,12.049118548205584
-Regla umbral,2,116,Londres-Roma,107-108,Tolsa-Balderas,9,18,18,0,52,,21.79473712628327,30.79000217579635
-Regla umbral,3,118,Liverpool-Dinamarca,098,Emilio Dondé-Av. Balderas,8,16,16,0,19,,40.46653000432459,50.94632627938501
-Gemelo (voraz),1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,16,16,16,0,52,21.740999221801758,5.0,14.676527828528236
-Gemelo (voraz),2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,15,18,18,1,31,12.750000238418579,23.671792878041316,35.17079498158814
-Gemelo (voraz),3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,8,9,10,1,29,8.644000053405762,45.94374509866907,54.99704370057204
+Regla umbral,1,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,13,27,27,0,29,,5.0,12.430387304566555
+Regla umbral,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,3,16,16,0,7,,22.696703363339964,30.812013284129353
+Regla umbral,3,012,Río Lerma - Villalongín,098,Emilio Dondé-Av. Balderas,7,15,15,0,18,,37.15231425183527,49.37152961008488
+Gemelo (voraz),1,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,16,16,16,1,53,20.08899974822998,5.0,14.676527828528236
+Gemelo (voraz),2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,15,17,18,0,31,16.34500026702881,23.671792878041316,35.17079498158814
+Gemelo (voraz),3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,9,9,10,0,29,12.04099988937378,45.94374509866907,54.99704370057204
