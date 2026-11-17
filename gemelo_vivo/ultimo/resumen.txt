@@ -1,40 +1,39 @@
-Simulación de una hora — martes 17/11/2026 06:13 a 07:13 (en vivo)
+Simulación de una hora — martes 17/11/2026 06:27 a 07:27 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.08, devoluciones 1.09
+Factor del día: retiros 1.08, devoluciones 0.92
 Estaciones con dato: 30 de 30
 
-Clima de 06:00 a 07:00 (día hábil): 11.1 °C (-0.0 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
-Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  (×1,00 = sin efecto)
+Clima de 06:00 a 07:00 (día hábil): 10.9 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 5 km/h
+Efecto del clima en la hora: retiros ×0.83 (-17 %), devoluciones ×0.86 (-14 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
-  viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
+  viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
+       098 Emilio Dondé-Av. Balderas  B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-4
        085 Rosas Moreno - Sullivan    B=0/14  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       098 Emilio Dondé-Av. Balderas  B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       114 Lucerna-Abraham González   B=20/20  p vacía 0.00  p llena 0.99  B(t+60) 15-20
-       086 Sullivan-Insurgentes       B=0/7  p vacía 0.98  p llena 0.11  B(t+60) 0-5
-       256 Gómez Farías-Sadi Carnot   B=0/17  p vacía 0.95  p llena 0.00  B(t+60) 2-9
-       555 Ribera de San Cosme - Insu B=1/31  p vacía 0.93  p llena 0.00  B(t+60) 0-3
-   107-108 Tolsa-Balderas             B=3/53  p vacía 0.89  p llena 0.00  B(t+60) 0-2
-       255 José Rosas Moreno-Guillerm B=2/28  p vacía 0.77  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       555 Ribera de San Cosme - Insu B=1/31  p vacía 0.99  p llena 0.00  B(t+60) 0-1
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.96  p llena 0.00  B(t+60) 2-9
+   107-108 Tolsa-Balderas             B=3/53  p vacía 0.93  p llena 0.00  B(t+60) 0-2
+       086 Sullivan-Insurgentes       B=1/7  p vacía 0.85  p llena 0.06  B(t+60) 0-3
 
 Plan Regla umbral:
-  1. llevar 3 bicis de 114 (20/20) a 086 (0/7)
-  2. llevar 5 bicis de 012 (13/15) a 085 (0/14)
-  3. llevar 6 bicis de 260 (17/21) a 098 (0/19)
+  1. llevar 9 bicis de 114 (19/20) a 003 (0/31)
+  2. llevar 5 bicis de 012 (13/15) a 259 (0/24)
 Plan Gemelo (voraz):
-  1. llevar 12 bicis de 010 (12/27) a 555 (1/31)
-  2. llevar 10 bicis de 118 (11/16) a 107-108 (3/53)
-  3. llevar 9 bicis de 012 (13/15) a 255 (2/28)
+  1. llevar 11 bicis de 118 (11/16) a 555 (1/31)
+  2. llevar 14 bicis de 010 (16/27) a 107-108 (3/53)
+  3. llevar 7 bicis de 012 (13/15) a 085 (0/14)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               35.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             31.1  (atiende +3.8 vs sin acción, IC95 +3.7 a +4.0)
-  Gemelo (voraz)                           19.5  (atiende +15.4 vs sin acción, IC95 +14.8 a +16.0)
-  Gemelo (voraz) con tiempos de viaje      22.5  (atiende +12.5 vs sin acción, IC95 +12.0 a +13.0)
+  Sin acción                               44.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             41.0  (atiende +3.2 vs sin acción, IC95 +3.0 a +3.3)
+  Gemelo (voraz)                           24.4  (atiende +19.7 vs sin acción, IC95 +19.1 a +20.4)
+  Gemelo (voraz) con tiempos de viaje      28.9  (atiende +15.2 vs sin acción, IC95 +14.7 a +15.8)
 
-Validación: |simulada − exacta| máx 0.023, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.035, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.5 s
+Tiempo de cálculo: 1.2 s

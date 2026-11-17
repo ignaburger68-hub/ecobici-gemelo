@@ -1,42 +1,42 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 17/11/2026 06:13 (hora de Ciudad de México).
+Página actualizada automáticamente el 17/11/2026 06:27 (hora de Ciudad de México).
 
-## Último pronóstico: 17/11 06:13 a 07:13
+## Último pronóstico: 17/11 06:27 a 07:27
 
 ![Mapa](ultimo/mapa.png)
 
 ### Clima de la hora y su efecto en la demanda
 
-**11.1 °C** · sin lluvia · viento 4 km/h · día hábil
+**10.8 °C** · sin lluvia · viento 5 km/h · día hábil
 
-El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.86** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
 | lluvia | sin lluvia | 0.988 | 0.981 |
 | lluvia previa | seco antes | 0.990 | 1.001 |
 | temperatura | normal (±1 °C) | 0.944 | 0.951 |
-| viento | < 5 km/h | 0.988 | 0.985 |
+| viento | 5-10 km/h | 0.872 | 0.905 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
+| 098 Emilio Dondé-Av. Balderas | 0 / 19 | 1.00 | 0.00 | 0-2 |
+| 259 Tómas Alva Edison-Ponciano A | 0 / 24 | 1.00 | 0.00 | 0-4 |
 | 085 Rosas Moreno - Sullivan | 0 / 14 | 0.99 | 0.00 | 0-4 |
-| 098 Emilio Dondé-Av. Balderas | 0 / 19 | 0.99 | 0.00 | 0-2 |
-| 114 Lucerna-Abraham González | 20 / 20 | 0.00 | 0.99 | 15-20 |
-| 086 Sullivan-Insurgentes | 0 / 7 | 0.98 | 0.11 | 0-5 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 17 | 0.95 | 0.00 | 2-9 |
-| 555 Ribera de San Cosme - Insurg | 1 / 31 | 0.93 | 0.00 | 0-3 |
-| 107-108 Tolsa-Balderas | 3 / 53 | 0.89 | 0.00 | 0-2 |
-| 255 José Rosas Moreno-Guillermo  | 2 / 28 | 0.77 | 0.00 | 0-2 |
-| 119 Turín-Abraham González | 2 / 25 | 0.66 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 1 / 12 | 0.59 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 0 / 31 | 0.99 | 0.00 | 0-3 |
+| 555 Ribera de San Cosme - Insurg | 1 / 31 | 0.99 | 0.00 | 0-1 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 19 | 0.96 | 0.00 | 2-9 |
+| 107-108 Tolsa-Balderas | 3 / 53 | 0.93 | 0.00 | 0-2 |
+| 086 Sullivan-Insurgentes | 1 / 7 | 0.85 | 0.06 | 0-3 |
+| 263 Sadi Carnot - Gómez Farias | 1 / 29 | 0.79 | 0.00 | 0-2 |
+| 118 Liverpool-Dinamarca | 11 / 16 | 0.00 | 0.70 | 13-16 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 010 (12/27) a 555 (1/31)
-2. Llevar **10 bicis** de 118 (11/16) a 107-108 (3/53)
-3. Llevar **9 bicis** de 012 (13/15) a 255 (2/28)
+1. Llevar **11 bicis** de 118 (11/16) a 555 (1/31)
+2. Llevar **14 bicis** de 010 (16/27) a 107-108 (3/53)
+3. Llevar **7 bicis** de 012 (13/15) a 085 (0/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
