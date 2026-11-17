@@ -1,4 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Gemelo (voraz),1,117,Londres-Nápoles,115,Roma-Dinamarca,11,20,30,0,24,5.5390001982450485,5.0,11.632494903962732
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,8,12,30,1,27,3.7799999117851257,22.656642691029212,31.66076895929468
-Gemelo (voraz),3,119,Turín-Abraham González,048,Independencia - Azueta,6,13,25,0,9,3.1000002026557922,40.4738869775952,51.76563496518143
+Gemelo (voraz),1,117,Londres-Nápoles,010,Reforma - Ramírez,10,20,30,0,27,5.386999845504761,5.0,14.582930070070905
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,8,12,30,1,24,3.849999725818634,23.587056338336367,34.61120412540285
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,6,10,26,0,16,2.755000114440918,41.0590825891875,47.824452697698106
