@@ -1,4 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Gemelo (voraz),1,116,Londres-Roma,118,Liverpool-Dinamarca,9,12,17,0,16,6.7569997906684875,5.0,11.319441398502688
-Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,9,21,30,0,20,4.139000117778778,17.50985608786689,29.745403130256324
-Gemelo (voraz),3,003,Reforma - Insurgentes,270,De la República-Ponciano Arriaga,6,11,31,3,25,2.4980000853538513,39.73947899269556,48.65481337999529
+Gemelo (voraz),1,117,Londres-Nápoles,118,Liverpool-Dinamarca,10,21,30,1,16,6.022999703884125,5.0,11.190414689364202
+Gemelo (voraz),2,116,Londres-Roma,041,Reforma - Av. de la República,6,9,17,1,20,3.528000056743622,17.50985608786689,27.582486747307993
+Gemelo (voraz),3,085,Rosas Moreno - Sullivan,029,Reforma - Bucareli,4,8,13,2,32,1.8220001459121704,39.23843467872589,50.879455379150194
