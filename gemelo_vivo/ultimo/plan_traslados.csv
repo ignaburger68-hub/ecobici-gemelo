@@ -1,5 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral,1,008,Reforma - General Prim,010,Reforma - Ramírez,7,15,16,0,27,,5.0,12.06813541955165
-Gemelo (voraz),1,008,Reforma - General Prim,098,Emilio Dondé-Av. Balderas,9,15,16,1,30,4.074000120162964,5.0,15.234944216772881
-Gemelo (voraz),2,113,General Prim-Versalles,048,Independencia - Azueta,5,7,10,2,10,3.106999933719635,23.40303916895031,33.05033495999573
-Gemelo (voraz),3,107-108,Tolsa-Balderas,086,Sullivan-Insurgentes,5,14,54,0,7,2.3939999416470528,42.06778210068935,53.140143281835066
+Gemelo (voraz),1,008,Reforma - General Prim,098,Emilio Dondé-Av. Balderas,10,15,16,0,30,4.9120001792907715,5.0,15.234944216772881
+Gemelo (voraz),2,026,Reforma - Versalles,255,José Rosas Moreno-Guillermo Prieto,5,8,10,0,28,3.2149999141693115,23.967705494673137,33.53495236886869
+Gemelo (voraz),3,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,5,8,10,1,25,2.595999836921692,44.16518099703917,52.875175750531895
