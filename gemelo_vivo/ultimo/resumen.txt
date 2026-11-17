@@ -1,4 +1,4 @@
-Simulación de una hora — martes 17/11/2026 10:00 a 11:00 (en vivo)
+Simulación de una hora — martes 17/11/2026 10:14 a 11:14 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
 Factor del día: retiros 1.04, devoluciones 0.89
 Estaciones con dato: 30 de 30
@@ -12,27 +12,27 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
 
 Estaciones con más riesgo:
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       270 De la República-Ponciano A B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       086 Sullivan-Insurgentes       B=0/6  p vacía 0.99  p llena 0.04  B(t+60) 0-4
-       255 José Rosas Moreno-Guillerm B=0/28  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       119 Turín-Abraham González     B=0/25  p vacía 0.97  p llena 0.00  B(t+60) 0-6
-       008 Reforma - General Prim     B=16/16  p vacía 0.00  p llena 0.97  B(t+60) 12-16
+       086 Sullivan-Insurgentes       B=0/7  p vacía 0.99  p llena 0.02  B(t+60) 0-4
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       255 José Rosas Moreno-Guillerm B=0/28  p vacía 0.97  p llena 0.00  B(t+60) 0-2
        010 Reforma - Ramírez          B=0/27  p vacía 0.96  p llena 0.00  B(t+60) 0-7
-       048 Independencia - Azueta     B=1/10  p vacía 0.96  p llena 0.00  B(t+60) 0-3
+       098 Emilio Dondé-Av. Balderas  B=1/30  p vacía 0.91  p llena 0.00  B(t+60) 0-2
+       048 Independencia - Azueta     B=2/10  p vacía 0.88  p llena 0.00  B(t+60) 0-3
+       270 De la República-Ponciano A B=2/25  p vacía 0.76  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 8 bicis de 008 (16/16) a 010 (0/27)
+  1. llevar 7 bicis de 008 (15/16) a 010 (0/27)
 Plan Gemelo (voraz):
-  1. llevar 10 bicis de 008 (16/16) a 270 (0/25)
-  2. llevar 7 bicis de 555 (14/31) a 048 (1/10)
-  3. llevar 10 bicis de 107-108 (16/54) a 098 (1/30)
+  1. llevar 9 bicis de 008 (15/16) a 098 (1/30)
+  2. llevar 5 bicis de 113 (7/10) a 048 (2/10)
+  3. llevar 5 bicis de 107-108 (14/54) a 086 (0/7)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               37.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             33.3  (atiende +4.2 vs sin acción, IC95 +4.0 a +4.4)
-  Gemelo (voraz)                           25.4  (atiende +12.0 vs sin acción, IC95 +11.7 a +12.4)
-  Gemelo (voraz) con tiempos de viaje      30.7  (atiende +6.8 vs sin acción, IC95 +6.5 a +7.0)
+  Sin acción                               31.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             28.5  (atiende +3.4 vs sin acción, IC95 +3.3 a +3.6)
+  Gemelo (voraz)                           22.2  (atiende +9.8 vs sin acción, IC95 +9.4 a +10.1)
+  Gemelo (voraz) con tiempos de viaje      26.4  (atiende +5.5 vs sin acción, IC95 +5.3 a +5.8)
 
-Validación: |simulada − exacta| máx 0.026, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.003 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.1 s
