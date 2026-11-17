@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 16:42 a 17:42 (en vivo)
+Simulación de una hora — martes 17/11/2026 16:56 a 17:56 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 0.98, devoluciones 0.93
+Factor del día: retiros 1.07, devoluciones 0.90
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 17:00 a 18:00 (día hábil): 18.8 °C (-1.7 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       026 Reforma - Versalles        B=0/9  p vacía 0.99  p llena 0.01  B(t+60) 0-4
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-6
-       020 Reforma- Río Támesis       B=0/9  p vacía 0.99  p llena 0.01  B(t+60) 0-3
-       003 Reforma - Insurgentes      B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-5
-       270 De la República-Ponciano A B=0/24  p vacía 0.98  p llena 0.00  B(t+60) 0-5
-       008 Reforma - General Prim     B=0/17  p vacía 0.96  p llena 0.00  B(t+60) 0-8
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.95  p llena 0.00  B(t+60) 0-7
-       115 Roma-Dinamarca             B=0/24  p vacía 0.95  p llena 0.00  B(t+60) 0-7
+       031 Hamburgo - Insurgentes     B=0/26  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       020 Reforma- Río Támesis       B=0/9  p vacía 0.99  p llena 0.01  B(t+60) 0-4
+       115 Roma-Dinamarca             B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       010 Reforma - Ramírez          B=1/27  p vacía 0.98  p llena 0.00  B(t+60) 0-3
+       041 Reforma - Av. de la Repúbl B=1/20  p vacía 0.93  p llena 0.00  B(t+60) 0-7
+       112 Av. Morelos-Abraham Gonzál B=1/20  p vacía 0.92  p llena 0.00  B(t+60) 0-4
+       003 Reforma - Insurgentes      B=1/30  p vacía 0.87  p llena 0.00  B(t+60) 0-5
+       086 Sullivan-Insurgentes       B=1/6  p vacía 0.83  p llena 0.54  B(t+60) 0-6
 
 Plan Regla umbral:
   sin traslados
 Plan Gemelo (voraz):
-  1. llevar 7 bicis de 260 (9/17) a 010 (3/27)
-  2. llevar 5 bicis de 116 (7/16) a 020 (0/9)
-  3. llevar 8 bicis de 119 (14/25) a 115 (0/24)
+  1. llevar 9 bicis de 260 (11/18) a 010 (1/27)
+  2. llevar 8 bicis de 119 (12/25) a 031 (0/26)
+  3. llevar 6 bicis de 555 (12/30) a 115 (0/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               52.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             52.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Gemelo (voraz)                           41.8  (atiende +10.3 vs sin acción, IC95 +9.9 a +10.6)
-  Gemelo (voraz) con tiempos de viaje      45.5  (atiende +6.6 vs sin acción, IC95 +6.3 a +6.9)
+  Sin acción                               72.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             72.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                           58.8  (atiende +14.0 vs sin acción, IC95 +13.7 a +14.4)
+  Gemelo (voraz) con tiempos de viaje      63.9  (atiende +9.0 vs sin acción, IC95 +8.7 a +9.3)
 
-Validación: |simulada − exacta| máx 0.045, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.036, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.7 s
+Tiempo de cálculo: 1.8 s
