@@ -1,6 +1,6 @@
-Simulación de una hora — lunes 16/11/2026 21:57 a 22:57 (en vivo)
+Simulación de una hora — lunes 16/11/2026 22:11 a 23:11 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 0.62, devoluciones 0.51
+Factor del día: retiros 0.77, devoluciones 0.57
 Estaciones con dato: 30 de 30
 
 Clima de 22:00 a 23:00 (día fin de semana): 13.8 °C (-1.2 °C respecto de lo normal a esa hora), sin lluvia, viento 9 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.78 (-22 %), devoluciones ×0.84 (-16 %)
   viento         5-10 km/h                      retiros ×0.930  devoluciones ×0.955
 
 Estaciones con más riesgo:
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       003 Reforma - Insurgentes      B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-4
-       270 De la República-Ponciano A B=1/28  p vacía 0.67  p llena 0.00  B(t+60) 0-4
-       256 Gómez Farías-Sadi Carnot   B=1/19  p vacía 0.64  p llena 0.00  B(t+60) 0-3
+       270 De la República-Ponciano A B=0/28  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       555 Ribera de San Cosme - Insu B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       003 Reforma - Insurgentes      B=1/31  p vacía 0.72  p llena 0.00  B(t+60) 0-4
        048 Independencia - Azueta     B=9/10  p vacía 0.00  p llena 0.61  B(t+60) 7-10
-       116 Londres-Roma               B=17/18  p vacía 0.00  p llena 0.58  B(t+60) 13-18
-       086 Sullivan-Insurgentes       B=2/8  p vacía 0.28  p llena 0.03  B(t+60) 0-6
-       113 General Prim-Versalles     B=8/10  p vacía 0.00  p llena 0.28  B(t+60) 6-10
+   107-108 Tolsa-Balderas             B=2/52  p vacía 0.43  p llena 0.00  B(t+60) 0-4
+       116 Londres-Roma               B=17/18  p vacía 0.00  p llena 0.40  B(t+60) 12-17
+       085 Rosas Moreno - Sullivan    B=1/14  p vacía 0.37  p llena 0.00  B(t+60) 0-4
+       086 Sullivan-Insurgentes       B=2/8  p vacía 0.36  p llena 0.02  B(t+60) 0-5
 
 Plan Regla umbral:
-  1. llevar 8 bicis de 116 (17/18) a 003 (0/31)
+  1. llevar 8 bicis de 116 (17/18) a 270 (0/28)
   2. llevar 4 bicis de 048 (9/10) a 555 (0/31)
-  3. llevar 6 bicis de 118 (14/16) a 270 (1/28)
+  3. llevar 5 bicis de 118 (13/16) a 003 (1/31)
 Plan Gemelo (voraz):
-  1. llevar 6 bicis de 048 (9/10) a 555 (0/31)
-  2. llevar 7 bicis de 116 (17/18) a 003 (0/31)
-  3. llevar 5 bicis de 113 (8/10) a 270 (1/28)
+  1. llevar 6 bicis de 048 (9/10) a 270 (0/28)
+  2. llevar 8 bicis de 116 (17/18) a 555 (0/31)
+  3. llevar 9 bicis de 112 (16/20) a 003 (1/31)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                                6.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                              1.8  (atiende +4.8 vs sin acción, IC95 +4.6 a +5.0)
-  Gemelo (voraz)                            1.7  (atiende +4.9 vs sin acción, IC95 +4.7 a +5.1)
-  Gemelo (voraz) con tiempos de viaje       4.5  (atiende +2.1 vs sin acción, IC95 +2.0 a +2.3)
+  Sin acción                                8.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                              2.2  (atiende +5.8 vs sin acción, IC95 +5.6 a +6.0)
+  Gemelo (voraz)                            2.0  (atiende +5.9 vs sin acción, IC95 +5.7 a +6.1)
+  Gemelo (voraz) con tiempos de viaje       5.5  (atiende +2.5 vs sin acción, IC95 +2.3 a +2.6)
 
-Validación: |simulada − exacta| máx 0.027, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.019, media 0.002 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.7 s

@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,116,Londres-Roma,003,Reforma - Insurgentes,8,17,18,0,31,,5.0,11.849400928808194
-Regla umbral,2,048,Independencia - Azueta,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,31,,23.43850801350263,34.84328195853313
-Regla umbral,3,118,Liverpool-Dinamarca,270,De la República-Ponciano Arriaga,6,14,16,1,28,,47.45989185501584,58.46986837417401
-Gemelo (voraz),1,048,Independencia - Azueta,555,Ribera de San Cosme - Insurgentes Centro,6,9,10,0,31,2.203000068664551,5.0,16.404773945030502
-Gemelo (voraz),2,116,Londres-Roma,003,Reforma - Insurgentes,7,17,18,0,31,1.840999960899353,27.90377604857732,34.753176977385515
-Gemelo (voraz),3,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,5,8,10,1,28,1.0920000523328781,42.11923962241811,50.82923437591083
+Regla umbral,1,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,28,,5.0,14.745618578077686
+Regla umbral,2,048,Independencia - Azueta,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,31,,24.05158009236944,35.45635403739995
+Regla umbral,3,118,Liverpool-Dinamarca,003,Reforma - Insurgentes,5,13,16,1,31,,48.072963933882654,55.66230735524365
+Gemelo (voraz),1,048,Independencia - Azueta,270,De la República-Ponciano Arriaga,6,9,10,0,28,2.417999893426895,5.0,14.305961514291754
+Gemelo (voraz),2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,8,17,18,0,31,2.156000033020973,24.05158009236944,35.55058219591626
+Gemelo (voraz),3,112,Av. Morelos-Abraham González,003,Reforma - Insurgentes,9,16,20,1,31,1.1409999802708626,45.46359288099646,54.241637700701034
