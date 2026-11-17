@@ -1,6 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,113,General Prim-Versalles,010,Reforma - Ramírez,4,9,10,0,26,,5.0,11.813851355574819
-Regla umbral,2,008,Reforma - General Prim,003,Reforma - Insurgentes,6,14,16,0,31,,18.88198677512647,24.18681627690991
-Gemelo (voraz),1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,9,9,10,0,25,8.572999477386475,5.0,13.709994753492722
-Gemelo (voraz),2,008,Reforma - General Prim,107-108,Tolsa-Balderas,10,14,16,2,54,7.184999465942383,22.6609125336806,32.88704609824231
-Gemelo (voraz),3,117,Londres-Nápoles,010,Reforma - Ramírez,11,19,30,0,26,6.131999731063843,43.75388942895489,53.33681949902579
+Regla umbral,1,008,Reforma - General Prim,112,Av. Morelos-Abraham González,8,17,17,0,20,,5.0,13.614924425710136
+Regla umbral,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,27,30,0,29,,24.311730841700808,34.6751625923026
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,13,27,30,0,54,9.47700047492981,5.0,15.86684333071258
+Gemelo (voraz),2,008,Reforma - General Prim,555,Ribera de San Cosme - Insurgentes Centro,10,17,17,0,31,7.173999786376953,26.09297689527429,36.38562875715907
+Gemelo (voraz),3,116,Londres-Roma,270,De la República-Ponciano Arriaga,6,12,17,0,25,3.2849998474121094,47.88463086070589,57.63024943878358

@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 09:03 a 10:03 (en vivo)
+Simulación de una hora — martes 17/11/2026 09:17 a 10:17 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.43, devoluciones 0.82
+Factor del día: retiros 1.33, devoluciones 0.82
 Estaciones con dato: 30 de 30
 
 Clima de 09:00 a 10:00 (día hábil): 14.3 °C (-1.8 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
@@ -11,29 +11,29 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       086 Sullivan-Insurgentes       B=0/7  p vacía 1.00  p llena 0.01  B(t+60) 0-2
+   107-108 Tolsa-Balderas             B=0/54  p vacía 1.00  p llena 0.00  B(t+60) 3-13
+       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 2-12
        270 De la República-Ponciano A B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       086 Sullivan-Insurgentes       B=0/7  p vacía 1.00  p llena 0.01  B(t+60) 0-2
        259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       012 Río Lerma - Villalongín    B=0/15  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       255 José Rosas Moreno-Guillerm B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       260 Av. Juárez-Balderas        B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-2
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-2
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 113 (9/10) a 010 (0/26)
-  2. llevar 6 bicis de 008 (14/16) a 003 (0/31)
+  1. llevar 8 bicis de 008 (17/17) a 112 (0/20)
+  2. llevar 12 bicis de 117 (27/30) a 263 (0/29)
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 113 (9/10) a 270 (0/25)
-  2. llevar 10 bicis de 008 (14/16) a 107-108 (2/54)
-  3. llevar 11 bicis de 117 (19/30) a 010 (0/26)
+  1. llevar 13 bicis de 117 (27/30) a 107-108 (0/54)
+  2. llevar 10 bicis de 008 (17/17) a 555 (0/31)
+  3. llevar 6 bicis de 116 (12/17) a 270 (0/25)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              167.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            157.9  (atiende +9.6 vs sin acción, IC95 +9.4 a +9.9)
-  Gemelo (voraz)                          146.2  (atiende +21.4 vs sin acción, IC95 +20.9 a +21.9)
-  Gemelo (voraz) con tiempos de viaje     160.9  (atiende +6.6 vs sin acción, IC95 +6.2 a +7.1)
+  Sin acción                              112.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            104.0  (atiende +8.8 vs sin acción, IC95 +8.5 a +9.2)
+  Gemelo (voraz)                           93.6  (atiende +19.2 vs sin acción, IC95 +18.8 a +19.7)
+  Gemelo (voraz) con tiempos de viaje     105.5  (atiende +7.3 vs sin acción, IC95 +7.0 a +7.7)
 
-Validación: |simulada − exacta| máx 0.024, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.023, media 0.003 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.6 s
