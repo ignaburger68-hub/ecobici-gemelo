@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 08:35 a 09:35 (en vivo)
+Simulación de una hora — martes 17/11/2026 08:49 a 09:49 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.27, devoluciones 0.91
+Factor del día: retiros 1.34, devoluciones 0.89
 Estaciones con dato: 30 de 30
 
 Clima de 09:00 a 10:00 (día hábil): 14.3 °C (-1.8 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
@@ -11,28 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       003 Reforma - Insurgentes      B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-5
-       270 De la República-Ponciano A B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       086 Sullivan-Insurgentes       B=0/7  p vacía 1.00  p llena 0.01  B(t+60) 0-3
+       270 De la República-Ponciano A B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        255 José Rosas Moreno-Guillerm B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       260 Av. Juárez-Balderas        B=0/20  p vacía 1.00  p llena 0.00  B(t+60) 0-4
        012 Río Lerma - Villalongín    B=0/15  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       260 Av. Juárez-Balderas        B=0/20  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-2
 
 Plan Regla umbral:
-  1. llevar 13 bicis de 117 (28/30) a 003 (0/31)
+  sin traslados
 Plan Gemelo (voraz):
-  1. llevar 20 bicis de 117 (28/30) a 270 (0/26)
-  2. llevar 11 bicis de 008 (13/17) a 259 (0/24)
-  3. llevar 9 bicis de 116 (12/18) a 255 (0/28)
+  1. llevar 20 bicis de 117 (22/30) a 270 (0/26)
+  2. llevar 10 bicis de 116 (12/18) a 555 (0/31)
+  3. llevar 8 bicis de 008 (12/16) a 255 (0/28)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              164.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            152.8  (atiende +12.0 vs sin acción, IC95 +11.7 a +12.4)
-  Gemelo (voraz)                          125.7  (atiende +39.1 vs sin acción, IC95 +38.5 a +39.7)
-  Gemelo (voraz) con tiempos de viaje     141.1  (atiende +23.7 vs sin acción, IC95 +23.1 a +24.2)
+  Sin acción                              163.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            163.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                          132.3  (atiende +31.4 vs sin acción, IC95 +30.9 a +32.0)
+  Gemelo (voraz) con tiempos de viaje     149.6  (atiende +14.2 vs sin acción, IC95 +13.6 a +14.7)
 
-Validación: |simulada − exacta| máx 0.039, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.030, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.7 s
+Tiempo de cálculo: 1.6 s
