@@ -1,6 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,113,General Prim-Versalles,4,9,9,0,10,,5.0,11.324870556847111
-Regla umbral,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,8,16,16,0,29,,18.424550834583048,26.329814947863674
-Gemelo (voraz),1,008,Reforma - General Prim,555,Ribera de San Cosme - Insurgentes Centro,10,16,16,4,31,4.379999876022339,5.0,15.292651861884782
-Gemelo (voraz),2,026,Reforma - Versalles,113,General Prim-Versalles,5,9,9,0,10,4.264000058174133,24.74536000873352,31.07023056558063
-Gemelo (voraz),3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,10,22,30,0,29,1.9839999675750732,39.76905369773158,50.13248544833337
+Regla umbral,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,8,16,16,0,29,,5.0,12.905264113280627
+Gemelo (voraz),1,008,Reforma - General Prim,041,Reforma - Av. de la República,8,16,16,0,20,4.213000059127808,5.0,14.904422249149311
+Gemelo (voraz),2,085,Rosas Moreno - Sullivan,086,Sullivan-Insurgentes,4,10,14,0,7,2.3429999947547913,26.560370180567208,33.5364408002571
+Gemelo (voraz),3,026,Reforma - Versalles,048,Independencia - Azueta,4,7,9,0,10,1.982999861240387,40.852609843301785,50.43985503422708

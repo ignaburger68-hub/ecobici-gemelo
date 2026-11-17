@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 17/11/2026 11:43 (hora de Ciudad de México).
+Página actualizada automáticamente el 17/11/2026 11:57 (hora de Ciudad de México).
 
-## Último pronóstico: 17/11 11:43 a 12:43
+## Último pronóstico: 17/11 11:57 a 12:57
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,33 +23,33 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 0 / 10 | 0.99 | 0.01 | 0-5 |
-| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 0.99 | 0.00 | 0-3 |
-| 026 Reforma - Versalles | 9 / 9 | 0.02 | 0.97 | 4-9 |
-| 008 Reforma - General Prim | 16 / 16 | 0.00 | 0.96 | 11-16 |
-| 086 Sullivan-Insurgentes | 2 / 7 | 0.79 | 0.06 | 0-4 |
-| 555 Ribera de San Cosme - Insurg | 4 / 31 | 0.77 | 0.00 | 0-5 |
-| 020 Reforma- Río Támesis | 1 / 9 | 0.74 | 0.01 | 0-4 |
-| 114 Lucerna-Abraham González | 1 / 21 | 0.71 | 0.00 | 0-7 |
-| 256 Gómez Farías-Sadi Carnot | 2 / 19 | 0.64 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 2 / 20 | 0.63 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 0 / 7 | 0.99 | 0.05 | 0-4 |
+| 008 Reforma - General Prim | 16 / 16 | 0.00 | 0.99 | 10-16 |
+| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 0.98 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 0 / 10 | 0.97 | 0.01 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 0 / 20 | 0.97 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 1 / 15 | 0.69 | 0.00 | 0-6 |
+| 114 Lucerna-Abraham González | 1 / 20 | 0.65 | 0.00 | 1-8 |
+| 450 Ramos Arizpe- Av México Teno | 1 / 28 | 0.57 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 7 / 9 | 0.04 | 0.53 | 2-9 |
+| 113 General Prim-Versalles | 2 / 10 | 0.52 | 0.06 | 0-8 |
 
 ### Plan recomendado del camión
 
-1. Llevar **10 bicis** de 008 (16/16) a 555 (4/31)
-2. Llevar **5 bicis** de 026 (9/9) a 113 (0/10)
-3. Llevar **10 bicis** de 117 (22/30) a 263 (0/29)
+1. Llevar **8 bicis** de 008 (16/16) a 041 (0/20)
+2. Llevar **4 bicis** de 085 (10/14) a 086 (0/7)
+3. Llevar **4 bicis** de 026 (7/9) a 048 (0/10)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-34 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+35 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.157 | 0.040 |
-| Sin resincronizar | 0.198 | 0.093 |
-| Persistencia | 0.301 | 0.091 |
-| Persistencia 0/1 | 0.301 | 0.091 |
+| Gemelo | 0.155 | 0.038 |
+| Sin resincronizar | 0.202 | 0.095 |
+| Persistencia | 0.300 | 0.088 |
+| Persistencia 0/1 | 0.300 | 0.088 |
 
 ![Brier por día](brier_vivo.png)
 
