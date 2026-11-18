@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,10,21,21,0,29,,5.0,13.731631008675715
-Regla umbral,2,020,Reforma- Río Támesis,256,Gómez Farías-Sadi Carnot,5,10,10,0,19,,22.01708828443458,30.785050482515167
-Regla umbral,3,031,Hamburgo - Insurgentes,107-108,Tolsa-Balderas,16,32,32,1,54,,41.33519877482169,52.732128141032305
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,256,Gómez Farías-Sadi Carnot,11,32,32,0,19,5.424999833106995,5.0,15.550148292306528
-Gemelo (voraz),2,117,Londres-Nápoles,107-108,Tolsa-Balderas,18,28,30,1,54,4.682999968528748,26.40513244007408,37.27197577078666
-Gemelo (voraz),3,118,Liverpool-Dinamarca,114,Lucerna-Abraham González,7,12,13,1,19,3.559999942779541,46.9485035993149,54.612979767757665
+Regla umbral,1,117,Londres-Nápoles,041,Reforma - Av. de la República,12,30,30,0,24,,5.0,17.235547042389435
+Regla umbral,2,031,Hamburgo - Insurgentes,098,Emilio Dondé-Av. Balderas,15,32,33,0,30,,29.604945618862708,41.62726669652946
+Regla umbral,3,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,9,20,21,1,29,,52.65141448359594,61.383045492271656
+Gemelo (voraz),1,117,Londres-Nápoles,041,Reforma - Av. de la República,16,30,30,0,24,7.05400013923645,5.0,17.235547042389435
+Gemelo (voraz),2,031,Hamburgo - Insurgentes,012,Río Lerma - Villalongín,7,32,33,1,12,3.8410000801086426,29.604945618862708,37.103232446972896
+Gemelo (voraz),3,118,Liverpool-Dinamarca,098,Emilio Dondé-Av. Balderas,6,12,13,0,30,2.717000126838684,45.61600084365173,56.095797118712156
