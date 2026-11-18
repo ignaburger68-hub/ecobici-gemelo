@@ -1,9 +1,9 @@
-Simulación de una hora — miércoles 18/11/2026 16:24 a 17:24 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 16:39 a 17:39 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.02, devoluciones 0.95
+Factor del día: retiros 0.97, devoluciones 0.94
 Estaciones con dato: 29 de 30
 
-Clima pronosticado de 16:00 a 17:00 (día hábil): 21.4 °C (-0.4 °C respecto de lo normal a esa hora), sin lluvia, viento 9 km/h
+Clima pronosticado de 17:00 a 18:00 (día hábil): 20.3 °C (-0.3 °C respecto de lo normal a esa hora), sin lluvia, viento 9 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,29 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       118 Liverpool-Dinamarca        B=0/12  p vacía 0.99  p llena 0.01  B(t+60) 0-6
-       010 Reforma - Ramírez          B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       026 Reforma - Versalles        B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       256 Gómez Farías-Sadi Carnot   B=0/18  p vacía 0.98  p llena 0.00  B(t+60) 0-7
-       048 Independencia - Azueta     B=0/8  p vacía 0.98  p llena 0.10  B(t+60) 0-6
-       270 De la República-Ponciano A B=1/26  p vacía 0.91  p llena 0.00  B(t+60) 0-5
-       260 Av. Juárez-Balderas        B=0/19  p vacía 0.85  p llena 0.03  B(t+60) 2-14
-       020 Reforma- Río Támesis       B=1/10  p vacía 0.84  p llena 0.01  B(t+60) 0-4
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       010 Reforma - Ramírez          B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       026 Reforma - Versalles        B=0/11  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       113 General Prim-Versalles     B=10/10  p vacía 0.03  p llena 0.98  B(t+60) 4-10
+       012 Río Lerma - Villalongín    B=13/13  p vacía 0.03  p llena 0.97  B(t+60) 5-13
+       256 Gómez Farías-Sadi Carnot   B=0/18  p vacía 0.96  p llena 0.00  B(t+60) 0-7
+       260 Av. Juárez-Balderas        B=0/19  p vacía 0.90  p llena 0.01  B(t+60) 1-12
+       270 De la República-Ponciano A B=1/26  p vacía 0.81  p llena 0.00  B(t+60) 0-6
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 031 (30/31) a 026 (0/11)
-  2. llevar 4 bicis de 113 (10/11) a 010 (0/25)
+  1. llevar 5 bicis de 113 (10/10) a 026 (0/11)
+  2. llevar 6 bicis de 012 (13/13) a 010 (0/25)
+  3. llevar 12 bicis de 031 (28/31) a 263 (0/29)
 Plan Gemelo (voraz):
-  1. llevar 11 bicis de 031 (30/31) a 010 (0/25)
-  2. llevar 7 bicis de 115 (15/20) a 118 (0/12)
-  3. llevar 6 bicis de 116 (9/17) a 026 (0/11)
+  1. llevar 8 bicis de 012 (13/13) a 010 (0/25)
+  2. llevar 5 bicis de 113 (10/10) a 026 (0/11)
+  3. llevar 6 bicis de 116 (9/17) a 270 (1/26)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               43.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             36.9  (atiende +7.0 vs sin acción, IC95 +6.8 a +7.2)
-  Gemelo (voraz)                           31.2  (atiende +12.7 vs sin acción, IC95 +12.3 a +13.1)
-  Gemelo (voraz) con tiempos de viaje      37.6  (atiende +6.3 vs sin acción, IC95 +6.0 a +6.7)
+  Sin acción                               35.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             24.2  (atiende +11.5 vs sin acción, IC95 +11.2 a +11.8)
+  Gemelo (voraz)                           22.3  (atiende +13.4 vs sin acción, IC95 +13.0 a +13.8)
+  Gemelo (voraz) con tiempos de viaje      27.4  (atiende +8.2 vs sin acción, IC95 +7.9 a +8.6)
 
-Validación: |simulada − exacta| máx 0.050, media 0.007 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.026, media 0.005 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.3 s
