@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 20:58 a 21:58 (en vivo)
+Simulación de una hora — martes 17/11/2026 21:12 a 22:12 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.16, devoluciones 0.84
+Factor del día: retiros 0.95, devoluciones 0.81
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 21:00 a 22:00 (día hábil): 14.1 °C (-1.4 °C respecto de lo normal a esa hora), sin lluvia, viento 6 km/h
@@ -11,29 +11,29 @@ Efecto del clima en la hora: retiros ×0.72 (-28 %), devoluciones ×0.77 (-23 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       086 Sullivan-Insurgentes       B=0/3  p vacía 1.00  p llena 0.60  B(t+60) 0-3
-       020 Reforma- Río Támesis       B=0/8  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       450 Ramos Arizpe- Av México Te B=27/27  p vacía 0.00  p llena 0.99  B(t+60) 24-27
-       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       041 Reforma - Av. de la Repúbl B=1/20  p vacía 0.97  p llena 0.00  B(t+60) 0-5
-       010 Reforma - Ramírez          B=2/27  p vacía 0.96  p llena 0.00  B(t+60) 0-2
-       117 Londres-Nápoles            B=1/30  p vacía 0.90  p llena 0.00  B(t+60) 0-3
-       116 Londres-Roma               B=1/16  p vacía 0.89  p llena 0.00  B(t+60) 0-4
+       010 Reforma - Ramírez          B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       020 Reforma- Río Támesis       B=0/8  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       450 Ramos Arizpe- Av México Te B=26/26  p vacía 0.00  p llena 0.99  B(t+60) 24-26
+       086 Sullivan-Insurgentes       B=0/4  p vacía 0.99  p llena 0.45  B(t+60) 0-4
+       113 General Prim-Versalles     B=0/10  p vacía 0.98  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-3
+       116 Londres-Roma               B=0/16  p vacía 0.97  p llena 0.00  B(t+60) 0-4
+       085 Rosas Moreno - Sullivan    B=0/14  p vacía 0.96  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 450 (27/27) a 113 (0/10)
-  2. llevar 8 bicis de 555 (26/29) a 008 (0/17)
+  1. llevar 13 bicis de 450 (26/26) a 010 (0/27)
+  2. llevar 5 bicis de 555 (25/29) a 113 (0/10)
 Plan Gemelo (voraz):
-  1. llevar 20 bicis de 450 (27/27) a 010 (2/27)
-  2. llevar 13 bicis de 555 (26/29) a 041 (1/20)
-  3. llevar 7 bicis de 259 (18/24) a 020 (0/8)
+  1. llevar 19 bicis de 450 (26/26) a 010 (0/27)
+  2. llevar 7 bicis de 555 (25/29) a 020 (0/8)
+  3. llevar 14 bicis de 259 (19/24) a 003 (0/31)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               57.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             52.8  (atiende +4.8 vs sin acción, IC95 +4.6 a +5.1)
-  Gemelo (voraz)                           37.7  (atiende +20.0 vs sin acción, IC95 +19.4 a +20.6)
-  Gemelo (voraz) con tiempos de viaje      46.9  (atiende +10.8 vs sin acción, IC95 +10.4 a +11.2)
+  Sin acción                               41.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             30.6  (atiende +10.8 vs sin acción, IC95 +10.5 a +11.2)
+  Gemelo (voraz)                           25.4  (atiende +16.1 vs sin acción, IC95 +15.6 a +16.5)
+  Gemelo (voraz) con tiempos de viaje      33.7  (atiende +7.8 vs sin acción, IC95 +7.4 a +8.1)
 
-Validación: |simulada − exacta| máx 0.039, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.028, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.6 s
+Tiempo de cálculo: 1.4 s
