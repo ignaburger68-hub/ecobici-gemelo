@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,11,11,0,24,,5.0,12.88115876032177
-Regla umbral,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,24.177289255637834,34.44360531441124
-Regla umbral,3,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,13,30,30,0,26,,44.807037065013034,56.37005693807321
-Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,20,30,30,0,54,11.172000408172607,5.0,15.86684333071258
-Gemelo (voraz),2,118,Liverpool-Dinamarca,270,De la República-Ponciano Arriaga,11,13,13,0,26,8.316999912261963,25.543371159240817,36.55334767839899
-Gemelo (voraz),3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,8,19,21,0,12,5.25600004196167,46.61245011170907,53.090853399555854
+Regla umbral,1,026,Reforma - Versalles,270,De la República-Ponciano Arriaga,5,11,11,0,26,,5.0,12.488072394246704
+Regla umbral,2,117,Londres-Nápoles,048,Independencia - Azueta,5,30,30,0,10,,24.051092267306878,37.38767223371634
+Regla umbral,3,031,Hamburgo - Insurgentes,107-108,Tolsa-Balderas,15,32,33,1,54,,51.012849322409295,62.40977868861991
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,18,30,30,1,54,8.339999675750732,5.0,15.86684333071258
+Gemelo (voraz),2,118,Liverpool-Dinamarca,256,Gómez Farías-Sadi Carnot,9,12,13,1,19,6.7190001010894775,25.543371159240817,36.30232297678883
+Gemelo (voraz),3,026,Reforma - Versalles,041,Reforma - Av. de la República,8,11,11,1,24,5.164999961853027,44.50270550249101,52.531668311107396
