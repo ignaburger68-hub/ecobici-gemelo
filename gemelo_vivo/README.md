@@ -1,6 +1,6 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 17/11/2026 23:07 (hora de Ciudad de México).
+Página actualizada automáticamente el 17/11/2026 23:21 (hora de Ciudad de México).
 
 ## Último pronóstico: 17/11 22:53 a 23:53
 
@@ -42,14 +42,14 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-82 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+83 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.124 | 0.026 |
-| Sin resincronizar | 0.326 | 0.092 |
-| Persistencia | 0.360 | 0.047 |
-| Persistencia 0/1 | 0.360 | 0.047 |
+| Gemelo | 0.123 | 0.026 |
+| Sin resincronizar | 0.325 | 0.093 |
+| Persistencia | 0.358 | 0.047 |
+| Persistencia 0/1 | 0.358 | 0.047 |
 
 ![Brier por día](brier_vivo.png)
 
