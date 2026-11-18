@@ -1,6 +1,6 @@
-Simulación de una hora — miércoles 18/11/2026 06:39 a 07:39 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 06:53 a 07:53 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.15, devoluciones 0.84
+Factor del día: retiros 0.94, devoluciones 0.84
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 07:00 a 08:00 (día hábil): 11.5 °C (-0.3 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
@@ -11,29 +11,28 @@ Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       114 Lucerna-Abraham González   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       260 Av. Juárez-Balderas        B=0/18  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       086 Sullivan-Insurgentes       B=0/5  p vacía 1.00  p llena 0.09  B(t+60) 0-3
        119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       113 General Prim-Versalles     B=0/10  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       048 Independencia - Azueta     B=0/7  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       112 Av. Morelos-Abraham Gonzál B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       115 Roma-Dinamarca             B=0/23  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       114 Lucerna-Abraham González   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       048 Independencia - Azueta     B=0/7  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       020 Reforma- Río Támesis       B=0/8  p vacía 0.98  p llena 0.09  B(t+60) 0-6
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       115 Roma-Dinamarca             B=0/23  p vacía 0.97  p llena 0.00  B(t+60) 0-6
 
 Plan Regla umbral:
-  1. llevar 10 bicis de 450 (26/27) a 112 (0/20)
-  2. llevar 5 bicis de 555 (26/28) a 113 (0/10)
+  1. llevar 13 bicis de 450 (27/27) a 003 (0/31)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 450 (26/27) a 260 (0/18)
-  2. llevar 8 bicis de 010 (11/27) a 119 (0/25)
-  3. llevar 9 bicis de 107-108 (40/50) a 114 (0/19)
+  1. llevar 13 bicis de 450 (27/27) a 260 (1/18)
+  2. llevar 10 bicis de 010 (17/27) a 031 (1/23)
+  3. llevar 4 bicis de 118 (5/15) a 086 (0/5)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               42.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             39.4  (atiende +3.4 vs sin acción, IC95 +3.2 a +3.6)
-  Gemelo (voraz)                           30.8  (atiende +12.0 vs sin acción, IC95 +11.7 a +12.4)
-  Gemelo (voraz) con tiempos de viaje      36.7  (atiende +6.1 vs sin acción, IC95 +5.9 a +6.4)
+  Sin acción                               39.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             37.5  (atiende +1.4 vs sin acción, IC95 +1.3 a +1.5)
+  Gemelo (voraz)                           25.1  (atiende +13.9 vs sin acción, IC95 +13.4 a +14.3)
+  Gemelo (voraz) con tiempos de viaje      28.4  (atiende +10.5 vs sin acción, IC95 +10.1 a +11.0)
 
-Validación: |simulada − exacta| máx 0.019, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.032, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.4 s
+Tiempo de cálculo: 1.3 s
