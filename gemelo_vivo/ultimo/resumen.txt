@@ -1,4 +1,4 @@
-Simulación de una hora — miércoles 18/11/2026 09:45 a 10:45 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 09:59 a 10:59 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
 Factor del día: retiros 1.08, devoluciones 1.27
 Estaciones con dato: 29 de 30
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       113 General Prim-Versalles     B=10/10  p vacía 0.00  p llena 1.00  B(t+60) 7-10
+       113 General Prim-Versalles     B=9/9  p vacía 0.00  p llena 1.00  B(t+60) 6-9
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       114 Lucerna-Abraham González   B=20/20  p vacía 0.00  p llena 0.99  B(t+60) 14-20
-       115 Roma-Dinamarca             B=21/21  p vacía 0.00  p llena 0.99  B(t+60) 17-21
-       086 Sullivan-Insurgentes       B=0/12  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 1-15
-       259 Tómas Alva Edison-Ponciano B=0/25  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       255 José Rosas Moreno-Guillerm B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-6
+       041 Reforma - Av. de la Repúbl B=0/24  p vacía 0.98  p llena 0.00  B(t+60) 1-7
+       026 Reforma - Versalles        B=11/11  p vacía 0.00  p llena 0.98  B(t+60) 8-11
+       260 Av. Juárez-Balderas        B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-6
+       048 Independencia - Azueta     B=0/10  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       118 Liverpool-Dinamarca        B=11/13  p vacía 0.00  p llena 0.94  B(t+60) 9-13
 
 Plan Regla umbral:
   1. llevar 5 bicis de 026 (11/11) a 263 (0/29)
-  2. llevar 5 bicis de 113 (10/10) a 259 (0/25)
-  3. llevar 6 bicis de 114 (20/20) a 086 (0/12)
+  2. llevar 4 bicis de 113 (9/9) a 041 (0/24)
+  3. llevar 12 bicis de 117 (31/31) a 259 (0/24)
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 113 (10/10) a 086 (0/12)
-  2. llevar 12 bicis de 114 (20/20) a 119 (0/27)
-  3. llevar 11 bicis de 115 (21/21) a 555 (0/31)
+  1. llevar 8 bicis de 113 (9/9) a 041 (0/24)
+  2. llevar 9 bicis de 118 (11/13) a 260 (0/19)
+  3. llevar 7 bicis de 114 (18/19) a 048 (0/10)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               52.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             36.3  (atiende +16.2 vs sin acción, IC95 +15.9 a +16.5)
-  Gemelo (voraz)                           29.7  (atiende +22.8 vs sin acción, IC95 +22.3 a +23.3)
-  Gemelo (voraz) con tiempos de viaje      41.2  (atiende +11.3 vs sin acción, IC95 +11.0 a +11.7)
+  Sin acción                               48.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             37.5  (atiende +11.3 vs sin acción, IC95 +11.1 a +11.6)
+  Gemelo (voraz)                           27.9  (atiende +20.9 vs sin acción, IC95 +20.4 a +21.4)
+  Gemelo (voraz) con tiempos de viaje      39.1  (atiende +9.7 vs sin acción, IC95 +9.4 a +10.0)
 
-Validación: |simulada − exacta| máx 0.022, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.021, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.6 s
+Tiempo de cálculo: 1.5 s

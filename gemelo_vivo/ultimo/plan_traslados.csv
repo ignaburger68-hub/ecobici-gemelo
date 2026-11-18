@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,5,11,11,0,29,,5.0,12.83250757122101
-Regla umbral,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,10,10,0,25,,21.885806173123985,31.05137602161696
-Regla umbral,3,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,6,20,20,0,12,,41.04613094947079,49.70770754356259
-Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,9,10,10,0,12,8.88200044631958,5.0,12.891566616719892
-Gemelo (voraz),2,114,Lucerna-Abraham González,119,Turín-Abraham González,12,20,20,0,27,7.40500020980835,21.553143210811694,28.20469214913225
-Gemelo (voraz),3,115,Roma-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,11,21,21,0,31,6.289999961853027,36.027908877269354,47.27427880167113
+Regla umbral,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,9,9,0,24,,21.885806173123985,30.564466160128987
+Regla umbral,3,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,31,31,0,24,,42.80001320251842,54.54827268891805
+Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,8,9,9,0,24,8.684999942779541,5.0,13.678659987005002
+Gemelo (voraz),2,118,Liverpool-Dinamarca,260,Av. Juárez-Balderas,9,11,13,0,19,6.8399999141693115,25.065966682389,37.40325919481863
+Gemelo (voraz),3,114,Lucerna-Abraham González,048,Independencia - Azueta,7,18,19,0,10,6.071999549865723,47.24869430650281,56.91879990603196
