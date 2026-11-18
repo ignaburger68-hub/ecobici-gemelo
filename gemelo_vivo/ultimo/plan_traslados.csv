@@ -1,6 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,116,Londres-Roma,010,Reforma - Ramírez,8,17,17,0,25,,5.0,12.697387933446448
-Regla umbral,2,031,Hamburgo - Insurgentes,048,Independencia - Azueta,4,30,30,0,8,,22.304296140139677,35.929473228832634
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,13,30,30,0,25,8.568000316619873,5.0,14.606908206693227
-Gemelo (voraz),2,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,8,17,17,2,26,4.84499990940094,22.304296140139677,33.8032982436865
-Gemelo (voraz),3,012,Río Lerma - Villalongín,041,Reforma - Av. de la República,5,10,13,1,24,2.553000032901764,44.31808596003005,55.78701172511213
+Regla umbral,1,116,Londres-Roma,026,Reforma - Versalles,5,16,16,0,11,,5.0,12.271920044903425
+Regla umbral,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,30,31,0,26,,21.621396546069548,33.12788840878185
+Gemelo (voraz),1,116,Londres-Roma,270,De la República-Ponciano Arriaga,10,16,16,0,26,8.412000179290771,5.0,14.745618578077686
+Gemelo (voraz),2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,7,30,31,1,12,3.9369997382164,26.252110440789984,33.01748054930059
+Gemelo (voraz),3,086,Sullivan-Insurgentes,026,Reforma - Versalles,4,7,11,0,11,3.013999819755554,41.13279047008999,48.448959513134675
