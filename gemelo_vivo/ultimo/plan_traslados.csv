@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,117,Londres-Nápoles,041,Reforma - Av. de la República,12,30,30,0,24,,5.0,17.235547042389435
-Regla umbral,2,031,Hamburgo - Insurgentes,098,Emilio Dondé-Av. Balderas,15,32,33,0,30,,29.604945618862708,41.62726669652946
-Regla umbral,3,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,9,20,21,1,29,,52.65141448359594,61.383045492271656
-Gemelo (voraz),1,117,Londres-Nápoles,041,Reforma - Av. de la República,16,30,30,0,24,7.05400013923645,5.0,17.235547042389435
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,012,Río Lerma - Villalongín,7,32,33,1,12,3.8410000801086426,29.604945618862708,37.103232446972896
-Gemelo (voraz),3,118,Liverpool-Dinamarca,098,Emilio Dondé-Av. Balderas,6,12,13,0,30,2.717000126838684,45.61600084365173,56.095797118712156
+Regla umbral,1,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,10,21,21,0,29,,5.0,13.731631008675715
+Regla umbral,2,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,6,13,13,0,24,,23.997947067449125,35.38525376283312
+Regla umbral,3,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,13,28,29,0,26,,47.62080080522256,59.183820678282736
+Gemelo (voraz),1,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,28,29,0,32,5.677999973297119,5.0,15.817449579238147
+Gemelo (voraz),2,115,Roma-Dinamarca,041,Reforma - Av. de la República,11,21,21,0,24,4.650000095367432,25.147733670340404,36.14807546355907
+Gemelo (voraz),3,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,13,13,0,53,4.0010000467300415,47.535382158943065,57.2119099874713
