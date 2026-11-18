@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,31,32,0,29,,5.0,15.068139164274992
-Regla umbral,2,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,13,28,30,0,31,,25.43157091487678,36.24902049411493
-Regla umbral,3,008,Reforma - General Prim,260,Av. Juárez-Balderas,5,12,13,0,18,,45.19601309718573,56.31610838552648
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,17,31,32,1,24,7.140000224113464,5.0,17.369398576473273
-Gemelo (voraz),2,117,Londres-Nápoles,260,Av. Juárez-Balderas,13,28,30,0,18,4.777000039815903,29.604945618862708,42.892117676354104
-Gemelo (voraz),3,008,Reforma - General Prim,255,José Rosas Moreno-Guillermo Prieto,6,12,13,0,31,3.5320000052452087,54.01221296469486,62.95920556776565
+Regla umbral,1,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,32,33,0,29,,5.0,15.068139164274992
+Regla umbral,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,11,28,30,0,22,,25.43157091487678,37.179830401276405
+Regla umbral,3,008,Reforma - General Prim,270,De la República-Ponciano Arriaga,5,12,14,0,26,,46.2920786801516,55.24299646033948
+Gemelo (voraz),1,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,16,32,33,0,26,6.784000277519226,5.0,16.506491862712302
+Gemelo (voraz),2,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,28,30,2,52,4.53300005197525,28.06951173577248,38.93635506648506
+Gemelo (voraz),3,008,Reforma - General Prim,260,Av. Juárez-Balderas,7,12,14,0,18,3.334999918937683,49.16248863104677,60.28258391938753

@@ -1,40 +1,40 @@
-Simulación de una hora — miércoles 18/11/2026 13:04 a 14:04 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 13:18 a 14:18 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 0.92, devoluciones 0.81
+Factor del día: retiros 0.85, devoluciones 0.78
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 13:00 a 14:00 (día hábil): 21.4 °C (-0.4 °C respecto de lo normal a esa hora), sin lluvia, viento 4 km/h
-Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.89 (-11 %), devoluciones ×0.90 (-10 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       255 José Rosas Moreno-Guillerm B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-5
-       260 Av. Juárez-Balderas        B=0/18  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       041 Reforma - Av. de la Repúbl B=1/24  p vacía 0.98  p llena 0.00  B(t+60) 0-4
-       270 De la República-Ponciano A B=2/26  p vacía 0.88  p llena 0.00  B(t+60) 0-4
-       259 Tómas Alva Edison-Ponciano B=1/24  p vacía 0.79  p llena 0.00  B(t+60) 0-4
-   107-108 Tolsa-Balderas             B=3/52  p vacía 0.79  p llena 0.00  B(t+60) 0-4
+       270 De la República-Ponciano A B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       260 Av. Juárez-Balderas        B=0/18  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       259 Tómas Alva Edison-Ponciano B=0/22  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       255 José Rosas Moreno-Guillerm B=0/31  p vacía 0.97  p llena 0.00  B(t+60) 0-5
+   107-108 Tolsa-Balderas             B=2/52  p vacía 0.87  p llena 0.00  B(t+60) 0-4
+       041 Reforma - Av. de la Repúbl B=1/24  p vacía 0.87  p llena 0.00  B(t+60) 0-5
+       003 Reforma - Insurgentes      B=1/30  p vacía 0.77  p llena 0.00  B(t+60) 0-5
 
 Plan Regla umbral:
-  1. llevar 14 bicis de 031 (31/32) a 263 (0/29)
-  2. llevar 13 bicis de 117 (28/30) a 255 (0/31)
-  3. llevar 5 bicis de 008 (12/13) a 260 (0/18)
+  1. llevar 14 bicis de 031 (32/33) a 263 (0/29)
+  2. llevar 11 bicis de 117 (28/30) a 259 (0/22)
+  3. llevar 5 bicis de 008 (12/14) a 270 (0/26)
 Plan Gemelo (voraz):
-  1. llevar 17 bicis de 031 (31/32) a 041 (1/24)
-  2. llevar 13 bicis de 117 (28/30) a 260 (0/18)
-  3. llevar 6 bicis de 008 (12/13) a 255 (0/31)
+  1. llevar 16 bicis de 031 (32/33) a 270 (0/26)
+  2. llevar 14 bicis de 117 (28/30) a 107-108 (2/52)
+  3. llevar 7 bicis de 008 (12/14) a 260 (0/18)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               46.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             35.5  (atiende +11.3 vs sin acción, IC95 +11.0 a +11.6)
-  Gemelo (voraz)                           31.5  (atiende +15.3 vs sin acción, IC95 +14.9 a +15.7)
-  Gemelo (voraz) con tiempos de viaje      41.9  (atiende +4.9 vs sin acción, IC95 +4.7 a +5.1)
+  Sin acción                               40.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             31.7  (atiende +9.2 vs sin acción, IC95 +9.0 a +9.5)
+  Gemelo (voraz)                           26.7  (atiende +14.2 vs sin acción, IC95 +13.8 a +14.6)
+  Gemelo (voraz) con tiempos de viaje      34.2  (atiende +6.7 vs sin acción, IC95 +6.4 a +7.0)
 
-Validación: |simulada − exacta| máx 0.026, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.055, media 0.007 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.2 s
