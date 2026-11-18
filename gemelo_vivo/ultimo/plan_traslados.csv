@@ -1,4 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Gemelo (voraz),1,107-108,Tolsa-Balderas,260,Av. Juárez-Balderas,9,24,49,1,18,4.775000095367432,5.0,14.726446861659324
-Gemelo (voraz),2,263,Sadi Carnot - Gómez Farias,555,Ribera de San Cosme - Insurgentes Centro,7,10,27,3,27,3.6650004386901855,25.55436874844588,33.144728028365066
-Gemelo (voraz),3,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,3,3,10,0,27,3.0239999294281006,43.917678145446,54.54790677361648
+Regla umbral,1,086,Sullivan-Insurgentes,012,Río Lerma - Villalongín,3,7,8,0,14,,5.0,11.340300967705922
+Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,6,6,10,2,27,6.485000252723694,5.0,15.772950117080928
+Gemelo (voraz),2,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,7,7,30,0,19,5.986999660730362,28.64612116714114,39.50110531490869
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,259,Tómas Alva Edison-Ponciano Arriaga,7,7,31,3,24,4.297000288963318,50.051253607215216,61.67927569752774

@@ -1,38 +1,38 @@
-Simulación de una hora — miércoles 18/11/2026 07:50 a 08:50 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 08:04 a 09:04 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.09, devoluciones 1.00
+Factor del día: retiros 1.09, devoluciones 0.89
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 08:00 a 09:00 (día hábil): 12.6 °C (-1.2 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
-Efecto del clima en la hora: retiros ×0.84 (-16 %), devoluciones ×0.86 (-14 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    más frío (−3 a −1 °C)          retiros ×0.841  devoluciones ×0.872
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       255 José Rosas Moreno-Guillerm B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       114 Lucerna-Abraham González   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 1-8
-       260 Av. Juárez-Balderas        B=1/18  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       048 Independencia - Azueta     B=0/7  p vacía 0.99  p llena 0.01  B(t+60) 0-3
-       003 Reforma - Insurgentes      B=0/30  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       012 Río Lerma - Villalongín    B=0/14  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-       086 Sullivan-Insurgentes       B=3/5  p vacía 0.96  p llena 0.31  B(t+60) 0-3
-       555 Ribera de San Cosme - Insu B=3/27  p vacía 0.96  p llena 0.00  B(t+60) 0-2
+       260 Av. Juárez-Balderas        B=0/17  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       012 Río Lerma - Villalongín    B=0/14  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       259 Tómas Alva Edison-Ponciano B=3/24  p vacía 0.99  p llena 0.00  B(t+60) 0-1
+       555 Ribera de San Cosme - Insu B=2/27  p vacía 0.99  p llena 0.00  B(t+60) 0-1
+       270 De la República-Ponciano A B=4/22  p vacía 0.97  p llena 0.00  B(t+60) 0-1
+       010 Reforma - Ramírez          B=1/26  p vacía 0.96  p llena 0.00  B(t+60) 0-6
 
 Plan Regla umbral:
-  sin traslados
+  1. llevar 3 bicis de 086 (7/8) a 012 (0/14)
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 107-108 (24/49) a 260 (1/18)
-  2. llevar 7 bicis de 263 (10/27) a 555 (3/27)
-  3. llevar 3 bicis de 113 (3/10) a 255 (0/27)
+  1. llevar 6 bicis de 113 (6/10) a 555 (2/27)
+  2. llevar 7 bicis de 117 (7/30) a 256 (0/19)
+  3. llevar 7 bicis de 031 (7/31) a 259 (3/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               98.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             98.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Gemelo (voraz)                           86.7  (atiende +11.5 vs sin acción, IC95 +11.2 a +11.8)
-  Gemelo (voraz) con tiempos de viaje      90.6  (atiende +7.6 vs sin acción, IC95 +7.3 a +8.0)
+  Sin acción                              117.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            116.7  (atiende +0.5 vs sin acción, IC95 +0.4 a +0.6)
+  Gemelo (voraz)                          100.5  (atiende +16.7 vs sin acción, IC95 +16.4 a +17.0)
+  Gemelo (voraz) con tiempos de viaje     108.8  (atiende +8.4 vs sin acción, IC95 +8.1 a +8.7)
 
-Validación: |simulada − exacta| máx 0.032, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.038, media 0.004 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.4 s
