@@ -1,6 +1,6 @@
-Simulación de una hora — miércoles 18/11/2026 14:31 a 15:31 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 14:45 a 15:45 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 0.94, devoluciones 1.06
+Factor del día: retiros 0.97, devoluciones 1.00
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 15:00 a 16:00 (día hábil): 22.0 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 8 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       041 Reforma - Av. de la Repúbl B=0/23  p vacía 0.98  p llena 0.00  B(t+60) 0-8
-       020 Reforma- Río Támesis       B=0/10  p vacía 0.98  p llena 0.01  B(t+60) 0-5
-       256 Gómez Farías-Sadi Carnot   B=1/19  p vacía 0.93  p llena 0.00  B(t+60) 0-6
-       048 Independencia - Azueta     B=2/8  p vacía 0.87  p llena 0.03  B(t+60) 0-3
-       117 Londres-Nápoles            B=29/30  p vacía 0.00  p llena 0.82  B(t+60) 24-30
-       010 Reforma - Ramírez          B=2/25  p vacía 0.81  p llena 0.00  B(t+60) 0-7
-       114 Lucerna-Abraham González   B=2/18  p vacía 0.71  p llena 0.00  B(t+60) 0-5
-       003 Reforma - Insurgentes      B=1/30  p vacía 0.70  p llena 0.00  B(t+60) 0-8
+       114 Lucerna-Abraham González   B=0/18  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       020 Reforma- Río Támesis       B=0/10  p vacía 0.99  p llena 0.01  B(t+60) 0-5
+       086 Sullivan-Insurgentes       B=0/10  p vacía 0.98  p llena 0.09  B(t+60) 0-8
+       117 Londres-Nápoles            B=30/30  p vacía 0.00  p llena 0.97  B(t+60) 22-30
+       048 Independencia - Azueta     B=1/7  p vacía 0.95  p llena 0.03  B(t+60) 0-4
+       270 De la República-Ponciano A B=1/26  p vacía 0.91  p llena 0.00  B(t+60) 0-5
+   107-108 Tolsa-Balderas             B=1/52  p vacía 0.90  p llena 0.00  B(t+60) 1-9
+       118 Liverpool-Dinamarca        B=1/13  p vacía 0.89  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 117 (29/30) a 020 (0/10)
-  2. llevar 11 bicis de 031 (30/33) a 041 (0/23)
-  3. llevar 6 bicis de 115 (15/18) a 003 (1/30)
+  1. llevar 9 bicis de 117 (30/30) a 114 (0/18)
+  2. llevar 5 bicis de 031 (32/33) a 086 (0/10)
+  3. llevar 3 bicis de 026 (9/11) a 020 (0/10)
 Plan Gemelo (voraz):
-  1. llevar 11 bicis de 117 (29/30) a 256 (1/19)
-  2. llevar 12 bicis de 031 (30/33) a 041 (0/23)
-  3. llevar 5 bicis de 026 (9/11) a 020 (0/10)
+  1. llevar 15 bicis de 117 (30/30) a 270 (1/26)
+  2. llevar 8 bicis de 031 (32/33) a 118 (1/13)
+  3. llevar 10 bicis de 031 (32/33) a 114 (0/18)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               37.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             26.2  (atiende +11.5 vs sin acción, IC95 +11.1 a +11.8)
-  Gemelo (voraz)                           22.9  (atiende +14.7 vs sin acción, IC95 +14.3 a +15.2)
-  Gemelo (voraz) con tiempos de viaje      31.8  (atiende +5.8 vs sin acción, IC95 +5.5 a +6.1)
+  Sin acción                               48.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             34.9  (atiende +13.8 vs sin acción, IC95 +13.4 a +14.1)
+  Gemelo (voraz)                           32.2  (atiende +16.4 vs sin acción, IC95 +15.9 a +16.8)
+  Gemelo (voraz) con tiempos de viaje      40.5  (atiende +8.1 vs sin acción, IC95 +7.8 a +8.4)
 
-Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.058, media 0.006 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.4 s
+Tiempo de cálculo: 1.3 s

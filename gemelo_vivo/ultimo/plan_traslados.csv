@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,117,Londres-Nápoles,020,Reforma- Río Támesis,5,29,30,0,10,,5.0,12.136533198636466
-Regla umbral,2,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,11,30,33,0,23,,18.919219022823402,31.28861759929668
-Regla umbral,3,115,Roma-Dinamarca,003,Reforma - Insurgentes,6,15,18,1,30,,42.28895939251534,48.4443919939143
-Gemelo (voraz),1,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,11,29,30,1,19,6.223999977111816,5.0,15.854984147767553
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,12,30,33,0,23,5.188000202178955,26.40513244007408,38.77453101654736
-Gemelo (voraz),3,026,Reforma - Versalles,020,Reforma- Río Támesis,5,9,11,0,10,3.361999988555908,46.80349382516374,54.84380366661583
+Regla umbral,1,117,Londres-Nápoles,114,Lucerna-Abraham González,9,30,30,0,18,,5.0,13.788261530642696
+Regla umbral,2,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,5,32,33,0,10,,22.993171217363663,30.831539312279016
+Regla umbral,3,026,Reforma - Versalles,020,Reforma- Río Támesis,3,9,11,0,10,,38.14770835532371,46.18801819677579
+Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,15,30,30,1,26,7.067999839782715,5.0,16.563019873060178
+Gemelo (voraz),2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,8,32,33,1,13,5.873999834060669,28.06951173577248,34.83488184428309
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,114,Lucerna-Abraham González,10,32,33,0,18,3.37700018286705,41.6002519527937,50.805161639514665
