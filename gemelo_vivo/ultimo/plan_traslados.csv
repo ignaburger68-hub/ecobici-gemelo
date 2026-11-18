@@ -1,7 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,26,27,0,10,,5.0,14.751929274781144
-Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,114,Lucerna-Abraham González,9,24,28,0,19,,25.524879391862072,37.16368226438806
-Regla umbral,3,107-108,Tolsa-Balderas,003,Reforma - Insurgentes,15,41,50,0,31,,44.594712824124784,55.109518443100264
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,26,27,0,19,3.4729998894035816,5.0,15.450826418674641
-Gemelo (voraz),2,107-108,Tolsa-Balderas,119,Turín-Abraham González,11,41,50,0,25,2.9329999443143606,22.881856978411363,31.215677577591308
-Gemelo (voraz),3,010,Reforma - Ramírez,113,General Prim-Versalles,7,10,27,0,10,2.6460000723600388,40.02879559589183,46.84264695146665
+Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,27,0,20,,5.0,13.195898404497473
+Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,26,28,0,10,,23.108909089577665,33.88185920665859
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,260,Av. Juárez-Balderas,14,26,27,0,18,5.862000212073326,5.0,12.98851355853536
+Gemelo (voraz),2,010,Reforma - Ramírez,119,Turín-Abraham González,8,11,27,0,25,3.1230000853538513,22.144475014579005,30.957593032879522
+Gemelo (voraz),3,107-108,Tolsa-Balderas,114,Lucerna-Abraham González,9,40,50,0,19,2.8470000252127647,39.29141363205947,46.72244419179619

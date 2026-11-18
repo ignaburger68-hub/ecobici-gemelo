@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 18/11/2026 06:25 (hora de Ciudad de México).
+Página actualizada automáticamente el 18/11/2026 06:39 (hora de Ciudad de México).
 
-## Último pronóstico: 18/11 06:25 a 07:25
+## Último pronóstico: 18/11 06:39 a 07:39
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 18/11/2026 06:25 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**11.2 °C** · sin lluvia · viento 2 km/h · día hábil
+**11.5 °C** · sin lluvia · viento 3 km/h · día hábil
 
 El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 0 / 10 | 1.00 | 0.00 | 0-3 |
-| 114 Lucerna-Abraham González | 0 / 19 | 1.00 | 0.00 | 0-2 |
-| 008 Reforma - General Prim | 0 / 17 | 1.00 | 0.00 | 0-3 |
-| 116 Londres-Roma | 0 / 16 | 1.00 | 0.00 | 0-4 |
-| 119 Turín-Abraham González | 0 / 25 | 1.00 | 0.00 | 0-2 |
-| 048 Independencia - Azueta | 0 / 7 | 1.00 | 0.00 | 0-2 |
-| 003 Reforma - Insurgentes | 0 / 31 | 0.99 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 0 / 8 | 0.99 | 0.00 | 0-3 |
-| 115 Roma-Dinamarca | 0 / 23 | 0.99 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 0 / 15 | 0.98 | 0.04 | 2-12 |
+| 114 Lucerna-Abraham González | 0 / 19 | 1.00 | 0.00 | 0-3 |
+| 260 Av. Juárez-Balderas | 0 / 18 | 1.00 | 0.00 | 0-1 |
+| 119 Turín-Abraham González | 0 / 25 | 1.00 | 0.00 | 0-3 |
+| 113 General Prim-Versalles | 0 / 10 | 0.99 | 0.00 | 0-4 |
+| 048 Independencia - Azueta | 0 / 7 | 0.99 | 0.00 | 0-2 |
+| 008 Reforma - General Prim | 0 / 17 | 0.99 | 0.00 | 0-4 |
+| 112 Av. Morelos-Abraham González | 0 / 20 | 0.99 | 0.00 | 0-3 |
+| 115 Roma-Dinamarca | 0 / 23 | 0.98 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 1 / 5 | 0.97 | 0.06 | 0-3 |
+| 116 Londres-Roma | 1 / 16 | 0.81 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 450 (26/27) a 114 (0/19)
-2. Llevar **11 bicis** de 107-108 (41/50) a 119 (0/25)
-3. Llevar **7 bicis** de 010 (10/27) a 113 (0/10)
+1. Llevar **14 bicis** de 450 (26/27) a 260 (0/18)
+2. Llevar **8 bicis** de 010 (11/27) a 119 (0/25)
+3. Llevar **9 bicis** de 107-108 (40/50) a 114 (0/19)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
