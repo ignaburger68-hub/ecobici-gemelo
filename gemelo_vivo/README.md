@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 18/11/2026 12:50 (hora de Ciudad de México).
+Página actualizada automáticamente el 18/11/2026 13:04 (hora de Ciudad de México).
 
-## Último pronóstico: 18/11 12:50 a 13:50
+## Último pronóstico: 18/11 13:04 a 14:04
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,9 +10,9 @@ Página actualizada automáticamente el 18/11/2026 12:50 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**20.7 °C** · sin lluvia · viento 4 km/h · día hábil
+**21.4 °C** · sin lluvia · viento 4 km/h · día hábil
 
-El clima multiplica los **retiros por 0.89** y las **devoluciones por 0.90** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,33 +23,33 @@ El clima multiplica los **retiros por 0.89** y las **devoluciones por 0.90** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 1.00 | 0.00 | 0-2 |
-| 259 Tómas Alva Edison-Ponciano A | 0 / 24 | 0.99 | 0.00 | 0-4 |
-| 114 Lucerna-Abraham González | 0 / 18 | 0.98 | 0.00 | 0-5 |
-| 041 Reforma - Av. de la Repúblic | 2 / 24 | 0.93 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 1 / 13 | 0.82 | 0.00 | 0-6 |
-| 256 Gómez Farías-Sadi Carnot | 2 / 19 | 0.81 | 0.00 | 0-4 |
-| 450 Ramos Arizpe- Av México Teno | 1 / 28 | 0.77 | 0.00 | 0-4 |
-| 031 Hamburgo - Insurgentes | 31 / 32 | 0.00 | 0.77 | 22-31 |
-| 117 Londres-Nápoles | 29 / 30 | 0.00 | 0.76 | 22-30 |
-| 255 José Rosas Moreno-Guillermo  | 2 / 31 | 0.76 | 0.00 | 0-5 |
+| 255 José Rosas Moreno-Guillermo  | 0 / 31 | 1.00 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 0 / 18 | 1.00 | 0.00 | 0-4 |
+| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 1.00 | 0.00 | 0-3 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 19 | 0.99 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 24 | 0.98 | 0.00 | 0-4 |
+| 270 De la República-Ponciano Arr | 2 / 26 | 0.88 | 0.00 | 0-4 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 24 | 0.79 | 0.00 | 0-4 |
+| 107-108 Tolsa-Balderas | 3 / 52 | 0.79 | 0.00 | 0-4 |
+| 112 Av. Morelos-Abraham González | 1 / 20 | 0.78 | 0.00 | 0-4 |
+| 450 Ramos Arizpe- Av México Teno | 1 / 28 | 0.74 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **16 bicis** de 031 (31/32) a 041 (2/24)
-2. Llevar **13 bicis** de 117 (29/30) a 263 (0/29)
-3. Llevar **5 bicis** de 008 (13/14) a 259 (0/24)
+1. Llevar **17 bicis** de 031 (31/32) a 041 (1/24)
+2. Llevar **13 bicis** de 117 (28/30) a 260 (0/18)
+3. Llevar **6 bicis** de 008 (12/13) a 255 (0/31)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-110 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+111 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.123 | 0.028 |
-| Sin resincronizar | 0.307 | 0.083 |
-| Persistencia | 0.347 | 0.053 |
-| Persistencia 0/1 | 0.347 | 0.053 |
+| Gemelo | 0.122 | 0.028 |
+| Sin resincronizar | 0.306 | 0.082 |
+| Persistencia | 0.346 | 0.053 |
+| Persistencia 0/1 | 0.346 | 0.053 |
 
 ![Brier por día](brier_vivo.png)
 
