@@ -3,4 +3,4 @@ hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variab
 2026-11-18 14:00,hábil,pronosticado,21.95,-0.2,0.0,6.45,lluvia previa,seco antes,0.99,1.001
 2026-11-18 14:00,hábil,pronosticado,21.95,-0.2,0.0,6.45,temperatura,normal (±1 °C),0.944,0.951
 2026-11-18 14:00,hábil,pronosticado,21.95,-0.2,0.0,6.45,viento,5-10 km/h,0.872,0.905
-2026-11-18 14:00,hábil,pronosticado,21.95,-0.2,0.0,6.45,efecto total en la hora,,0.859,0.883
+2026-11-18 14:00,hábil,pronosticado,21.95,-0.2,0.0,6.45,efecto total en la hora,,0.832,0.864

@@ -1,10 +1,10 @@
-Simulación de una hora — miércoles 18/11/2026 13:34 a 14:34 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 13:48 a 14:48 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 0.89, devoluciones 0.79
+Factor del día: retiros 0.90, devoluciones 0.88
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 14:00 a 15:00 (día hábil): 21.9 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 6 km/h
-Efecto del clima en la hora: retiros ×0.86 (-14 %), devoluciones ×0.88 (-12 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.83 (-17 %), devoluciones ×0.86 (-14 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
@@ -12,29 +12,29 @@ Efecto del clima en la hora: retiros ×0.86 (-14 %), devoluciones ×0.88 (-12 %)
 
 Estaciones con más riesgo:
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       041 Reforma - Av. de la Repúbl B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       260 Av. Juárez-Balderas        B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.97  p llena 0.00  B(t+60) 0-6
-       008 Reforma - General Prim     B=14/14  p vacía 0.00  p llena 0.94  B(t+60) 8-14
-   107-108 Tolsa-Balderas             B=1/52  p vacía 0.93  p llena 0.00  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=1/10  p vacía 0.88  p llena 0.00  B(t+60) 0-3
-       270 De la República-Ponciano A B=2/26  p vacía 0.87  p llena 0.00  B(t+60) 0-5
+   107-108 Tolsa-Balderas             B=0/51  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       010 Reforma - Ramírez          B=0/24  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       260 Av. Juárez-Balderas        B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-8
+       008 Reforma - General Prim     B=14/14  p vacía 0.00  p llena 0.98  B(t+60) 8-14
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.96  p llena 0.00  B(t+60) 0-5
+       041 Reforma - Av. de la Repúbl B=1/24  p vacía 0.91  p llena 0.00  B(t+60) 0-4
+       270 De la República-Ponciano A B=1/26  p vacía 0.91  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 7 bicis de 008 (14/14) a 041 (0/24)
+  1. llevar 7 bicis de 008 (14/14) a 010 (0/24)
   2. llevar 8 bicis de 115 (18/19) a 263 (0/29)
-  3. llevar 9 bicis de 117 (28/30) a 260 (0/19)
+  3. llevar 4 bicis de 026 (10/11) a 260 (0/19)
 Plan Gemelo (voraz):
-  1. llevar 9 bicis de 008 (14/14) a 107-108 (1/52)
-  2. llevar 14 bicis de 117 (28/30) a 041 (0/24)
-  3. llevar 13 bicis de 031 (29/33) a 270 (2/26)
+  1. llevar 9 bicis de 008 (14/14) a 107-108 (0/51)
+  2. llevar 7 bicis de 026 (10/11) a 010 (0/24)
+  3. llevar 9 bicis de 115 (18/19) a 041 (1/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               41.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             30.3  (atiende +10.7 vs sin acción, IC95 +10.4 a +11.0)
-  Gemelo (voraz)                           26.9  (atiende +14.2 vs sin acción, IC95 +13.8 a +14.6)
-  Gemelo (voraz) con tiempos de viaje      35.1  (atiende +5.9 vs sin acción, IC95 +5.7 a +6.2)
+  Sin acción                               44.5  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             32.8  (atiende +11.7 vs sin acción, IC95 +11.4 a +12.0)
+  Gemelo (voraz)                           28.9  (atiende +15.6 vs sin acción, IC95 +15.2 a +16.0)
+  Gemelo (voraz) con tiempos de viaje      37.5  (atiende +7.0 vs sin acción, IC95 +6.7 a +7.3)
 
-Validación: |simulada − exacta| máx 0.048, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.032, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.1 s
+Tiempo de cálculo: 1.0 s
