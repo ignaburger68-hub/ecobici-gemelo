@@ -11,6 +11,102 @@ Datos abiertos y condiciones de uso: https://ecobici.cdmx.gob.mx/datos-abiertos/
 
 ---
 
+## Guía rápida
+
+Lo mínimo para correr el gemelo y abrir el tablero en tu computador (Windows). El detalle de cada paso está en las secciones numeradas más abajo.
+
+### Paso 1 · Descargar e instalar (una sola vez)
+
+1. **Git:** https://git-scm.com/download/win (opciones por defecto). Si no puedes o no quieres instalarlo, mira la sección [Sin Git](#sin-git-descargar-el-proyecto-en-zip).
+2. **Python 3.14:** https://www.python.org/downloads/. En el instalador marca **"Add python.exe to PATH"**.
+3. **El proyecto.** En PowerShell:
+   ```bash
+   cd $HOME\Documents
+   ```
+   ```bash
+   git clone https://github.com/ignaburger68-hub/ecobici-gemelo.git
+   ```
+4. **Los paquetes:**
+   ```bash
+   py -3.14 -m pip install pandas numpy scipy matplotlib certifi streamlit
+   ```
+
+### Paso 2 · Cada vez que trabajes: entrar a la carpeta y traer los datos nuevos
+
+```bash
+cd $HOME\Documents\ecobici-gemelo
+```
+```bash
+git pull
+```
+
+### Paso 3 · Simular una hora
+
+Una hora que ya pasó (muestra el pronóstico y lo que efectivamente ocurrió):
+```bash
+py -3.14 gemelo.py hora "2026-11-17 08:00"
+```
+La próxima hora, desde el estado actual de Ecobici:
+```bash
+py -3.14 gemelo.py hora --en-vivo
+```
+Los resultados (mapa, plan del camión, tablas) quedan en `resultados_gemelo/hora_…/`.
+
+### Paso 4 · Abrir el tablero
+
+```bash
+py -3.14 -m streamlit run tablero.py
+```
+Se abre en el navegador (si no, entra a http://localhost:8501). Pestañas:
+- **Pronóstico:** simula una hora pasada (*Reproducción*) o la próxima hora (*En vivo*).
+- **Rendimiento:** qué tan bien ha pronosticado el gemelo.
+- **Tasas:** cómo cambian las tasas durante el día y entre días.
+
+Para cerrarlo: `Ctrl + C` en PowerShell.
+
+### Otros comandos útiles
+
+| Para qué | Comando |
+|---|---|
+| Medir el rendimiento de una semana | `py -3.14 gemelo.py evaluar --desde 2026-11-23 --hasta 2026-11-27` |
+| Elegir los parámetros del modelo | `py -3.14 gemelo.py ajuste --desde 2026-11-17 --hasta 2026-11-20` |
+| Gráficos de cómo cambian las tasas | `py -3.14 gemelo.py tasas --desde 2026-11-17 --hasta 2026-11-20` |
+| Revisar la cobertura del feed | `py -3.14 diagnostico_feed.py` |
+
+Todos los comandos se corren **dentro de la carpeta `ecobici-gemelo`**. La lista completa está en la [sección 4](#4-comandos-del-gemelo).
+
+---
+
+## Sin Git: descargar el proyecto en ZIP
+
+Si no tienes Git, puedes usar todo igual descargando el proyecto como ZIP.
+
+> **La única diferencia:** los datos **no se actualizan solos**. Quedan congelados en el momento en que descargaste el ZIP. GitHub sigue recolectando, pero tu copia no recibe lo nuevo hasta que vuelvas a descargarla.
+
+### Pasos
+
+1. Instala **Python 3.14** y los paquetes (puntos 2 y 4 del [Paso 1 de la Guía rápida](#paso-1--descargar-e-instalar-una-sola-vez)). Git no hace falta.
+2. Entra a https://github.com/ignaburger68-hub/ecobici-gemelo, pulsa el botón verde **«Code»** y luego **«Download ZIP»**.
+3. Descomprime el ZIP, por ejemplo en `Documentos`. La carpeta se llama `ecobici-gemelo-main`.
+4. En PowerShell, entra a esa carpeta:
+   ```bash
+   cd $HOME\Documents\ecobici-gemelo-main
+   ```
+5. Desde ahí funcionan los mismos comandos de la Guía rápida (pasos 3 y 4): `hora`, el tablero, `evaluar`, `tasas`, etc.
+
+### Qué cambia sin Git
+
+| | Con Git | Sin Git (ZIP) |
+|---|---|---|
+| Lecturas del feed, clima y registro del gemelo en vivo | Se actualizan con `git pull` | Solo hasta el momento de la descarga |
+| *Reproducción* (horas pasadas) | Cualquier hora hasta la última lectura de GitHub | Solo horas anteriores a la descarga |
+| *En vivo* | Estado actual de Ecobici + lecturas recientes del día | Lee el estado actual de Ecobici, pero el factor del día y la ventana usan las lecturas hasta la descarga, así que el pronóstico es menos preciso |
+| Botón «Recargar datos (git pull)» y la casilla «Traer lecturas nuevas» del tablero | Traen las lecturas nuevas | No traen nada nuevo (no dan error): el botón solo vuelve a leer los datos locales |
+
+**Para actualizar los datos sin Git:** descarga de nuevo el ZIP y reemplaza la carpeta. Si guardaste resultados propios en `resultados_gemelo/`, cópialos antes, porque esa carpeta no viene en el ZIP.
+
+---
+
 ## 1. Qué corre solo en GitHub
 
 El workflow `.github/workflows/recolectar.yml` corre sin que nadie haga nada. En cada ejecución, que dura unas 5,5 horas:
