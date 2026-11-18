@@ -1,38 +1,39 @@
-Simulación de una hora — martes 17/11/2026 19:04 a 20:04 (en vivo)
+Simulación de una hora — martes 17/11/2026 19:18 a 20:18 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.27, devoluciones 0.83
+Factor del día: retiros 1.27, devoluciones 0.81
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 19:00 a 20:00 (día hábil): 16.4 °C (-0.8 °C respecto de lo normal a esa hora), lluvia 0.1 mm/h, viento 10 km/h
-Efecto del clima en la hora: retiros ×0.76 (-24 %), devoluciones ×0.83 (-17 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.75 (-25 %), devoluciones ×0.81 (-19 %)  (×1,00 = sin efecto)
   lluvia         ligera (<1 mm/h)               retiros ×0.945  devoluciones ×0.967
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
   viento         10-15 km/h                     retiros ×0.862  devoluciones ×0.898
 
 Estaciones con más riesgo:
-       010 Reforma - Ramírez          B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-6
-       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       118 Liverpool-Dinamarca        B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       115 Roma-Dinamarca             B=0/23  p vacía 1.00  p llena 0.01  B(t+60) 3-13
+       010 Reforma - Ramírez          B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       003 Reforma - Insurgentes      B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        008 Reforma - General Prim     B=0/17  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.07  B(t+60) 1-8
-       012 Río Lerma - Villalongín    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       117 Londres-Nápoles            B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.09  B(t+60) 0-6
+       116 Londres-Roma               B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       114 Lucerna-Abraham González   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       020 Reforma- Río Támesis       B=0/8  p vacía 1.00  p llena 0.02  B(t+60) 0-3
+       270 De la República-Ponciano A B=0/23  p vacía 1.00  p llena 0.00  B(t+60) 0-3
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 260 (17/18) a 026 (0/9)
+  1. llevar 4 bicis de 555 (29/29) a 026 (0/9)
+  2. llevar 6 bicis de 260 (15/17) a 010 (0/27)
 Plan Gemelo (voraz):
-  1. llevar 12 bicis de 260 (17/18) a 119 (0/25)
-  2. llevar 9 bicis de 450 (11/27) a 115 (0/23)
-  3. llevar 9 bicis de 555 (21/29) a 010 (0/27)
+  1. llevar 14 bicis de 555 (29/29) a 003 (0/29)
+  2. llevar 12 bicis de 450 (16/27) a 116 (0/16)
+  3. llevar 10 bicis de 260 (15/17) a 010 (0/27)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              158.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            153.3  (atiende +4.7 vs sin acción, IC95 +4.5 a +4.8)
-  Gemelo (voraz)                          138.4  (atiende +19.6 vs sin acción, IC95 +19.1 a +20.0)
-  Gemelo (voraz) con tiempos de viaje     155.2  (atiende +2.7 vs sin acción, IC95 +2.4 a +3.1)
+  Sin acción                              147.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            137.1  (atiende +10.3 vs sin acción, IC95 +10.1 a +10.5)
+  Gemelo (voraz)                          120.9  (atiende +26.6 vs sin acción, IC95 +26.1 a +27.0)
+  Gemelo (voraz) con tiempos de viaje     138.5  (atiende +9.0 vs sin acción, IC95 +8.6 a +9.3)
 
-Validación: |simulada − exacta| máx 0.022, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.036, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 2.4 s
+Tiempo de cálculo: 2.1 s
