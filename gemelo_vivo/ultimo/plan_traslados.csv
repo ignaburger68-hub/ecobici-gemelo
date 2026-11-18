@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,27,27,0,9,,5.0,13.638683117947258
-Regla umbral,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,5,21,24,0,10,,21.519841878269027,30.685411726762005
-Regla umbral,3,555,Ribera de San Cosme - Insurgentes Centro,114,Lucerna-Abraham González,9,24,28,0,19,,41.45836184384294,53.09716471636892
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,14,27,27,0,28,7.282999753952026,5.0,17.80485798081878
-Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,029,Reforma - Bucareli,12,24,28,0,32,4.206999897956848,30.678029030878992,40.099150656330025
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,11,21,24,0,23,2.898000091314316,47.93120236567854,58.11632510443797
+Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,13,28,29,0,27,,23.091391264796,32.054224686761586
+Regla umbral,3,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,5,21,24,0,10,,39.460097526561796,48.625667375054775
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,18,27,27,0,25,7.888000011444092,5.0,17.766061532807143
+Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,15,28,29,0,29,6.832000017166138,30.39470322914777,43.26787427920798
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,026,Reforma - Versalles,8,21,24,0,9,3.471999943256378,55.016133765607606,62.89729252592937
