@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,026,Reforma - Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,10,10,0,23,,5.0,12.88115876032177
-Regla umbral,2,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,5,10,10,0,27,,22.046728608814746,31.10002721071772
-Regla umbral,3,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,6,17,21,0,22,,39.83165821939343,49.890760652703506
-Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,18,22,31,0,22,14.96500015258789,5.0,16.563019873060178
-Gemelo (voraz),2,113,General Prim-Versalles,107-108,Tolsa-Balderas,10,10,10,1,53,11.953999996185303,25.2730146265529,33.47255990744478
-Gemelo (voraz),3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,11,17,21,0,29,7.217000067234039,44.194372256183804,53.52465634728606
+Regla umbral,1,026,Reforma - Versalles,003,Reforma - Insurgentes,5,11,11,0,30,,5.0,12.01559339544933
+Regla umbral,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,5,11,11,0,25,,19.38165604048192,28.5472258889749
+Regla umbral,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,31,0,29,,40.295485375374525,50.658917125976316
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,19,29,31,0,55,12.837999820709229,5.0,15.86684333071258
+Gemelo (voraz),2,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,11,20,22,1,26,6.162999868392944,26.588655679451602,36.64775811276168
+Gemelo (voraz),3,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,11,11,1,12,5.016000032424927,45.3577528662544,53.24931948297429
