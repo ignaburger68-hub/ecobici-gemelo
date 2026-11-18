@@ -1,9 +1,9 @@
-Simulación de una hora — miércoles 18/11/2026 08:20 a 09:20 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 08:34 a 09:34 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.11, devoluciones 0.89
+Factor del día: retiros 1.16, devoluciones 0.95
 Estaciones con dato: 29 de 30
 
-Clima pronosticado de 08:00 a 09:00 (día hábil): 12.6 °C (-1.2 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
+Clima pronosticado de 09:00 a 10:00 (día hábil): 14.3 °C (-1.6 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,29 +11,28 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.84 (-16 %)
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
+       259 Tómas Alva Edison-Ponciano B=0/22  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        263 Sadi Carnot - Gómez Farias B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       270 De la República-Ponciano A B=0/22  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       555 Ribera de San Cosme - Insu B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       259 Tómas Alva Edison-Ponciano B=3/24  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       260 Av. Juárez-Balderas        B=1/18  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       114 Lucerna-Abraham González   B=0/19  p vacía 0.97  p llena 0.04  B(t+60) 3-15
-       113 General Prim-Versalles     B=8/9  p vacía 0.01  p llena 0.97  B(t+60) 7-9
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       555 Ribera de San Cosme - Insu B=3/28  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       270 De la República-Ponciano A B=3/22  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       086 Sullivan-Insurgentes       B=2/9  p vacía 0.97  p llena 0.01  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=1/31  p vacía 0.97  p llena 0.00  B(t+60) 0-5
+       119 Turín-Abraham González     B=1/26  p vacía 0.96  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 3 bicis de 113 (8/9) a 114 (0/19)
-  2. llevar 3 bicis de 086 (7/8) a 270 (0/22)
+  1. llevar 4 bicis de 026 (9/10) a 263 (0/27)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 117 (14/30) a 270 (0/22)
-  2. llevar 8 bicis de 113 (8/9) a 555 (0/26)
-  3. llevar 9 bicis de 031 (10/30) a 259 (3/24)
+  1. llevar 17 bicis de 117 (19/31) a 270 (3/22)
+  2. llevar 12 bicis de 031 (13/30) a 555 (3/28)
+  3. llevar 6 bicis de 113 (6/9) a 259 (0/22)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              130.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            125.8  (atiende +5.0 vs sin acción, IC95 +4.8 a +5.1)
-  Gemelo (voraz)                          100.2  (atiende +30.6 vs sin acción, IC95 +30.2 a +31.0)
-  Gemelo (voraz) con tiempos de viaje     110.8  (atiende +20.0 vs sin acción, IC95 +19.6 a +20.4)
+  Sin acción                              131.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            126.5  (atiende +4.9 vs sin acción, IC95 +4.7 a +5.0)
+  Gemelo (voraz)                          100.3  (atiende +31.1 vs sin acción, IC95 +30.6 a +31.6)
+  Gemelo (voraz) con tiempos de viaje     116.7  (atiende +14.7 vs sin acción, IC95 +14.3 a +15.1)
 
-Validación: |simulada − exacta| máx 0.017, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.8 s
+Tiempo de cálculo: 1.9 s
