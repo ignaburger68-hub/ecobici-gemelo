@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,8,26,27,0,16,,5.0,15.910322067155272
-Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,12,27,29,0,31,,27.409324170702092,37.54054927216394
-Regla umbral,3,255,José Rosas Moreno-Guillermo Prieto,020,Reforma- Río Támesis,4,23,27,0,8,,46.19249734459685,54.91417310744346
-Gemelo (voraz),1,255,José Rosas Moreno-Guillermo Prieto,029,Reforma - Bucareli,19,23,27,2,30,13.065999865531921,5.0,16.431108281779274
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,19,26,27,2,24,11.849000215530396,23.65499938561867,34.97466013860793
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,14,19,23,0,31,8.750000178813934,45.03376257191801,53.94909695921774
+Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,29,29,0,10,,5.0,15.772950117080928
+Regla umbral,2,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,25,26,0,19,,25.524879391862072,35.97570581053671
+Regla umbral,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,24,,45.82114092222089,58.00207875030108
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,17,25,26,1,31,8.690000057220459,5.0,15.179168815876452
+Gemelo (voraz),2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,11,16,18,0,20,7.584999918937683,26.421220620556667,32.80293341324865
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,11,29,29,0,24,6.589999794960022,42.02991554960365,53.276285474005434

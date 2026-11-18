@@ -1,6 +1,6 @@
-Simulación de una hora — martes 17/11/2026 20:01 a 21:01 (en vivo)
+Simulación de una hora — martes 17/11/2026 20:15 a 21:15 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.42, devoluciones 0.91
+Factor del día: retiros 1.32, devoluciones 0.99
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 20:00 a 21:00 (día hábil): 14.9 °C (-1.3 °C respecto de lo normal a esa hora), sin lluvia, viento 11 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.71 (-29 %), devoluciones ×0.77 (-23 %)
   viento         10-15 km/h                     retiros ×0.862  devoluciones ×0.898
 
 Estaciones con más riesgo:
-       003 Reforma - Insurgentes      B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       041 Reforma - Av. de la Repúbl B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       086 Sullivan-Insurgentes       B=0/6  p vacía 1.00  p llena 0.13  B(t+60) 0-3
-       020 Reforma- Río Támesis       B=0/8  p vacía 1.00  p llena 0.07  B(t+60) 0-6
-       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       116 Londres-Roma               B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       026 Reforma - Versalles        B=1/9  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       115 Roma-Dinamarca             B=2/24  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       115 Roma-Dinamarca             B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       031 Hamburgo - Insurgentes     B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-8
+       085 Rosas Moreno - Sullivan    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       041 Reforma - Av. de la Repúbl B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       119 Turín-Abraham González     B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       026 Reforma - Versalles        B=1/9  p vacía 0.99  p llena 0.01  B(t+60) 0-4
+       048 Independencia - Azueta     B=0/9  p vacía 0.99  p llena 0.01  B(t+60) 0-5
+       114 Lucerna-Abraham González   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-5
 
 Plan Regla umbral:
-  1. llevar 8 bicis de 450 (26/27) a 116 (0/16)
-  2. llevar 12 bicis de 555 (27/29) a 003 (0/31)
-  3. llevar 4 bicis de 255 (23/27) a 020 (0/8)
+  1. llevar 5 bicis de 555 (29/29) a 113 (0/10)
+  2. llevar 9 bicis de 450 (25/26) a 114 (0/19)
+  3. llevar 7 bicis de 260 (16/18) a 115 (0/24)
 Plan Gemelo (voraz):
-  1. llevar 19 bicis de 255 (23/27) a 029 (2/30)
-  2. llevar 19 bicis de 450 (26/27) a 115 (2/24)
-  3. llevar 14 bicis de 270 (19/23) a 003 (0/31)
+  1. llevar 17 bicis de 450 (25/26) a 003 (1/31)
+  2. llevar 11 bicis de 260 (16/18) a 041 (0/20)
+  3. llevar 11 bicis de 555 (29/29) a 115 (0/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              140.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            120.2  (atiende +19.8 vs sin acción, IC95 +19.4 a +20.2)
-  Gemelo (voraz)                          106.7  (atiende +33.3 vs sin acción, IC95 +32.5 a +34.1)
-  Gemelo (voraz) con tiempos de viaje     128.4  (atiende +11.6 vs sin acción, IC95 +11.2 a +12.0)
+  Sin acción                               92.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             79.9  (atiende +12.2 vs sin acción, IC95 +11.8 a +12.5)
+  Gemelo (voraz)                           69.2  (atiende +22.9 vs sin acción, IC95 +22.3 a +23.5)
+  Gemelo (voraz) con tiempos de viaje      81.8  (atiende +10.3 vs sin acción, IC95 +9.9 a +10.6)
 
-Validación: |simulada − exacta| máx 0.026, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.030, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 2.1 s
+Tiempo de cálculo: 2.0 s
