@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,026,Reforma - Versalles,4,29,29,0,9,,5.0,14.452708146848739
 Regla umbral,2,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,13,27,27,0,27,,23.091391264795995,31.334476973875894
-Regla umbral,3,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,9,21,24,0,19,,38.740349813676104,48.73510474152994
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,031,Hamburgo - Insurgentes,19,29,29,0,25,8.353000164031982,5.0,17.628641696340626
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,27,27,0,9,4.0690001249313354,30.39470322914777,39.033386347095025
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,11,21,24,0,23,2.916000008583069,46.91454510741679,57.099667846176224
+Regla umbral,3,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,5,21,24,0,10,,38.740349813676104,47.90591966216908
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,12,29,29,0,14,6.681000351905823,5.0,15.514787716343545
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,17,27,27,0,25,4.11899995803833,26.759159952342564,39.52522148514971
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,086,Sullivan-Insurgentes,4,21,24,0,5,2.6339997947216034,51.153243575462234,60.01799253266462
