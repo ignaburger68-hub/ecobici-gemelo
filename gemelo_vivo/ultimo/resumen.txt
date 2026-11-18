@@ -1,38 +1,38 @@
-Simulación de una hora — martes 17/11/2026 17:53 a 18:53 (en vivo)
+Simulación de una hora — martes 17/11/2026 18:07 a 19:07 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.56, devoluciones 1.05
+Factor del día: retiros 1.48, devoluciones 1.04
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 18:00 a 19:00 (día hábil): 17.6 °C (-1.1 °C respecto de lo normal a esa hora), sin lluvia, viento 7 km/h
-Efecto del clima en la hora: retiros ×0.74 (-26 %), devoluciones ×0.79 (-21 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.72 (-28 %), devoluciones ×0.77 (-23 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    más frío (−3 a −1 °C)          retiros ×0.841  devoluciones ×0.872
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.01  B(t+60) 0-4
-       008 Reforma - General Prim     B=0/17  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       117 Londres-Nápoles            B=0/30  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       031 Hamburgo - Insurgentes     B=1/26  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       115 Roma-Dinamarca             B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       086 Sullivan-Insurgentes       B=0/6  p vacía 1.00  p llena 0.18  B(t+60) 0-2
-       012 Río Lerma - Villalongín    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       010 Reforma - Ramírez          B=1/27  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       115 Roma-Dinamarca             B=1/24  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       086 Sullivan-Insurgentes       B=0/6  p vacía 1.00  p llena 0.12  B(t+60) 0-3
+       117 Londres-Nápoles            B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       031 Hamburgo - Insurgentes     B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-8
+       020 Reforma- Río Támesis       B=0/9  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       048 Independencia - Azueta     B=0/9  p vacía 1.00  p llena 0.02  B(t+60) 0-4
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 260 (17/18) a 026 (0/9)
+  1. llevar 4 bicis de 555 (27/30) a 026 (0/9)
 Plan Gemelo (voraz):
-  1. llevar 19 bicis de 555 (23/30) a 031 (1/26)
-  2. llevar 14 bicis de 260 (17/18) a 117 (0/30)
-  3. llevar 11 bicis de 107-108 (15/49) a 115 (0/24)
+  1. llevar 20 bicis de 555 (27/30) a 031 (0/26)
+  2. llevar 13 bicis de 260 (14/18) a 117 (0/29)
+  3. llevar 10 bicis de 107-108 (14/49) a 115 (1/24)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              214.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            208.5  (atiende +5.5 vs sin acción, IC95 +5.3 a +5.6)
-  Gemelo (voraz)                          181.8  (atiende +32.2 vs sin acción, IC95 +31.6 a +32.8)
-  Gemelo (voraz) con tiempos de viaje     197.3  (atiende +16.7 vs sin acción, IC95 +16.2 a +17.2)
+  Sin acción                              198.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            193.5  (atiende +4.9 vs sin acción, IC95 +4.8 a +5.0)
+  Gemelo (voraz)                          161.1  (atiende +37.3 vs sin acción, IC95 +36.7 a +37.9)
+  Gemelo (voraz) con tiempos de viaje     179.9  (atiende +18.5 vs sin acción, IC95 +17.9 a +19.0)
 
-Validación: |simulada − exacta| máx 0.021, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.029, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 2.8 s
+Tiempo de cálculo: 2.6 s
