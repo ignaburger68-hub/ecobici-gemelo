@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 18/11/2026 05:56 (hora de Ciudad de México).
+Página actualizada automáticamente el 18/11/2026 06:10 (hora de Ciudad de México).
 
-## Último pronóstico: 17/11 22:53 a 23:53
+## Último pronóstico: 18/11 06:10 a 07:10
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,35 +10,35 @@ Página actualizada automáticamente el 18/11/2026 05:56 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.8 °C** · sin lluvia · viento 2 km/h · día hábil
+**11.6 °C** · sin lluvia · viento 2 km/h · día hábil
 
-El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
 | lluvia | sin lluvia | 0.988 | 0.981 |
 | lluvia previa | seco antes | 0.990 | 1.001 |
-| temperatura | más frío (−3 a −1 °C) | 0.841 | 0.872 |
+| temperatura | normal (±1 °C) | 0.944 | 0.951 |
 | viento | < 5 km/h | 0.988 | 0.985 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 012 Río Lerma - Villalongín | 0 / 14 | 1.00 | 0.00 | 0-1 |
-| 026 Reforma - Versalles | 0 / 9 | 1.00 | 0.00 | 0-1 |
-| 117 Londres-Nápoles | 0 / 30 | 1.00 | 0.00 | 0-2 |
-| 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 0.99 | 25-27 |
-| 114 Lucerna-Abraham González | 0 / 19 | 0.99 | 0.00 | 0-2 |
-| 113 General Prim-Versalles | 0 / 10 | 0.99 | 0.00 | 0-2 |
-| 020 Reforma- Río Támesis | 0 / 8 | 0.99 | 0.00 | 0-1 |
+| 048 Independencia - Azueta | 0 / 7 | 1.00 | 0.00 | 0-1 |
+| 119 Turín-Abraham González | 0 / 25 | 1.00 | 0.00 | 0-1 |
+| 114 Lucerna-Abraham González | 0 / 19 | 1.00 | 0.00 | 0-1 |
+| 113 General Prim-Versalles | 0 / 10 | 1.00 | 0.00 | 0-1 |
+| 020 Reforma- Río Támesis | 0 / 8 | 0.99 | 0.00 | 0-2 |
 | 003 Reforma - Insurgentes | 0 / 31 | 0.99 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 0 / 25 | 0.99 | 0.00 | 0-3 |
-| 118 Liverpool-Dinamarca | 0 / 15 | 0.99 | 0.00 | 0-2 |
+| 008 Reforma - General Prim | 0 / 17 | 0.99 | 0.00 | 0-2 |
+| 116 Londres-Roma | 0 / 16 | 0.99 | 0.00 | 0-3 |
+| 118 Liverpool-Dinamarca | 0 / 15 | 0.99 | 0.00 | 0-6 |
+| 115 Roma-Dinamarca | 0 / 23 | 0.98 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 555 (29/29) a 012 (0/14)
-2. Llevar **12 bicis** de 450 (27/27) a 031 (0/25)
-3. Llevar **6 bicis** de 259 (22/24) a 020 (0/8)
+1. Llevar **12 bicis** de 450 (26/27) a 119 (0/25)
+2. Llevar **10 bicis** de 107-108 (41/50) a 114 (0/19)
+3. Llevar **5 bicis** de 263 (15/27) a 048 (0/7)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
