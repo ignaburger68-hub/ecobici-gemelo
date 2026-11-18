@@ -1,6 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,27,27,0,31,,5.0,15.179168815876452
-Regla umbral,2,010,Reforma - Ramírez,086,Sullivan-Insurgentes,2,22,27,0,4,,22.30793100670882,29.61304870712553
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,260,Av. Juárez-Balderas,14,27,27,1,18,9.149000823497772,5.0,12.98851355853536
-Gemelo (voraz),2,118,Liverpool-Dinamarca,031,Hamburgo - Insurgentes,7,7,15,2,24,5.233000040054321,25.325806070964987,32.091176179475596
-Gemelo (voraz),3,026,Reforma - Versalles,119,Turín-Abraham González,4,5,9,0,25,3.8239998817443848,41.44065268064172,49.77905455373398
+Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,25,27,0,31,,5.0,15.179168815876452
+Gemelo (voraz),1,118,Liverpool-Dinamarca,260,Av. Juárez-Balderas,10,10,15,3,18,8.52899944782257,5.0,17.337292512429627
+Gemelo (voraz),2,026,Reforma - Versalles,119,Turín-Abraham González,4,4,9,1,25,3.340999960899353,26.570529401804848,34.90893127489711
+Gemelo (voraz),3,029,Reforma - Bucareli,256,Gómez Farías-Sadi Carnot,10,17,31,3,18,2.9640000611543655,45.4177185506849,54.99456593525888

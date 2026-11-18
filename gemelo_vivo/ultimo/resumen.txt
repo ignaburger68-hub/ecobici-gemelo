@@ -1,39 +1,38 @@
-Simulación de una hora — miércoles 18/11/2026 07:07 a 08:07 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 07:21 a 08:21 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.05, devoluciones 0.99
+Factor del día: retiros 0.99, devoluciones 1.00
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 07:00 a 08:00 (día hábil): 11.5 °C (-0.3 °C respecto de lo normal a esa hora), sin lluvia, viento 3 km/h
-Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.89 (-11 %), devoluciones ×0.90 (-10 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       260 Av. Juárez-Balderas        B=1/18  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       086 Sullivan-Insurgentes       B=0/4  p vacía 0.99  p llena 0.31  B(t+60) 0-3
-       048 Independencia - Azueta     B=0/7  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       119 Turín-Abraham González     B=0/25  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       003 Reforma - Insurgentes      B=0/31  p vacía 0.97  p llena 0.00  B(t+60) 0-5
-       450 Ramos Arizpe- Av México Te B=27/27  p vacía 0.01  p llena 0.92  B(t+60) 11-23
-       031 Hamburgo - Insurgentes     B=2/24  p vacía 0.85  p llena 0.00  B(t+60) 1-8
-       026 Reforma - Versalles        B=5/9  p vacía 0.01  p llena 0.73  B(t+60) 6-9
+       048 Independencia - Azueta     B=0/7  p vacía 0.99  p llena 0.01  B(t+60) 0-3
+       260 Av. Juárez-Balderas        B=3/18  p vacía 0.98  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.98  p llena 0.00  B(t+60) 0-4
+       020 Reforma- Río Támesis       B=0/7  p vacía 0.92  p llena 0.40  B(t+60) 0-7
+       086 Sullivan-Insurgentes       B=2/5  p vacía 0.91  p llena 0.29  B(t+60) 0-3
+       119 Turín-Abraham González     B=1/25  p vacía 0.87  p llena 0.00  B(t+60) 0-4
+       256 Gómez Farías-Sadi Carnot   B=3/18  p vacía 0.74  p llena 0.00  B(t+60) 0-5
+       026 Reforma - Versalles        B=4/9  p vacía 0.01  p llena 0.70  B(t+60) 5-9
 
 Plan Regla umbral:
-  1. llevar 13 bicis de 450 (27/27) a 003 (0/31)
-  2. llevar 2 bicis de 010 (22/27) a 086 (0/4)
+  1. llevar 11 bicis de 450 (25/27) a 003 (0/31)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 450 (27/27) a 260 (1/18)
-  2. llevar 7 bicis de 118 (7/15) a 031 (2/24)
-  3. llevar 4 bicis de 026 (5/9) a 119 (0/25)
+  1. llevar 10 bicis de 118 (10/15) a 260 (3/18)
+  2. llevar 4 bicis de 026 (4/9) a 119 (1/25)
+  3. llevar 10 bicis de 029 (17/31) a 256 (3/18)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               48.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             45.1  (atiende +3.3 vs sin acción, IC95 +3.1 a +3.5)
-  Gemelo (voraz)                           30.2  (atiende +18.2 vs sin acción, IC95 +17.7 a +18.6)
-  Gemelo (voraz) con tiempos de viaje      34.3  (atiende +14.0 vs sin acción, IC95 +13.7 a +14.4)
+  Sin acción                               44.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             43.1  (atiende +1.2 vs sin acción, IC95 +1.0 a +1.4)
+  Gemelo (voraz)                           29.9  (atiende +14.4 vs sin acción, IC95 +13.9 a +14.9)
+  Gemelo (voraz) con tiempos de viaje      32.7  (atiende +11.6 vs sin acción, IC95 +11.2 a +12.0)
 
-Validación: |simulada − exacta| máx 0.024, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.3 s
