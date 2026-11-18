@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,048,Independencia - Azueta,003,Reforma - Insurgentes,4,8,8,0,29,,5.0,16.589107084694437
-Regla umbral,2,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,5,26,28,0,10,,24.189487364205718,30.972173188392656
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,11,16,27,6,20,6.830999851226807,5.0,16.24636992440178
-Gemelo (voraz),2,048,Independencia - Azueta,010,Reforma - Ramírez,7,8,8,2,25,6.647000193595886,28.65742450815455,38.28240595189794
-Gemelo (voraz),3,086,Sullivan-Insurgentes,020,Reforma- Río Támesis,5,8,11,0,10,3.8420000076293945,45.58752365231465,51.66197931879645
+Regla umbral,1,086,Sullivan-Insurgentes,113,General Prim-Versalles,5,10,10,0,10,,5.0,12.891566616719892
+Regla umbral,2,048,Independencia - Azueta,003,Reforma - Insurgentes,3,7,8,0,29,,22.538862407765315,34.127969492459755
+Regla umbral,3,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,9,23,27,1,27,,44.259194593921606,57.132365643981814
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,17,23,27,1,27,14.844000339508057,5.0,17.87317105006021
+Gemelo (voraz),2,048,Independencia - Azueta,115,Roma-Dinamarca,6,7,8,4,21,5.316999912261963,31.209751016469674,43.62080560022245
+Gemelo (voraz),3,086,Sullivan-Insurgentes,113,General Prim-Versalles,6,10,10,0,10,4.86899995803833,50.09920888806923,57.99077550478912
