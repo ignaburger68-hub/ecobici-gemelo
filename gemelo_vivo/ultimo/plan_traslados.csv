@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,24,27,0,9,,5.0,13.638683117947258
-Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,10,25,29,0,27,,23.091391264796,32.054224686761586
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,18,24,27,0,31,11.674000203609467,5.0,15.179168815876452
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,12,16,24,0,20,7.584000080823898,24.208861099982183,31.892802082755967
-Gemelo (voraz),3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,10,14,18,4,30,5.6680004596710205,38.274514875447956,44.65919899040594
+Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,026,Reforma - Versalles,4,28,29,0,9,,5.0,14.452708146848739
+Regla umbral,2,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,26,27,0,10,,23.091391264795995,32.843320539577135
+Regla umbral,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,6,15,17,0,19,,42.45305454559875,52.29848965728293
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,029,Reforma - Bucareli,19,26,27,3,31,11.85699987411499,5.0,12.223891103839396
+Gemelo (voraz),2,255,José Rosas Moreno-Guillermo Prieto,003,Reforma - Insurgentes,16,23,27,1,31,9.51699960231781,23.65499938561867,32.30694745805158
+Gemelo (voraz),3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,15,17,0,24,6.841999769210815,43.5489992627318,55.72993709081199
