@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 18/11/2026 14:17 (hora de Ciudad de México).
+Página actualizada automáticamente el 18/11/2026 14:31 (hora de Ciudad de México).
 
-## Último pronóstico: 18/11 14:17 a 15:17
+## Último pronóstico: 18/11 14:31 a 15:31
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 18/11/2026 14:17 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**21.9 °C** · sin lluvia · viento 6 km/h · día hábil
+**22.1 °C** · sin lluvia · viento 8 km/h · día hábil
 
 El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
@@ -23,33 +23,33 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 041 Reforma - Av. de la Repúblic | 0 / 23 | 0.99 | 0.00 | 0-7 |
-| 048 Independencia - Azueta | 0 / 9 | 0.97 | 0.02 | 0-4 |
-| 020 Reforma- Río Támesis | 1 / 11 | 0.85 | 0.00 | 0-4 |
-| 031 Hamburgo - Insurgentes | 31 / 33 | 0.00 | 0.76 | 25-33 |
-| 117 Londres-Nápoles | 28 / 30 | 0.00 | 0.76 | 24-30 |
-| 260 Av. Juárez-Balderas | 1 / 19 | 0.75 | 0.00 | 0-8 |
-| 118 Liverpool-Dinamarca | 2 / 13 | 0.70 | 0.01 | 0-6 |
-| 107-108 Tolsa-Balderas | 2 / 52 | 0.65 | 0.00 | 0-7 |
-| 010 Reforma - Ramírez | 2 / 25 | 0.65 | 0.00 | 0-7 |
-| 026 Reforma - Versalles | 8 / 11 | 0.01 | 0.51 | 4-11 |
+| 041 Reforma - Av. de la Repúblic | 0 / 23 | 0.98 | 0.00 | 0-8 |
+| 020 Reforma- Río Támesis | 0 / 10 | 0.98 | 0.01 | 0-5 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 19 | 0.93 | 0.00 | 0-6 |
+| 048 Independencia - Azueta | 2 / 8 | 0.87 | 0.03 | 0-3 |
+| 117 Londres-Nápoles | 29 / 30 | 0.00 | 0.82 | 24-30 |
+| 010 Reforma - Ramírez | 2 / 25 | 0.81 | 0.00 | 0-7 |
+| 114 Lucerna-Abraham González | 2 / 18 | 0.71 | 0.00 | 0-5 |
+| 003 Reforma - Insurgentes | 1 / 30 | 0.70 | 0.00 | 0-8 |
+| 107-108 Tolsa-Balderas | 2 / 52 | 0.69 | 0.00 | 0-8 |
+| 260 Av. Juárez-Balderas | 2 / 19 | 0.61 | 0.00 | 0-8 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 031 (31/33) a 041 (0/23)
-2. Llevar **13 bicis** de 117 (28/30) a 010 (2/25)
-3. Llevar **5 bicis** de 116 (10/16) a 048 (0/9)
+1. Llevar **11 bicis** de 117 (29/30) a 256 (1/19)
+2. Llevar **12 bicis** de 031 (30/33) a 041 (0/23)
+3. Llevar **5 bicis** de 026 (9/11) a 020 (0/10)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-116 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+117 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.124 | 0.029 |
+| Gemelo | 0.124 | 0.030 |
 | Sin resincronizar | 0.305 | 0.083 |
-| Persistencia | 0.342 | 0.057 |
-| Persistencia 0/1 | 0.342 | 0.057 |
+| Persistencia | 0.341 | 0.059 |
+| Persistencia 0/1 | 0.341 | 0.059 |
 
 ![Brier por día](brier_vivo.png)
 

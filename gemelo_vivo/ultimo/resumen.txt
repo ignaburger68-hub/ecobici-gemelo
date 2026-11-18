@@ -1,9 +1,9 @@
-Simulación de una hora — miércoles 18/11/2026 14:17 a 15:17 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 14:31 a 15:31 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 0.86, devoluciones 1.04
+Factor del día: retiros 0.94, devoluciones 1.06
 Estaciones con dato: 29 de 30
 
-Clima pronosticado de 14:00 a 15:00 (día hábil): 21.9 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 6 km/h
+Clima pronosticado de 15:00 a 16:00 (día hábil): 22.0 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 8 km/h
 Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       041 Reforma - Av. de la Repúbl B=0/23  p vacía 0.99  p llena 0.00  B(t+60) 0-7
-       048 Independencia - Azueta     B=0/9  p vacía 0.97  p llena 0.02  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=1/11  p vacía 0.85  p llena 0.00  B(t+60) 0-4
-       031 Hamburgo - Insurgentes     B=31/33  p vacía 0.00  p llena 0.76  B(t+60) 25-33
-       117 Londres-Nápoles            B=28/30  p vacía 0.00  p llena 0.76  B(t+60) 24-30
-       260 Av. Juárez-Balderas        B=1/19  p vacía 0.75  p llena 0.00  B(t+60) 0-8
-       118 Liverpool-Dinamarca        B=2/13  p vacía 0.70  p llena 0.01  B(t+60) 0-6
-   107-108 Tolsa-Balderas             B=2/52  p vacía 0.65  p llena 0.00  B(t+60) 0-7
+       041 Reforma - Av. de la Repúbl B=0/23  p vacía 0.98  p llena 0.00  B(t+60) 0-8
+       020 Reforma- Río Támesis       B=0/10  p vacía 0.98  p llena 0.01  B(t+60) 0-5
+       256 Gómez Farías-Sadi Carnot   B=1/19  p vacía 0.93  p llena 0.00  B(t+60) 0-6
+       048 Independencia - Azueta     B=2/8  p vacía 0.87  p llena 0.03  B(t+60) 0-3
+       117 Londres-Nápoles            B=29/30  p vacía 0.00  p llena 0.82  B(t+60) 24-30
+       010 Reforma - Ramírez          B=2/25  p vacía 0.81  p llena 0.00  B(t+60) 0-7
+       114 Lucerna-Abraham González   B=2/18  p vacía 0.71  p llena 0.00  B(t+60) 0-5
+       003 Reforma - Insurgentes      B=1/30  p vacía 0.70  p llena 0.00  B(t+60) 0-8
 
 Plan Regla umbral:
-  1. llevar 11 bicis de 031 (31/33) a 041 (0/23)
-  2. llevar 4 bicis de 117 (28/30) a 048 (0/9)
-  3. llevar 5 bicis de 008 (12/14) a 107-108 (2/52)
+  1. llevar 5 bicis de 117 (29/30) a 020 (0/10)
+  2. llevar 11 bicis de 031 (30/33) a 041 (0/23)
+  3. llevar 6 bicis de 115 (15/18) a 003 (1/30)
 Plan Gemelo (voraz):
-  1. llevar 13 bicis de 031 (31/33) a 041 (0/23)
-  2. llevar 13 bicis de 117 (28/30) a 010 (2/25)
-  3. llevar 5 bicis de 116 (10/16) a 048 (0/9)
+  1. llevar 11 bicis de 117 (29/30) a 256 (1/19)
+  2. llevar 12 bicis de 031 (30/33) a 041 (0/23)
+  3. llevar 5 bicis de 026 (9/11) a 020 (0/10)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               34.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             22.5  (atiende +11.8 vs sin acción, IC95 +11.4 a +12.1)
-  Gemelo (voraz)                           20.8  (atiende +13.4 vs sin acción, IC95 +13.0 a +13.9)
-  Gemelo (voraz) con tiempos de viaje      27.3  (atiende +6.9 vs sin acción, IC95 +6.6 a +7.2)
+  Sin acción                               37.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             26.2  (atiende +11.5 vs sin acción, IC95 +11.1 a +11.8)
+  Gemelo (voraz)                           22.9  (atiende +14.7 vs sin acción, IC95 +14.3 a +15.2)
+  Gemelo (voraz) con tiempos de viaje      31.8  (atiende +5.8 vs sin acción, IC95 +5.5 a +6.1)
 
-Validación: |simulada − exacta| máx 0.033, media 0.006 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.2 s
+Tiempo de cálculo: 1.4 s
