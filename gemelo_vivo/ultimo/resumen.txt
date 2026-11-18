@@ -1,6 +1,6 @@
-Simulación de una hora — miércoles 18/11/2026 16:53 a 17:53 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 17:07 a 18:07 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 0.93, devoluciones 1.00
+Factor del día: retiros 0.95, devoluciones 1.05
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 17:00 a 18:00 (día hábil): 20.3 °C (-0.3 °C respecto de lo normal a esa hora), sin lluvia, viento 9 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       010 Reforma - Ramírez          B=0/25  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       113 General Prim-Versalles     B=11/11  p vacía 0.01  p llena 0.98  B(t+60) 5-11
+       012 Río Lerma - Villalongín    B=13/13  p vacía 0.00  p llena 0.97  B(t+60) 7-13
+       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.97  p llena 0.00  B(t+60) 1-7
        256 Gómez Farías-Sadi Carnot   B=0/18  p vacía 0.96  p llena 0.00  B(t+60) 0-7
-       263 Sadi Carnot - Gómez Farias B=0/29  p vacía 0.95  p llena 0.00  B(t+60) 0-6
-       012 Río Lerma - Villalongín    B=13/13  p vacía 0.01  p llena 0.93  B(t+60) 7-13
-       086 Sullivan-Insurgentes       B=10/11  p vacía 0.05  p llena 0.91  B(t+60) 5-11
-       020 Reforma- Río Támesis       B=1/9  p vacía 0.87  p llena 0.01  B(t+60) 0-5
-       119 Turín-Abraham González     B=1/27  p vacía 0.81  p llena 0.00  B(t+60) 0-7
+       010 Reforma - Ramírez          B=1/25  p vacía 0.96  p llena 0.00  B(t+60) 0-4
+       020 Reforma- Río Támesis       B=1/10  p vacía 0.93  p llena 0.01  B(t+60) 0-5
+       031 Hamburgo - Insurgentes     B=29/29  p vacía 0.00  p llena 0.93  B(t+60) 15-28
+       086 Sullivan-Insurgentes       B=10/11  p vacía 0.05  p llena 0.85  B(t+60) 5-11
+       119 Turín-Abraham González     B=1/27  p vacía 0.84  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 113 (11/11) a 010 (0/25)
-  2. llevar 6 bicis de 012 (13/13) a 263 (0/29)
-  3. llevar 4 bicis de 086 (10/11) a 256 (0/18)
+  1. llevar 14 bicis de 031 (29/29) a 263 (0/29)
+  2. llevar 6 bicis de 012 (13/13) a 256 (0/18)
+  3. llevar 4 bicis de 113 (10/11) a 119 (1/27)
 Plan Gemelo (voraz):
-  1. llevar 8 bicis de 086 (10/11) a 010 (0/25)
-  2. llevar 5 bicis de 012 (13/13) a 020 (1/9)
-  3. llevar 6 bicis de 113 (11/11) a 119 (1/27)
+  1. llevar 9 bicis de 012 (13/13) a 010 (1/25)
+  2. llevar 6 bicis de 086 (10/11) a 020 (1/10)
+  3. llevar 11 bicis de 031 (29/29) a 119 (1/27)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               36.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             24.9  (atiende +12.1 vs sin acción, IC95 +11.8 a +12.4)
-  Gemelo (voraz)                           21.5  (atiende +15.4 vs sin acción, IC95 +15.0 a +15.9)
-  Gemelo (voraz) con tiempos de viaje      26.9  (atiende +10.0 vs sin acción, IC95 +9.7 a +10.4)
+  Sin acción                               42.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             32.0  (atiende +10.9 vs sin acción, IC95 +10.6 a +11.2)
+  Gemelo (voraz)                           24.2  (atiende +18.7 vs sin acción, IC95 +18.2 a +19.1)
+  Gemelo (voraz) con tiempos de viaje      32.1  (atiende +10.8 vs sin acción, IC95 +10.4 a +11.2)
 
-Validación: |simulada − exacta| máx 0.026, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.027, media 0.005 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.3 s
+Tiempo de cálculo: 1.5 s

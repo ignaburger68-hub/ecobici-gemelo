@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,113,General Prim-Versalles,010,Reforma - Ramírez,5,11,11,0,25,,5.0,11.813851355574819
-Regla umbral,2,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,20.44984537085059,28.390643621374643
-Regla umbral,3,086,Sullivan-Insurgentes,256,Gómez Farías-Sadi Carnot,4,10,11,0,18,,35.64481477680247,43.39050483041213
-Gemelo (voraz),1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,8,10,11,0,25,7.687000274658203,5.0,12.305117700416709
-Gemelo (voraz),2,012,Río Lerma - Villalongín,020,Reforma- Río Támesis,5,13,13,1,9,4.020000219345093,20.94111171569248,27.04799150983126
-Gemelo (voraz),3,113,General Prim-Versalles,119,Turín-Abraham González,6,11,11,1,27,3.8319997787475586,35.24514074942519,42.38273910970472
+Regla umbral,1,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,29,29,0,29,,5.0,15.068139164274992
+Regla umbral,2,012,Río Lerma - Villalongín,256,Gómez Farías-Sadi Carnot,6,13,13,0,18,,23.008937414799043,31.37446115853529
+Regla umbral,3,113,General Prim-Versalles,119,Turín-Abraham González,4,10,11,1,27,,40.83523055306278,47.97282891334231
+Gemelo (voraz),1,012,Río Lerma - Villalongín,010,Reforma - Ramírez,9,13,13,1,25,8.408000230789185,5.0,13.635994015275768
+Gemelo (voraz),2,086,Sullivan-Insurgentes,020,Reforma- Río Támesis,6,10,11,1,10,5.2260003089904785,20.94111171569248,27.015567382174275
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,11,29,29,1,27,4.894000053405762,33.79825320636121,41.92355362257952
