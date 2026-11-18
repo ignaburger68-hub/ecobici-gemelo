@@ -1,9 +1,9 @@
-Simulación de una hora — miércoles 18/11/2026 06:10 a 07:10 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 06:25 a 07:25 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.00, devoluciones 0.68
+Factor del día: retiros 1.14, devoluciones 0.81
 Estaciones con dato: 29 de 30
 
-Clima pronosticado de 06:00 a 07:00 (día hábil): 11.6 °C (+0.5 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
+Clima pronosticado de 06:00 a 07:00 (día hábil): 11.2 °C (+0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
 Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       048 Independencia - Azueta     B=0/7  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       114 Lucerna-Abraham González   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       113 General Prim-Versalles     B=0/10  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       020 Reforma- Río Támesis       B=0/8  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       003 Reforma - Insurgentes      B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       008 Reforma - General Prim     B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       116 Londres-Roma               B=0/16  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       113 General Prim-Versalles     B=0/10  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       114 Lucerna-Abraham González   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       008 Reforma - General Prim     B=0/17  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       116 Londres-Roma               B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       048 Independencia - Azueta     B=0/7  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       003 Reforma - Insurgentes      B=0/31  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       020 Reforma- Río Támesis       B=0/8  p vacía 0.99  p llena 0.00  B(t+60) 0-3
 
 Plan Regla umbral:
   1. llevar 5 bicis de 450 (26/27) a 113 (0/10)
   2. llevar 9 bicis de 555 (24/28) a 114 (0/19)
   3. llevar 15 bicis de 107-108 (41/50) a 003 (0/31)
 Plan Gemelo (voraz):
-  1. llevar 12 bicis de 450 (26/27) a 119 (0/25)
-  2. llevar 10 bicis de 107-108 (41/50) a 114 (0/19)
-  3. llevar 5 bicis de 263 (15/27) a 048 (0/7)
+  1. llevar 11 bicis de 450 (26/27) a 114 (0/19)
+  2. llevar 11 bicis de 107-108 (41/50) a 119 (0/25)
+  3. llevar 7 bicis de 010 (10/27) a 113 (0/10)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               21.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             16.4  (atiende +4.8 vs sin acción, IC95 +4.6 a +5.0)
-  Gemelo (voraz)                           13.7  (atiende +7.5 vs sin acción, IC95 +7.2 a +7.7)
-  Gemelo (voraz) con tiempos de viaje      17.6  (atiende +3.6 vs sin acción, IC95 +3.5 a +3.8)
+  Sin acción                               33.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             29.1  (atiende +4.6 vs sin acción, IC95 +4.3 a +4.8)
+  Gemelo (voraz)                           24.9  (atiende +8.7 vs sin acción, IC95 +8.5 a +9.0)
+  Gemelo (voraz) con tiempos de viaje      29.1  (atiende +4.5 vs sin acción, IC95 +4.4 a +4.7)
 
-Validación: |simulada − exacta| máx 0.031, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.031, media 0.002 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.1 s
+Tiempo de cálculo: 1.3 s
