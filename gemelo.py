@@ -954,6 +954,11 @@ def main():
             p.add_argument("--planes", action="store_true", help="evalúa también los planes (más lento)")
         if nombre == "validar":
             p.add_argument("--horas", type=int, default=40)
+    tz = sub.add_parser("tasas", help="cómo cambian las tasas en el día y entre días, frente a lo observado")
+    tz.add_argument("--desde", required=True)
+    tz.add_argument("--hasta", required=True)
+    tz.add_argument("--estacion", default=None, help="código de una estación (por defecto, las 30 sumadas)")
+    tz.add_argument("--horas", default="08:00,13:00,18:00", help="horas para comparar entre días, separadas por coma")
     c = sub.add_parser("ciclo", help="un ciclo del gemelo en vivo: pronostica, registra y evalúa")
     c.add_argument("--t0", default=None, help="repetir un ciclo pasado (para probar)")
     for p in sub.choices.values():
@@ -986,6 +991,9 @@ def main():
         ajuste(gem, a.desde, a.hasta, a.R)
     elif a.cmd == "evaluar":
         evaluar(gem, a.desde, a.hasta, a.planes, a.R)
+    elif a.cmd == "tasas":
+        from tasas_gemelo import comando_tasas
+        comando_tasas(gem, a.desde, a.hasta, [h.strip() for h in a.horas.split(",") if h.strip()], a.estacion)
 
 
 if __name__ == "__main__":

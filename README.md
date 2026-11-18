@@ -147,6 +147,17 @@ py -3.14 gemelo.py evaluar --desde 2026-11-10 --hasta 2026-11-13
 ```
 Si aparece "no hay tabla de persistencia (corre 'ajuste' primero)", es normal: hasta correr `ajuste`, la referencia "Persistencia" se calcula en su versión simple.
 
+### `tasas`: cómo cambian las tasas en el tiempo
+```bash
+py -3.14 gemelo.py tasas --desde 2026-11-17 --hasta 2026-11-20
+```
+Calcula, como lo habría hecho el gemelo en cada momento, las tasas de retiros y devoluciones y las compara con los viajes observados. Tres vistas:
+1. **A lo largo de cada día** (`dia_AAAA-MM-DD_retiros.png`): perfil base, base + ventana y tasa final (× clima × factor del día) frente a lo observado, y la evolución del factor del día y del clima.
+2. **La misma hora en distintos días** (`hora_0800_retiros.png`, …): cómo la ventana aprende de los días anteriores.
+3. **Mapa de calor día × hora** (`mapa_calor_retiros.png`): observado ÷ modelo; rojo = más viajes de lo esperado, azul = menos.
+
+Opciones: `--estacion 116` (una estación; por defecto las 30 sumadas) y `--horas 08:00,13:00,18:00` (horas de la vista 2). Resultados (PNG y CSV) en `resultados_gemelo/tasas/` (o `tasas_116/`). Tarda ~1 minuto por semana. Lo mismo se explora en el tablero, pestaña **«Tasas»**.
+
 ### `ciclo`: un ciclo del gemelo en vivo
 **Lo corre GitHub cada 15 minutos; no lo corras sin `--t0` en tu computador.** Sin `--t0` escribe en `gemelo_vivo/`, el registro oficial. Para probarlo con un instante pasado (escribe en `gemelo_vivo_prueba/`, que no se sube):
 ```bash
@@ -178,6 +189,8 @@ Se abre en el navegador (si no, entra a http://localhost:8501).
   - *Evaluación de la semana*: aparece después de correr `evaluar`.
 
 El botón **«Recargar datos (git pull)»** del panel izquierdo trae las lecturas nuevas de GitHub y vuelve a leer todo, sin reiniciar el tablero. Debajo indica la última lectura cargada.
+
+- **Pestaña "Tasas":** las tres vistas del comando `tasas` (a lo largo del día, la misma hora en distintos días y el mapa de calor), con una breve explicación de cada gráfico. Se elige retiros o devoluciones, las 30 estaciones o una, el día y la hora; los datos se pueden descargar en CSV.
 
 Para cerrar el tablero: `Ctrl + C` en PowerShell.
 
@@ -258,6 +271,7 @@ El repositorio debe ser **público**: así los minutos de Actions son gratis e i
 | `config_gemelo.py` | **Todos los parámetros** (rutas, horarios, réplicas, grillas del ajuste, camión) |
 | `clima_ecobici.py` | Descarga del clima (Open-Meteo) |
 | `tablero.py` | Tablero Streamlit |
+| `tasas_gemelo.py` | Análisis de cómo cambian las tasas (comando `tasas` y pestaña «Tasas») |
 | `diagnostico_feed.py` | Diagnóstico de cobertura del feed |
 | `estaciones_seleccionadas.csv` | Las 30 estaciones del gemelo |
 | `perfil_base_15min.csv` | Perfil base de demanda |
