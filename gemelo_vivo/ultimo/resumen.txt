@@ -1,6 +1,6 @@
-Simulación de una hora — miércoles 18/11/2026 15:14 a 16:14 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 15:28 a 16:28 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.02, devoluciones 0.98
+Factor del día: retiros 1.01, devoluciones 0.91
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 15:00 a 16:00 (día hábil): 22.0 °C (-0.2 °C respecto de lo normal a esa hora), sin lluvia, viento 8 km/h
@@ -11,30 +11,30 @@ Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       118 Liverpool-Dinamarca        B=0/13  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       048 Independencia - Azueta     B=0/8  p vacía 1.00  p llena 0.02  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=0/10  p vacía 0.99  p llena 0.01  B(t+60) 0-5
-       113 General Prim-Versalles     B=0/8  p vacía 0.99  p llena 0.03  B(t+60) 0-4
-   107-108 Tolsa-Balderas             B=0/52  p vacía 0.98  p llena 0.00  B(t+60) 0-9
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.98  p llena 0.00  B(t+60) 0-7
-       010 Reforma - Ramírez          B=1/25  p vacía 0.93  p llena 0.00  B(t+60) 0-4
-       114 Lucerna-Abraham González   B=1/18  p vacía 0.87  p llena 0.00  B(t+60) 0-5
+       112 Av. Morelos-Abraham Gonzál B=0/20  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       020 Reforma- Río Támesis       B=0/10  p vacía 0.98  p llena 0.01  B(t+60) 0-6
+       555 Ribera de San Cosme - Insu B=0/27  p vacía 0.96  p llena 0.00  B(t+60) 1-9
+       118 Liverpool-Dinamarca        B=1/13  p vacía 0.94  p llena 0.00  B(t+60) 0-5
+       010 Reforma - Ramírez          B=2/25  p vacía 0.91  p llena 0.00  B(t+60) 0-6
+       048 Independencia - Azueta     B=1/8  p vacía 0.90  p llena 0.03  B(t+60) 0-5
+       113 General Prim-Versalles     B=1/10  p vacía 0.80  p llena 0.01  B(t+60) 0-5
+       041 Reforma - Av. de la Repúbl B=1/24  p vacía 0.77  p llena 0.00  B(t+60) 0-7
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 117 (29/30) a 113 (0/8)
-  2. llevar 5 bicis de 116 (15/17) a 020 (0/10)
-  3. llevar 4 bicis de 012 (11/13) a 118 (0/13)
+  1. llevar 10 bicis de 031 (29/31) a 112 (0/20)
+  2. llevar 5 bicis de 117 (27/29) a 020 (0/10)
+  3. llevar 6 bicis de 116 (15/17) a 555 (0/27)
 Plan Gemelo (voraz):
-  1. llevar 16 bicis de 117 (29/30) a 010 (1/25)
-  2. llevar 10 bicis de 031 (27/32) a 118 (0/13)
-  3. llevar 6 bicis de 119 (19/27) a 048 (0/8)
+  1. llevar 16 bicis de 031 (29/31) a 010 (2/25)
+  2. llevar 9 bicis de 117 (27/29) a 118 (1/13)
+  3. llevar 6 bicis de 031 (29/31) a 555 (0/27)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               57.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             47.5  (atiende +10.5 vs sin acción, IC95 +10.2 a +10.7)
-  Gemelo (voraz)                           39.9  (atiende +18.0 vs sin acción, IC95 +17.5 a +18.5)
-  Gemelo (voraz) con tiempos de viaje      48.9  (atiende +9.0 vs sin acción, IC95 +8.6 a +9.4)
+  Sin acción                               46.4  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             36.0  (atiende +10.4 vs sin acción, IC95 +10.0 a +10.7)
+  Gemelo (voraz)                           31.3  (atiende +15.1 vs sin acción, IC95 +14.6 a +15.6)
+  Gemelo (voraz) con tiempos de viaje      37.1  (atiende +9.3 vs sin acción, IC95 +8.9 a +9.7)
 
-Validación: |simulada − exacta| máx 0.024, media 0.004 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.031, media 0.006 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.3 s
+Tiempo de cálculo: 1.2 s

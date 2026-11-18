@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,117,Londres-Nápoles,113,General Prim-Versalles,4,29,30,0,8,,5.0,13.698823132150949
-Regla umbral,2,116,Londres-Roma,020,Reforma- Río Támesis,5,15,17,0,10,,20.150409922922513,27.402413639903905
-Regla umbral,3,012,Río Lerma - Villalongín,118,Liverpool-Dinamarca,4,11,13,0,13,,33.50929343404269,42.022061830721526
-Gemelo (voraz),1,117,Londres-Nápoles,010,Reforma - Ramírez,16,29,30,1,25,7.573000192642212,5.0,14.582930070070905
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,10,27,32,0,13,6.599000096321106,24.18983827676413,30.95520838527474
-Gemelo (voraz),3,119,Turín-Abraham González,048,Independencia - Azueta,6,19,27,0,8,3.773000128567219,37.32006945113794,48.61181743872417
+Regla umbral,1,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,10,29,31,0,20,,5.0,15.909170851811563
+Regla umbral,2,117,Londres-Nápoles,020,Reforma- Río Támesis,5,27,29,0,10,,26.60597726780224,33.7425104664387
+Regla umbral,3,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,6,15,17,0,27,,40.994514183420094,52.493516286966916
+Gemelo (voraz),1,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,16,29,31,2,25,7.75700044631958,5.0,14.606908206693227
+Gemelo (voraz),2,117,Londres-Nápoles,118,Liverpool-Dinamarca,9,27,29,1,13,4.235999822616577,24.18983827676413,30.38025296612833
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,555,Ribera de San Cosme - Insurgentes Centro,6,29,31,0,27,2.8529998064041138,37.14562307463894,49.77426477097957
