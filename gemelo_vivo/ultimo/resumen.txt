@@ -1,39 +1,38 @@
-Simulación de una hora — martes 17/11/2026 18:50 a 19:50 (en vivo)
+Simulación de una hora — martes 17/11/2026 19:04 a 20:04 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13
-Factor del día: retiros 1.28, devoluciones 0.89
+Factor del día: retiros 1.27, devoluciones 0.83
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 19:00 a 20:00 (día hábil): 16.4 °C (-0.8 °C respecto de lo normal a esa hora), lluvia 0.1 mm/h, viento 10 km/h
-Efecto del clima en la hora: retiros ×0.80 (-20 %), devoluciones ×0.85 (-15 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.76 (-24 %), devoluciones ×0.83 (-17 %)  (×1,00 = sin efecto)
   lluvia         ligera (<1 mm/h)               retiros ×0.945  devoluciones ×0.967
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
   viento         10-15 km/h                     retiros ×0.862  devoluciones ×0.898
 
 Estaciones con más riesgo:
-       115 Roma-Dinamarca             B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 1-8
-       118 Liverpool-Dinamarca        B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       086 Sullivan-Insurgentes       B=0/6  p vacía 1.00  p llena 0.11  B(t+60) 0-4
-       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=0/9  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       114 Lucerna-Abraham González   B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       117 Londres-Nápoles            B=0/30  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       031 Hamburgo - Insurgentes     B=0/26  p vacía 0.99  p llena 0.00  B(t+60) 0-5
+       010 Reforma - Ramírez          B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-6
+       119 Turín-Abraham González     B=0/25  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       118 Liverpool-Dinamarca        B=0/16  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       115 Roma-Dinamarca             B=0/23  p vacía 1.00  p llena 0.01  B(t+60) 3-13
+       008 Reforma - General Prim     B=0/17  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       026 Reforma - Versalles        B=0/9  p vacía 1.00  p llena 0.07  B(t+60) 1-8
+       012 Río Lerma - Villalongín    B=0/14  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       117 Londres-Nápoles            B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 4 bicis de 555 (25/28) a 026 (0/9)
-  2. llevar 5 bicis de 260 (14/17) a 114 (0/19)
+  1. llevar 4 bicis de 260 (17/18) a 026 (0/9)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 555 (25/28) a 115 (0/24)
-  2. llevar 9 bicis de 260 (14/17) a 116 (3/16)
-  3. llevar 7 bicis de 450 (9/27) a 118 (0/16)
+  1. llevar 12 bicis de 260 (17/18) a 119 (0/25)
+  2. llevar 9 bicis de 450 (11/27) a 115 (0/23)
+  3. llevar 9 bicis de 555 (21/29) a 010 (0/27)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              180.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                            172.9  (atiende +8.0 vs sin acción, IC95 +7.8 a +8.2)
-  Gemelo (voraz)                          162.1  (atiende +18.8 vs sin acción, IC95 +18.3 a +19.3)
-  Gemelo (voraz) con tiempos de viaje     172.1  (atiende +8.8 vs sin acción, IC95 +8.3 a +9.2)
+  Sin acción                              158.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                            153.3  (atiende +4.7 vs sin acción, IC95 +4.5 a +4.8)
+  Gemelo (voraz)                          138.4  (atiende +19.6 vs sin acción, IC95 +19.1 a +20.0)
+  Gemelo (voraz) con tiempos de viaje     155.2  (atiende +2.7 vs sin acción, IC95 +2.4 a +3.1)
 
-Validación: |simulada − exacta| máx 0.016, media 0.002 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 2.6 s
+Tiempo de cálculo: 2.4 s
