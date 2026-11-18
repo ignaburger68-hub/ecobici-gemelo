@@ -1,40 +1,39 @@
-Simulación de una hora — miércoles 18/11/2026 17:21 a 18:21 (en vivo)
+Simulación de una hora — miércoles 18/11/2026 17:35 a 18:35 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.08, devoluciones 1.03
+Factor del día: retiros 1.10, devoluciones 0.99
 Estaciones con dato: 29 de 30
 
-Clima pronosticado de 17:00 a 18:00 (día hábil): 20.3 °C (-0.3 °C respecto de lo normal a esa hora), sin lluvia, viento 9 km/h
+Clima pronosticado de 18:00 a 19:00 (día hábil): 19.1 °C (+0.4 °C respecto de lo normal a esa hora), sin lluvia, viento 10 km/h
 Efecto del clima en la hora: retiros ×0.80 (-20 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
-  viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
+  viento         10-15 km/h                     retiros ×0.862  devoluciones ×0.898
 
 Estaciones con más riesgo:
-       026 Reforma - Versalles        B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=0/10  p vacía 0.99  p llena 0.01  B(t+60) 0-3
-       041 Reforma - Av. de la Repúbl B=0/24  p vacía 0.97  p llena 0.00  B(t+60) 0-9
-       010 Reforma - Ramírez          B=2/24  p vacía 0.96  p llena 0.00  B(t+60) 0-4
-       003 Reforma - Insurgentes      B=1/29  p vacía 0.92  p llena 0.00  B(t+60) 0-7
-       086 Sullivan-Insurgentes       B=10/11  p vacía 0.06  p llena 0.89  B(t+60) 2-11
-       270 De la República-Ponciano A B=1/26  p vacía 0.87  p llena 0.00  B(t+60) 0-7
-       012 Río Lerma - Villalongín    B=12/13  p vacía 0.05  p llena 0.86  B(t+60) 3-11
+       020 Reforma- Río Támesis       B=0/10  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       003 Reforma - Insurgentes      B=0/29  p vacía 0.98  p llena 0.00  B(t+60) 0-5
+       048 Independencia - Azueta     B=8/8  p vacía 0.08  p llena 0.98  B(t+60) 2-8
+       026 Reforma - Versalles        B=1/10  p vacía 0.97  p llena 0.01  B(t+60) 0-3
+       010 Reforma - Ramírez          B=2/25  p vacía 0.94  p llena 0.00  B(t+60) 0-3
+       115 Roma-Dinamarca             B=6/20  p vacía 0.90  p llena 0.00  B(t+60) 0-3
+       113 General Prim-Versalles     B=2/11  p vacía 0.87  p llena 0.00  B(t+60) 0-3
+       270 De la República-Ponciano A B=2/26  p vacía 0.83  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 5 bicis de 012 (12/13) a 026 (0/11)
-  2. llevar 4 bicis de 086 (10/11) a 041 (0/24)
-  3. llevar 3 bicis de 048 (7/8) a 020 (0/10)
+  1. llevar 4 bicis de 048 (8/8) a 003 (0/29)
+  2. llevar 5 bicis de 031 (26/28) a 020 (0/10)
 Plan Gemelo (voraz):
-  1. llevar 12 bicis de 555 (14/27) a 010 (2/24)
-  2. llevar 7 bicis de 086 (10/11) a 026 (0/11)
-  3. llevar 7 bicis de 012 (12/13) a 020 (0/10)
+  1. llevar 11 bicis de 555 (16/27) a 115 (6/20)
+  2. llevar 7 bicis de 048 (8/8) a 010 (2/25)
+  3. llevar 5 bicis de 086 (8/11) a 020 (0/10)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               64.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             50.8  (atiende +14.2 vs sin acción, IC95 +13.9 a +14.5)
-  Gemelo (voraz)                           44.0  (atiende +20.9 vs sin acción, IC95 +20.3 a +21.6)
-  Gemelo (voraz) con tiempos de viaje      53.7  (atiende +11.2 vs sin acción, IC95 +10.7 a +11.7)
+  Sin acción                               77.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             69.7  (atiende +8.1 vs sin acción, IC95 +7.8 a +8.3)
+  Gemelo (voraz)                           60.9  (atiende +16.9 vs sin acción, IC95 +16.4 a +17.5)
+  Gemelo (voraz) con tiempos de viaje      69.5  (atiende +8.3 vs sin acción, IC95 +7.8 a +8.7)
 
-Validación: |simulada − exacta| máx 0.023, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.031, media 0.006 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.5 s
+Tiempo de cálculo: 1.9 s

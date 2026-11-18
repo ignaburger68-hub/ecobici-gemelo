@@ -1,7 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,012,Río Lerma - Villalongín,026,Reforma - Versalles,5,12,13,0,11,,5.0,13.654773141053685
-Regla umbral,2,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,4,10,11,0,24,,20.970942184098377,31.130177212279854
-Regla umbral,3,048,Independencia - Azueta,020,Reforma- Río Támesis,3,7,8,0,10,,38.35474375981981,50.94737122634306
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,12,14,27,2,24,8.114000082015991,5.0,13.96283342196559
-Gemelo (voraz),2,086,Sullivan-Insurgentes,026,Reforma - Versalles,7,10,11,0,11,6.446000099182129,21.2679511223823,28.584120165426988
-Gemelo (voraz),3,012,Río Lerma - Villalongín,020,Reforma- Río Támesis,7,12,13,0,10,5.686000108718872,37.238893306480676,43.34577310061946
+Regla umbral,1,048,Independencia - Azueta,003,Reforma - Insurgentes,4,8,8,0,29,,5.0,16.589107084694437
+Regla umbral,2,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,5,26,28,0,10,,24.189487364205718,30.972173188392656
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,11,16,27,6,20,6.830999851226807,5.0,16.24636992440178
+Gemelo (voraz),2,048,Independencia - Azueta,010,Reforma - Ramírez,7,8,8,2,25,6.647000193595886,28.65742450815455,38.28240595189794
+Gemelo (voraz),3,086,Sullivan-Insurgentes,020,Reforma- Río Támesis,5,8,11,0,10,3.8420000076293945,45.58752365231465,51.66197931879645
