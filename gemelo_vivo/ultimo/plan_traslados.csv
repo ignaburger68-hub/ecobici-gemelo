@@ -1,5 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,086,Sullivan-Insurgentes,012,Río Lerma - Villalongín,3,7,8,0,14,,5.0,11.340300967705922
-Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,6,6,10,2,27,6.485000252723694,5.0,15.772950117080928
-Gemelo (voraz),2,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,7,7,30,0,19,5.986999660730362,28.64612116714114,39.50110531490869
-Gemelo (voraz),3,031,Hamburgo - Insurgentes,259,Tómas Alva Edison-Ponciano Arriaga,7,7,31,3,24,4.297000288963318,50.051253607215216,61.67927569752774
+Regla umbral,1,113,General Prim-Versalles,114,Lucerna-Abraham González,3,8,9,0,19,,5.0,10.909654096905792
+Regla umbral,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,3,7,8,0,22,,19.571230690997595,28.419088929546106
+Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,14,14,30,0,22,12.323999226093292,5.0,16.563019873060178
+Gemelo (voraz),2,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,8,8,9,0,26,11.736000061035156,25.2730146265529,36.04596474363383
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,259,Tómas Alva Edison-Ponciano Arriaga,9,10,30,3,24,6.429999589920044,48.674606439974454,60.30262853028698
