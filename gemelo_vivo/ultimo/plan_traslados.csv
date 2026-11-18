@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,27,27,0,9,,5.0,13.638683117947258
-Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,28,29,0,10,,23.091391264796,33.864341381876926
-Regla umbral,3,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,8,20,24,0,20,,43.029911230369905,51.21168997444791
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,19,27,27,0,23,7.18399977684021,5.0,16.319660752989265
-Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,029,Reforma - Bucareli,17,28,29,0,32,6.299000263214111,27.566030677391044,36.98715230284208
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,026,Reforma - Versalles,7,20,24,0,9,2.9960001707077026,44.81920401219059,52.70036277251236
+Regla umbral,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,5,21,24,0,10,,21.519841878269027,30.685411726762005
+Regla umbral,3,555,Ribera de San Cosme - Insurgentes Centro,114,Lucerna-Abraham González,9,24,28,0,19,,41.45836184384294,53.09716471636892
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,14,27,27,0,28,7.282999753952026,5.0,17.80485798081878
+Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,029,Reforma - Bucareli,12,24,28,0,32,4.206999897956848,30.678029030878992,40.099150656330025
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,11,21,24,0,23,2.898000091314316,47.93120236567854,58.11632510443797
