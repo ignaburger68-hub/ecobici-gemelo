@@ -11,6 +11,7 @@ Pestaña "Pronóstico":
   - En vivo: lee el feed de Ecobici ahora y pronostica la próxima hora. Con "Actualizar sola"
     se repite cada 15 minutos (y, si se pide, antes hace git pull para traer las lecturas nuevas).
 Pestaña "Rendimiento": resultados de "evaluar" y del registro en tiempo real (gemelo_vivo/).
+Pestaña "Tasas": cómo cambian las tasas en el día y entre días, frente a lo observado (tasas_gemelo.py).
 """
 import os
 import subprocess
@@ -23,6 +24,7 @@ import config_gemelo as cfg
 from datos_gemelo import es_habil
 from gemelo import DIAS, ahora_local, simulacion_una_hora
 from modelo_gemelo import Gemelo
+import tasas_gemelo as tz
 
 st.set_page_config(page_title="Gemelo digital Ecobici", layout="wide")
 CARPETA_EVAL = os.path.join(cfg.CARPETA_RESULTADOS, "evaluacion")
@@ -43,6 +45,7 @@ def recargar_datos():
     except Exception as e:
         st.session_state["aviso_recarga"] = ("error", f"No se pudo hacer git pull ({e}); se releen los datos locales")
     st.cache_resource.clear()
+    st.cache_data.clear()
     for k in ("pasado", "vivo"):
         st.session_state.pop(k, None)
 
@@ -58,6 +61,91 @@ def dias_y_horas(gem):
     if ultima is not None and ultima.normalize() == hoy and es_habil([hoy])[0] and hoy not in dias:
         dias.append(hoy)
     return dias, ultima
+
+
+@st.cache_data(show_spinner="Calculando las tasas del día...")
+def tasas_dia(dia, evento, estacion):
+    return tz.serie_dia(cargar(False), dia, evento, estacion)
+
+
+@st.cache_data(show_spinner="Calculando la misma hora en cada día...")
+def tasas_hora(hora, evento, estacion):
+    return tz.serie_hora(cargar(False), hora, evento, estacion)
+
+
+@st.cache_data(show_spinner="Calculando el mapa de calor (puede tardar unos segundos)...")
+def tasas_mapa(evento, estacion):
+    return tz.mapa_calor(cargar(False), evento, estacion)
+
+
+def pestana_tasas():
+    gt = cargar(False)
+    st.markdown("Cómo cambian las tasas que usa el gemelo (viajes por hora que espera en cada estación) "
+                "**durante el día** y **entre días**, frente a lo que realmente ocurrió. Cada tasa se calcula "
+                "como la habría calculado el gemelo en ese momento, sólo con la información hasta ese instante.")
+    c1, c2, c3, c4 = st.columns([1, 1.4, 1.2, 0.8])
+    evento = {"Retiros": "ret", "Devoluciones": "dev"}[c1.radio("Evento", ["Retiros", "Devoluciones"],
+                                                                 horizontal=True, key="tz_ev")]
+    opciones = ["todas"] + list(gt.est["code"])
+    nombres = dict(zip(gt.est["code"], gt.est["nombre_corto"]))
+    estacion = c2.selectbox("Estaciones", opciones, key="tz_est",
+                            format_func=lambda c: "Las 30 estaciones (sumadas)" if c == "todas"
+                            else f"{c} {str(nombres.get(c, ''))[:28]}")
+    dias = tz.dias_disponibles(gt)
+    hoy = ahora_local().normalize()
+    dia = c3.selectbox("Día (vista 1)", dias[::-1], key="tz_dia",
+                       format_func=lambda d: tz._etiqueta_dia(d) + (" · hoy" if d == hoy else ""))
+    horas = [f"{h:02d}:00" for h in range(6, 23)]
+    hora = c4.selectbox("Hora (vista 2)", horas, index=horas.index("08:00"), key="tz_hora")
+    est = None if estacion == "todas" else estacion
+
+    st.markdown("#### 1 · A lo largo del día")
+    st.caption("Barras grises: viajes observados. Líneas: lo que esperaba el modelo, paso a paso. "
+               "**Perfil base** (verde) es lo normal de largo plazo; **Base + ventana** (naranja) lo corrige con "
+               "lo que pasó a esa hora en los últimos días hábiles; **Modelo** (azul) es la tasa final, que además "
+               "multiplica por el clima y por el **factor del día**. Abajo se ve cómo cambian esos dos factores: "
+               "si el factor del día sube de 1, en la última hora hubo más viajes de lo esperado y el modelo sube "
+               "sus tasas. Con una sola estación se agrupa por hora, porque por bloque los conteos son muy pequeños.")
+    s = tasas_dia(dia, evento, est)
+    fig = tz.figura_dia(gt, s, evento, est)
+    if fig is None:
+        st.info("No hay lecturas para ese día.")
+    else:
+        st.pyplot(fig)
+
+    st.markdown(f"#### 2 · La misma hora ({hora}) en distintos días")
+    st.caption("Cada grupo es un día: barras = viajes observados en esa hora; líneas = lo esperado por el modelo, "
+               "con las mismas tres etapas. Muestra cómo la **ventana** va aprendiendo de los días anteriores "
+               "(la línea naranja se mueve, la verde no) y qué días fueron atípicos. Las barras claras son fines de "
+               "semana o festivos, donde no se usa ventana.")
+    s2 = tasas_hora(hora, evento, est)
+    fig = tz.figura_hora(gt, s2, hora, evento, est)
+    if fig is None:
+        st.info("No hay datos para esa hora.")
+    else:
+        st.pyplot(fig)
+
+    st.markdown("#### 3 · Mapa de calor: observado ÷ modelo")
+    st.caption("Cada casilla es una hora de un día. **1** (blanco) = ocurrió lo que esperaba el modelo; "
+               "**rojo** (> 1) = hubo más viajes de lo esperado; **azul** (< 1) = hubo menos. Sirve para ver de un "
+               "vistazo en qué días u horas el modelo se queda corto o se pasa. Las casillas vacías son horas con "
+               "menos de la mitad de los minutos con lecturas del feed.")
+    m = tasas_mapa(evento, est)
+    fig = tz.figura_mapa(gt, m, evento, est)
+    if fig is None:
+        st.info("Todavía no hay horas con datos suficientes.")
+    else:
+        st.pyplot(fig)
+        r = m["razon"].dropna()
+        st.caption(f"Mediana de observado ÷ modelo: **{r.median():.2f}** · la mitad de las horas entre "
+                   f"{r.quantile(0.25):.2f} y {r.quantile(0.75):.2f} ({len(r)} horas con datos).")
+    with st.expander("Descargar los datos de estas vistas"):
+        st.download_button("Vista 1 (CSV)", tz._redondear(s).to_csv(index=False).encode("utf-8"),
+                           f"tasas_dia_{dia:%Y-%m-%d}.csv", "text/csv")
+        st.download_button("Vista 2 (CSV)", tz._redondear(s2).to_csv(index=False).encode("utf-8"),
+                           f"tasas_hora_{hora.replace(':', '')}.csv", "text/csv")
+        st.download_button("Mapa de calor (CSV)", tz._redondear(m).to_csv(index=False).encode("utf-8"),
+                           "tasas_mapa_calor.csv", "text/csv")
 
 
 def empaquetar(res):
@@ -208,7 +296,7 @@ with st.sidebar:
                f"phi {'sí' if gem.params['usar_phi'] else 'no'} · semilla {cfg.SEMILLA}")
     ejecutar = st.button("Simular la próxima hora", type="primary", disabled=(not en_vivo and t0 is None))
 
-pest_pron, pest_rend = st.tabs(["Pronóstico", "Rendimiento"])
+pest_pron, pest_rend, pest_tasas = st.tabs(["Pronóstico", "Rendimiento", "Tasas"])
 
 with pest_pron:
     if en_vivo and auto:
@@ -272,3 +360,6 @@ with pest_rend:
                 st.image(img)
     else:
         st.info("Todavía no hay evaluación. Se genera con: py -3.14 gemelo.py evaluar --desde ... --hasta ... --planes")
+
+with pest_tasas:
+    pestana_tasas()
