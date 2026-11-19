@@ -1,18 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
-Regla umbral 90/10,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
-Regla umbral 85/15,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
-Regla umbral 80/20,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
-Regla umbral 75/25,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
-Regla umbral 70/30,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,13,4.6540000438690186,5.0,16.144597358713426
-Gemelo (voraz),2,112,Av. Morelos-Abraham González,119,Turín-Abraham González,12,18,19,0,26,3.4330000579357147,25.928892367750716,34.97995908683996
-Gemelo (voraz),3,255,José Rosas Moreno-Guillermo Prieto,012,Río Lerma - Villalongín,9,26,31,3,14,2.744999843649566,46.82017781230406,54.65215995752721
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
+Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
+Regla umbral 70/30,3,107-108,Tolsa-Balderas,048,Independencia - Azueta,4,38,52,0,9,,48.67144537479849,57.6888925154921
+Gemelo (voraz),1,010,Reforma - Ramírez,256,Gómez Farías-Sadi Carnot,8,9,27,1,18,3.4469999074935913,5.0,12.766616354999353
+Gemelo (voraz),2,260,Av. Juárez-Balderas,048,Independencia - Azueta,6,17,17,0,9,2.7870001792907715,23.628946457590395,29.740748182768314
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,25,25,1,18,1.847000002861023,38.786965162351436,49.23779158102607

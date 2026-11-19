@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 19/11/2026 05:55 (hora de Ciudad de México).
+Página actualizada automáticamente el 19/11/2026 06:10 (hora de Ciudad de México).
 
-## Último pronóstico: 18/11 23:00 a 00:00
+## Último pronóstico: 19/11 06:09 a 07:09
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 19/11/2026 05:55 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**13.5 °C** · sin lluvia · viento 4 km/h · día hábil
+**10.8 °C** · sin lluvia · viento 2 km/h · día hábil
 
 El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 0 / 11 | 1.00 | 0.00 | 0-1 |
-| 020 Reforma- Río Támesis | 0 / 13 | 1.00 | 0.00 | 0-1 |
-| 115 Roma-Dinamarca | 0 / 24 | 1.00 | 0.00 | 0-2 |
-| 008 Reforma - General Prim | 0 / 14 | 1.00 | 0.00 | 0-1 |
-| 116 Londres-Roma | 0 / 19 | 1.00 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 0 / 34 | 1.00 | 0.00 | 0-2 |
-| 119 Turín-Abraham González | 0 / 26 | 0.99 | 0.00 | 0-2 |
-| 118 Liverpool-Dinamarca | 0 / 14 | 0.99 | 0.00 | 0-2 |
-| 450 Ramos Arizpe- Av México Teno | 25 / 25 | 0.00 | 0.98 | 23-25 |
-| 117 Londres-Nápoles | 0 / 29 | 0.97 | 0.00 | 0-2 |
+| 048 Independencia - Azueta | 0 / 9 | 1.00 | 0.00 | 0-2 |
+| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 0 / 14 | 0.99 | 0.00 | 0-3 |
+| 450 Ramos Arizpe- Av México Teno | 25 / 25 | 0.00 | 0.98 | 20-25 |
+| 119 Turín-Abraham González | 0 / 5 | 0.97 | 0.09 | 0-4 |
+| 260 Av. Juárez-Balderas | 17 / 17 | 0.00 | 0.96 | 10-17 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 18 | 0.89 | 0.00 | 0-5 |
+| 114 Lucerna-Abraham González | 1 / 18 | 0.80 | 0.00 | 0-1 |
+| 113 General Prim-Versalles | 1 / 11 | 0.74 | 0.00 | 0-2 |
+| 041 Reforma - Av. de la Repúblic | 2 / 24 | 0.36 | 0.00 | 1-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 450 (25/25) a 020 (0/13)
-2. Llevar **12 bicis** de 112 (18/19) a 119 (0/26)
-3. Llevar **9 bicis** de 255 (26/31) a 012 (3/14)
+1. Llevar **8 bicis** de 010 (9/27) a 256 (1/18)
+2. Llevar **6 bicis** de 260 (17/17) a 048 (0/9)
+3. Llevar **10 bicis** de 450 (25/25) a 114 (1/18)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
