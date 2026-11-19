@@ -1,12 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,116,Londres-Roma,008,Reforma - General Prim,6,16,16,0,13,,5.0,11.550786721176419
-Regla umbral 85/15,1,116,Londres-Roma,008,Reforma - General Prim,6,16,16,0,13,,5.0,11.550786721176419
-Regla umbral 80/20,1,116,Londres-Roma,008,Reforma - General Prim,6,16,16,0,13,,5.0,11.550786721176419
-Regla umbral 80/20,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,4,11,13,0,26,,18.650466998912357,27.816036847405336
-Regla umbral 75/25,1,116,Londres-Roma,008,Reforma - General Prim,6,16,16,0,13,,5.0,11.550786721176419
-Regla umbral 75/25,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,4,11,13,0,26,,18.650466998912357,27.816036847405336
-Regla umbral 70/30,1,116,Londres-Roma,008,Reforma - General Prim,6,16,16,0,13,,5.0,11.550786721176419
-Regla umbral 70/30,2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,4,11,13,0,26,,18.650466998912357,27.816036847405336
-Gemelo (voraz),1,116,Londres-Roma,115,Roma-Dinamarca,8,16,16,0,21,6.1910001039505005,5.0,11.72985020271516
-Gemelo (voraz),2,113,General Prim-Versalles,026,Reforma - Versalles,8,11,13,1,14,5.265999972820282,19.59473245750719,25.9196030143543
-Gemelo (voraz),3,114,Lucerna-Abraham González,260,Av. Juárez-Balderas,6,10,17,0,20,3.217000126838684,33.13571744094046,42.981152552624636
+Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,3,10,13,0,26,,5.0,11.813851355574819
+Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,3,10,13,0,26,,5.0,11.813851355574819
+Regla umbral 70/30,2,116,Londres-Roma,041,Reforma - Av. de la República,4,12,16,0,24,,19.51123928902127,29.58386994846237
+Gemelo (voraz),1,113,General Prim-Versalles,010,Reforma - Ramírez,8,10,13,0,26,5.346999287605286,5.0,11.813851355574819
+Gemelo (voraz),2,107-108,Tolsa-Balderas,255,José Rosas Moreno-Guillermo Prieto,7,11,57,0,31,4.053999662399292,21.4937107292904,35.290824623146584
+Gemelo (voraz),3,117,Londres-Nápoles,029,Reforma - Bucareli,5,15,25,0,30,2.122000217437744,46.108274202384735,58.17458079541722
