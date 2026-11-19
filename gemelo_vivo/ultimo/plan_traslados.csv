@@ -1,5 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,260,Av. Juárez-Balderas,116,Londres-Roma,8,17,18,0,17,,5.0,16.057354303232408
-Gemelo (voraz),1,260,Av. Juárez-Balderas,117,Londres-Nápoles,11,17,18,0,28,7.619999885559082,5.0,18.287172057491397
-Gemelo (voraz),2,255,José Rosas Moreno-Guillermo Prieto,116,Londres-Roma,11,22,30,0,17,5.12799996137619,29.104621636729544,39.60210635776364
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,10,21,27,0,21,4.846000373363495,51.10110846131046,62.347478385712236
+Regla umbral,1,113,General Prim-Versalles,008,Reforma - General Prim,5,11,11,0,13,,5.0,12.099680277735938
+Regla umbral,2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,8,17,18,0,21,,23.219775566076695,35.40071339415688
+Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,13,17,18,0,21,10.731000423431396,5.0,17.18093782808019
+Gemelo (voraz),2,255,José Rosas Moreno-Guillermo Prieto,117,Londres-Nápoles,15,21,30,0,28,7.7010000720620155,26.511221919182447,37.32867149842059
+Gemelo (voraz),3,263,Sadi Carnot - Gómez Farias,031,Hamburgo - Insurgentes,16,21,29,0,30,6.2180001102387905,47.69210324902238,57.76024241329738

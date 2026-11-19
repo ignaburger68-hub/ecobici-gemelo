@@ -1,38 +1,39 @@
-Simulación de una hora — miércoles 18/11/2026 19:55 a 20:55 (en vivo)
-Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
-Factor del día: retiros 1.01, devoluciones 0.92
+Simulación de una hora — miércoles 18/11/2026 20:09 a 21:09 (en vivo)
+Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-09, 2026-11-10, 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17
+Factor del día: retiros 1.09, devoluciones 0.91
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 20:00 a 21:00 (día hábil): 15.6 °C (-0.4 °C respecto de lo normal a esa hora), sin lluvia, viento 10 km/h
-Efecto del clima en la hora: retiros ×0.79 (-21 %), devoluciones ×0.84 (-16 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.81 (-19 %), devoluciones ×0.85 (-15 %)  (×1,00 = sin efecto)
   lluvia         sin lluvia                     retiros ×0.988  devoluciones ×0.981
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    normal (±1 °C)                 retiros ×0.944  devoluciones ×0.951
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       118 Liverpool-Dinamarca        B=0/12  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       116 Londres-Roma               B=0/17  p vacía 0.99  p llena 0.00  B(t+60) 0-5
-       008 Reforma - General Prim     B=0/13  p vacía 0.99  p llena 0.00  B(t+60) 0-2
-       117 Londres-Nápoles            B=0/28  p vacía 0.98  p llena 0.00  B(t+60) 0-4
-       041 Reforma - Av. de la Repúbl B=1/24  p vacía 0.94  p llena 0.00  B(t+60) 0-6
-       115 Roma-Dinamarca             B=0/21  p vacía 0.94  p llena 0.00  B(t+60) 0-4
-       020 Reforma- Río Támesis       B=1/10  p vacía 0.94  p llena 0.01  B(t+60) 1-6
-       086 Sullivan-Insurgentes       B=1/9  p vacía 0.93  p llena 0.04  B(t+60) 0-5
+       115 Roma-Dinamarca             B=0/21  p vacía 1.00  p llena 0.00  B(t+60) 0-4
+       008 Reforma - General Prim     B=0/13  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       031 Hamburgo - Insurgentes     B=0/30  p vacía 1.00  p llena 0.00  B(t+60) 0-5
+       117 Londres-Nápoles            B=0/28  p vacía 0.99  p llena 0.00  B(t+60) 0-3
+       048 Independencia - Azueta     B=0/7  p vacía 0.97  p llena 0.04  B(t+60) 0-5
+       086 Sullivan-Insurgentes       B=1/9  p vacía 0.97  p llena 0.03  B(t+60) 0-4
+       026 Reforma - Versalles        B=2/9  p vacía 0.95  p llena 0.00  B(t+60) 0-3
+       118 Liverpool-Dinamarca        B=1/12  p vacía 0.93  p llena 0.00  B(t+60) 0-4
 
 Plan Regla umbral:
-  1. llevar 8 bicis de 260 (17/18) a 116 (0/17)
+  1. llevar 5 bicis de 113 (11/11) a 008 (0/13)
+  2. llevar 8 bicis de 260 (17/18) a 115 (0/21)
 Plan Gemelo (voraz):
-  1. llevar 11 bicis de 260 (17/18) a 117 (0/28)
-  2. llevar 11 bicis de 255 (22/30) a 116 (0/17)
-  3. llevar 10 bicis de 555 (21/27) a 115 (0/21)
+  1. llevar 13 bicis de 260 (17/18) a 115 (0/21)
+  2. llevar 15 bicis de 255 (21/30) a 117 (0/28)
+  3. llevar 16 bicis de 263 (21/29) a 031 (0/30)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               62.0  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral                             54.9  (atiende +7.1 vs sin acción, IC95 +6.9 a +7.4)
-  Gemelo (voraz)                           43.4  (atiende +18.6 vs sin acción, IC95 +18.1 a +19.1)
-  Gemelo (voraz) con tiempos de viaje      54.4  (atiende +7.6 vs sin acción, IC95 +7.3 a +7.9)
+  Sin acción                               74.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral                             61.6  (atiende +13.3 vs sin acción, IC95 +13.1 a +13.6)
+  Gemelo (voraz)                           49.9  (atiende +25.0 vs sin acción, IC95 +24.4 a +25.6)
+  Gemelo (voraz) con tiempos de viaje      68.8  (atiende +6.1 vs sin acción, IC95 +5.9 a +6.4)
 
-Validación: |simulada − exacta| máx 0.021, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.039, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 2.0 s
+Tiempo de cálculo: 2.7 s
