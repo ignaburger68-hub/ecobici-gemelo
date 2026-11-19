@@ -1,7 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,012,Río Lerma - Villalongín,010,Reforma - Ramírez,3,10,13,0,26,,5.0,13.635994015275768
-Regla umbral 70/30,1,012,Río Lerma - Villalongín,010,Reforma - Ramírez,3,10,13,0,26,,5.0,13.635994015275768
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,112,Av. Morelos-Abraham González,3,10,14,0,19,,22.600500825051167,32.36969175214023
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,10,10,29,1,26,9.701998889446259,5.0,17.87317105006021
-Gemelo (voraz),2,026,Reforma - Versalles,259,Tómas Alva Edison-Ponciano Arriaga,10,10,15,2,23,9.101999878883362,27.32587919690895,35.20703795723072
-Gemelo (voraz),3,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,11,11,23,3,25,8.738000094890594,45.39216069599015,55.45126312930023
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,15,15,29,0,25,13.04499900341034,5.0,17.87317105006021
+Gemelo (voraz),2,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,12,13,24,3,25,8.836999893188477,29.11954097446199,39.17864340777207
+Gemelo (voraz),3,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,9,9,23,1,24,5.605000734329224,48.92426198584976,59.00140590676369
