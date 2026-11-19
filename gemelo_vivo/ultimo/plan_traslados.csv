@@ -1,13 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,7,16,17,0,27,,5.0,12.699514271567278
-Regla umbral 85/15,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,7,16,17,0,27,,5.0,12.699514271567278
-Regla umbral 80/20,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,7,16,17,0,27,,5.0,12.699514271567278
-Regla umbral 80/20,2,113,General Prim-Versalles,003,Reforma - Insurgentes,4,11,13,0,30,,19.513365627142097,26.87942827217469
-Regla umbral 75/25,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,7,16,17,0,27,,5.0,12.699514271567278
-Regla umbral 75/25,2,113,General Prim-Versalles,003,Reforma - Insurgentes,4,11,13,0,30,,19.513365627142097,26.87942827217469
-Regla umbral 70/30,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,7,16,17,0,27,,5.0,12.699514271567278
-Regla umbral 70/30,2,113,General Prim-Versalles,003,Reforma - Insurgentes,4,11,13,0,30,,19.513365627142097,26.87942827217469
-Regla umbral 70/30,3,117,Londres-Nápoles,115,Roma-Dinamarca,6,19,26,0,21,,34.62987817500121,41.26237307896394
-Gemelo (voraz),1,114,Lucerna-Abraham González,115,Roma-Dinamarca,9,16,17,0,21,5.755999863147736,5.0,13.334330594804143
-Gemelo (voraz),2,113,General Prim-Versalles,010,Reforma - Ramírez,7,11,13,0,27,4.469999969005585,21.199212849596176,28.013064205170995
-Gemelo (voraz),3,117,Londres-Nápoles,003,Reforma - Insurgentes,5,19,26,0,30,1.9609999656677246,37.5959942752419,45.346444178068424
+Regla umbral 75/25,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,4,13,17,0,27,,5.0,12.699514271567278
+Regla umbral 70/30,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,4,13,17,0,27,,5.0,12.699514271567278
+Gemelo (voraz),1,114,Lucerna-Abraham González,010,Reforma - Ramírez,9,13,17,0,27,5.741999953985214,5.0,12.699514271567278
+Gemelo (voraz),2,260,Av. Juárez-Balderas,555,Ribera de San Cosme - Insurgentes Centro,6,6,19,0,28,3.625999927520752,21.855475727610923,32.23426247458241
+Gemelo (voraz),3,029,Reforma - Bucareli,041,Reforma - Av. de la República,6,9,31,0,24,2.664000153541565,41.655384100033444,46.93087507744499
