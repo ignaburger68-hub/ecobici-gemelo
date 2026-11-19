@@ -1,7 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,3,10,13,0,26,,5.0,11.813851355574819
-Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,3,10,13,0,26,,5.0,11.813851355574819
-Regla umbral 70/30,2,116,Londres-Roma,041,Reforma - Av. de la República,4,12,16,0,24,,19.51123928902127,29.58386994846237
-Gemelo (voraz),1,113,General Prim-Versalles,010,Reforma - Ramírez,8,10,13,0,26,5.346999287605286,5.0,11.813851355574819
-Gemelo (voraz),2,107-108,Tolsa-Balderas,255,José Rosas Moreno-Guillermo Prieto,7,11,57,0,31,4.053999662399292,21.4937107292904,35.290824623146584
-Gemelo (voraz),3,117,Londres-Nápoles,029,Reforma - Bucareli,5,15,25,0,30,2.122000217437744,46.108274202384735,58.17458079541722
+Regla umbral 90/10,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,13,13,0,27,,5.0,11.813851355574819
+Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,13,13,0,27,,5.0,11.813851355574819
+Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,13,13,0,27,,5.0,11.813851355574819
+Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,13,13,0,27,,5.0,11.813851355574819
+Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,13,13,0,27,,5.0,11.813851355574819
+Gemelo (voraz),1,113,General Prim-Versalles,115,Roma-Dinamarca,8,13,13,0,21,6.118999600410461,5.0,12.864882254792033
+Gemelo (voraz),2,107-108,Tolsa-Balderas,010,Reforma - Ramírez,6,11,57,0,27,2.71399986743927,23.586694603531054,33.26655397724663
+Gemelo (voraz),3,114,Lucerna-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,5,10,17,1,27,1.9689996242523193,40.96606824881391,52.6048711213399
