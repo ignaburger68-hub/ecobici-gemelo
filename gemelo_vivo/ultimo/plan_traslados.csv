@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,003,Reforma - Insurgentes,6,13,13,0,30,,5.0,12.366062645032592
-Regla umbral 90/10,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,14,14,0,29,,17.67089214681603,25.576156260096656
-Regla umbral 90/10,3,116,Londres-Roma,020,Reforma- Río Támesis,8,18,19,0,19,,34.90168375454435,42.15368747152574
-Regla umbral 85/15,1,113,General Prim-Versalles,003,Reforma - Insurgentes,6,13,13,0,30,,5.0,12.366062645032592
-Regla umbral 85/15,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,14,14,0,29,,17.67089214681603,25.576156260096656
-Regla umbral 85/15,3,116,Londres-Roma,020,Reforma- Río Támesis,8,18,19,0,19,,34.90168375454435,42.15368747152574
-Regla umbral 80/20,1,113,General Prim-Versalles,003,Reforma - Insurgentes,6,13,13,0,30,,5.0,12.366062645032592
-Regla umbral 80/20,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,14,14,0,29,,17.67089214681603,25.576156260096656
-Regla umbral 80/20,3,116,Londres-Roma,020,Reforma- Río Támesis,8,18,19,0,19,,34.90168375454435,42.15368747152574
-Regla umbral 75/25,1,113,General Prim-Versalles,003,Reforma - Insurgentes,6,13,13,0,30,,5.0,12.366062645032592
-Regla umbral 75/25,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,14,14,0,29,,17.67089214681603,25.576156260096656
-Regla umbral 75/25,3,116,Londres-Roma,020,Reforma- Río Támesis,8,18,19,0,19,,34.90168375454435,42.15368747152574
-Regla umbral 70/30,1,113,General Prim-Versalles,003,Reforma - Insurgentes,6,13,13,0,30,,5.0,12.366062645032592
-Regla umbral 70/30,2,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,7,14,14,0,29,,17.67089214681603,25.576156260096656
-Regla umbral 70/30,3,116,Londres-Roma,020,Reforma- Río Támesis,8,18,19,0,19,,34.90168375454435,42.15368747152574
-Gemelo (voraz),1,114,Lucerna-Abraham González,107-108,Tolsa-Balderas,12,17,18,0,55,7.561000108718872,5.0,12.431030559736724
-Gemelo (voraz),2,113,General Prim-Versalles,260,Av. Juárez-Balderas,9,13,13,0,20,6.644999742507935,20.63057584062861,30.240309846650216
-Gemelo (voraz),3,008,Reforma - General Prim,256,Gómez Farías-Sadi Carnot,9,14,14,0,20,5.85699987411499,41.36040513499097,49.75760584024895
+Regla umbral 90/10,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,5.0,14.053298601902974
+Regla umbral 90/10,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,9,18,18,0,19,,24.01451888434739,32.79414362356431
+Regla umbral 90/10,3,008,Reforma - General Prim,086,Sullivan-Insurgentes,6,13,14,0,16,,38.964932543357016,44.87572625648383
+Regla umbral 85/15,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,5.0,14.053298601902974
+Regla umbral 85/15,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,9,18,18,0,19,,24.01451888434739,32.79414362356431
+Regla umbral 85/15,3,008,Reforma - General Prim,086,Sullivan-Insurgentes,6,13,14,0,16,,38.964932543357016,44.87572625648383
+Regla umbral 80/20,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,5.0,14.053298601902974
+Regla umbral 80/20,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,9,18,18,0,19,,24.01451888434739,32.79414362356431
+Regla umbral 80/20,3,008,Reforma - General Prim,086,Sullivan-Insurgentes,6,13,14,0,16,,38.964932543357016,44.87572625648383
+Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,5.0,14.053298601902974
+Regla umbral 75/25,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,9,18,18,0,19,,24.01451888434739,32.79414362356431
+Regla umbral 75/25,3,008,Reforma - General Prim,086,Sullivan-Insurgentes,6,13,14,0,16,,38.964932543357016,44.87572625648383
+Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,13,13,0,29,,5.0,14.053298601902974
+Regla umbral 70/30,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,9,18,18,0,19,,24.01451888434739,32.79414362356431
+Regla umbral 70/30,3,008,Reforma - General Prim,086,Sullivan-Insurgentes,6,13,14,0,16,,38.964932543357016,44.87572625648383
+Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,10,13,13,0,16,8.825000047683716,5.0,12.891566616719892
+Gemelo (voraz),2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,10,18,18,0,19,5.735000014305115,21.553143210811694,30.33276795002861
+Gemelo (voraz),3,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,8,10,14,2,25,4.190999865531921,37.7677831789693,49.1550898743533
