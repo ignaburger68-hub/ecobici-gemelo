@@ -1,7 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,086,Sullivan-Insurgentes,026,Reforma - Versalles,4,8,8,0,11,,5.0,12.31616904304469
-Regla umbral,2,048,Independencia - Azueta,010,Reforma - Ramírez,4,8,8,0,24,,21.90341423396998,31.528395677713373
-Regla umbral,3,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,25,26,0,10,,40.49122909967896,51.264179216759885
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,031,Hamburgo - Insurgentes,20,25,26,7,29,20.326000213623047,5.0,17.628641696340626
-Gemelo (voraz),2,048,Independencia - Azueta,115,Roma-Dinamarca,7,8,8,0,21,7.098999977111816,31.253818785033584,43.66487336878635
-Gemelo (voraz),3,107-108,Tolsa-Balderas,117,Londres-Nápoles,10,13,51,0,28,5.897000074386597,54.386685717525374,65.25352904823795
+Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,25,27,0,11,,5.0,15.772950117080928
+Regla umbral,2,048,Independencia - Azueta,008,Reforma - General Prim,3,7,8,0,12,,25.420245908126347,36.8424266160828
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,031,Hamburgo - Insurgentes,18,25,27,1,29,15.045999526977539,5.0,17.628641696340626
+Gemelo (voraz),2,107-108,Tolsa-Balderas,115,Roma-Dinamarca,12,18,51,1,21,7.718999862670898,29.02557106255124,39.74738341129026
+Gemelo (voraz),3,029,Reforma - Bucareli,117,Londres-Nápoles,10,13,27,0,29,5.754000216722488,50.617065579805974,62.68337217283846
