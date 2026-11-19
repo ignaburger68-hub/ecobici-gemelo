@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 19/11/2026 06:38 (hora de Ciudad de México).
+Página actualizada automáticamente el 19/11/2026 06:52 (hora de Ciudad de México).
 
-## Último pronóstico: 19/11 06:38 a 07:38
+## Último pronóstico: 19/11 06:52 a 07:52
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 114 Lucerna-Abraham González | 0 / 18 | 1.00 | 0.00 | 0-4 |
-| 048 Independencia - Azueta | 0 / 9 | 0.99 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 0 / 14 | 0.99 | 0.00 | 0-5 |
-| 020 Reforma- Río Támesis | 0 / 22 | 0.97 | 0.00 | 1-8 |
-| 450 Ramos Arizpe- Av México Teno | 25 / 25 | 0.00 | 0.97 | 18-25 |
-| 256 Gómez Farías-Sadi Carnot | 1 / 18 | 0.79 | 0.00 | 0-6 |
-| 270 De la República-Ponciano Arr | 1 / 26 | 0.75 | 0.00 | 0-6 |
-| 113 General Prim-Versalles | 1 / 11 | 0.70 | 0.01 | 1-6 |
-| 012 Río Lerma - Villalongín | 11 / 14 | 0.00 | 0.45 | 9-14 |
+| 114 Lucerna-Abraham González | 0 / 18 | 1.00 | 0.00 | 0-3 |
+| 020 Reforma- Río Támesis | 0 / 22 | 0.98 | 0.00 | 0-8 |
+| 048 Independencia - Azueta | 0 / 9 | 0.98 | 0.00 | 0-3 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 18 | 0.98 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 0 / 14 | 0.97 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 2 / 11 | 0.84 | 0.00 | 0-4 |
+| 270 De la República-Ponciano Arr | 1 / 26 | 0.72 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 24 | 0.72 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 20 / 27 | 0.00 | 0.66 | 13-24 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 010 (12/27) a 114 (0/18)
-2. Llevar **7 bicis** de 012 (11/14) a 256 (1/18)
-3. Llevar **5 bicis** de 450 (25/25) a 048 (0/9)
+1. Llevar **11 bicis** de 010 (20/27) a 256 (0/18)
+2. Llevar **11 bicis** de 450 (22/25) a 555 (12/28)
+3. Llevar **3 bicis** de 118 (3/14) a 086 (2/11)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
