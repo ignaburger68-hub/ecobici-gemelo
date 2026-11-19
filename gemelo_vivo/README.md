@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 19/11/2026 14:15 (hora de Ciudad de México).
+Página actualizada automáticamente el 19/11/2026 14:29 (hora de Ciudad de México).
 
-## Último pronóstico: 19/11 14:15 a 15:15
+## Último pronóstico: 19/11 14:29 a 15:29
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.72** y las **devoluciones por 0.78** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 20 | 0.99 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 0 / 23 | 0.99 | 0.00 | 0-4 |
-| 260 Av. Juárez-Balderas | 0 / 20 | 0.99 | 0.00 | 0-5 |
-| 450 Ramos Arizpe- Av México Teno | 0 / 29 | 0.99 | 0.00 | 0-4 |
-| 048 Independencia - Azueta | 0 / 10 | 0.98 | 0.00 | 0-2 |
+| 260 Av. Juárez-Balderas | 0 / 19 | 0.99 | 0.00 | 0-5 |
+| 116 Londres-Roma | 16 / 16 | 0.00 | 0.98 | 7-15 |
 | 259 Tómas Alva Edison-Ponciano A | 0 / 26 | 0.98 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 0 / 29 | 0.95 | 0.00 | 0-7 |
+| 270 De la República-Ponciano Arr | 0 / 24 | 0.97 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 0 / 16 | 0.97 | 0.00 | 0-5 |
+| 020 Reforma- Río Támesis | 1 / 19 | 0.94 | 0.00 | 0-3 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 20 | 0.94 | 0.00 | 0-4 |
 | 115 Roma-Dinamarca | 2 / 21 | 0.92 | 0.00 | 0-3 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.92 | 0.00 | 0-5 |
+| 113 General Prim-Versalles | 13 / 13 | 0.06 | 0.92 | 2-12 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 116 (15/16) a 256 (0/20)
-2. Llevar **10 bicis** de 117 (17/26) a 115 (2/21)
-3. Llevar **6 bicis** de 113 (13/13) a 041 (0/23)
+1. Llevar **10 bicis** de 116 (16/16) a 115 (2/21)
+2. Llevar **6 bicis** de 113 (13/13) a 260 (0/19)
+3. Llevar **9 bicis** de 117 (17/26) a 256 (1/20)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-187 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+188 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.122 | 0.037 |
-| Sin resincronizar | 0.283 | 0.094 |
+| Sin resincronizar | 0.284 | 0.094 |
 | Persistencia | 0.331 | 0.071 |
 | Persistencia 0/1 | 0.331 | 0.071 |
 
