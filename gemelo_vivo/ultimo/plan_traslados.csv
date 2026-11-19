@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,8,17,17,0,30,,5.0,13.091219284422253
-Regla umbral 90/10,2,118,Liverpool-Dinamarca,020,Reforma- Río Támesis,7,14,14,0,19,,20.680562705783245,28.11557793472394
-Regla umbral 90/10,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,26,27,0,29,,35.25211113336041,45.61554288396219
-Regla umbral 85/15,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,8,17,17,0,30,,5.0,13.091219284422253
-Regla umbral 85/15,2,118,Liverpool-Dinamarca,020,Reforma- Río Támesis,7,14,14,0,19,,20.680562705783245,28.11557793472394
-Regla umbral 85/15,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,26,27,0,29,,35.25211113336041,45.61554288396219
-Regla umbral 80/20,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,8,17,17,0,30,,5.0,13.091219284422253
-Regla umbral 80/20,2,118,Liverpool-Dinamarca,020,Reforma- Río Támesis,7,14,14,0,19,,20.680562705783245,28.11557793472394
-Regla umbral 80/20,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,26,27,0,29,,35.25211113336041,45.61554288396219
-Regla umbral 75/25,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,8,17,17,0,30,,5.0,13.091219284422253
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,020,Reforma- Río Támesis,7,14,14,0,19,,20.680562705783245,28.11557793472394
-Regla umbral 75/25,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,26,27,0,29,,35.25211113336041,45.61554288396219
-Regla umbral 70/30,1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,8,17,17,0,30,,5.0,13.091219284422253
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,020,Reforma- Río Támesis,7,14,14,0,19,,20.680562705783245,28.11557793472394
-Regla umbral 70/30,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,12,26,27,0,29,,35.25211113336041,45.61554288396219
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,26,27,1,30,10.341000080108643,5.0,17.87317105006021
-Gemelo (voraz),2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,11,17,17,1,16,7.795000314712524,29.5119739225862,38.173550516678006
-Gemelo (voraz),3,116,Londres-Roma,010,Reforma - Ramírez,9,16,17,2,27,6.0920000076293945,45.62888130940912,53.32626924285557
+Regla umbral 90/10,1,113,General Prim-Versalles,008,Reforma - General Prim,6,13,13,0,14,,5.0,12.099680277735938
+Regla umbral 90/10,2,116,Londres-Roma,041,Reforma - Av. de la República,8,17,17,0,24,,18.650466998912357,28.72309765835346
+Regla umbral 90/10,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,17,17,0,5,,37.85432323355134,44.5058721718719
+Regla umbral 85/15,1,113,General Prim-Versalles,008,Reforma - General Prim,6,13,13,0,14,,5.0,12.099680277735938
+Regla umbral 85/15,2,116,Londres-Roma,041,Reforma - Av. de la República,8,17,17,0,24,,18.650466998912357,28.72309765835346
+Regla umbral 85/15,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,17,17,0,5,,37.85432323355134,44.5058721718719
+Regla umbral 80/20,1,113,General Prim-Versalles,008,Reforma - General Prim,6,13,13,0,14,,5.0,12.099680277735938
+Regla umbral 80/20,2,116,Londres-Roma,041,Reforma - Av. de la República,8,17,17,0,24,,18.650466998912357,28.72309765835346
+Regla umbral 80/20,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,17,17,0,5,,37.85432323355134,44.5058721718719
+Regla umbral 75/25,1,113,General Prim-Versalles,008,Reforma - General Prim,6,13,13,0,14,,5.0,12.099680277735938
+Regla umbral 75/25,2,116,Londres-Roma,041,Reforma - Av. de la República,8,17,17,0,24,,18.650466998912357,28.72309765835346
+Regla umbral 75/25,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,17,17,0,5,,37.85432323355134,44.5058721718719
+Regla umbral 70/30,1,113,General Prim-Versalles,008,Reforma - General Prim,6,13,13,0,14,,5.0,12.099680277735938
+Regla umbral 70/30,2,116,Londres-Roma,041,Reforma - Av. de la República,8,17,17,0,24,,18.650466998912357,28.72309765835346
+Regla umbral 70/30,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,17,17,0,5,,37.85432323355134,44.5058721718719
+Gemelo (voraz),1,114,Lucerna-Abraham González,255,José Rosas Moreno-Guillermo Prieto,12,17,17,0,31,9.161000370979309,5.0,16.503839349566498
+Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,16,26,27,0,24,8.360000014305115,27.321288928804645,39.556835971194076
+Gemelo (voraz),3,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,10,17,17,2,30,6.488999843597412,49.62946663063518,61.128468734182
