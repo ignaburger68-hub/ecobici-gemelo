@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,5,17,17,0,11,,5.0,14.609734006021608
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,24,25,0,14,,24.361663280802752,34.56868347278996
-Regla umbral 90/10,3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,8,18,19,0,24,,43.18360789850009,52.813985163570045
-Regla umbral 85/15,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,5,17,17,0,11,,5.0,14.609734006021608
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,24,25,0,14,,24.361663280802752,34.56868347278996
-Regla umbral 85/15,3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,8,18,19,0,24,,43.18360789850009,52.813985163570045
-Regla umbral 80/20,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,5,17,17,0,11,,5.0,14.609734006021608
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,24,25,0,14,,24.361663280802752,34.56868347278996
-Regla umbral 80/20,3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,8,18,19,0,24,,43.18360789850009,52.813985163570045
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,5,17,17,0,11,,5.0,14.609734006021608
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,24,25,0,14,,24.361663280802752,34.56868347278996
-Regla umbral 75/25,3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,8,18,19,0,24,,43.18360789850009,52.813985163570045
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,5,17,17,0,11,,5.0,14.609734006021608
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,24,25,0,14,,24.361663280802752,34.56868347278996
-Regla umbral 70/30,3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,8,18,19,0,24,,43.18360789850009,52.813985163570045
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,11,24,25,1,14,5.313000321388245,5.0,16.244372235999016
-Gemelo (voraz),2,112,Av. Morelos-Abraham González,119,Turín-Abraham González,12,18,19,0,27,3.7079999446868896,26.6818812875353,35.73294800662455
-Gemelo (voraz),3,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,17,1,20,3.0540000796318054,47.22987402739756,58.287228330629965
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
+Regla umbral 90/10,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
+Regla umbral 85/15,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
+Regla umbral 80/20,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
+Regla umbral 75/25,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,25,25,0,11,,5.0,14.751929274781144
+Regla umbral 70/30,2,112,Av. Morelos-Abraham González,008,Reforma - General Prim,7,18,19,0,14,,21.78916477042465,30.404089196134787
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,116,Londres-Roma,6,15,17,0,19,,41.52418448447554,52.58153878770795
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,13,4.6540000438690186,5.0,16.144597358713426
+Gemelo (voraz),2,112,Av. Morelos-Abraham González,119,Turín-Abraham González,12,18,19,0,26,3.4330000579357147,25.928892367750716,34.97995908683996
+Gemelo (voraz),3,255,José Rosas Moreno-Guillermo Prieto,012,Río Lerma - Villalongín,9,26,31,3,14,2.744999843649566,46.82017781230406,54.65215995752721
