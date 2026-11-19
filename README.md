@@ -235,7 +235,9 @@ Compara el **Gemelo** con las referencias **Sin resincronizar** y **Persistencia
 ```bash
 py -3.14 gemelo.py evaluar --desde 2026-11-23 --hasta 2026-11-27 --planes
 ```
-Resultados en `resultados_gemelo/evaluacion/`: `resumen_evaluacion.txt`, `metricas_brier.csv`, `brier_por_hora.png`, `calibracion.png`, `precision_exhaustividad.csv` y, con `--planes`, `planes_por_hora.png` y `planes_resumen.csv`. El tablero los muestra en la pestaña "Rendimiento".
+Resultados en `resultados_gemelo/evaluacion/`: `resumen_evaluacion.txt`, `metricas_brier.csv`, `brier_por_hora.png`, `calibracion.png`, `precision_exhaustividad.csv` y, con `--planes`, `planes_por_hora.png` y `planes_resumen.csv`.
+
+También compara **5 umbrales de decisión** (avisar que una estación quedará vacía o llena si la probabilidad supera 0,3 · 0,4 · 0,5 · 0,6 · 0,7) con precisión, exhaustividad y F1, y marca con ★ el mejor (`umbrales_decision.csv` y `.png`). El umbral no cambia las probabilidades, el Brier ni el plan del camión: solo cuándo se avisa. Los umbrales se cambian en `UMBRALES_DECISION` de `config_gemelo.py`; `UMBRAL_DECISION` es el que usa el tablero para contar avisos. El tablero los muestra en la pestaña "Rendimiento".
 
 Para probar antes con días ya recolectados (unos 30 s por día):
 ```bash
