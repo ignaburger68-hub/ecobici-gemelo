@@ -22,7 +22,7 @@ import streamlit as st
 
 import config_gemelo as cfg
 from datos_gemelo import es_habil
-from gemelo import DIAS, ahora_local, simulacion_una_hora
+from gemelo import DIAS, ahora_local, simulacion_una_hora, tabla_umbrales
 from modelo_gemelo import Gemelo
 import tasas_gemelo as tz
 
@@ -148,6 +148,50 @@ def pestana_tasas():
                            "tasas_mapa_calor.csv", "text/csv")
 
 
+def umbrales_vivo():
+    """Tabla de umbrales con el registro en vivo (pronósticos ya evaluados), igual que evaluar_pendientes."""
+    a_pron = os.path.join(cfg.CARPETA_VIVO, "pronosticos.csv")
+    a_eval = os.path.join(cfg.CARPETA_VIVO, "evaluaciones.csv")
+    if not (os.path.isfile(a_pron) and os.path.isfile(a_eval)):
+        return None
+    pron = pd.read_csv(a_pron, parse_dates=["t0"], dtype={"code": str})
+    ev = pd.read_csv(a_eval, parse_dates=["t0"], dtype={"code": str})
+    df = pron.merge(ev, on=["t0", "code"])
+    val = df[df["ok"].astype(bool) & df["ok_obs"].astype(bool) & ~df["camion"].astype(bool)]
+    return tabla_umbrales(val) if len(val) else None
+
+
+def mostrar_umbrales(t, clave):
+    """Tabla del gemelo por evento, con el mejor umbral resaltado; las referencias en un desplegable."""
+    st.caption("El gemelo da una probabilidad; el **umbral de decisión** dice desde qué probabilidad «avisa» que la "
+               "estación quedará vacía o llena. Umbral bajo = más avisos (se escapan menos casos, pero hay más "
+               "falsas alarmas); umbral alto = menos avisos y más certeros. **Precisión**: de los avisos, cuántos "
+               "ocurrieron. **Exhaustividad**: de los casos reales, cuántos se avisaron. **F1** combina ambas; "
+               "el mejor umbral (mayor F1) aparece resaltado con ★. El umbral no cambia el puntaje de Brier, "
+               "sólo cuándo se avisa.")
+    cols = st.columns(2)
+    for col, ev in zip(cols, ("vacía", "llena")):
+        s = t[(t["modelo"] == "Gemelo") & (t["evento"] == ev)].copy()
+        if s.empty:
+            continue
+        b = s[s["mejor"]].iloc[0]
+        col.markdown(f"**Quedar {ev}** · mejor umbral: **{b['umbral']:.1f}** (F1 {b['F1']:.2f})")
+        s["umbral"] = [("★ " if m else "") + f"{u:.1f}" for u, m in zip(s["umbral"], s["mejor"])]
+        vista = s[["umbral", "avisos", "aciertos", "precision", "exhaustividad", "F1", "mejor"]].rename(columns={
+            "umbral": "Umbral", "avisos": "Avisos", "aciertos": "Aciertos", "precision": "Precisión",
+            "exhaustividad": "Exhaustividad"})
+        estilo = (vista.style
+                  .apply(lambda r: ["background-color: rgba(46,139,87,0.28); font-weight: 700" if r["mejor"]
+                                    else "" for _ in r], axis=1)
+                  .format({"Precisión": "{:.3f}", "Exhaustividad": "{:.3f}", "F1": "{:.3f}"}, na_rep="—")
+                  .hide(axis="columns", subset=["mejor"]))
+        col.dataframe(estilo, hide_index=True, key=f"umb_{clave}_{ev}")
+    with st.expander("Ver también las referencias (Sin resincronizar, Persistencia)"):
+        r = t[t["modelo"] != "Gemelo"].copy()
+        r["umbral"] = [("★ " if m else "") + f"{u:.1f}" for u, m in zip(r["umbral"], r["mejor"])]
+        st.dataframe(r.drop(columns=["mejor"]).round(3), hide_index=True, key=f"umb_{clave}_ref")
+
+
 def empaquetar(res):
     return {k: res[k] for k in ("t0", "tabla", "brier", "texto", "clima")} | {
         "traslados": res["plan"]["traslados"], "comparacion": res["plan"]["comparacion"],
@@ -214,8 +258,9 @@ def mostrar(r):
     tabla, t0 = r["tabla"], r["t0"]
     st.subheader(f"{DIAS[t0.dayofweek]} {t0:%d/%m/%Y %H:%M} → {t0 + pd.Timedelta(minutes=60):%H:%M}")
     c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Estaciones con p(vacía) > 0,5", int((tabla["p_vacia"] > 0.5).sum()))
-    c2.metric("Estaciones con p(llena) > 0,5", int((tabla["p_llena"] > 0.5).sum()))
+    u = cfg.UMBRAL_DECISION
+    c1.metric(f"Estaciones con p(vacía) > {u:.1f}".replace(".", ","), int((tabla["p_vacia"] > u).sum()))
+    c2.metric(f"Estaciones con p(llena) > {u:.1f}".replace(".", ","), int((tabla["p_llena"] > u).sum()))
     comp = r["comparacion"].set_index("plan")
     if "Gemelo (voraz)" in comp.index:
         c3.metric("Usuarios atendidos de más con el plan",
@@ -343,6 +388,10 @@ with pest_rend:
         img = os.path.join(cfg.CARPETA_VIVO, "brier_vivo.png")
         if os.path.isfile(img):
             st.image(img)
+        tu = umbrales_vivo()
+        if tu is not None and len(tu):
+            st.markdown("#### Umbral de decisión (pronósticos en tiempo real)")
+            mostrar_umbrales(tu, "vivo")
     else:
         st.info(f"Todavía no hay registro en vivo ({cfg.CARPETA_VIVO}/). Lo genera el comando 'ciclo' en GitHub; "
                 "haz git pull para traerlo.")
@@ -351,7 +400,12 @@ with pest_rend:
     if os.path.isfile(a):
         with open(a, encoding="utf-8") as fh:
             st.text(fh.read())
-        for nombre, titulo in [("brier_por_hora.png", "Puntaje de Brier por hora del día"),
+        a_u = os.path.join(CARPETA_EVAL, "umbrales_decision.csv")
+        if os.path.isfile(a_u):
+            st.markdown("#### Umbral de decisión (semana evaluada)")
+            mostrar_umbrales(pd.read_csv(a_u), "eval")
+        for nombre, titulo in [("umbrales_decision.png", "Precisión, exhaustividad y F1 según el umbral"),
+                               ("brier_por_hora.png", "Puntaje de Brier por hora del día"),
                                ("calibracion.png", "Calibración"),
                                ("planes_por_hora.png", "Valor de los planes de rebalanceo (en simulación)")]:
             img = os.path.join(CARPETA_EVAL, nombre)

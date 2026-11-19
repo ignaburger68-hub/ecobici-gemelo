@@ -112,3 +112,7 @@ GRILLA_M = [5, 10, 20, 40]
 GRILLA_PHI = [False, True]
 CORTES_PERSISTENCIA = [1, 2, 3, 5, 8]   # grupos de bicis (o anclajes): 0, 1, 2, 3-4, 5-7, 8+
 N_BOOTSTRAP = 2000
+# Umbral de decisión: con p(vacía) o p(llena) mayor que esto, el gemelo "avisa" que la estación quedará
+# vacía o llena. Se comparan varios (precisión, exhaustividad y F1) y se destaca el mejor.
+UMBRALES_DECISION = [0.3, 0.4, 0.5, 0.6, 0.7]
+UMBRAL_DECISION = 0.5        # el que se usa para contar avisos en el tablero

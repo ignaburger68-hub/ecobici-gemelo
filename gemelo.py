@@ -572,6 +572,81 @@ MODELOS = {"Gemelo": "gemelo", "Sin resincronizar": "sin_resinc", "Persistencia"
            "Persistencia 0/1": "persist01"}
 
 
+def tabla_umbrales(val, umbrales=None, modelos=None):
+    """
+    Para cada evento (vacía, llena), modelo y umbral de decisión: avisos, aciertos, precisión (de los
+    avisos, cuántos ocurrieron), exhaustividad (de los que ocurrieron, cuántos se avisaron) y F1.
+    'mejor' marca, por evento y modelo, el umbral con mayor F1.
+    """
+    umbrales = cfg.UMBRALES_DECISION if umbrales is None else umbrales
+    modelos = MODELOS if modelos is None else modelos
+    filas = []
+    for ev, y in [("vacía", "y_vac"), ("llena", "y_lle")]:
+        pref = "p_vac_" if ev == "vacía" else "p_lle_"
+        for nombre, suf in modelos.items():
+            col = pref + suf
+            if col not in val:
+                continue
+            v = val.dropna(subset=[col, y])
+            reales = int((v[y] == 1).sum())
+            for u in umbrales:
+                pred = v[col] > u
+                vp = int((pred & (v[y] == 1)).sum())
+                n_pred = int(pred.sum())
+                prec = vp / n_pred if n_pred else np.nan
+                exh = vp / reales if reales else np.nan
+                f1 = 2 * prec * exh / (prec + exh) if (np.isfinite(prec) and np.isfinite(exh) and prec + exh > 0) else 0.0
+                filas.append({"evento": ev, "modelo": nombre, "umbral": u, "avisos": n_pred, "aciertos": vp,
+                              "casos_reales": reales, "precision": prec, "exhaustividad": exh, "F1": f1})
+    t = pd.DataFrame(filas)
+    if len(t):
+        t["mejor"] = t.index.isin(t.groupby(["evento", "modelo"])["F1"].idxmax())
+    return t
+
+
+def texto_umbrales(t, modelo="Gemelo"):
+    """Líneas de texto con la tabla del modelo pedido y el mejor umbral marcado con ★."""
+    L = [f"Umbral de decisión ({modelo}): avisar si la probabilidad supera el umbral. "
+         "F1 combina precisión y exhaustividad; ★ = mejor umbral."]
+    for ev in ("vacía", "llena"):
+        s = t[(t["modelo"] == modelo) & (t["evento"] == ev)]
+        if s.empty:
+            continue
+        L.append(f"  Quedar {ev} ({int(s['casos_reales'].iloc[0])} casos reales):")
+        for _, r in s.iterrows():
+            L.append(f"   {'★' if r['mejor'] else ' '} umbral {r['umbral']:.1f}: {int(r['avisos']):>5} avisos · "
+                     f"precisión {r['precision']:.3f} · exhaustividad {r['exhaustividad']:.3f} · F1 {r['F1']:.3f}")
+    mejores = t[t["mejor"] & (t["modelo"] != modelo)]
+    if len(mejores):
+        L.append("  Mejor umbral de las referencias: " + "; ".join(
+            f"{r['modelo']} {r['evento']} {r['umbral']:.1f} (F1 {r['F1']:.3f})" for _, r in mejores.iterrows()))
+    return L
+
+
+def figura_umbrales(t, modelo="Gemelo"):
+    import matplotlib.pyplot as plt
+    fig, axs = plt.subplots(1, 2, figsize=(11, 4), sharey=True)
+    for ax, ev in zip(axs, ("vacía", "llena")):
+        s = t[(t["modelo"] == modelo) & (t["evento"] == ev)]
+        if s.empty:
+            continue
+        ax.plot(s["umbral"], s["precision"], marker="o", color=NARANJA, label="Precisión")
+        ax.plot(s["umbral"], s["exhaustividad"], marker="o", color=VERDE, label="Exhaustividad")
+        ax.plot(s["umbral"], s["F1"], marker="o", color=AZUL, lw=2.4, label="F1")
+        b = s[s["mejor"]].iloc[0]
+        ax.axvline(b["umbral"], color=AZUL, lw=0.8, ls=":")
+        ax.annotate(f"mejor: {b['umbral']:.1f}\nF1 {b['F1']:.2f}", (b["umbral"], b["F1"]), xytext=(6, 8),
+                    textcoords="offset points", fontsize=8, color=AZUL, fontweight="bold")
+        ax.set_title(f"Quedar {ev}", loc="left")
+        ax.set_xlabel("Umbral de decisión (avisar si p > umbral)")
+        ax.set_xticks(s["umbral"])
+        estilo(ax)
+    axs[0].set_ylabel(modelo)
+    axs[0].legend(frameon=False, fontsize=8)
+    fig.tight_layout()
+    return fig
+
+
 def bootstrap_dif(df, col_a, col_b, ycol, n=cfg.N_BOOTSTRAP, seed=cfg.SEMILLA):
     """IC 95 % de Brier(a) − Brier(b) remuestreando bloques día-estación."""
     d = df.assign(dif=(df[col_a] - df[ycol]) ** 2 - (df[col_b] - df[ycol]) ** 2)
@@ -627,6 +702,11 @@ def informe(df, dp, c):
             pr.append({"evento": ev, "modelo": nombre, "precision": vp / max(pred.sum(), 1),
                        "exhaustividad": vp / max((val[y] == 1).sum(), 1), "frecuencia_real": val[y].mean()})
     pr = pd.DataFrame(pr)
+    umb = tabla_umbrales(val)
+    umb.round(4).to_csv(os.path.join(c, "umbrales_decision.csv"), index=False)
+    fig = figura_umbrales(umb)
+    fig.savefig(os.path.join(c, "umbrales_decision.png"), dpi=130)
+    plt.close(fig)
 
     met.round(4).to_csv(os.path.join(c, "metricas_brier.csv"), index=False)
     b60.round(4).to_csv(os.path.join(c, "metricas_B60.csv"), index=False)
@@ -687,6 +767,7 @@ def informe(df, dp, c):
             t += f"   gemelo − este {r['dif_gemelo_menos_este']:+.4f} (IC95 {r['ic95_inf']:+.4f} a {r['ic95_sup']:+.4f})"
         L.append(t)
     L += ["", "B(t0+60):", b60.round(3).to_string(index=False), "", "Con p > 0,5:", pr.round(3).to_string(index=False)]
+    L += [""] + texto_umbrales(umb)
 
     if dp is not None and len(dp):
         resumen = []
