@@ -1,6 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,113,General Prim-Versalles,008,Reforma - General Prim,5,11,11,0,13,,5.0,12.099680277735938
-Regla umbral,2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,8,17,18,0,21,,23.219775566076695,35.40071339415688
-Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,13,17,18,0,21,10.731000423431396,5.0,17.18093782808019
-Gemelo (voraz),2,255,José Rosas Moreno-Guillermo Prieto,117,Londres-Nápoles,15,21,30,0,28,7.7010000720620155,26.511221919182447,37.32867149842059
-Gemelo (voraz),3,263,Sadi Carnot - Gómez Farias,031,Hamburgo - Insurgentes,16,21,29,0,30,6.2180001102387905,47.69210324902238,57.76024241329738
+Regla umbral,1,112,Av. Morelos-Abraham González,008,Reforma - General Prim,6,17,19,0,13,,5.0,13.614924425710136
+Regla umbral,2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,21,,24.735019714050893,36.91595754213108
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,14,20,25,0,28,7.135999962687492,5.0,17.80485798081878
+Gemelo (voraz),2,260,Av. Juárez-Balderas,031,Hamburgo - Insurgentes,9,16,18,1,30,4.951000154018402,31.092030038310178,44.58463204751226
+Gemelo (voraz),3,112,Av. Morelos-Abraham González,115,Roma-Dinamarca,10,17,19,0,21,4.521999895572662,55.493802899323825,65.12418016439378
