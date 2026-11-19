@@ -1,15 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,6,13,13,0,24,,5.0,13.709994753492722
-Regla umbral 90/10,2,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,26,,23.455613331570408,33.53275725248433
-Regla umbral 85/15,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,6,13,13,0,24,,5.0,13.709994753492722
-Regla umbral 85/15,2,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,26,,23.455613331570408,33.53275725248433
-Regla umbral 80/20,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,6,13,13,0,24,,5.0,13.709994753492722
-Regla umbral 80/20,2,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,26,,23.455613331570408,33.53275725248433
-Regla umbral 75/25,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,6,13,13,0,24,,5.0,13.709994753492722
-Regla umbral 75/25,2,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,26,,23.455613331570408,33.53275725248433
-Regla umbral 70/30,1,113,General Prim-Versalles,270,De la República-Ponciano Arriaga,6,13,13,0,24,,5.0,13.709994753492722
-Regla umbral 70/30,2,116,Londres-Roma,259,Tómas Alva Edison-Ponciano Arriaga,8,16,16,0,26,,23.455613331570408,33.53275725248433
-Regla umbral 70/30,3,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,4,12,16,0,16,,43.527512180338164,52.18908877442996
-Gemelo (voraz),1,116,Londres-Roma,115,Roma-Dinamarca,10,16,16,2,21,8.031000137329102,5.0,11.72985020271516
-Gemelo (voraz),2,113,General Prim-Versalles,260,Av. Juárez-Balderas,6,13,13,0,19,4.210000157356262,19.59473245750719,29.2044664635288
-Gemelo (voraz),3,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,9,17,26,1,20,3.8750000596046448,42.4916385210202,53.34662266878775
+Regla umbral 90/10,1,116,Londres-Roma,029,Reforma - Bucareli,8,16,16,0,31,,5.0,14.882835252624195
+Regla umbral 85/15,1,116,Londres-Roma,029,Reforma - Bucareli,8,16,16,0,31,,5.0,14.882835252624195
+Regla umbral 80/20,1,116,Londres-Roma,029,Reforma - Bucareli,8,16,16,0,31,,5.0,14.882835252624195
+Regla umbral 80/20,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,0,24,,23.354789283611026,32.03344927061603
+Regla umbral 80/20,3,114,Lucerna-Abraham González,259,Tómas Alva Edison-Ponciano Arriaga,5,14,17,0,26,,41.16467484581392,51.15942977366775
+Regla umbral 75/25,1,116,Londres-Roma,029,Reforma - Bucareli,8,16,16,0,31,,5.0,14.882835252624195
+Regla umbral 75/25,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,0,24,,23.354789283611026,32.03344927061603
+Regla umbral 75/25,3,114,Lucerna-Abraham González,259,Tómas Alva Edison-Ponciano Arriaga,5,14,17,0,26,,41.16467484581392,51.15942977366775
+Regla umbral 70/30,1,116,Londres-Roma,029,Reforma - Bucareli,8,16,16,0,31,,5.0,14.882835252624195
+Regla umbral 70/30,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,0,24,,23.354789283611026,32.03344927061603
+Regla umbral 70/30,3,114,Lucerna-Abraham González,259,Tómas Alva Edison-Ponciano Arriaga,5,14,17,0,26,,41.16467484581392,51.15942977366775
+Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,10,16,16,0,27,7.456999778747559,5.0,16.49900210354682
+Gemelo (voraz),2,117,Londres-Nápoles,115,Roma-Dinamarca,11,19,26,1,21,5.23800003528595,29.372173153607033,36.004668057569766
+Gemelo (voraz),3,114,Lucerna-Abraham González,256,Gómez Farías-Sadi Carnot,7,14,17,1,20,3.7549999058246613,44.33899865237391,54.70942029801785
