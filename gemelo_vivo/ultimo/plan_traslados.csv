@@ -1,16 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.961220282444417
-Regla umbral 90/10,2,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,22,,24.28674777689211,34.032366354969795
 Regla umbral 85/15,1,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.961220282444417
-Regla umbral 85/15,2,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,22,,24.28674777689211,34.032366354969795
+Regla umbral 85/15,2,116,Londres-Roma,119,Turín-Abraham González,2,17,19,0,5,,24.28674777689211,30.63776569905473
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,7,17,19,1,22,,42.13469171982774,50.55431754395733
 Regla umbral 80/20,1,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.961220282444417
-Regla umbral 80/20,2,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,22,,24.28674777689211,34.032366354969795
+Regla umbral 80/20,2,116,Londres-Roma,119,Turín-Abraham González,2,17,19,0,5,,24.28674777689211,30.63776569905473
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,7,17,19,1,22,,42.13469171982774,50.55431754395733
 Regla umbral 75/25,1,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.961220282444417
-Regla umbral 75/25,2,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,22,,24.28674777689211,34.032366354969795
-Regla umbral 75/25,3,117,Londres-Nápoles,119,Turín-Abraham González,2,20,26,0,5,,45.59538622802997,53.14464838434309
+Regla umbral 75/25,2,116,Londres-Roma,119,Turín-Abraham González,2,17,19,0,5,,24.28674777689211,30.63776569905473
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,7,17,19,1,22,,42.13469171982774,50.55431754395733
 Regla umbral 70/30,1,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,8,17,18,0,29,,5.0,14.961220282444417
-Regla umbral 70/30,2,116,Londres-Roma,270,De la República-Ponciano Arriaga,8,17,18,0,22,,24.28674777689211,34.032366354969795
-Regla umbral 70/30,3,117,Londres-Nápoles,119,Turín-Abraham González,2,20,26,0,5,,45.59538622802997,53.14464838434309
-Gemelo (voraz),1,260,Av. Juárez-Balderas,031,Hamburgo - Insurgentes,14,15,20,1,32,13.60200047492981,5.0,18.492602009202084
-Gemelo (voraz),2,116,Londres-Roma,010,Reforma - Ramírez,10,17,18,1,27,7.325999855995178,26.078243402589447,33.77563133603589
-Gemelo (voraz),3,114,Lucerna-Abraham González,115,Roma-Dinamarca,9,17,18,5,20,5.400999844074249,41.475145607603174,49.80947620240732
+Regla umbral 70/30,2,116,Londres-Roma,119,Turín-Abraham González,2,17,19,0,5,,24.28674777689211,30.63776569905473
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,7,17,19,1,22,,42.13469171982774,50.55431754395733
+Gemelo (voraz),1,260,Av. Juárez-Balderas,031,Hamburgo - Insurgentes,15,17,19,2,32,17.210000038146973,5.0,18.492602009202084
+Gemelo (voraz),2,116,Londres-Roma,270,De la República-Ponciano Arriaga,9,17,19,1,22,6.328999757766724,26.078243402589447,35.82386198066713
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,9,14,28,2,27,5.3440001010894775,43.1819300954968,52.144763517462394
