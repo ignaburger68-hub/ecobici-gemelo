@@ -1,6 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,5,25,27,0,11,,5.0,15.772950117080928
-Regla umbral,2,048,Independencia - Azueta,008,Reforma - General Prim,3,7,8,0,12,,25.420245908126347,36.8424266160828
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,031,Hamburgo - Insurgentes,18,25,27,1,29,15.045999526977539,5.0,17.628641696340626
-Gemelo (voraz),2,107-108,Tolsa-Balderas,115,Roma-Dinamarca,12,18,51,1,21,7.718999862670898,29.02557106255124,39.74738341129026
-Gemelo (voraz),3,029,Reforma - Bucareli,117,Londres-Nápoles,10,13,27,0,29,5.754000216722488,50.617065579805974,62.68337217283846
+Regla umbral,1,026,Reforma - Versalles,003,Reforma - Insurgentes,5,10,10,0,28,,5.0,12.01559339544933
+Regla umbral,2,555,Ribera de San Cosme - Insurgentes Centro,008,Reforma - General Prim,6,27,27,0,13,,22.14681849691118,32.43947035879596
+Regla umbral,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,21,,43.559565647136715,55.740503475216904
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,16,27,27,0,21,14.627999305725098,5.0,16.24636992440178
+Gemelo (voraz),2,029,Reforma - Bucareli,116,Londres-Roma,12,20,27,2,17,7.975000262260437,27.116052092917496,36.99888734554169
+Gemelo (voraz),3,260,Av. Juárez-Balderas,118,Liverpool-Dinamarca,10,16,18,0,12,7.823000073432922,48.0562416487741,60.393534161203725
