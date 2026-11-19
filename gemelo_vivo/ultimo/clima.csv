@@ -3,4 +3,4 @@ hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variab
 2026-11-19 17:00,hábil,pronosticado,18.75,-1.708,0.0,10.75,lluvia previa,seco antes,0.99,1.001
 2026-11-19 17:00,hábil,pronosticado,18.75,-1.708,0.0,10.75,temperatura,más frío (−3 a −1 °C),0.841,0.872
 2026-11-19 17:00,hábil,pronosticado,18.75,-1.708,0.0,10.75,viento,10-15 km/h,0.862,0.898
-2026-11-19 17:00,hábil,pronosticado,18.75,-1.708,0.0,10.75,efecto total en la hora,,0.709,0.769
+2026-11-19 17:00,hábil,pronosticado,18.75,-1.708,0.0,10.75,efecto total en la hora,,0.711,0.77
