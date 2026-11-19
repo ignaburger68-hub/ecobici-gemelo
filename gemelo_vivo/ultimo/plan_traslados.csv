@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,086,Sullivan-Insurgentes,113,General Prim-Versalles,5,10,10,0,10,,5.0,12.891566616719892
-Regla umbral,2,048,Independencia - Azueta,003,Reforma - Insurgentes,3,7,8,0,29,,22.538862407765315,34.127969492459755
-Regla umbral,3,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,9,23,27,1,27,,44.259194593921606,57.132365643981814
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,17,23,27,1,27,14.844000339508057,5.0,17.87317105006021
-Gemelo (voraz),2,048,Independencia - Azueta,115,Roma-Dinamarca,6,7,8,4,21,5.316999912261963,31.209751016469674,43.62080560022245
-Gemelo (voraz),3,086,Sullivan-Insurgentes,113,General Prim-Versalles,6,10,10,0,10,4.86899995803833,50.09920888806923,57.99077550478912
+Regla umbral,1,048,Independencia - Azueta,010,Reforma - Ramírez,3,7,8,0,25,,5.0,14.624981443743394
+Regla umbral,2,012,Río Lerma - Villalongín,113,General Prim-Versalles,4,11,13,0,11,,23.260975459019164,32.36596701427465
+Regla umbral,3,116,Londres-Roma,118,Liverpool-Dinamarca,5,14,17,0,10,,38.81755380504622,45.136995203548906
+Gemelo (voraz),1,107-108,Tolsa-Balderas,117,Londres-Nápoles,12,16,51,2,28,7.5289998054504395,5.0,15.86684333071258
+Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,031,Hamburgo - Insurgentes,10,14,27,10,29,6.726999998092651,28.74001438077279,41.368656077113414
+Gemelo (voraz),3,116,Londres-Roma,115,Roma-Dinamarca,8,14,17,3,21,5.006000518798828,48.95429747050078,55.68414767321593
