@@ -1,17 +1,16 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,112,Av. Morelos-Abraham González,117,Londres-Nápoles,9,19,19,0,28,,5.0,15.696806415990674
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,10,23,25,2,33,,28.501664396809456,41.2677259296166
-Regla umbral 85/15,1,112,Av. Morelos-Abraham González,117,Londres-Nápoles,9,19,19,0,28,,5.0,15.696806415990674
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,10,23,25,2,33,,28.501664396809456,41.2677259296166
-Regla umbral 80/20,1,112,Av. Morelos-Abraham González,117,Londres-Nápoles,9,19,19,0,28,,5.0,15.696806415990674
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,10,23,25,2,33,,28.501664396809456,41.2677259296166
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,2,30,,54.76032793881869,66.0023797434989
-Regla umbral 75/25,1,112,Av. Morelos-Abraham González,117,Londres-Nápoles,9,19,19,0,28,,5.0,15.696806415990674
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,10,23,25,2,33,,28.501664396809456,41.2677259296166
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,2,30,,54.76032793881869,66.0023797434989
-Regla umbral 70/30,1,112,Av. Morelos-Abraham González,117,Londres-Nápoles,9,19,19,0,28,,5.0,15.696806415990674
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,10,23,25,2,33,,28.501664396809456,41.2677259296166
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,2,30,,54.76032793881869,66.0023797434989
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,20,23,25,0,28,9.82800006866455,5.0,17.80485798081878
-Gemelo (voraz),2,112,Av. Morelos-Abraham González,031,Hamburgo - Insurgentes,12,19,19,2,33,4.32699990272522,28.501664396809453,39.41083524862101
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,9,15,31,2,14,3.368000030517578,52.039476944961635,64.65608684144433
+Regla umbral 90/10,1,112,Av. Morelos-Abraham González,113,General Prim-Versalles,5,19,19,0,11,,5.0,12.037235495643506
+Regla umbral 85/15,1,112,Av. Morelos-Abraham González,113,General Prim-Versalles,5,19,19,0,11,,5.0,12.037235495643506
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,6,22,25,0,13,,21.789164770424648,31.99618496241185
+Regla umbral 80/20,1,112,Av. Morelos-Abraham González,113,General Prim-Versalles,5,19,19,0,11,,5.0,12.037235495643506
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,6,22,25,0,13,,21.789164770424648,31.99618496241185
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,0,30,,43.1162802507526,54.35833205543282
+Regla umbral 75/25,1,112,Av. Morelos-Abraham González,113,General Prim-Versalles,5,19,19,0,11,,5.0,12.037235495643506
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,6,22,25,0,13,,21.789164770424648,31.99618496241185
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,0,30,,43.1162802507526,54.35833205543282
+Regla umbral 70/30,1,112,Av. Morelos-Abraham González,113,General Prim-Versalles,5,19,19,0,11,,5.0,12.037235495643506
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,6,22,25,0,13,,21.789164770424648,31.99618496241185
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,15,18,0,30,,43.1162802507526,54.35833205543282
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,12,14,31,0,29,8.087999820709229,5.0,17.87317105006021
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,18,22,25,0,30,7.624000310897827,30.678029030878996,40.85719784675545
+Gemelo (voraz),3,112,Av. Morelos-Abraham González,041,Reforma - Av. de la República,9,19,19,0,24,3.3380000591278076,49.635242666460016,56.326041300219025
