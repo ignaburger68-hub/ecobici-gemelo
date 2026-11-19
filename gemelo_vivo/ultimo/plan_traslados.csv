@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,13,27,27,0,28,,5.0,15.131225101461851
-Regla umbral,2,260,Av. Juárez-Balderas,116,Londres-Roma,8,18,19,0,17,,26.373276906142067,37.430631209374475
-Regla umbral,3,026,Reforma - Versalles,008,Reforma - General Prim,4,9,10,0,13,,44.7025512542779,51.59058237295453
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,14,27,27,0,21,13.342000007629395,5.0,16.24636992440178
-Gemelo (voraz),2,260,Av. Juárez-Balderas,116,Londres-Roma,13,18,19,0,17,10.609000205993652,28.42730775248197,39.48466205571438
-Gemelo (voraz),3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,20,28,0,28,6.561999946832657,49.36749730833858,59.25811295073119
+Regla umbral,1,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,13,27,27,0,27,,5.0,15.131225101461851
+Regla umbral,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,6,18,19,0,13,,26.373276906142067,37.49337219448282
+Regla umbral,3,255,José Rosas Moreno-Guillermo Prieto,115,Roma-Dinamarca,10,26,30,0,21,,46.44036479755362,55.77064888865588
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,18,27,27,0,27,14.796000003814697,5.0,15.131225101461851
+Gemelo (voraz),2,260,Av. Juárez-Balderas,116,Londres-Roma,11,18,19,1,16,7.877000331878662,26.373276906142067,37.430631209374475
+Gemelo (voraz),3,255,José Rosas Moreno-Guillermo Prieto,010,Reforma - Ramírez,14,26,30,1,25,6.233000159263611,47.928115930408566,57.167354940092814
