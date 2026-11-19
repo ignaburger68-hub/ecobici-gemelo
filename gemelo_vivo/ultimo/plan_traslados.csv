@@ -1,15 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
-Regla umbral 85/15,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
-Regla umbral 80/20,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,17,0,14,,5.0,16.120095288340757
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,25,25,0,22,,26.327115480327958,37.47171283904139
-Regla umbral 70/30,3,107-108,Tolsa-Balderas,048,Independencia - Azueta,4,38,52,0,9,,48.67144537479849,57.6888925154921
-Gemelo (voraz),1,010,Reforma - Ramírez,256,Gómez Farías-Sadi Carnot,8,9,27,1,18,3.4469999074935913,5.0,12.766616354999353
-Gemelo (voraz),2,260,Av. Juárez-Balderas,048,Independencia - Azueta,6,17,17,0,9,2.7870001792907715,23.628946457590395,29.740748182768314
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,25,25,1,18,1.847000002861023,38.786965162351436,49.23779158102607
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,25,25,0,14,,5.0,15.207020191987201
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,25,25,0,14,,5.0,15.207020191987201
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,25,25,0,14,,5.0,15.207020191987201
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,5,14,17,0,22,,26.327115480327958,38.59893429544349
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,25,25,0,14,,5.0,15.207020191987201
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,5,14,17,0,22,,26.327115480327958,38.59893429544349
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,25,25,0,14,,5.0,15.207020191987201
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,5,14,17,0,22,,26.327115480327958,38.59893429544349
+Regla umbral 70/30,3,012,Río Lerma - Villalongín,048,Independencia - Azueta,3,10,14,0,9,,44.705814089582276,57.94107277711623
+Gemelo (voraz),1,010,Reforma - Ramírez,256,Gómez Farías-Sadi Carnot,9,11,27,1,18,2.7849998474121094,5.0,12.766616354999353
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,048,Independencia - Azueta,6,25,25,0,9,2.310000002384186,21.177450556687635,30.223667536270753
+Gemelo (voraz),3,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,6,10,14,1,18,1.7919999659061432,43.45892622380471,53.23917744665151
