@@ -225,11 +225,15 @@ def plan_voraz(G, B0, C, ok, Q=cfg.Q_CAMION, max_tr=cfg.MAX_TRASLADOS, mejora_mi
     return plan
 
 
-def plan_umbral(B0, C, ok, Q=cfg.Q_CAMION, max_tr=cfg.MAX_TRASLADOS):
-    """Regla de referencia: de > 80 % a < 20 %, dejando ambas cerca del 50 %."""
+def nombre_regla(alto, bajo):
+    return f"Regla umbral {round(100 * alto)}/{round(100 * bajo)}"
+
+
+def plan_umbral(B0, C, ok, Q=cfg.Q_CAMION, max_tr=cfg.MAX_TRASLADOS, alto=cfg.UMBRAL_ALTO, bajo=cfg.UMBRAL_BAJO):
+    """Regla de referencia: de ocupación > alto a < bajo (por defecto 80 % y 20 %), dejando ambas cerca del 50 %."""
     occ = np.where(ok, B0 / np.maximum(C, 1), np.nan)
-    orig = [i for i in np.argsort(-np.nan_to_num(occ, nan=-1)) if ok[i] and occ[i] > cfg.UMBRAL_ALTO]
-    dest = [i for i in np.argsort(np.nan_to_num(occ, nan=9)) if ok[i] and occ[i] < cfg.UMBRAL_BAJO]
+    orig = [i for i in np.argsort(-np.nan_to_num(occ, nan=-1)) if ok[i] and occ[i] > alto]
+    dest = [i for i in np.argsort(np.nan_to_num(occ, nan=9)) if ok[i] and occ[i] < bajo]
     plan = []
     for o, d in zip(orig, dest):
         if len(plan) >= max_tr:
@@ -522,8 +526,10 @@ class Gemelo:
         out = simular(ev, Bs, C, e["renta"], e["recibe"], solo_demanda=True)
         U = (out["perdidos"].astype(np.float32) + out["rechazados"]).mean(-1)
         G = np.where(np.arange(S)[None, :] <= C[:, None], U, np.inf)
-        planes = {"Sin acción": [], "Regla umbral": plan_umbral(B0, C, ok),
-                  "Gemelo (voraz)": plan_voraz(G, B0, C, ok)}
+        planes = {"Sin acción": []}
+        for alto, bajo in cfg.UMBRALES_REGLA:
+            planes[nombre_regla(alto, bajo)] = plan_umbral(B0, C, ok, alto=alto, bajo=bajo)
+        planes["Gemelo (voraz)"] = plan_voraz(G, B0, C, ok)
 
         # Evaluación con réplicas NUEVAS (no las usadas para elegir) y comunes a los tres planes
         nombres = list(planes)
@@ -563,6 +569,10 @@ class Gemelo:
                           "no_atendida_media": mm, "ic95_inf": lo, "ic95_sup": hi,
                           "atendidos_extra_vs_sin_accion": dm, "dif_ic95_inf": dlo, "dif_ic95_sup": dhi})
         comp = pd.DataFrame(filas)
+        # La mejor regla umbral de esta hora: la que deja menos demanda no atendida (empate: mueve menos bicis)
+        reglas = comp[comp["plan"].str.startswith("Regla umbral")]
+        mejor = reglas.sort_values(["no_atendida_media", "bicis_movidas"], kind="stable")["plan"].iloc[0]
+        comp["mejor_regla"] = comp["plan"] == mejor
         lista = []
         for n in nombres[1:]:
             tt = tiempos_plan(planes[n], self.lat, self.lon) if planes[n] else []
@@ -572,7 +582,8 @@ class Gemelo:
                               "destino_nombre": self.est["nombre_corto"][d], "bicis": q,
                               "B_origen": B0[o], "C_origen": C[o], "B_destino": B0[d], "C_destino": C[d],
                               "mejora_esperada": mej, "min_carga": tt[k][0], "min_descarga": tt[k][1]})
-        return {"planes": planes, "comparacion": comp, "traslados": pd.DataFrame(lista), "G": G}
+        return {"planes": planes, "comparacion": comp, "traslados": pd.DataFrame(lista), "G": G,
+                "mejor_regla": mejor}
 
     # ---------------- Referencia: sin resincronizar ----------------
     def sin_resincronizar_dia(self, fecha, R=None, usar_phi=None):

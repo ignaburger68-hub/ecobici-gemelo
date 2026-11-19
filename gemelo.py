@@ -300,8 +300,9 @@ def texto_hora(gem, res):
         L.append(f"  {r['code']:>8} {str(r['nombre'])[:26]:<26} B={r['B_t0']:.0f}/{r['C']:.0f}  "
                  f"p vacía {r['p_vacia']:.2f}  p llena {r['p_llena']:.2f}  B(t+60) {r['B_t60_ic80']}")
     L.append("")
-    for nombre in ("Regla umbral", "Gemelo (voraz)"):
-        L.append(f"Plan {nombre}:")
+    for nombre in (plan["mejor_regla"], "Gemelo (voraz)"):
+        L.append(f"Plan {nombre}" + (" (la mejor de las 5 reglas umbral en esta hora):"
+                                     if nombre == plan["mejor_regla"] else ":"))
         tr = plan["traslados"]
         tr = tr[tr["plan"] == nombre] if len(tr) else tr
         if len(tr) == 0:
@@ -312,7 +313,8 @@ def texto_hora(gem, res):
     L.append("")
     L.append("Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):")
     for _, r in plan["comparacion"].iterrows():
-        L.append(f"  {r['plan']:<38} {r['no_atendida_media']:6.1f}  "
+        marca = "★ " if r.get("mejor_regla", False) else "  "
+        L.append(f"{marca}{r['plan']:<38} {r['no_atendida_media']:6.1f}  "
                  f"(atiende {r['atendidos_extra_vs_sin_accion']:+.1f} vs sin acción, "
                  f"IC95 {r['dif_ic95_inf']:+.1f} a {r['dif_ic95_sup']:+.1f})")
     if res["brier"] is not None:
@@ -348,7 +350,8 @@ def figura_mapa(gem, res):
         b, cap = tabla["B_t0"][i], tabla["C"][i]
         txt = f"{c}\n{b:.0f}/{cap:.0f}" if np.isfinite(b) else f"{c}\nsin dato"
         ax.annotate(txt, (x[i], y[i]), fontsize=6.5, xytext=(6, 4), textcoords="offset points")
-    for nombre, color, ls in [("Regla umbral", GRIS, "--"), ("Gemelo (voraz)", VERDE, "-")]:
+    regla = plan["mejor_regla"]
+    for nombre, color, ls in [(regla, GRIS, "--"), ("Gemelo (voraz)", VERDE, "-")]:
         for o, d, q, _ in plan["planes"][nombre]:
             ax.annotate("", xy=(x[d], y[d]), xytext=(x[o], y[o]),
                         arrowprops=dict(arrowstyle="-|>", color=color, lw=2.2, ls=ls), zorder=4)
@@ -362,7 +365,7 @@ def figura_mapa(gem, res):
     ax.set_title(f"Pronóstico {t0:%d/%m/%Y %H:%M} a {t0 + pd.Timedelta(minutes=60):%H:%M}\n"
                  "Tamaño: probabilidad mayor; etiqueta: código y bicis/capacidad ahora", loc="left", fontsize=10)
     ax.legend(handles=[Line2D([], [], color=VERDE, lw=2, label="Plan del gemelo"),
-                       Line2D([], [], color=GRIS, lw=2, ls="--", label="Regla umbral")],
+                       Line2D([], [], color=GRIS, lw=2, ls="--", label=f"{regla} (mejor regla)")],
               loc="lower left", fontsize=8)
     fig.tight_layout()
     return fig
@@ -698,16 +701,37 @@ def informe(df, dp, c):
                             "no_atendida_media": g["no_atendida_media"].mean(),
                             "bicis_movidas_media": g["bicis_movidas"].mean()})
         resumen = pd.DataFrame(resumen)
+        # Mejor regla umbral de la semana (más usuarios atendidos de más en promedio) y horas en que ganó cada una
+        es_regla = resumen["plan"].str.startswith("Regla umbral")
+        mejor_semana = resumen[es_regla].sort_values("atendidos_extra_media", ascending=False)["plan"].iloc[0] \
+            if es_regla.any() else None
+        resumen["mejor_regla"] = resumen["plan"] == mejor_semana
+        if "mejor_regla" in dp:
+            gana = dp[dp["mejor_regla"].astype(bool)].groupby("plan").size()
+            resumen["horas_como_mejor_regla"] = resumen["plan"].map(gana).where(es_regla).fillna(0).astype(int)
+            resumen.loc[~es_regla, "horas_como_mejor_regla"] = np.nan
         resumen.round(3).to_csv(os.path.join(c, "planes_resumen.csv"), index=False)
         L += ["", "Valor de los planes (sólo en simulación; usuarios atendidos de más por hora vs sin acción):",
-              resumen.round(2).to_string(index=False)]
+              resumen.drop(columns=["mejor_regla"]).round(2).to_string(index=False)]
+        if mejor_semana:
+            r = resumen[resumen["plan"] == mejor_semana].iloc[0]
+            g = resumen[resumen["plan"] == "Gemelo (voraz)"]
+            L.append(f"★ Mejor regla umbral del periodo: {mejor_semana} "
+                     f"({r['atendidos_extra_media']:+.2f} usuarios atendidos de más por hora)")
+            if len(g):
+                L.append(f"  Gemelo (voraz): {g['atendidos_extra_media'].iloc[0]:+.2f} · diferencia gemelo − mejor regla: "
+                         f"{g['atendidos_extra_media'].iloc[0] - r['atendidos_extra_media']:+.2f}")
         fig, ax = plt.subplots(figsize=(10, 4.5))
         dp2 = dp.assign(h=pd.to_datetime(dp["t0"]).dt.hour)
-        for nombre, color in [("Regla umbral", GRIS), ("Gemelo (voraz)", VERDE),
-                              ("Gemelo (voraz) con tiempos de viaje", "#7fbf9f")]:
+        series = [(n, "#c8c8c8", 1.0, None) for n in resumen.loc[es_regla, "plan"] if n != mejor_semana]
+        if mejor_semana:
+            series.append((f"{mejor_semana}", GRIS, 2.2, "★ "))
+        series += [("Gemelo (voraz)", VERDE, 2.4, None), ("Gemelo (voraz) con tiempos de viaje", "#7fbf9f", 1.4, None)]
+        for nombre, color, lw, pre in series:
             g = dp2[dp2["plan"] == nombre].groupby("h")["atendidos_extra_vs_sin_accion"].mean()
             if len(g):
-                ax.plot(g.index, g.values, marker="o", color=color, label=nombre)
+                ax.plot(g.index, g.values, marker="o", ms=3 if lw < 2 else 4, color=color, lw=lw,
+                        label=(pre or "") + nombre + (" (mejor regla)" if pre else ""))
         ax.axhline(0, color="k", lw=0.8)
         ax.set_xlabel("Hora")
         ax.set_ylabel("Usuarios atendidos de más por hora")

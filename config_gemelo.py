@@ -98,6 +98,8 @@ MAX_TRASLADOS = 3
 MEJORA_MIN = 0.5            # no se mueve el camión por menos de 0,5 usuarios atendidos
 UMBRAL_ALTO = 0.8           # regla umbral: origen con ocupación > 80 %
 UMBRAL_BAJO = 0.2           # regla umbral: destino con ocupación < 20 %
+# Pares (alto, bajo) de la regla umbral que se comparan; se destaca el que deja menos demanda no atendida
+UMBRALES_REGLA = [(0.90, 0.10), (0.85, 0.15), (0.80, 0.20), (0.75, 0.25), (0.70, 0.30)]
 OCUPACION_OBJETIVO = 0.5    # regla umbral: ambas quedan cerca del 50 %
 VEL_KMH = 15                # sensibilidad con tiempos de viaje
 FACTOR_RUTA = 1.3           # distancia por calles / distancia en línea recta

@@ -231,7 +231,7 @@ Usa 500 réplicas por defecto (`R_AJUSTE`) y es el comando más lento.
 ```bash
 py -3.14 gemelo.py evaluar --desde 2026-11-23 --hasta 2026-11-27
 ```
-Compara el **Gemelo** con las referencias **Sin resincronizar** y **Persistencia**, contra lo que ocurrió. Con `--planes` evalúa también el valor de los planes de rebalanceo (bastante más lento):
+Compara el **Gemelo** con las referencias **Sin resincronizar** y **Persistencia**, contra lo que ocurrió. Con `--planes` evalúa también el valor de los planes de rebalanceo (bastante más lento). El plan del gemelo se compara con **5 versiones de la regla umbral** (saca bicis de estaciones con ocupación sobre el primer número y las lleva a las que están bajo el segundo: 90/10, 85/15, 80/20, 75/25 y 70/30, configurables en `UMBRALES_REGLA` de `config_gemelo.py`). El resumen marca con ★ la mejor regla del periodo, dice cuántas horas ganó cada una y cuánto le saca el gemelo a la mejor. En `hora` y en el tablero se destaca la mejor regla de esa hora:
 ```bash
 py -3.14 gemelo.py evaluar --desde 2026-11-23 --hasta 2026-11-27 --planes
 ```

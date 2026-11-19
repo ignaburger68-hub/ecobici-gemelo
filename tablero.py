@@ -226,15 +226,32 @@ def mostrar(r):
     with izq:
         st.pyplot(r["fig_mapa"])
     with der:
-        st.markdown("**Plan recomendado (gemelo) y regla umbral**")
-        if len(r["traslados"]):
-            st.dataframe(r["traslados"][["plan", "orden", "origen", "destino", "bicis", "B_origen", "C_origen",
-                                         "B_destino", "C_destino", "mejora_esperada"]].round(2), hide_index=True)
+        comp = r["comparacion"]
+        mejor = comp.loc[comp["mejor_regla"].astype(bool), "plan"].iloc[0] if "mejor_regla" in comp else None
+        st.markdown("**Plan recomendado (gemelo) y la mejor regla umbral**")
+        tr = r["traslados"]
+        if len(tr):
+            tr = tr[tr["plan"].isin(["Gemelo (voraz)", mejor])] if mejor else tr
+            st.dataframe(tr[["plan", "orden", "origen", "destino", "bicis", "B_origen", "C_origen",
+                             "B_destino", "C_destino", "mejora_esperada"]].round(2), hide_index=True)
         else:
             st.write("Ningún traslado mejora la hora lo suficiente.")
         st.markdown("**Demanda no atendida esperada (30 estaciones)**")
-        st.dataframe(r["comparacion"][["plan", "no_atendida_media", "atendidos_extra_vs_sin_accion",
-                                       "dif_ic95_inf", "dif_ic95_sup"]].round(1), hide_index=True)
+        st.caption("La **regla umbral** saca bicis de estaciones muy llenas (ocupación sobre el primer número) y las "
+                   "lleva a estaciones muy vacías (bajo el segundo), dejando ambas cerca del 50 %. Se prueban 5 pares "
+                   "de umbrales con las mismas réplicas simuladas; la que deja **menos demanda no atendida** en esta "
+                   "hora aparece resaltada con ★ (si empatan, la que mueve menos bicis).")
+        vista = comp[["plan", "no_atendida_media", "atendidos_extra_vs_sin_accion", "dif_ic95_inf", "dif_ic95_sup"]].copy()
+        es_mejor = comp["mejor_regla"].astype(bool).values if "mejor_regla" in comp else np.zeros(len(comp), bool)
+        vista["plan"] = [("★ " if m else "") + p for p, m in zip(vista["plan"], es_mejor)]
+        vista = vista.rename(columns={"plan": "Plan", "no_atendida_media": "No atendida (media)",
+                                      "atendidos_extra_vs_sin_accion": "Atendidos de más vs sin acción",
+                                      "dif_ic95_inf": "IC95 inf", "dif_ic95_sup": "IC95 sup"})
+        estilo = (vista.style
+                  .apply(lambda f: ["background-color: rgba(46,139,87,0.28); font-weight: 700"
+                                    if es_mejor[f.name] else "" for _ in f], axis=1)
+                  .format("{:.1f}", subset=vista.columns[1:]))
+        st.dataframe(estilo, hide_index=True)
         if r["brier"] is not None:
             st.markdown("**Lo que ocurrió: puntaje de Brier de esta hora** (menor es mejor; 0,25 = decir siempre 50 %)")
             st.dataframe(r["brier"].round(3), hide_index=True)
