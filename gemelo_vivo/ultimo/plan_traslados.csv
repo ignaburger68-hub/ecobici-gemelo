@@ -1,14 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,117,Londres-Nápoles,003,Reforma - Insurgentes,13,28,30,0,29,,5.0,12.75044990282652
-Regla umbral 85/15,1,117,Londres-Nápoles,003,Reforma - Insurgentes,13,28,30,0,29,,5.0,12.75044990282652
-Regla umbral 85/15,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,5,13,15,0,17,,20.116512547859113,28.008079164579005
-Regla umbral 80/20,1,117,Londres-Nápoles,003,Reforma - Insurgentes,13,28,30,0,29,,5.0,12.75044990282652
-Regla umbral 80/20,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,5,13,15,0,17,,20.116512547859113,28.008079164579005
-Regla umbral 75/25,1,117,Londres-Nápoles,003,Reforma - Insurgentes,13,28,30,0,29,,5.0,12.75044990282652
-Regla umbral 75/25,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,5,13,15,0,17,,20.116512547859113,28.008079164579005
-Regla umbral 70/30,1,117,Londres-Nápoles,003,Reforma - Insurgentes,13,28,30,0,29,,5.0,12.75044990282652
-Regla umbral 70/30,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,5,13,15,0,17,,20.116512547859113,28.008079164579005
-Regla umbral 70/30,3,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,5,19,27,0,29,,34.48648245242578,43.218113461101495
-Gemelo (voraz),1,117,Londres-Nápoles,086,Sullivan-Insurgentes,15,28,30,0,17,14.622000217437744,5.0,13.109371934457926
-Gemelo (voraz),2,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,13,13,15,2,33,11.817999839782715,21.000938551177818,31.631167179348303
-Gemelo (voraz),3,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,9,28,30,1,23,3.7090002298355103,42.448616758586454,53.303600906354006
+Regla umbral 90/10,1,117,Londres-Nápoles,119,Turín-Abraham González,2,31,31,0,5,,5.0,12.54926215631312
+Regla umbral 90/10,2,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,12,26,27,1,29,,21.362380174613637,28.792767479180192
+Regla umbral 90/10,3,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,14,15,1,23,,37.846066081083165,47.306835475610654
+Regla umbral 85/15,1,117,Londres-Nápoles,119,Turín-Abraham González,2,31,31,0,5,,5.0,12.54926215631312
+Regla umbral 85/15,2,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,12,26,27,1,29,,21.362380174613637,28.792767479180192
+Regla umbral 85/15,3,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,14,15,1,23,,37.846066081083165,47.306835475610654
+Regla umbral 80/20,1,117,Londres-Nápoles,119,Turín-Abraham González,2,31,31,0,5,,5.0,12.54926215631312
+Regla umbral 80/20,2,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,12,26,27,1,29,,21.362380174613637,28.792767479180192
+Regla umbral 80/20,3,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,14,15,1,23,,37.846066081083165,47.306835475610654
+Regla umbral 75/25,1,117,Londres-Nápoles,119,Turín-Abraham González,2,31,31,0,5,,5.0,12.54926215631312
+Regla umbral 75/25,2,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,12,26,27,1,29,,21.362380174613637,28.792767479180192
+Regla umbral 75/25,3,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,14,15,1,23,,37.846066081083165,47.306835475610654
+Regla umbral 70/30,1,117,Londres-Nápoles,119,Turín-Abraham González,2,31,31,0,5,,5.0,12.54926215631312
+Regla umbral 70/30,2,010,Reforma - Ramírez,263,Sadi Carnot - Gómez Farias,12,26,27,1,29,,21.362380174613637,28.792767479180192
+Regla umbral 70/30,3,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,6,14,15,1,23,,37.846066081083165,47.306835475610654
+Gemelo (voraz),1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,20,31,31,1,29,12.726999878883362,5.0,15.363431750601787
+Gemelo (voraz),2,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,10,14,15,1,23,5.560999512672424,24.41673035250476,33.877499747032246
+Gemelo (voraz),3,010,Reforma - Ramírez,003,Reforma - Insurgentes,14,26,27,2,31,4.4220001101493835,41.6441161020316,48.77287829286397
