@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 19/11/2026 21:14 (hora de Ciudad de México).
+Página actualizada automáticamente el 19/11/2026 21:28 (hora de Ciudad de México).
 
-## Último pronóstico: 19/11 21:14 a 22:14
+## Último pronóstico: 19/11 21:28 a 22:28
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **14.2 °C** · sin lluvia · viento 7 km/h · día hábil
 
-El clima multiplica los **retiros por 0.72** y las **devoluciones por 0.78** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.74** y las **devoluciones por 0.79** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.72** y las **devoluciones por 0.78** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 041 Reforma - Av. de la Repúblic | 0 / 28 | 0.98 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 0 / 19 | 0.98 | 0.00 | 0-2 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.94 | 14-20 |
-| 117 Londres-Nápoles | 1 / 26 | 0.86 | 0.00 | 0-3 |
-| 116 Londres-Roma | 1 / 20 | 0.79 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 4 / 26 | 0.77 | 0.00 | 0-3 |
+| 116 Londres-Roma | 0 / 20 | 0.99 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.97 | 15-20 |
+| 012 Río Lerma - Villalongín | 1 / 11 | 0.90 | 0.00 | 0-3 |
+| 115 Roma-Dinamarca | 1 / 25 | 0.88 | 0.00 | 0-3 |
+| 117 Londres-Nápoles | 1 / 27 | 0.88 | 0.00 | 0-2 |
+| 010 Reforma - Ramírez | 2 / 26 | 0.84 | 0.00 | 0-3 |
 | 003 Reforma - Insurgentes | 2 / 30 | 0.76 | 0.00 | 0-4 |
-| 115 Roma-Dinamarca | 2 / 26 | 0.67 | 0.00 | 0-3 |
-| 012 Río Lerma - Villalongín | 2 / 11 | 0.66 | 0.00 | 0-3 |
+| 118 Liverpool-Dinamarca | 2 / 19 | 0.72 | 0.00 | 0-2 |
+| 008 Reforma - General Prim | 1 / 17 | 0.60 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 260 (20/20) a 010 (4/26)
-2. Llevar **14 bicis** de 255 (25/30) a 041 (0/28)
-3. Llevar **8 bicis** de 555 (19/27) a 003 (2/30)
+1. Llevar **11 bicis** de 260 (20/20) a 010 (2/26)
+2. Llevar **9 bicis** de 555 (19/26) a 116 (0/20)
+3. Llevar **17 bicis** de 255 (26/30) a 117 (1/27)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-216 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+217 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.121 | 0.036 |
-| Sin resincronizar | 0.293 | 0.097 |
+| Sin resincronizar | 0.292 | 0.097 |
 | Persistencia | 0.331 | 0.067 |
 | Persistencia 0/1 | 0.331 | 0.067 |
 
