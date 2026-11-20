@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 13:51 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 14:05 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 13:51 a 14:51
+## Último pronóstico: 20/11 14:05 a 15:05
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 041 Reforma - Av. de la Repúblic | 0 / 29 | 1.00 | 0.00 | 0-4 |
-| 259 Tómas Alva Edison-Ponciano A | 0 / 26 | 0.99 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 0 / 33 | 0.99 | 0.00 | 0-9 |
 | 116 Londres-Roma | 22 / 22 | 0.00 | 0.99 | 16-22 |
-| 263 Sadi Carnot - Gómez Farias | 0 / 28 | 0.98 | 0.00 | 0-5 |
-| 012 Río Lerma - Villalongín | 1 / 15 | 0.91 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 1 / 16 | 0.87 | 0.01 | 0-8 |
-| 010 Reforma - Ramírez | 1 / 25 | 0.86 | 0.00 | 0-6 |
-| 113 General Prim-Versalles | 14 / 15 | 0.00 | 0.86 | 7-15 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.98 | 7-15 |
+| 010 Reforma - Ramírez | 0 / 25 | 0.98 | 0.00 | 0-5 |
+| 263 Sadi Carnot - Gómez Farias | 0 / 28 | 0.98 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 1 / 15 | 0.90 | 0.00 | 0-7 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 23 | 0.89 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.88 | 0.00 | 0-6 |
+| 031 Hamburgo - Insurgentes | 33 / 34 | 0.00 | 0.85 | 24-33 |
+| 555 Ribera de San Cosme - Insurg | 1 / 34 | 0.84 | 0.00 | 0-10 |
 
 ### Plan recomendado del camión
 
-1. Llevar **16 bicis** de 116 (22/22) a 041 (0/29)
-2. Llevar **17 bicis** de 031 (32/34) a 555 (0/33)
-3. Llevar **8 bicis** de 113 (14/15) a 012 (1/15)
+1. Llevar **16 bicis** de 116 (22/22) a 010 (0/25)
+2. Llevar **14 bicis** de 031 (33/34) a 256 (1/23)
+3. Llevar **8 bicis** de 113 (15/15) a 041 (1/29)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-256 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+257 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.119 | 0.034 |
-| Sin resincronizar | 0.274 | 0.091 |
+| Sin resincronizar | 0.273 | 0.091 |
 | Persistencia | 0.312 | 0.066 |
 | Persistencia 0/1 | 0.312 | 0.066 |
 
