@@ -2,10 +2,11 @@ plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B
 Regla umbral 90/10,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
 Regla umbral 85/15,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
 Regla umbral 80/20,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,25,1,21,,25.75192949989229,35.74668442774612
 Regla umbral 75/25,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,7,20,25,1,30,,25.75192949989229,34.78162178399802
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,25,1,21,,25.75192949989229,35.74668442774612
 Regla umbral 70/30,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,7,20,25,1,30,,25.75192949989229,34.78162178399802
-Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,11,11,19,4,23,10.256999969482422,5.0,17.616609896482704
-Gemelo (voraz),2,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,6,11,11,3,28,4.472999811172485,28.131397612826248,36.0721958633503
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,086,Sullivan-Insurgentes,9,20,25,3,16,3.176999971270561,43.24715444772272,52.1119034049251
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,25,1,21,,25.75192949989229,35.74668442774612
+Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,11,12,19,2,24,9.109000444412231,5.0,17.616609896482704
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,12,21,25,2,28,4.816000297665596,24.348823797010983,31.5237823813834
+Gemelo (voraz),3,012,Río Lerma - Villalongín,086,Sullivan-Insurgentes,5,11,11,3,16,3.365999937057495,39.46458063190745,45.804881599613374
