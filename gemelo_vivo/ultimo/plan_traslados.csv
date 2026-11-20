@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
-Regla umbral 90/10,2,048,Independencia - Azueta,012,Río Lerma - Villalongín,5,10,10,0,14,,22.29719720698106,35.53245589451501
-Regla umbral 90/10,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,33,34,0,5,,43.0307427226252,51.1560431388435
-Regla umbral 85/15,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
-Regla umbral 85/15,2,048,Independencia - Azueta,012,Río Lerma - Villalongín,5,10,10,0,14,,22.29719720698106,35.53245589451501
-Regla umbral 85/15,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,33,34,0,5,,43.0307427226252,51.1560431388435
-Regla umbral 80/20,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
-Regla umbral 80/20,2,048,Independencia - Azueta,012,Río Lerma - Villalongín,5,10,10,0,14,,22.29719720698106,35.53245589451501
-Regla umbral 80/20,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,33,34,0,5,,43.0307427226252,51.1560431388435
-Regla umbral 75/25,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
-Regla umbral 75/25,2,048,Independencia - Azueta,012,Río Lerma - Villalongín,5,10,10,0,14,,22.29719720698106,35.53245589451501
-Regla umbral 75/25,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,33,34,0,5,,43.0307427226252,51.1560431388435
-Regla umbral 70/30,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
-Regla umbral 70/30,2,048,Independencia - Azueta,012,Río Lerma - Villalongín,5,10,10,0,14,,22.29719720698106,35.53245589451501
-Regla umbral 70/30,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,33,34,0,5,,43.0307427226252,51.1560431388435
-Gemelo (voraz),1,116,Londres-Roma,041,Reforma - Av. de la República,14,22,22,0,29,7.971999883651733,5.0,15.072630659441103
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,14,33,34,1,25,6.444000005722046,27.442029235914376,37.0489374426076
-Gemelo (voraz),3,048,Independencia - Azueta,555,Ribera de San Cosme - Insurgentes Centro,7,10,10,2,34,5.507999897003174,46.673918886351,58.0786928313815
+Regla umbral 90/10,1,116,Londres-Roma,010,Reforma - Ramírez,11,22,22,0,25,,5.0,12.697387933446448
+Regla umbral 90/10,2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,29,29,0,29,,22.28031800351735,34.515865045906786
+Regla umbral 90/10,3,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,33,34,0,28,,46.88526362238006,56.95340278665505
+Regla umbral 85/15,1,116,Londres-Roma,010,Reforma - Ramírez,11,22,22,0,25,,5.0,12.697387933446448
+Regla umbral 85/15,2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,29,29,0,29,,22.28031800351735,34.515865045906786
+Regla umbral 85/15,3,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,33,34,0,28,,46.88526362238006,56.95340278665505
+Regla umbral 80/20,1,116,Londres-Roma,010,Reforma - Ramírez,11,22,22,0,25,,5.0,12.697387933446448
+Regla umbral 80/20,2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,29,29,0,29,,22.28031800351735,34.515865045906786
+Regla umbral 80/20,3,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,33,34,0,28,,46.88526362238006,56.95340278665505
+Regla umbral 75/25,1,116,Londres-Roma,010,Reforma - Ramírez,11,22,22,0,25,,5.0,12.697387933446448
+Regla umbral 75/25,2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,29,29,0,29,,22.28031800351735,34.515865045906786
+Regla umbral 75/25,3,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,33,34,0,28,,46.88526362238006,56.95340278665505
+Regla umbral 70/30,1,116,Londres-Roma,010,Reforma - Ramírez,11,22,22,0,25,,5.0,12.697387933446448
+Regla umbral 70/30,2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,29,29,0,29,,22.28031800351735,34.515865045906786
+Regla umbral 70/30,3,031,Hamburgo - Insurgentes,263,Sadi Carnot - Gómez Farias,14,33,34,0,28,,46.88526362238006,56.95340278665505
+Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,15,22,22,0,33,10.201000213623047,5.0,16.49900210354682
+Gemelo (voraz),2,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,15,33,34,0,25,7.717000246047974,29.127643799887448,38.73455200658067
+Gemelo (voraz),3,117,Londres-Nápoles,041,Reforma - Av. de la República,16,29,29,0,29,7.265000104904175,48.31748207665157,60.55302911904101
