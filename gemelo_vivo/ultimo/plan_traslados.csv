@@ -1,16 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,026,Reforma - Versalles,118,Liverpool-Dinamarca,6,13,14,0,19,,5.0,13.56613845726512
-Regla umbral 85/15,1,026,Reforma - Versalles,118,Liverpool-Dinamarca,6,13,14,0,19,,5.0,13.56613845726512
-Regla umbral 85/15,2,255,José Rosas Moreno-Guillermo Prieto,119,Turín-Abraham González,2,27,31,0,5,,24.671031801225535,36.51125052668963
-Regla umbral 80/20,1,026,Reforma - Versalles,118,Liverpool-Dinamarca,6,13,14,0,19,,5.0,13.56613845726512
-Regla umbral 80/20,2,255,José Rosas Moreno-Guillermo Prieto,119,Turín-Abraham González,2,27,31,0,5,,24.671031801225535,36.51125052668963
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,1,20,,48.00817654746264,59.06553085069505
-Regla umbral 75/25,1,026,Reforma - Versalles,118,Liverpool-Dinamarca,6,13,14,0,19,,5.0,13.56613845726512
-Regla umbral 75/25,2,255,José Rosas Moreno-Guillermo Prieto,119,Turín-Abraham González,2,27,31,0,5,,24.671031801225535,36.51125052668963
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,1,20,,48.00817654746264,59.06553085069505
-Regla umbral 70/30,1,026,Reforma - Versalles,118,Liverpool-Dinamarca,6,13,14,0,19,,5.0,13.56613845726512
-Regla umbral 70/30,2,255,José Rosas Moreno-Guillermo Prieto,119,Turín-Abraham González,2,27,31,0,5,,24.671031801225535,36.51125052668963
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,1,20,,48.00817654746264,59.06553085069505
-Gemelo (voraz),1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,11,17,20,3,29,5.406000137329102,5.0,16.242051804680216
-Gemelo (voraz),2,255,José Rosas Moreno-Guillermo Prieto,116,Londres-Roma,10,27,31,1,20,3.4490000009536743,24.893999877113124,35.391484598147215
-Gemelo (voraz),3,026,Reforma - Versalles,086,Sullivan-Insurgentes,6,13,14,2,16,2.8690000772476196,42.66340464305064,49.97957368609533
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,20,20,0,25,,5.0,18.287172057491397
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,20,20,0,25,,5.0,18.287172057491397
+Regla umbral 85/15,2,026,Reforma - Versalles,119,Turín-Abraham González,2,13,15,0,5,,27.55234220687953,35.89074407997179
+Regla umbral 85/15,3,255,José Rosas Moreno-Guillermo Prieto,115,Roma-Dinamarca,11,26,30,1,26,,47.73096280543589,57.061246896538144
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,20,20,0,25,,5.0,18.287172057491397
+Regla umbral 80/20,2,026,Reforma - Versalles,119,Turín-Abraham González,2,13,15,0,5,,27.55234220687953,35.89074407997179
+Regla umbral 80/20,3,255,José Rosas Moreno-Guillermo Prieto,115,Roma-Dinamarca,11,26,30,1,26,,47.73096280543589,57.061246896538144
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,20,20,0,25,,5.0,18.287172057491397
+Regla umbral 75/25,2,026,Reforma - Versalles,119,Turín-Abraham González,2,13,15,0,5,,27.55234220687953,35.89074407997179
+Regla umbral 75/25,3,255,José Rosas Moreno-Guillermo Prieto,115,Roma-Dinamarca,11,26,30,1,26,,47.73096280543589,57.061246896538144
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,20,20,0,25,,5.0,18.287172057491397
+Regla umbral 70/30,2,026,Reforma - Versalles,119,Turín-Abraham González,2,13,15,0,5,,27.55234220687953,35.89074407997179
+Regla umbral 70/30,3,255,José Rosas Moreno-Guillermo Prieto,115,Roma-Dinamarca,11,26,30,1,26,,47.73096280543589,57.061246896538144
+Gemelo (voraz),1,260,Av. Juárez-Balderas,010,Reforma - Ramírez,14,20,20,3,26,7.950000286102295,5.0,14.155961456043645
+Gemelo (voraz),2,026,Reforma - Versalles,117,Londres-Nápoles,8,13,15,0,25,4.652000069618225,19.645948645569586,28.91111879495772
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,10,23,27,2,30,3.876999855041504,41.78428984501793,51.91551494647978
