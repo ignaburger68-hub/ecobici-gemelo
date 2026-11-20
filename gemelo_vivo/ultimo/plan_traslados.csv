@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 90/10,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
-Regla umbral 90/10,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
-Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 85/15,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
-Regla umbral 85/15,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
-Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 80/20,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
-Regla umbral 80/20,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
-Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 75/25,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
-Regla umbral 75/25,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
-Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 70/30,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
-Regla umbral 70/30,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
-Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,18,33,33,0,25,13.520999908447266,5.0,12.783949118376132
-Gemelo (voraz),2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,14,19,20,0,28,9.930000305175781,21.939910574419777,33.18196237909999
-Gemelo (voraz),3,116,Londres-Roma,112,Av. Morelos-Abraham González,14,22,22,2,21,8.330000162124634,40.03136330790819,48.505686906265474
+Regla umbral 90/10,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,119,Turín-Abraham González,2,20,20,0,5,,21.45434345213309,32.951269472906105
+Regla umbral 90/10,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,33,1,28,,43.4600567486939,53.35067239108651
+Regla umbral 85/15,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,119,Turín-Abraham González,2,20,20,0,5,,21.45434345213309,32.951269472906105
+Regla umbral 85/15,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,33,1,28,,43.4600567486939,53.35067239108651
+Regla umbral 80/20,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,119,Turín-Abraham González,2,20,20,0,5,,21.45434345213309,32.951269472906105
+Regla umbral 80/20,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,33,1,28,,43.4600567486939,53.35067239108651
+Regla umbral 75/25,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,119,Turín-Abraham González,2,20,20,0,5,,21.45434345213309,32.951269472906105
+Regla umbral 75/25,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,33,1,28,,43.4600567486939,53.35067239108651
+Regla umbral 70/30,1,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,5.0,15.072630659441103
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,119,Turín-Abraham González,2,20,20,0,5,,21.45434345213309,32.951269472906105
+Regla umbral 70/30,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,33,1,28,,43.4600567486939,53.35067239108651
+Gemelo (voraz),1,260,Av. Juárez-Balderas,010,Reforma - Ramírez,15,20,20,1,25,12.91100025177002,5.0,14.155961456043645
+Gemelo (voraz),2,029,Reforma - Bucareli,020,Reforma- Río Támesis,13,31,33,2,21,7.868999719619751,21.939910574419777,32.86365786358949
+Gemelo (voraz),3,116,Londres-Roma,003,Reforma - Insurgentes,12,22,22,1,28,6.978000164031982,40.11566158057088,46.965062509379074
