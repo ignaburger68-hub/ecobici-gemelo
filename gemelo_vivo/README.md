@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 19/11/2026 18:46 (hora de Ciudad de México).
+Página actualizada automáticamente el 19/11/2026 19:00 (hora de Ciudad de México).
 
-## Último pronóstico: 19/11 18:46 a 19:46
+## Último pronóstico: 19/11 19:00 a 20:00
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **16.6 °C** · sin lluvia · viento 9 km/h · día hábil
 
-El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.83** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,32 +24,32 @@ El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.83** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 020 Reforma- Río Támesis | 0 / 21 | 0.99 | 0.00 | 0-5 |
-| 113 General Prim-Versalles | 0 / 14 | 0.99 | 0.00 | 0-4 |
-| 112 Av. Morelos-Abraham González | 0 / 21 | 0.99 | 0.00 | 0-5 |
-| 003 Reforma - Insurgentes | 0 / 29 | 0.96 | 0.00 | 0-5 |
-| 115 Roma-Dinamarca | 2 / 25 | 0.96 | 0.00 | 1-8 |
-| 010 Reforma - Ramírez | 2 / 27 | 0.94 | 0.00 | 0-7 |
-| 117 Londres-Nápoles | 1 / 26 | 0.92 | 0.00 | 0-7 |
-| 026 Reforma - Versalles | 2 / 13 | 0.89 | 0.00 | 0-5 |
-| 031 Hamburgo - Insurgentes | 1 / 32 | 0.88 | 0.00 | 0-9 |
+| 112 Av. Morelos-Abraham González | 0 / 20 | 1.00 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 1 / 15 | 0.98 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 1 / 21 | 0.96 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 1 / 30 | 0.96 | 0.00 | 0-6 |
+| 026 Reforma - Versalles | 2 / 13 | 0.95 | 0.03 | 1-9 |
+| 113 General Prim-Versalles | 2 / 14 | 0.95 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 3 / 27 | 0.95 | 0.00 | 1-11 |
+| 115 Roma-Dinamarca | 5 / 25 | 0.91 | 0.00 | 3-15 |
+| 117 Londres-Nápoles | 2 / 27 | 0.86 | 0.00 | 0-8 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 555 (18/29) a 115 (2/25)
-2. Llevar **10 bicis** de 260 (13/20) a 020 (0/21)
-3. Llevar **13 bicis** de 029 (20/32) a 010 (2/27)
+1. Llevar **12 bicis** de 555 (19/27) a 003 (1/30)
+2. Llevar **9 bicis** de 260 (13/20) a 112 (0/20)
+3. Llevar **14 bicis** de 098 (18/31) a 010 (3/27)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-206 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+207 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.121 | 0.036 |
-| Sin resincronizar | 0.300 | 0.097 |
-| Persistencia | 0.336 | 0.069 |
-| Persistencia 0/1 | 0.336 | 0.069 |
+| Sin resincronizar | 0.300 | 0.098 |
+| Persistencia | 0.337 | 0.069 |
+| Persistencia 0/1 | 0.337 | 0.069 |
 
 ![Brier por día](brier_vivo.png)
 

@@ -1,7 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,048,Independencia - Azueta,112,Av. Morelos-Abraham González,3,8,10,0,21,,5.0,12.811062342961126
-Regla umbral 70/30,1,048,Independencia - Azueta,112,Av. Morelos-Abraham González,3,8,10,0,21,,5.0,12.811062342961126
-Regla umbral 70/30,2,256,Gómez Farías-Sadi Carnot,113,General Prim-Versalles,4,15,21,0,14,,22.201145386225342,31.66191478075283
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,14,18,29,2,25,10.077000498771667,5.0,16.24636992440178
-Gemelo (voraz),2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,13,20,0,21,7.450000286102295,28.42730775248197,40.6991265675975
-Gemelo (voraz),3,029,Reforma - Bucareli,010,Reforma - Ramírez,13,20,32,2,27,7.004999756813049,51.622873856767214,59.40682297514334
+Regla umbral 70/30,1,555,Ribera de San Cosme - Insurgentes Centro,112,Av. Morelos-Abraham González,5,19,27,0,20,,5.0,14.913010685080192
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,12,19,27,1,30,8.182000041007996,5.0,15.131225101461851
+Gemelo (voraz),2,260,Av. Juárez-Balderas,112,Av. Morelos-Abraham González,9,13,20,0,20,6.676999807357788,26.373276906142067,33.964039318829066
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,14,18,31,3,27,6.430000051856041,41.2177339274032,50.22186019566867
