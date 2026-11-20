@@ -1,9 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
-Regla umbral 75/25,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,15,19,0,13,,24.591843553221103,32.7071534740105
-Regla umbral 70/30,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,15,19,0,13,,24.591843553221103,32.7071534740105
-Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,16,18,22,2,30,13.372999668121338,5.0,16.49900210354682
-Gemelo (voraz),2,113,General Prim-Versalles,086,Sullivan-Insurgentes,9,9,15,0,13,11.481999397277832,27.27195222062775,35.16351883734764
-Gemelo (voraz),3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,14,18,29,1,32,8.766999959945679,43.272890771805564,54.09034035104371
+Gemelo (voraz),1,117,Londres-Nápoles,029,Reforma - Bucareli,17,21,30,3,34,11.394999980926514,5.0,17.066306593032486
+Gemelo (voraz),2,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,8,8,15,2,32,8.822999954223633,25.53826062401932,36.1684892521898
+Gemelo (voraz),3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,5,6,22,1,28,4.163999795913696,47.6723286017563,56.80355417695418
