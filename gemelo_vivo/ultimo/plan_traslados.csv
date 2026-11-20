@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,113,General Prim-Versalles,041,Reforma - Av. de la República,7,15,15,0,30,,5.0,13.678659987005002
-Regla umbral 90/10,2,048,Independencia - Azueta,119,Turín-Abraham González,2,11,11,0,5,,20.903226534544963,32.19497452213119
-Regla umbral 90/10,3,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,29,30,1,56,,39.74423667844431,50.61108000915689
+Regla umbral 90/10,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,14,30,31,0,29,,25.914207029394436,36.277638779996224
 Regla umbral 85/15,1,113,General Prim-Versalles,041,Reforma - Av. de la República,7,15,15,0,30,,5.0,13.678659987005002
-Regla umbral 85/15,2,048,Independencia - Azueta,119,Turín-Abraham González,2,11,11,0,5,,20.903226534544963,32.19497452213119
-Regla umbral 85/15,3,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,29,30,1,56,,39.74423667844431,50.61108000915689
+Regla umbral 85/15,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,14,30,31,0,29,,25.914207029394436,36.277638779996224
+Regla umbral 85/15,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,10,23,26,0,56,,45.009269788671936,55.73108213741096
 Regla umbral 80/20,1,113,General Prim-Versalles,041,Reforma - Av. de la República,7,15,15,0,30,,5.0,13.678659987005002
-Regla umbral 80/20,2,048,Independencia - Azueta,119,Turín-Abraham González,2,11,11,0,5,,20.903226534544963,32.19497452213119
-Regla umbral 80/20,3,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,29,30,1,56,,39.74423667844431,50.61108000915689
+Regla umbral 80/20,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,14,30,31,0,29,,25.914207029394436,36.277638779996224
+Regla umbral 80/20,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,10,23,26,0,56,,45.009269788671936,55.73108213741096
 Regla umbral 75/25,1,113,General Prim-Versalles,041,Reforma - Av. de la República,7,15,15,0,30,,5.0,13.678659987005002
-Regla umbral 75/25,2,048,Independencia - Azueta,119,Turín-Abraham González,2,11,11,0,5,,20.903226534544963,32.19497452213119
-Regla umbral 75/25,3,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,29,30,1,56,,39.74423667844431,50.61108000915689
+Regla umbral 75/25,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,14,30,31,0,29,,25.914207029394436,36.277638779996224
+Regla umbral 75/25,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,10,23,26,0,56,,45.009269788671936,55.73108213741096
 Regla umbral 70/30,1,113,General Prim-Versalles,041,Reforma - Av. de la República,7,15,15,0,30,,5.0,13.678659987005002
-Regla umbral 70/30,2,048,Independencia - Azueta,119,Turín-Abraham González,2,11,11,0,5,,20.903226534544963,32.19497452213119
-Regla umbral 70/30,3,117,Londres-Nápoles,107-108,Tolsa-Balderas,14,29,30,1,56,,39.74423667844431,50.61108000915689
-Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,13,15,15,0,30,9.990000486373901,5.0,13.678659987005002
-Gemelo (voraz),2,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,12,29,30,1,23,3.1820002794265747,25.914207029394436,36.769191177161986
-Gemelo (voraz),3,048,Independencia - Azueta,086,Sullivan-Insurgentes,5,11,11,3,17,2.845999836921692,48.44772215574188,60.34270258025141
+Regla umbral 70/30,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,14,30,31,0,29,,25.914207029394436,36.277638779996224
+Regla umbral 70/30,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,10,23,26,0,56,,45.009269788671936,55.73108213741096
+Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,13,15,15,0,30,9.115999937057495,5.0,13.678659987005002
+Gemelo (voraz),2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,20,30,31,0,29,7.728000164031982,25.914207029394436,36.277638779996224
+Gemelo (voraz),3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,12,23,26,0,56,3.197999954223633,45.009269788671936,55.73108213741096

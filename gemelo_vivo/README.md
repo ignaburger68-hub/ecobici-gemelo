@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 09:46 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 10:00 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 09:46 a 10:46
+## Último pronóstico: 20/11 10:00 a 11:00
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **17.1 °C** · sin lluvia · viento 2 km/h · día hábil
 
-El clima multiplica los **retiros por 0.89** y las **devoluciones por 0.90** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -25,31 +25,31 @@ El clima multiplica los **retiros por 0.89** y las **devoluciones por 0.90** (1,
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
 | 113 General Prim-Versalles | 15 / 15 | 0.00 | 1.00 | 12-15 |
-| 041 Reforma - Av. de la Repúblic | 0 / 30 | 0.99 | 0.00 | 0-6 |
-| 048 Independencia - Azueta | 11 / 11 | 0.03 | 0.99 | 3-11 |
-| 256 Gómez Farías-Sadi Carnot | 1 / 23 | 0.69 | 0.00 | 0-6 |
-| 117 Londres-Nápoles | 29 / 30 | 0.00 | 0.66 | 22-30 |
-| 010 Reforma - Ramírez | 1 / 23 | 0.63 | 0.00 | 1-11 |
-| 086 Sullivan-Insurgentes | 3 / 17 | 0.55 | 0.00 | 0-6 |
-| 107-108 Tolsa-Balderas | 1 / 56 | 0.47 | 0.00 | 1-14 |
-| 263 Sadi Carnot - Gómez Farias | 2 / 29 | 0.45 | 0.00 | 0-6 |
+| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 0.99 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 0 / 30 | 0.97 | 0.00 | 0-7 |
+| 117 Londres-Nápoles | 30 / 31 | 0.00 | 0.94 | 29-31 |
+| 555 Ribera de San Cosme - Insurg | 0 / 32 | 0.79 | 0.00 | 0-11 |
+| 107-108 Tolsa-Balderas | 0 / 56 | 0.77 | 0.00 | 0-8 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 23 | 0.76 | 0.00 | 0-6 |
+| 010 Reforma - Ramírez | 1 / 25 | 0.66 | 0.00 | 1-10 |
+| 086 Sullivan-Insurgentes | 2 / 17 | 0.60 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
 1. Llevar **13 bicis** de 113 (15/15) a 041 (0/30)
-2. Llevar **12 bicis** de 117 (29/30) a 256 (1/23)
-3. Llevar **5 bicis** de 048 (11/11) a 086 (3/17)
+2. Llevar **20 bicis** de 117 (30/31) a 263 (0/29)
+3. Llevar **12 bicis** de 115 (23/26) a 107-108 (0/56)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-239 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+240 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.120 | 0.034 |
-| Sin resincronizar | 0.284 | 0.092 |
-| Persistencia | 0.322 | 0.063 |
-| Persistencia 0/1 | 0.322 | 0.063 |
+| Gemelo | 0.121 | 0.034 |
+| Sin resincronizar | 0.283 | 0.092 |
+| Persistencia | 0.321 | 0.063 |
+| Persistencia 0/1 | 0.321 | 0.063 |
 
 ![Brier por día](brier_vivo.png)
 
