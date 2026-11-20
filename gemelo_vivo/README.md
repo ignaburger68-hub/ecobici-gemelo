@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 06:39 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 06:54 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 06:39 a 07:39
+## Último pronóstico: 20/11 06:54 a 07:54
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 048 Independencia - Azueta | 0 / 11 | 1.00 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 0 / 17 | 0.98 | 0.00 | 0-5 |
-| 115 Roma-Dinamarca | 0 / 25 | 0.97 | 0.00 | 0-7 |
-| 256 Gómez Farías-Sadi Carnot | 1 / 20 | 0.91 | 0.00 | 0-4 |
-| 116 Londres-Roma | 1 / 20 | 0.66 | 0.00 | 0-6 |
-| 020 Reforma- Río Támesis | 1 / 19 | 0.64 | 0.00 | 0-7 |
-| 114 Lucerna-Abraham González | 2 / 21 | 0.62 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 2 / 30 | 0.60 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 11 / 25 | 0.55 | 0.00 | 0-8 |
+| 114 Lucerna-Abraham González | 0 / 21 | 1.00 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 0 / 11 | 0.99 | 0.00 | 0-3 |
+| 116 Londres-Roma | 0 / 20 | 0.96 | 0.00 | 0-5 |
+| 117 Londres-Nápoles | 0 / 28 | 0.95 | 0.00 | 0-10 |
+| 555 Ribera de San Cosme - Insurg | 4 / 22 | 0.92 | 0.00 | 0-2 |
+| 012 Río Lerma - Villalongín | 10 / 11 | 0.00 | 0.79 | 6-11 |
+| 020 Reforma- Río Támesis | 1 / 19 | 0.55 | 0.00 | 1-9 |
+| 263 Sadi Carnot - Gómez Farias | 4 / 28 | 0.52 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 1 / 30 | 0.48 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 259 (20/25) a 555 (11/25)
-2. Llevar **5 bicis** de 012 (8/11) a 256 (1/20)
-3. Llevar **7 bicis** de 098 (18/29) a 048 (0/11)
+1. Llevar **13 bicis** de 010 (15/25) a 555 (4/22)
+2. Llevar **6 bicis** de 012 (10/11) a 114 (0/21)
+3. Llevar **8 bicis** de 259 (20/25) a 116 (0/20)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
