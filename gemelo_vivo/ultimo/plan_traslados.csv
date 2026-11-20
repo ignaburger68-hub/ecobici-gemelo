@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 90/10,2,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,0,22,,19.51123928902127,29.31245169811817
-Regla umbral 90/10,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,39.68287334376211,46.33442228208267
+Regla umbral 90/10,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
+Regla umbral 90/10,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
 Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 85/15,2,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,0,22,,19.51123928902127,29.31245169811817
-Regla umbral 85/15,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,39.68287334376211,46.33442228208267
+Regla umbral 85/15,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
+Regla umbral 85/15,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
 Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 80/20,2,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,0,22,,19.51123928902127,29.31245169811817
-Regla umbral 80/20,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,39.68287334376211,46.33442228208267
+Regla umbral 80/20,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
+Regla umbral 80/20,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
 Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 75/25,2,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,0,22,,19.51123928902127,29.31245169811817
-Regla umbral 75/25,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,39.68287334376211,46.33442228208267
+Regla umbral 75/25,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
+Regla umbral 75/25,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
 Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,25,,5.0,11.813851355574819
-Regla umbral 70/30,2,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,0,22,,19.51123928902127,29.31245169811817
-Regla umbral 70/30,3,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,39.68287334376211,46.33442228208267
-Gemelo (voraz),1,260,Av. Juárez-Balderas,010,Reforma - Ramírez,14,16,20,0,25,11.574999809265137,5.0,14.155961456043645
-Gemelo (voraz),2,116,Londres-Roma,003,Reforma - Insurgentes,15,22,22,1,29,8.312999963760376,21.853349389490095,28.70275031829829
-Gemelo (voraz),3,029,Reforma - Bucareli,020,Reforma- Río Támesis,13,32,33,1,21,7.292999744415283,38.593365960690896,49.51711324986061
+Regla umbral 70/30,2,116,Londres-Roma,003,Reforma - Insurgentes,11,22,22,0,28,,19.51123928902127,26.360640217829463
+Regla umbral 70/30,3,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,33,33,0,28,,36.251255860222074,45.75046758069815
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,18,33,33,0,25,13.520999908447266,5.0,12.783949118376132
+Gemelo (voraz),2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,14,19,20,0,28,9.930000305175781,21.939910574419777,33.18196237909999
+Gemelo (voraz),3,116,Londres-Roma,112,Av. Morelos-Abraham González,14,22,22,2,21,8.330000162124634,40.03136330790819,48.505686906265474
