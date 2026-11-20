@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 06:11 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 06:25 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 06:11 a 07:11
+## Último pronóstico: 20/11 06:25 a 07:25
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,20 +24,20 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 020 Reforma- Río Támesis | 0 / 19 | 0.99 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 0 / 17 | 0.99 | 0.00 | 0-3 |
-| 048 Independencia - Azueta | 0 / 9 | 0.99 | 0.00 | 0-3 |
-| 116 Londres-Roma | 0 / 20 | 0.98 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 0 / 19 | 0.98 | 0.00 | 1-9 |
-| 115 Roma-Dinamarca | 0 / 25 | 0.97 | 0.00 | 0-4 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.95 | 11-19 |
-| 256 Gómez Farías-Sadi Carnot | 2 / 20 | 0.85 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 9 / 11 | 0.00 | 0.49 | 7-11 |
+| 008 Reforma - General Prim | 0 / 17 | 0.99 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 0 / 19 | 0.99 | 0.00 | 0-5 |
+| 118 Liverpool-Dinamarca | 0 / 19 | 0.97 | 0.03 | 3-15 |
+| 256 Gómez Farías-Sadi Carnot | 2 / 20 | 0.74 | 0.00 | 0-6 |
+| 116 Londres-Roma | 1 / 20 | 0.65 | 0.00 | 0-7 |
+| 555 Ribera de San Cosme - Insurg | 8 / 25 | 0.64 | 0.00 | 0-6 |
+| 048 Independencia - Azueta | 2 / 11 | 0.57 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 9 / 11 | 0.00 | 0.54 | 6-11 |
+| 114 Lucerna-Abraham González | 3 / 21 | 0.50 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 260 (20/20) a 256 (2/20)
-2. Llevar **7 bicis** de 012 (9/11) a 555 (7/25)
+1. Llevar **12 bicis** de 259 (20/25) a 555 (8/25)
+2. Llevar **6 bicis** de 012 (9/11) a 256 (2/20)
 3. Llevar **4 bicis** de 010 (5/25) a 020 (0/19)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
