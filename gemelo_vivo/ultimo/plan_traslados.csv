@@ -1,11 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,8,21,25,0,27,,5.0,12.174958584372417
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,8,21,25,0,27,,5.0,12.174958584372417
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,119,Turín-Abraham González,2,15,19,0,5,,22.441274643145828,28.806135709009027
-Regla umbral 75/25,3,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,5,16,21,1,23,,35.157153631171646,44.958366040268544
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,8,21,25,0,27,,5.0,12.174958584372417
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,119,Turín-Abraham González,2,15,19,0,5,,22.441274643145828,28.806135709009027
-Regla umbral 70/30,3,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,5,16,21,1,23,,35.157153631171646,44.958366040268544
-Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,13,16,21,3,29,9.991000175476074,5.0,16.49900210354682
-Gemelo (voraz),2,117,Londres-Nápoles,256,Gómez Farías-Sadi Carnot,12,13,29,1,23,7.162000119686127,29.372173153607033,40.22715730137459
-Gemelo (voraz),3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,4,4,14,0,27,5.0229997634887695,49.68792669590208,58.74122529780505
+Regla umbral 80/20,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
+Regla umbral 75/25,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,15,19,0,13,,24.591843553221103,32.7071534740105
+Regla umbral 70/30,1,116,Londres-Roma,263,Sadi Carnot - Gómez Farias,7,18,22,0,27,,5.0,14.325527494447694
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,15,19,0,13,,24.591843553221103,32.7071534740105
+Gemelo (voraz),1,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,16,18,22,2,30,13.372999668121338,5.0,16.49900210354682
+Gemelo (voraz),2,113,General Prim-Versalles,086,Sullivan-Insurgentes,9,9,15,0,13,11.481999397277832,27.27195222062775,35.16351883734764
+Gemelo (voraz),3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,14,18,29,1,32,8.766999959945679,43.272890771805564,54.09034035104371
