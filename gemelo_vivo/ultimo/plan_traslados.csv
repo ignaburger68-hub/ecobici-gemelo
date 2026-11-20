@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,13.661576594091802
-Regla umbral 90/10,2,117,Londres-Nápoles,119,Turín-Abraham González,2,29,29,0,5,,21.770948528549727,29.320210684862847
-Regla umbral 90/10,3,113,General Prim-Versalles,107-108,Tolsa-Balderas,6,14,15,1,56,,36.45780904514238,44.657354326034266
-Regla umbral 85/15,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,13.661576594091802
-Regla umbral 85/15,2,117,Londres-Nápoles,119,Turín-Abraham González,2,29,29,0,5,,21.770948528549727,29.320210684862847
-Regla umbral 85/15,3,113,General Prim-Versalles,107-108,Tolsa-Balderas,6,14,15,1,56,,36.45780904514238,44.657354326034266
-Regla umbral 80/20,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,13.661576594091802
-Regla umbral 80/20,2,117,Londres-Nápoles,119,Turín-Abraham González,2,29,29,0,5,,21.770948528549727,29.320210684862847
-Regla umbral 80/20,3,113,General Prim-Versalles,107-108,Tolsa-Balderas,6,14,15,1,56,,36.45780904514238,44.657354326034266
-Regla umbral 75/25,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,13.661576594091802
-Regla umbral 75/25,2,117,Londres-Nápoles,119,Turín-Abraham González,2,29,29,0,5,,21.770948528549727,29.320210684862847
-Regla umbral 75/25,3,113,General Prim-Versalles,107-108,Tolsa-Balderas,6,14,15,1,56,,36.45780904514238,44.657354326034266
-Regla umbral 70/30,1,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,13.661576594091802
-Regla umbral 70/30,2,117,Londres-Nápoles,119,Turín-Abraham González,2,29,29,0,5,,21.770948528549727,29.320210684862847
-Regla umbral 70/30,3,113,General Prim-Versalles,107-108,Tolsa-Balderas,6,14,15,1,56,,36.45780904514238,44.657354326034266
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,29,29,1,32,7.320000171661377,5.0,17.87317105006021
-Gemelo (voraz),2,114,Lucerna-Abraham González,256,Gómez Farías-Sadi Carnot,11,20,20,2,23,5.82699978351593,29.5119739225862,39.88239556823014
-Gemelo (voraz),3,113,General Prim-Versalles,029,Reforma - Bucareli,9,14,15,1,35,4.7250001430511475,49.343164962757626,57.815118993744456
+Regla umbral 90/10,1,113,General Prim-Versalles,119,Turín-Abraham González,2,15,15,0,5,,5.0,12.137598360279535
+Regla umbral 90/10,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,10,10,1,55,,23.42934634786576,32.44679348855938
+Regla umbral 90/10,3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,30,30,1,33,,43.31363681927196,54.13108639851011
+Regla umbral 85/15,1,113,General Prim-Versalles,119,Turín-Abraham González,2,15,15,0,5,,5.0,12.137598360279535
+Regla umbral 85/15,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,10,10,1,55,,23.42934634786576,32.44679348855938
+Regla umbral 85/15,3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,30,30,1,33,,43.31363681927196,54.13108639851011
+Regla umbral 80/20,1,113,General Prim-Versalles,119,Turín-Abraham González,2,15,15,0,5,,5.0,12.137598360279535
+Regla umbral 80/20,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,10,10,1,55,,23.42934634786576,32.44679348855938
+Regla umbral 80/20,3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,30,30,1,33,,43.31363681927196,54.13108639851011
+Regla umbral 75/25,1,113,General Prim-Versalles,119,Turín-Abraham González,2,15,15,0,5,,5.0,12.137598360279535
+Regla umbral 75/25,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,10,10,1,55,,23.42934634786576,32.44679348855938
+Regla umbral 75/25,3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,30,30,1,33,,43.31363681927196,54.13108639851011
+Regla umbral 70/30,1,113,General Prim-Versalles,119,Turín-Abraham González,2,15,15,0,5,,5.0,12.137598360279535
+Regla umbral 70/30,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,10,10,1,55,,23.42934634786576,32.44679348855938
+Regla umbral 70/30,3,117,Londres-Nápoles,255,José Rosas Moreno-Guillermo Prieto,15,30,30,1,33,,43.31363681927196,54.13108639851011
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,18,30,30,1,32,8.730999946594238,5.0,17.87317105006021
+Gemelo (voraz),2,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,9,15,15,1,33,4.677999973297119,28.64612116714114,39.276349795311624
+Gemelo (voraz),3,048,Independencia - Azueta,012,Río Lerma - Villalongín,6,10,10,1,15,4.223999977111816,52.79449918022487,66.02975786775882
