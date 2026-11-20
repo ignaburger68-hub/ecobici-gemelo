@@ -1,13 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,0,17,,5.0,16.120095288340757
-Regla umbral 80/20,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,0,17,,5.0,16.120095288340757
-Regla umbral 80/20,2,012,Río Lerma - Villalongín,020,Reforma- Río Támesis,3,9,11,0,19,,23.12606164955555,29.23294144369433
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,0,17,,5.0,16.120095288340757
-Regla umbral 75/25,2,012,Río Lerma - Villalongín,020,Reforma- Río Támesis,3,9,11,0,19,,23.12606164955555,29.23294144369433
-Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,118,Liverpool-Dinamarca,7,20,25,0,19,,39.16200938333478,50.45813987865084
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,0,17,,5.0,16.120095288340757
-Regla umbral 70/30,2,012,Río Lerma - Villalongín,020,Reforma- Río Támesis,3,9,11,0,19,,23.12606164955555,29.23294144369433
-Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,118,Liverpool-Dinamarca,7,20,25,0,19,,39.16200938333478,50.45813987865084
-Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,12,20,25,8,25,3.5250000115484,5.0,11.73221390052828
-Gemelo (voraz),2,012,Río Lerma - Villalongín,256,Gómez Farías-Sadi Carnot,6,9,11,2,20,2.523999869823456,22.247001616871824,30.612525360608075
-Gemelo (voraz),3,010,Reforma - Ramírez,020,Reforma- Río Támesis,4,5,25,0,19,1.4850000739097595,38.37914171560743,46.54021692398143
+Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,008,Reforma - General Prim,7,20,25,0,17,,5.0,14.112248278875189
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,6,16,20,0,25,,25.232343567215946,37.41328139529614
+Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,008,Reforma - General Prim,7,20,25,0,17,,5.0,14.112248278875189
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,6,16,20,0,25,,25.232343567215946,37.41328139529614
+Regla umbral 70/30,3,012,Río Lerma - Villalongín,048,Independencia - Azueta,2,8,11,0,11,,44.144231418678565,57.379490106212515
+Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,11,20,25,11,25,2.8839998096227646,5.0,11.73221390052828
+Gemelo (voraz),2,012,Río Lerma - Villalongín,256,Gómez Farías-Sadi Carnot,5,8,11,1,20,2.54800021648407,22.247001616871824,30.612525360608075
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,048,Independencia - Azueta,7,18,29,0,11,1.9680000403895974,42.24724512773232,49.50036188921043
