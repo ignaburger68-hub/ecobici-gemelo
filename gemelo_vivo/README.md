@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 17:38 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 17:52 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 17:38 a 18:38
+## Último pronóstico: 20/11 17:52 a 18:52
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **20.2 °C** · sin lluvia · viento 9 km/h · día hábil
 
-El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.88** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.85** y las **devoluciones por 0.90** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,32 +24,32 @@ El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.88** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.99 | 18-20 |
+| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 1.00 | 27-33 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.99 | 16-20 |
 | 116 Londres-Roma | 22 / 22 | 0.00 | 0.98 | 13-22 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.96 | 0.00 | 0-7 |
-| 029 Reforma - Bucareli | 31 / 33 | 0.00 | 0.94 | 24-33 |
-| 008 Reforma - General Prim | 3 / 15 | 0.86 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 2 / 21 | 0.84 | 0.00 | 0-5 |
-| 263 Sadi Carnot - Gómez Farias | 1 / 28 | 0.65 | 0.00 | 0-6 |
-| 041 Reforma - Av. de la Repúblic | 2 / 29 | 0.52 | 0.00 | 0-10 |
-| 026 Reforma - Versalles | 5 / 10 | 0.49 | 0.08 | 0-7 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 22 | 0.82 | 0.00 | 0-7 |
+| 020 Reforma- Río Támesis | 4 / 21 | 0.77 | 0.00 | 0-5 |
+| 115 Roma-Dinamarca | 7 / 23 | 0.73 | 0.00 | 0-6 |
+| 012 Río Lerma - Villalongín | 4 / 13 | 0.70 | 0.01 | 0-5 |
+| 263 Sadi Carnot - Gómez Farias | 1 / 28 | 0.65 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 5 / 15 | 0.63 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **15 bicis** de 260 (20/20) a 020 (2/21)
-2. Llevar **11 bicis** de 029 (31/33) a 008 (3/15)
-3. Llevar **10 bicis** de 116 (22/22) a 256 (0/21)
+1. Llevar **14 bicis** de 260 (20/20) a 115 (7/23)
+2. Llevar **14 bicis** de 029 (33/33) a 020 (4/21)
+3. Llevar **11 bicis** de 116 (22/22) a 256 (1/22)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-272 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+273 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.118 | 0.035 |
-| Sin resincronizar | 0.271 | 0.093 |
-| Persistencia | 0.308 | 0.067 |
-| Persistencia 0/1 | 0.308 | 0.067 |
+| Sin resincronizar | 0.270 | 0.094 |
+| Persistencia | 0.307 | 0.067 |
+| Persistencia 0/1 | 0.307 | 0.067 |
 
 ![Brier por día](brier_vivo.png)
 
