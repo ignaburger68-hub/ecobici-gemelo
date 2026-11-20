@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,020,Reforma- Río Támesis,7,15,15,0,21,,5.0,13.197149239593934
-Regla umbral 90/10,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,20.449152956575325,30.521783616016428
-Regla umbral 90/10,3,118,Liverpool-Dinamarca,012,Río Lerma - Villalongín,7,19,19,0,14,,41.909090311400426,50.42185870807926
-Regla umbral 85/15,1,113,General Prim-Versalles,020,Reforma- Río Támesis,7,15,15,0,21,,5.0,13.197149239593934
-Regla umbral 85/15,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,20.449152956575325,30.521783616016428
-Regla umbral 85/15,3,118,Liverpool-Dinamarca,012,Río Lerma - Villalongín,7,19,19,0,14,,41.909090311400426,50.42185870807926
-Regla umbral 80/20,1,113,General Prim-Versalles,020,Reforma- Río Támesis,7,15,15,0,21,,5.0,13.197149239593934
-Regla umbral 80/20,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,20.449152956575325,30.521783616016428
-Regla umbral 80/20,3,118,Liverpool-Dinamarca,012,Río Lerma - Villalongín,7,19,19,0,14,,41.909090311400426,50.42185870807926
-Regla umbral 75/25,1,113,General Prim-Versalles,020,Reforma- Río Támesis,7,15,15,0,21,,5.0,13.197149239593934
-Regla umbral 75/25,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,20.449152956575325,30.521783616016428
-Regla umbral 75/25,3,118,Liverpool-Dinamarca,012,Río Lerma - Villalongín,7,19,19,0,14,,41.909090311400426,50.42185870807926
-Regla umbral 70/30,1,113,General Prim-Versalles,020,Reforma- Río Támesis,7,15,15,0,21,,5.0,13.197149239593934
-Regla umbral 70/30,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,29,,20.449152956575325,30.521783616016428
-Regla umbral 70/30,3,118,Liverpool-Dinamarca,012,Río Lerma - Villalongín,7,19,19,0,14,,41.909090311400426,50.42185870807926
-Gemelo (voraz),1,116,Londres-Roma,020,Reforma- Río Támesis,12,22,22,0,21,8.008000135421753,5.0,12.25200371698139
-Gemelo (voraz),2,118,Liverpool-Dinamarca,008,Reforma - General Prim,9,19,19,1,16,5.906999826431274,19.687018945922084,27.049149031257002
-Gemelo (voraz),3,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,15,33,34,2,25,5.263000011444092,34.610406696870214,44.21731490356344
+Regla umbral 90/10,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,20,,5.0,12.037235495643506
+Regla umbral 90/10,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,28,,20.51155909400079,30.584189753441894
+Regla umbral 90/10,3,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,10,33,34,0,21,,42.95358832991517,49.736274154102105
+Regla umbral 85/15,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,20,,5.0,12.037235495643506
+Regla umbral 85/15,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,28,,20.51155909400079,30.584189753441894
+Regla umbral 85/15,3,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,10,33,34,0,21,,42.95358832991517,49.736274154102105
+Regla umbral 80/20,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,20,,5.0,12.037235495643506
+Regla umbral 80/20,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,28,,20.51155909400079,30.584189753441894
+Regla umbral 80/20,3,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,10,33,34,0,21,,42.95358832991517,49.736274154102105
+Regla umbral 75/25,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,20,,5.0,12.037235495643506
+Regla umbral 75/25,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,28,,20.51155909400079,30.584189753441894
+Regla umbral 75/25,3,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,10,33,34,0,21,,42.95358832991517,49.736274154102105
+Regla umbral 70/30,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,20,,5.0,12.037235495643506
+Regla umbral 70/30,2,116,Londres-Roma,041,Reforma - Av. de la República,11,22,22,0,28,,20.51155909400079,30.584189753441894
+Regla umbral 70/30,3,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,10,33,34,0,21,,42.95358832991517,49.736274154102105
+Gemelo (voraz),1,031,Hamburgo - Insurgentes,020,Reforma- Río Támesis,14,33,34,0,21,6.957000255584717,5.0,11.782685824186938
+Gemelo (voraz),2,116,Londres-Roma,112,Av. Morelos-Abraham González,10,22,22,0,20,5.571999788284302,19.034689541168326,27.509013139525614
+Gemelo (voraz),3,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,8,15,15,1,33,4.428999900817871,34.54624863516912,45.176477263339606
