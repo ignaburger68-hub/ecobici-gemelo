@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 05:57 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 06:11 (hora de Ciudad de México).
 
-## Último pronóstico: 19/11 22:53 a 23:53
+## Último pronóstico: 20/11 06:11 a 07:11
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 20/11/2026 05:57 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.6 °C** · sin lluvia · viento 2 km/h · día hábil
+**9.1 °C** · sin lluvia · viento 2 km/h · día hábil
 
 El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 117 Londres-Nápoles | 0 / 28 | 1.00 | 0.00 | 0-3 |
-| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-2 |
-| 003 Reforma - Insurgentes | 0 / 30 | 0.99 | 0.00 | 0-2 |
-| 010 Reforma - Ramírez | 0 / 26 | 0.99 | 0.00 | 0-2 |
-| 116 Londres-Roma | 1 / 20 | 0.83 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 2 / 21 | 0.79 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 1 / 36 | 0.79 | 0.00 | 0-4 |
-| 008 Reforma - General Prim | 1 / 17 | 0.69 | 0.00 | 0-2 |
-| 263 Sadi Carnot - Gómez Farias | 4 / 28 | 0.64 | 0.00 | 0-3 |
+| 020 Reforma- Río Támesis | 0 / 19 | 0.99 | 0.00 | 0-3 |
+| 008 Reforma - General Prim | 0 / 17 | 0.99 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 0 / 9 | 0.99 | 0.00 | 0-3 |
+| 116 Londres-Roma | 0 / 20 | 0.98 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 0 / 19 | 0.98 | 0.00 | 1-9 |
+| 115 Roma-Dinamarca | 0 / 25 | 0.97 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.95 | 11-19 |
+| 256 Gómez Farías-Sadi Carnot | 2 / 20 | 0.85 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 9 / 11 | 0.00 | 0.49 | 7-11 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 260 (18/20) a 115 (0/25)
-2. Llevar **16 bicis** de 259 (20/25) a 263 (4/28)
-3. Llevar **10 bicis** de 555 (17/26) a 020 (2/21)
+1. Llevar **9 bicis** de 260 (20/20) a 256 (2/20)
+2. Llevar **7 bicis** de 012 (9/11) a 555 (7/25)
+3. Llevar **4 bicis** de 010 (5/25) a 020 (0/19)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
