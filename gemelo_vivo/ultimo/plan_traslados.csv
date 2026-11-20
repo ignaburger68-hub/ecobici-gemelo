@@ -1,14 +1,11 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,4,10,11,0,21,,5.0,14.780251222846799
-Regla umbral 85/15,1,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,4,10,11,0,21,,5.0,14.780251222846799
-Regla umbral 80/20,1,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,4,10,11,0,21,,5.0,14.780251222846799
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,0,20,,24.625686334530975,35.68304063776338
-Regla umbral 75/25,1,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,4,10,11,0,21,,5.0,14.780251222846799
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,0,20,,24.625686334530975,35.68304063776338
-Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,117,Londres-Nápoles,7,20,25,0,28,,45.76018455867731,57.508444045076935
-Regla umbral 70/30,1,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,4,10,11,0,21,,5.0,14.780251222846799
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,116,Londres-Roma,7,17,20,0,20,,24.625686334530975,35.68304063776338
-Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,117,Londres-Nápoles,7,20,25,0,28,,45.76018455867731,57.508444045076935
-Gemelo (voraz),1,010,Reforma - Ramírez,555,Ribera de San Cosme - Insurgentes Centro,13,15,25,4,22,7.523999929428101,5.0,13.96283342196559
-Gemelo (voraz),2,012,Río Lerma - Villalongín,114,Lucerna-Abraham González,6,10,11,0,21,3.152000069618225,24.477621138309136,34.25787236115593
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,8,20,25,0,20,1.7410000562667847,44.252627289009766,54.32977120992369
+Regla umbral 90/10,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 85/15,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 80/20,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 75/25,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,7,20,25,1,30,,25.75192949989229,34.78162178399802
+Regla umbral 70/30,1,012,Río Lerma - Villalongín,119,Turín-Abraham González,2,11,11,0,5,,5.0,14.533860350007549
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,7,20,25,1,30,,25.75192949989229,34.78162178399802
+Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,11,11,19,4,23,10.256999969482422,5.0,17.616609896482704
+Gemelo (voraz),2,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,6,11,11,3,28,4.472999811172485,28.131397612826248,36.0721958633503
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,086,Sullivan-Insurgentes,9,20,25,3,16,3.176999971270561,43.24715444772272,52.1119034049251
