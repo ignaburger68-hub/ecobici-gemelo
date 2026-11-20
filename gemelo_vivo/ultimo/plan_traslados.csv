@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,21,,5.0,12.037235495643506
-Regla umbral 90/10,2,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,20.51155909400079,26.86257701616341
-Regla umbral 90/10,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,11,23,23,1,29,,33.514125954483966,42.64535152968185
-Regla umbral 85/15,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,21,,5.0,12.037235495643506
-Regla umbral 85/15,2,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,20.51155909400079,26.86257701616341
-Regla umbral 85/15,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,11,23,23,1,29,,33.514125954483966,42.64535152968185
-Regla umbral 80/20,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,21,,5.0,12.037235495643506
-Regla umbral 80/20,2,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,20.51155909400079,26.86257701616341
-Regla umbral 80/20,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,11,23,23,1,29,,33.514125954483966,42.64535152968185
-Regla umbral 75/25,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,21,,5.0,12.037235495643506
-Regla umbral 75/25,2,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,20.51155909400079,26.86257701616341
-Regla umbral 75/25,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,11,23,23,1,29,,33.514125954483966,42.64535152968185
-Regla umbral 70/30,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,7,15,15,0,21,,5.0,12.037235495643506
-Regla umbral 70/30,2,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,20.51155909400079,26.86257701616341
-Regla umbral 70/30,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,11,23,23,1,29,,33.514125954483966,42.64535152968185
-Gemelo (voraz),1,116,Londres-Roma,270,De la República-Ponciano Arriaga,12,22,22,1,25,8.330999612808228,5.0,14.745618578077686
-Gemelo (voraz),2,114,Lucerna-Abraham González,041,Reforma - Av. de la República,13,23,23,1,29,6.103999853134155,24.243246468309703,33.37447204350759
-Gemelo (voraz),3,113,General Prim-Versalles,010,Reforma - Ramírez,9,15,15,1,25,5.419999837875366,42.053132030512586,48.866983386087405
+Regla umbral 90/10,1,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,5.0,11.651548938320555
+Regla umbral 90/10,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,11,22,22,1,32,,18.00256686048317,28.500051581517265
+Regla umbral 85/15,1,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,5.0,11.651548938320555
+Regla umbral 85/15,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,11,22,22,1,32,,18.00256686048317,28.500051581517265
+Regla umbral 85/15,3,113,General Prim-Versalles,112,Av. Morelos-Abraham González,5,13,15,1,21,,39.13028020968775,46.167515705331255
+Regla umbral 80/20,1,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,5.0,11.651548938320555
+Regla umbral 80/20,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,11,22,22,1,32,,18.00256686048317,28.500051581517265
+Regla umbral 80/20,3,113,General Prim-Versalles,112,Av. Morelos-Abraham González,5,13,15,1,21,,39.13028020968775,46.167515705331255
+Regla umbral 75/25,1,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,5.0,11.651548938320555
+Regla umbral 75/25,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,11,22,22,1,32,,18.00256686048317,28.500051581517265
+Regla umbral 75/25,3,113,General Prim-Versalles,112,Av. Morelos-Abraham González,5,13,15,1,21,,39.13028020968775,46.167515705331255
+Regla umbral 70/30,1,114,Lucerna-Abraham González,119,Turín-Abraham González,2,23,23,0,5,,5.0,11.651548938320555
+Regla umbral 70/30,2,116,Londres-Roma,255,José Rosas Moreno-Guillermo Prieto,11,22,22,1,32,,18.00256686048317,28.500051581517265
+Regla umbral 70/30,3,113,General Prim-Versalles,112,Av. Morelos-Abraham González,5,13,15,1,21,,39.13028020968775,46.167515705331255
+Gemelo (voraz),1,116,Londres-Roma,010,Reforma - Ramírez,14,22,22,2,25,10.186000347137451,5.0,12.697387933446448
+Gemelo (voraz),2,114,Lucerna-Abraham González,041,Reforma - Av. de la República,15,23,23,2,29,7.602999687194824,20.396902205013728,29.528127780211612
+Gemelo (voraz),3,029,Reforma - Bucareli,003,Reforma - Insurgentes,15,27,33,2,29,5.378000020980835,34.803618757623155,44.694234400015766
