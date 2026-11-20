@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,7,15,15,0,28,,5.0,14.053298601902974
-Regla umbral 90/10,2,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,25.63543937844546,36.92718736603169
-Regla umbral 90/10,3,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,14,29,29,0,32,,44.47644952234481,57.349620572405016
-Regla umbral 85/15,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,7,15,15,0,28,,5.0,14.053298601902974
-Regla umbral 85/15,2,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,25.63543937844546,36.92718736603169
-Regla umbral 85/15,3,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,14,29,29,0,32,,44.47644952234481,57.349620572405016
-Regla umbral 80/20,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,7,15,15,0,28,,5.0,14.053298601902974
-Regla umbral 80/20,2,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,25.63543937844546,36.92718736603169
-Regla umbral 80/20,3,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,14,29,29,0,32,,44.47644952234481,57.349620572405016
-Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,7,15,15,0,28,,5.0,14.053298601902974
-Regla umbral 75/25,2,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,25.63543937844546,36.92718736603169
-Regla umbral 75/25,3,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,14,29,29,0,32,,44.47644952234481,57.349620572405016
-Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,7,15,15,0,28,,5.0,14.053298601902974
-Regla umbral 70/30,2,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,25.63543937844546,36.92718736603169
-Regla umbral 70/30,3,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,14,29,29,0,32,,44.47644952234481,57.349620572405016
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,20,29,29,0,32,10.503000259399414,5.0,17.87317105006021
-Gemelo (voraz),2,116,Londres-Roma,086,Sullivan-Insurgentes,10,21,22,1,16,5.789999961853027,29.37217315360703,36.82750394633814
-Gemelo (voraz),3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,8,15,15,0,28,3.9350000619888306,44.71907056305803,53.772369164961006
+Regla umbral 90/10,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,32,,5.0,15.772950117080928
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,20,20,0,33,,26.151736864052413,38.897830563203115
+Regla umbral 90/10,3,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,52.41597994811636,63.707727935702586
+Regla umbral 85/15,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,32,,5.0,15.772950117080928
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,20,20,0,33,,26.151736864052413,38.897830563203115
+Regla umbral 85/15,3,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,52.41597994811636,63.707727935702586
+Regla umbral 80/20,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,32,,5.0,15.772950117080928
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,20,20,0,33,,26.151736864052413,38.897830563203115
+Regla umbral 80/20,3,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,52.41597994811636,63.707727935702586
+Regla umbral 75/25,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,32,,5.0,15.772950117080928
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,20,20,0,33,,26.151736864052413,38.897830563203115
+Regla umbral 75/25,3,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,52.41597994811636,63.707727935702586
+Regla umbral 70/30,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,32,,5.0,15.772950117080928
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,20,20,0,33,,26.151736864052413,38.897830563203115
+Regla umbral 70/30,3,048,Independencia - Azueta,119,Turín-Abraham González,2,10,10,0,5,,52.41597994811636,63.707727935702586
+Gemelo (voraz),1,260,Av. Juárez-Balderas,555,Ribera de San Cosme - Insurgentes Centro,14,20,20,0,32,8.054999828338623,5.0,15.378786746971485
+Gemelo (voraz),2,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,10,15,15,0,33,6.489000082015991,26.151736864052413,36.781965492222895
+Gemelo (voraz),3,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,12,20,22,0,23,4.940999984741211,47.27945021325699,57.0806626223539
