@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 16:25 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 16:40 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 16:25 a 17:25
+## Último pronóstico: 21/11 16:40 a 17:40
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 21/11/2026 16:25 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**23.2 °C** · sin lluvia · viento 10 km/h · día fin de semana
+**22.3 °C** · sin lluvia · viento 6 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,00 = sin efecto).
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 012 Río Lerma - Villalongín | 0 / 14 | 0.99 | 0.00 | 0-3 |
-| 010 Reforma - Ramírez | 0 / 27 | 0.99 | 0.00 | 0-4 |
-| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-4 |
-| 112 Av. Morelos-Abraham González | 0 / 22 | 0.99 | 0.00 | 0-5 |
-| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.93 | 0.00 | 0-4 |
-| 086 Sullivan-Insurgentes | 1 / 15 | 0.85 | 0.01 | 0-6 |
-| 115 Roma-Dinamarca | 2 / 25 | 0.81 | 0.00 | 0-5 |
-| 116 Londres-Roma | 2 / 23 | 0.70 | 0.00 | 0-7 |
-| 260 Av. Juárez-Balderas | 2 / 20 | 0.66 | 0.00 | 0-5 |
+| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-5 |
+| 112 Av. Morelos-Abraham González | 0 / 22 | 0.98 | 0.00 | 0-4 |
+| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.98 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 1 / 14 | 0.87 | 0.00 | 0-3 |
+| 041 Reforma - Av. de la Repúblic | 2 / 31 | 0.85 | 0.00 | 0-4 |
+| 010 Reforma - Ramírez | 1 / 27 | 0.84 | 0.00 | 0-4 |
+| 116 Londres-Roma | 1 / 23 | 0.81 | 0.00 | 0-6 |
+| 008 Reforma - General Prim | 1 / 15 | 0.76 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 2 / 15 | 0.70 | 0.00 | 0-7 |
+| 026 Reforma - Versalles | 2 / 15 | 0.66 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 031 (30/34) a 041 (1/31)
-2. Llevar **10 bicis** de 259 (22/25) a 012 (0/14)
-3. Llevar **10 bicis** de 555 (27/32) a 010 (0/27)
+1. Llevar **14 bicis** de 031 (30/34) a 115 (0/25)
+2. Llevar **13 bicis** de 259 (22/25) a 041 (2/31)
+3. Llevar **9 bicis** de 114 (16/21) a 085 (0/15)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-338 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+339 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |

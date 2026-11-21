@@ -1,16 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,048,Independencia - Azueta,010,Reforma - Ramírez,4,9,10,0,27,,5.0,14.624981443743394
-Regla umbral 85/15,2,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,24.23188965043662,35.14106050224818
-Regla umbral 85/15,3,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,9,22,25,0,27,,43.32283924632618,52.35253153043192
-Regla umbral 80/20,1,048,Independencia - Azueta,010,Reforma - Ramírez,4,9,10,0,27,,5.0,14.624981443743394
-Regla umbral 80/20,2,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,24.23188965043662,35.14106050224818
-Regla umbral 80/20,3,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,9,22,25,0,27,,43.32283924632618,52.35253153043192
-Regla umbral 75/25,1,048,Independencia - Azueta,010,Reforma - Ramírez,4,9,10,0,27,,5.0,14.624981443743394
-Regla umbral 75/25,2,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,24.23188965043662,35.14106050224818
-Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,9,22,25,0,27,,43.32283924632618,52.35253153043192
-Regla umbral 70/30,1,048,Independencia - Azueta,010,Reforma - Ramírez,4,9,10,0,27,,5.0,14.624981443743394
-Regla umbral 70/30,2,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,24.23188965043662,35.14106050224818
-Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,9,22,25,0,27,,43.32283924632618,52.35253153043192
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,13,30,34,1,31,4.71800023317337,5.0,17.369398576473273
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,012,Río Lerma - Villalongín,10,22,25,0,14,3.9130000472068787,25.053339559247057,34.967458487324166
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,10,27,32,0,27,3.525000184774399,45.482246203667714,54.445079625633305
+Regla umbral 85/15,1,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,5.0,15.909170851811563
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,9,22,25,0,25,,24.09094959588957,34.276072334649
+Regla umbral 80/20,1,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,5.0,15.909170851811563
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,9,22,25,0,25,,24.09094959588957,34.276072334649
+Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,27,33,0,15,,45.522442259050784,55.4582309907505
+Regla umbral 75/25,1,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,5.0,15.909170851811563
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,9,22,25,0,25,,24.09094959588957,34.276072334649
+Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,27,33,0,15,,45.522442259050784,55.4582309907505
+Regla umbral 70/30,1,031,Hamburgo - Insurgentes,112,Av. Morelos-Abraham González,11,30,34,0,22,,5.0,15.909170851811563
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,9,22,25,0,25,,24.09094959588957,34.276072334649
+Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,27,33,0,15,,45.522442259050784,55.4582309907505
+Gemelo (voraz),1,031,Hamburgo - Insurgentes,115,Roma-Dinamarca,14,30,34,0,25,4.348000168800354,5.0,11.447878463784647
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,13,22,25,2,31,3.5759997963905334,21.63300120254408,29.316942185317863
+Gemelo (voraz),3,114,Lucerna-Abraham González,085,Rosas Moreno - Sullivan,9,16,21,0,15,3.11899995803833,38.448167760515744,49.08074110547577
