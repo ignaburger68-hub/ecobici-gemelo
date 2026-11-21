@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 16:40 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 16:54 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 16:40 a 17:40
+## Último pronóstico: 21/11 16:54 a 17:54
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-5 |
-| 112 Av. Morelos-Abraham González | 0 / 22 | 0.98 | 0.00 | 0-4 |
-| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.98 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 1 / 14 | 0.87 | 0.00 | 0-3 |
-| 041 Reforma - Av. de la Repúblic | 2 / 31 | 0.85 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.84 | 0.00 | 0-4 |
-| 116 Londres-Roma | 1 / 23 | 0.81 | 0.00 | 0-6 |
-| 008 Reforma - General Prim | 1 / 15 | 0.76 | 0.00 | 0-3 |
-| 086 Sullivan-Insurgentes | 2 / 15 | 0.70 | 0.00 | 0-7 |
-| 026 Reforma - Versalles | 2 / 15 | 0.66 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-3 |
+| 115 Roma-Dinamarca | 0 / 26 | 0.99 | 0.00 | 0-5 |
+| 031 Hamburgo - Insurgentes | 33 / 33 | 0.00 | 0.95 | 24-32 |
+| 026 Reforma - Versalles | 1 / 15 | 0.81 | 0.00 | 0-4 |
+| 116 Londres-Roma | 1 / 22 | 0.80 | 0.00 | 0-6 |
+| 086 Sullivan-Insurgentes | 1 / 15 | 0.77 | 0.01 | 0-7 |
+| 112 Av. Morelos-Abraham González | 1 / 22 | 0.75 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 2 / 27 | 0.66 | 0.00 | 0-6 |
+| 012 Río Lerma - Villalongín | 2 / 14 | 0.65 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 3 / 31 | 0.64 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 031 (30/34) a 115 (0/25)
-2. Llevar **13 bicis** de 259 (22/25) a 041 (2/31)
-3. Llevar **9 bicis** de 114 (16/21) a 085 (0/15)
+1. Llevar **15 bicis** de 031 (33/33) a 115 (0/26)
+2. Llevar **9 bicis** de 259 (23/25) a 008 (0/15)
+3. Llevar **8 bicis** de 270 (24/29) a 116 (1/22)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-339 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+340 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
