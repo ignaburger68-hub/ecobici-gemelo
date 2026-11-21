@@ -1,18 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,35,35,0,15,,5.0,14.935788731699715
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,20,1,33,,27.958100756942855,40.70419445609356
-Regla umbral 85/15,1,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,35,35,0,15,,5.0,14.935788731699715
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,20,1,33,,27.958100756942855,40.70419445609356
-Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,12,27,30,1,31,,50.99809789519742,57.9779513119641
-Regla umbral 80/20,1,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,35,35,0,15,,5.0,14.935788731699715
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,20,1,33,,27.958100756942855,40.70419445609356
-Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,12,27,30,1,31,,50.99809789519742,57.9779513119641
-Regla umbral 75/25,1,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,35,35,0,15,,5.0,14.935788731699715
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,20,1,33,,27.958100756942855,40.70419445609356
-Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,12,27,30,1,31,,50.99809789519742,57.9779513119641
-Regla umbral 70/30,1,555,Ribera de San Cosme - Insurgentes Centro,085,Rosas Moreno - Sullivan,7,35,35,0,15,,5.0,14.935788731699715
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,20,1,33,,27.958100756942855,40.70419445609356
-Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,12,27,30,1,31,,50.99809789519742,57.9779513119641
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,041,Reforma - Av. de la República,15,35,35,1,31,5.891000032424927,5.0,14.226982136354996
-Gemelo (voraz),2,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,8,19,20,0,15,3.756999969482422,20.608694929046983,33.63100695429012
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,115,Roma-Dinamarca,12,27,31,1,27,2.8239998817443848,43.5603201901936,53.61942262350368
+Regla umbral 90/10,1,048,Independencia - Azueta,041,Reforma - Av. de la República,5,10,10,0,31,,5.0,12.22456654753996
+Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,7,30,30,0,15,,19.204419964306638,30.448792200305654
+Regla umbral 90/10,3,555,Ribera de San Cosme - Insurgentes Centro,255,José Rosas Moreno-Guillermo Prieto,15,34,35,1,33,,40.9635799166492,49.548049475657606
+Regla umbral 85/15,1,048,Independencia - Azueta,041,Reforma - Av. de la República,5,10,10,0,31,,5.0,12.22456654753996
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,7,30,30,0,15,,19.204419964306638,30.448792200305654
+Regla umbral 85/15,3,555,Ribera de San Cosme - Insurgentes Centro,255,José Rosas Moreno-Guillermo Prieto,15,34,35,1,33,,40.9635799166492,49.548049475657606
+Regla umbral 80/20,1,048,Independencia - Azueta,041,Reforma - Av. de la República,5,10,10,0,31,,5.0,12.22456654753996
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,7,30,30,0,15,,19.204419964306638,30.448792200305654
+Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,255,José Rosas Moreno-Guillermo Prieto,15,34,35,1,33,,40.9635799166492,49.548049475657606
+Regla umbral 75/25,1,048,Independencia - Azueta,041,Reforma - Av. de la República,5,10,10,0,31,,5.0,12.22456654753996
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,7,30,30,0,15,,19.204419964306638,30.448792200305654
+Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,255,José Rosas Moreno-Guillermo Prieto,15,34,35,1,33,,40.9635799166492,49.548049475657606
+Regla umbral 70/30,1,048,Independencia - Azueta,041,Reforma - Av. de la República,5,10,10,0,31,,5.0,12.22456654753996
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,012,Río Lerma - Villalongín,7,30,30,0,15,,19.204419964306638,30.448792200305654
+Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,255,José Rosas Moreno-Guillermo Prieto,15,34,35,1,33,,40.9635799166492,49.548049475657606
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,15,30,30,0,31,6.1499998569488525,5.0,11.979853416766678
+Gemelo (voraz),2,048,Independencia - Azueta,012,Río Lerma - Villalongín,6,10,10,0,15,4.192999958992004,19.204419964306638,32.439678651840595
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,010,Reforma - Ramírez,13,29,31,2,27,3.8779999017715454,42.44771955312519,49.49683810133077
