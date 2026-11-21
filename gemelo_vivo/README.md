@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 13:34 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 13:48 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 13:34 a 14:34
+## Último pronóstico: 21/11 13:48 a 14:48
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **23.4 °C** · sin lluvia · viento 3 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.95** y las **devoluciones por 0.98** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.96** y las **devoluciones por 0.99** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.95** y las **devoluciones por 0.98** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.98 | 25-30 |
-| 026 Reforma - Versalles | 0 / 14 | 0.97 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 35 / 35 | 0.00 | 0.97 | 28-35 |
-| 041 Reforma - Av. de la Repúblic | 0 / 31 | 0.90 | 0.00 | 1-11 |
-| 270 De la República-Ponciano Arr | 30 / 31 | 0.00 | 0.88 | 25-31 |
-| 085 Rosas Moreno - Sullivan | 1 / 15 | 0.73 | 0.00 | 0-6 |
-| 260 Av. Juárez-Balderas | 18 / 20 | 0.00 | 0.69 | 13-20 |
-| 048 Independencia - Azueta | 9 / 11 | 0.02 | 0.64 | 5-11 |
-| 115 Roma-Dinamarca | 2 / 27 | 0.58 | 0.00 | 0-7 |
-| 119 Turín-Abraham González | 2 / 29 | 0.53 | 0.00 | 0-9 |
+| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-5 |
+| 555 Ribera de San Cosme - Insurg | 35 / 35 | 0.00 | 0.98 | 26-34 |
+| 260 Av. Juárez-Balderas | 19 / 20 | 0.00 | 0.83 | 14-20 |
+| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.80 | 0.00 | 0-8 |
+| 115 Roma-Dinamarca | 1 / 27 | 0.78 | 0.00 | 0-6 |
+| 012 Río Lerma - Villalongín | 1 / 15 | 0.76 | 0.00 | 0-5 |
+| 255 José Rosas Moreno-Guillermo  | 1 / 33 | 0.73 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 2 / 23 | 0.58 | 0.00 | 0-6 |
+| 010 Reforma - Ramírez | 3 / 27 | 0.57 | 0.00 | 0-8 |
+| 450 Ramos Arizpe- Av México Teno | 27 / 30 | 0.00 | 0.48 | 23-30 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 270 (30/31) a 041 (0/31)
-2. Llevar **8 bicis** de 450 (30/30) a 026 (0/14)
-3. Llevar **13 bicis** de 555 (35/35) a 010 (3/27)
+1. Llevar **15 bicis** de 555 (35/35) a 041 (1/31)
+2. Llevar **8 bicis** de 260 (19/20) a 085 (0/15)
+3. Llevar **12 bicis** de 270 (27/31) a 115 (1/27)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-326 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+327 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
