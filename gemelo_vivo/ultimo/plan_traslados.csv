@@ -1,17 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,10,29,29,1,22,,5.0,14.745618578077686
-Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,10,29,29,1,22,,5.0,14.745618578077686
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,7,27,30,1,17,,25.65594064523296,35.76593424362846
-Regla umbral 85/15,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,45.557526688437875,58.174136584920575
-Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,10,29,29,1,22,,5.0,14.745618578077686
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,7,27,30,1,17,,25.65594064523296,35.76593424362846
-Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,45.557526688437875,58.174136584920575
-Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,10,29,29,1,22,,5.0,14.745618578077686
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,7,27,30,1,17,,25.65594064523296,35.76593424362846
-Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,45.557526688437875,58.174136584920575
-Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,10,29,29,1,22,,5.0,14.745618578077686
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,7,27,30,1,17,,25.65594064523296,35.76593424362846
-Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,45.557526688437875,58.174136584920575
-Gemelo (voraz),1,270,De la República-Ponciano Arriaga,116,Londres-Roma,14,29,29,1,22,7.070999622344971,5.0,14.745618578077686
-Gemelo (voraz),2,260,Av. Juárez-Balderas,118,Liverpool-Dinamarca,8,13,21,1,17,2.171000063419342,25.802972881310097,38.140265393739725
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,6,30,35,1,17,1.4329999387264252,50.75687529022243,60.54846773503185
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,12,30,30,0,25,,5.0,13.2430857090799
+Regla umbral 90/10,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,29,30,0,15,,20.292204257285483,30.221517493188962
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,12,30,30,0,25,,5.0,13.2430857090799
+Regla umbral 85/15,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,29,30,0,15,,20.292204257285483,30.221517493188962
+Regla umbral 85/15,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,40.15730622488868,52.773916121371386
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,12,30,30,0,25,,5.0,13.2430857090799
+Regla umbral 80/20,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,29,30,0,15,,20.292204257285483,30.221517493188962
+Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,40.15730622488868,52.773916121371386
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,12,30,30,0,25,,5.0,13.2430857090799
+Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,29,30,0,15,,20.292204257285483,30.221517493188962
+Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,40.15730622488868,52.773916121371386
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,12,30,30,0,25,,5.0,13.2430857090799
+Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,29,30,0,15,,20.292204257285483,30.221517493188962
+Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,7,30,35,1,17,,40.15730622488868,52.773916121371386
+Gemelo (voraz),1,270,De la República-Ponciano Arriaga,010,Reforma - Ramírez,14,29,30,0,25,6.876999855041504,5.0,12.049118548205584
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,085,Rosas Moreno - Sullivan,8,30,30,0,15,3.8730000257492065,20.292204257285483,31.3765981131915
+Gemelo (voraz),3,260,Av. Juárez-Balderas,116,Londres-Roma,7,13,21,2,23,1.7170000076293945,44.39891013843464,55.456264441667045
