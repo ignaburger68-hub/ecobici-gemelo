@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 15:29 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 15:43 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 15:28 a 16:28
+## Último pronóstico: 21/11 15:43 a 16:43
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 21/11/2026 15:29 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**23.5 °C** · sin lluvia · viento 8 km/h · día fin de semana
+**23.2 °C** · sin lluvia · viento 10 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,00 = sin efecto).
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 041 Reforma - Av. de la Repúblic | 0 / 31 | 0.98 | 0.00 | 0-4 |
-| 115 Roma-Dinamarca | 1 / 27 | 0.86 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 0 / 31 | 0.99 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 0 / 14 | 0.99 | 0.00 | 0-3 |
+| 010 Reforma - Ramírez | 0 / 26 | 0.99 | 0.00 | 0-4 |
+| 115 Roma-Dinamarca | 1 / 27 | 0.88 | 0.00 | 0-4 |
 | 112 Av. Morelos-Abraham González | 1 / 22 | 0.85 | 0.00 | 0-5 |
-| 012 Río Lerma - Villalongín | 1 / 14 | 0.80 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 2 / 27 | 0.75 | 0.00 | 0-5 |
-| 020 Reforma- Río Támesis | 2 / 23 | 0.64 | 0.00 | 0-5 |
-| 118 Liverpool-Dinamarca | 1 / 18 | 0.61 | 0.00 | 0-6 |
-| 116 Londres-Roma | 2 / 23 | 0.61 | 0.00 | 0-7 |
-| 008 Reforma - General Prim | 2 / 14 | 0.47 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 3 / 15 | 0.42 | 0.01 | 0-8 |
+| 003 Reforma - Insurgentes | 1 / 25 | 0.80 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 1 / 15 | 0.79 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 2 / 15 | 0.63 | 0.00 | 0-7 |
+| 116 Londres-Roma | 3 / 23 | 0.51 | 0.00 | 0-7 |
+| 259 Tómas Alva Edison-Ponciano A | 24 / 26 | 0.00 | 0.50 | 21-26 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 270 (25/31) a 041 (0/31)
-2. Llevar **13 bicis** de 259 (22/25) a 115 (1/27)
-3. Llevar **10 bicis** de 555 (29/34) a 112 (1/22)
+1. Llevar **17 bicis** de 259 (24/26) a 041 (0/31)
+2. Llevar **11 bicis** de 270 (23/31) a 010 (0/26)
+3. Llevar **9 bicis** de 555 (26/34) a 012 (0/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-334 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+335 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
