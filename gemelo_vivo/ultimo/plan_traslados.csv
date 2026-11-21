@@ -1,11 +1,14 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,9,24,29,1,27,,5.0,16.319660752989265
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,9,24,29,1,27,,5.0,16.319660752989265
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,116,Londres-Roma,6,16,20,1,23,,28.500598581069454,39.55795288430186
-Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,112,Av. Morelos-Abraham González,7,22,29,1,21,,49.30357146237955,56.86352538864427
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,9,24,29,1,27,,5.0,16.319660752989265
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,116,Londres-Roma,6,16,20,1,23,,28.500598581069454,39.55795288430186
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,112,Av. Morelos-Abraham González,7,22,29,1,21,,49.30357146237955,56.86352538864427
-Gemelo (voraz),1,260,Av. Juárez-Balderas,112,Av. Morelos-Abraham González,10,16,20,1,21,3.027000069618225,5.0,12.590762412687003
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,9,22,29,2,29,1.5750000476837158,20.15071633895172,30.961863280742108
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,11,24,29,1,27,1.3629999663680792,42.84868915017759,54.168349903166856
+Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,,5.0,15.811146941790387
+Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,,5.0,15.811146941790387
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,10,24,28,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,,5.0,15.811146941790387
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,10,24,28,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,,5.0,15.811146941790387
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,10,24,28,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,,5.0,15.811146941790387
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,10,24,28,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,112,Av. Morelos-Abraham González,4,15,21,1,21,,51.19857139229533,58.78933380498233
+Gemelo (voraz),1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,29,31,1,29,3.8310002088546753,5.0,15.811146941790387
+Gemelo (voraz),2,260,Av. Juárez-Balderas,112,Av. Morelos-Abraham González,8,15,21,1,21,2.7600000500679016,27.308072962563397,34.8988353752504
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,041,Reforma - Av. de la República,10,24,34,2,28,1.9280000627040863,44.811846060330595,54.03882819668559
