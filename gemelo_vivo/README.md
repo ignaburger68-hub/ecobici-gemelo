@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 06:26 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 06:40 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 06:26 a 07:26
+## Último pronóstico: 21/11 06:40 a 07:40
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 21/11/2026 06:26 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**10.3 °C** · sin lluvia · viento 1 km/h · día fin de semana
+**11.6 °C** · sin lluvia · viento 1 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 119 Turín-Abraham González | 0 / 28 | 1.00 | 0.00 | 0-2 |
-| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-3 |
-| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-2 |
-| 010 Reforma - Ramírez | 0 / 25 | 0.98 | 0.00 | 0-5 |
-| 020 Reforma- Río Támesis | 1 / 22 | 0.67 | 0.00 | 0-3 |
-| 114 Lucerna-Abraham González | 1 / 21 | 0.59 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 2 / 33 | 0.45 | 0.00 | 0-3 |
-| 112 Av. Morelos-Abraham González | 1 / 20 | 0.43 | 0.00 | 0-3 |
-| 115 Roma-Dinamarca | 1 / 26 | 0.34 | 0.00 | 0-4 |
-| 026 Reforma - Versalles | 1 / 12 | 0.26 | 0.00 | 0-4 |
+| 114 Lucerna-Abraham González | 0 / 21 | 1.00 | 0.00 | 0-1 |
+| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-2 |
+| 119 Turín-Abraham González | 0 / 28 | 0.99 | 0.00 | 0-1 |
+| 112 Av. Morelos-Abraham González | 0 / 20 | 0.99 | 0.00 | 0-3 |
+| 113 General Prim-Versalles | 0 / 15 | 0.98 | 0.00 | 0-2 |
+| 010 Reforma - Ramírez | 0 / 25 | 0.97 | 0.00 | 0-4 |
+| 085 Rosas Moreno - Sullivan | 1 / 15 | 0.52 | 0.00 | 0-3 |
+| 031 Hamburgo - Insurgentes | 2 / 33 | 0.34 | 0.00 | 0-4 |
+| 026 Reforma - Versalles | 1 / 12 | 0.23 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 3 / 27 | 0.18 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **6 bicis** de 450 (23/28) a 085 (0/15)
-2. Llevar **7 bicis** de 450 (23/28) a 119 (0/28)
-3. Llevar **5 bicis** de 270 (13/27) a 020 (1/22)
+1. Llevar **8 bicis** de 555 (17/30) a 020 (0/22)
+2. Llevar **7 bicis** de 270 (13/27) a 119 (0/28)
+3. Llevar **5 bicis** de 259 (12/25) a 114 (0/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 

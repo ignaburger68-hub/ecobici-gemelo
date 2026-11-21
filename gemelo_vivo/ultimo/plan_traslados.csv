@@ -2,7 +2,6 @@ plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B
 Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,9,23,28,0,25,,5.0,13.2430857090799
 Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,9,23,28,0,25,,5.0,13.2430857090799
 Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,010,Reforma - Ramírez,9,23,28,0,25,,5.0,13.2430857090799
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,113,General Prim-Versalles,4,14,19,0,15,,22.399047165123545,32.00878117114515
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,085,Rosas Moreno - Sullivan,6,23,28,0,15,1.0609999428270385,5.0,16.084393855906015
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,119,Turín-Abraham González,7,23,28,0,28,0.8370000123977661,27.16878771181203,39.05561358124751
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,020,Reforma- Río Támesis,5,13,27,1,22,0.6380000114440918,49.8667605230379,59.74561350473122
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,020,Reforma- Río Támesis,8,17,30,0,22,1.0069999741390347,5.0,15.850831872648717
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,7,13,27,0,28,0.9059999971650541,25.72968485434204,36.54083179613242
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,5,12,25,0,21,0.8709999918937683,47.758900946017164,57.753655873871
