@@ -3,4 +3,4 @@ hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variab
 2026-11-21 10:00,fin de semana,pronosticado,19.15,1.177,0.0,3.85,lluvia previa,seco antes,1.006,1.009
 2026-11-21 10:00,fin de semana,pronosticado,19.15,1.177,0.0,3.85,temperatura,más cálido (1 a 3 °C),1.039,1.054
 2026-11-21 10:00,fin de semana,pronosticado,19.15,1.177,0.0,3.85,viento,< 5 km/h,0.943,0.954
-2026-11-21 10:00,fin de semana,pronosticado,19.15,1.177,0.0,3.85,efecto total en la hora,,0.948,0.976
+2026-11-21 10:00,fin de semana,pronosticado,19.15,1.177,0.0,3.85,efecto total en la hora,,0.962,0.993

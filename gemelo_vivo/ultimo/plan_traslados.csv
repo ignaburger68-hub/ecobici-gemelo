@@ -1,14 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,31,32,1,29,,5.0,15.811146941790387
-Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,31,32,1,29,,5.0,15.811146941790387
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,29,1,22,,27.697972811225874,35.89387121572335
-Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,31,32,1,29,,5.0,15.811146941790387
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,29,1,22,,27.697972811225874,35.89387121572335
-Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,31,32,1,29,,5.0,15.811146941790387
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,29,1,22,,27.697972811225874,35.89387121572335
-Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,31,32,1,29,,5.0,15.811146941790387
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,29,1,22,,27.697972811225874,35.89387121572335
-Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,115,Roma-Dinamarca,5,17,23,2,27,,45.28395425898756,54.507802502753805
-Gemelo (voraz),1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,15,31,32,1,29,4.560999870300293,5.0,15.811146941790387
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,112,Av. Morelos-Abraham González,10,26,29,1,22,2.0219999849796295,27.697972811225874,35.89387121572335
-Gemelo (voraz),3,256,Gómez Farías-Sadi Carnot,020,Reforma- Río Támesis,8,17,23,3,23,1.2929999977350235,45.28395425898756,54.05191645706815
+Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,30,31,1,29,,5.0,15.811146941790387
+Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,30,31,1,29,,5.0,15.811146941790387
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,12,27,30,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,30,31,1,29,,5.0,15.811146941790387
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,12,27,30,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,30,31,1,29,,5.0,15.811146941790387
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,12,27,30,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,6,17,22,1,22,,48.24148180798138,57.63156485124559
+Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,13,30,31,1,29,,5.0,15.811146941790387
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,12,27,30,1,27,,27.697972811225874,39.01763356421514
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,6,17,22,1,22,,48.24148180798138,57.63156485124559
+Gemelo (voraz),1,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,15,30,31,1,29,4.831000089645386,5.0,15.811146941790387
+Gemelo (voraz),2,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,9,17,22,1,22,2.1509999483823776,26.937015492285575,36.32709853554979
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,8,27,30,2,23,1.7980000227689743,44.52299694004726,55.66759429876068
