@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 14:45 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 15:00 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 14:45 a 15:45
+## Último pronóstico: 21/11 15:00 a 16:00
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **23.5 °C** · sin lluvia · viento 8 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.97** y las **devoluciones por 1.01** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.97** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 012 Río Lerma - Villalongín | 0 / 14 | 0.98 | 0.00 | 0-5 |
+| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-5 |
 | 086 Sullivan-Insurgentes | 0 / 15 | 0.97 | 0.00 | 0-7 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.97 | 13-20 |
-| 041 Reforma - Av. de la Repúblic | 2 / 29 | 0.83 | 0.00 | 0-5 |
-| 085 Rosas Moreno - Sullivan | 1 / 15 | 0.76 | 0.00 | 0-5 |
-| 048 Independencia - Azueta | 9 / 10 | 0.03 | 0.67 | 3-10 |
-| 116 Londres-Roma | 2 / 23 | 0.64 | 0.00 | 0-7 |
-| 270 De la República-Ponciano Arr | 29 / 31 | 0.00 | 0.64 | 22-31 |
-| 112 Av. Morelos-Abraham González | 2 / 22 | 0.61 | 0.00 | 0-6 |
-| 010 Reforma - Ramírez | 3 / 26 | 0.59 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.96 | 13-20 |
+| 041 Reforma - Av. de la Repúblic | 1 / 30 | 0.93 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 1 / 14 | 0.81 | 0.00 | 0-4 |
+| 010 Reforma - Ramírez | 2 / 27 | 0.80 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 2 / 23 | 0.71 | 0.00 | 0-5 |
+| 115 Roma-Dinamarca | 2 / 27 | 0.70 | 0.00 | 0-5 |
+| 118 Liverpool-Dinamarca | 1 / 18 | 0.69 | 0.00 | 0-6 |
+| 112 Av. Morelos-Abraham González | 3 / 22 | 0.58 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 260 (20/20) a 041 (2/29)
-2. Llevar **8 bicis** de 270 (29/31) a 086 (0/15)
-3. Llevar **8 bicis** de 555 (31/33) a 012 (0/14)
+1. Llevar **12 bicis** de 260 (20/20) a 041 (1/30)
+2. Llevar **8 bicis** de 270 (28/31) a 086 (0/15)
+3. Llevar **13 bicis** de 031 (31/35) a 010 (2/27)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-331 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+332 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |

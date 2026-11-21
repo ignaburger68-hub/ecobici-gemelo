@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,16.46087432814321
-Regla umbral 90/10,2,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,7,31,33,0,14,,26.252466772952623,36.767254489296164
-Regla umbral 90/10,3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,6,29,31,1,15,,46.77529539058076,56.70460862648424
+Regla umbral 90/10,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,28,31,0,15,,25.308732566691717,35.238045802595195
 Regla umbral 85/15,1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,16.46087432814321
-Regla umbral 85/15,2,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,7,31,33,0,14,,26.252466772952623,36.767254489296164
-Regla umbral 85/15,3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,6,29,31,1,15,,46.77529539058076,56.70460862648424
+Regla umbral 85/15,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,28,31,0,15,,25.308732566691717,35.238045802595195
+Regla umbral 85/15,3,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,13,31,35,1,30,,43.845630851220754,56.21502942769403
 Regla umbral 80/20,1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,16.46087432814321
-Regla umbral 80/20,2,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,7,31,33,0,14,,26.252466772952623,36.767254489296164
-Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,6,29,31,1,15,,46.77529539058076,56.70460862648424
+Regla umbral 80/20,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,28,31,0,15,,25.308732566691717,35.238045802595195
+Regla umbral 80/20,3,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,13,31,35,1,30,,43.845630851220754,56.21502942769403
 Regla umbral 75/25,1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,16.46087432814321
-Regla umbral 75/25,2,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,7,31,33,0,14,,26.252466772952623,36.767254489296164
-Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,6,29,31,1,15,,46.77529539058076,56.70460862648424
+Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,28,31,0,15,,25.308732566691717,35.238045802595195
+Regla umbral 75/25,3,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,13,31,35,1,30,,43.845630851220754,56.21502942769403
 Regla umbral 70/30,1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,7,20,20,0,15,,5.0,16.46087432814321
-Regla umbral 70/30,2,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,7,31,33,0,14,,26.252466772952623,36.767254489296164
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,6,29,31,1,15,,46.77529539058076,56.70460862648424
-Gemelo (voraz),1,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,11,20,20,2,29,5.443000078201294,5.0,11.381712792691989
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,086,Sullivan-Insurgentes,8,29,31,0,15,4.267000079154968,18.466554742372956,27.314412980921468
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,012,Río Lerma - Villalongín,8,31,33,0,14,3.6859999895095825,37.106005425730885,47.62079314207443
+Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,28,31,0,15,,25.308732566691717,35.238045802595195
+Regla umbral 70/30,3,031,Hamburgo - Insurgentes,041,Reforma - Av. de la República,13,31,35,1,30,,43.845630851220754,56.21502942769403
+Gemelo (voraz),1,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,12,20,20,1,30,6.430000066757202,5.0,11.381712792691989
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,086,Sullivan-Insurgentes,8,28,31,0,15,4.156999826431274,18.466554742372956,27.314412980921468
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,13,31,35,2,27,3.184000074863434,35.15278107583682,44.75968928253005
