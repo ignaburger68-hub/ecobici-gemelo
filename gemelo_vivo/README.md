@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 20:45 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 20:59 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 20:44 a 21:44
+## Último pronóstico: 20/11 20:59 a 21:59
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **16.0 °C** · sin lluvia · viento 2 km/h · día hábil
 
-El clima multiplica los **retiros por 0.86** y las **devoluciones por 0.88** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.89** y las **devoluciones por 0.90** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.86** y las **devoluciones por 0.88** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 118 Liverpool-Dinamarca | 0 / 17 | 0.98 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 0 / 13 | 0.97 | 0.00 | 0-3 |
-| 029 Reforma - Bucareli | 31 / 32 | 0.00 | 0.94 | 28-32 |
-| 260 Av. Juárez-Balderas | 18 / 19 | 0.00 | 0.89 | 14-19 |
-| 086 Sullivan-Insurgentes | 1 / 15 | 0.83 | 0.01 | 0-7 |
-| 031 Hamburgo - Insurgentes | 31 / 33 | 0.00 | 0.73 | 28-33 |
-| 113 General Prim-Versalles | 1 / 15 | 0.67 | 0.00 | 0-7 |
-| 026 Reforma - Versalles | 10 / 14 | 0.01 | 0.35 | 6-13 |
-| 112 Av. Morelos-Abraham González | 3 / 21 | 0.28 | 0.00 | 0-7 |
+| 029 Reforma - Bucareli | 31 / 31 | 0.00 | 1.00 | 26-31 |
+| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.99 | 14-19 |
+| 012 Río Lerma - Villalongín | 0 / 13 | 0.99 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 2 / 15 | 0.68 | 0.01 | 0-8 |
+| 020 Reforma- Río Támesis | 3 / 22 | 0.66 | 0.00 | 0-4 |
+| 031 Hamburgo - Insurgentes | 30 / 33 | 0.00 | 0.63 | 24-32 |
+| 118 Liverpool-Dinamarca | 2 / 17 | 0.46 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 4 / 28 | 0.40 | 0.00 | 0-7 |
+| 112 Av. Morelos-Abraham González | 2 / 21 | 0.34 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 029 (31/32) a 086 (1/15)
-2. Llevar **10 bicis** de 260 (18/19) a 118 (0/17)
-3. Llevar **8 bicis** de 031 (31/33) a 012 (0/13)
+1. Llevar **10 bicis** de 029 (31/31) a 012 (0/13)
+2. Llevar **11 bicis** de 260 (19/19) a 020 (3/22)
+3. Llevar **6 bicis** de 031 (30/33) a 086 (2/15)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-285 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+286 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.118 | 0.035 |
-| Sin resincronizar | 0.265 | 0.093 |
+| Gemelo | 0.117 | 0.035 |
+| Sin resincronizar | 0.264 | 0.093 |
 | Persistencia | 0.304 | 0.067 |
 | Persistencia 0/1 | 0.304 | 0.067 |
 
