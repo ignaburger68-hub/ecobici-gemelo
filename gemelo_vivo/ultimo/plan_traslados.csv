@@ -1,7 +1,8 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,6,24,29,0,12,,5.0,13.638683117947258
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,6,24,29,0,12,,5.0,13.638683117947258
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,6,24,29,0,12,,5.0,13.638683117947258
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,119,Turín-Abraham González,9,19,30,0,28,1.998000051593408,5.0,17.73266770160606
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,112,Av. Morelos-Abraham González,7,16,27,0,20,1.3250000476837158,28.54381464339645,36.10376856966116
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,5,13,25,0,21,1.1319999694824219,44.285547313739166,54.28030224159299
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,9,24,29,0,22,,5.0,16.144597358713426
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,9,24,29,0,22,,5.0,16.144597358713426
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,9,24,29,0,22,,5.0,16.144597358713426
+Regla umbral 70/30,2,048,Independencia - Azueta,119,Turín-Abraham González,2,8,11,0,28,,28.737224825236673,40.0289728128229
+Gemelo (voraz),1,048,Independencia - Azueta,119,Turín-Abraham González,5,8,11,0,28,1.9969999119639397,5.0,16.291747987586227
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,10,24,29,0,22,1.215999960899353,28.178573857021714,39.323171215735144
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,112,Av. Morelos-Abraham González,10,20,31,1,20,0.8740000128746033,50.68444897546041,57.93814358403455
