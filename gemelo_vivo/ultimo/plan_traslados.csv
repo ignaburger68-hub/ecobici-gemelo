@@ -1,18 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,031,Hamburgo - Insurgentes,113,General Prim-Versalles,7,34,34,0,15,,5.0,13.982394352101924
-Regla umbral 90/10,2,029,Reforma - Bucareli,119,Turín-Abraham González,2,30,32,0,5,,22.454348383088757,32.96313565887655
-Regla umbral 85/15,1,031,Hamburgo - Insurgentes,113,General Prim-Versalles,7,34,34,0,15,,5.0,13.982394352101924
-Regla umbral 85/15,2,029,Reforma - Bucareli,119,Turín-Abraham González,2,30,32,0,5,,22.454348383088757,32.96313565887655
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,7,17,19,1,21,,44.46006167964956,56.73188049476509
-Regla umbral 80/20,1,031,Hamburgo - Insurgentes,113,General Prim-Versalles,7,34,34,0,15,,5.0,13.982394352101924
-Regla umbral 80/20,2,029,Reforma - Bucareli,119,Turín-Abraham González,2,30,32,0,5,,22.454348383088757,32.96313565887655
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,7,17,19,1,21,,44.46006167964956,56.73188049476509
-Regla umbral 75/25,1,031,Hamburgo - Insurgentes,113,General Prim-Versalles,7,34,34,0,15,,5.0,13.982394352101924
-Regla umbral 75/25,2,029,Reforma - Bucareli,119,Turín-Abraham González,2,30,32,0,5,,22.454348383088757,32.96313565887655
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,7,17,19,1,21,,44.46006167964956,56.73188049476509
-Regla umbral 70/30,1,031,Hamburgo - Insurgentes,113,General Prim-Versalles,7,34,34,0,15,,5.0,13.982394352101924
-Regla umbral 70/30,2,029,Reforma - Bucareli,119,Turín-Abraham González,2,30,32,0,5,,22.454348383088757,32.96313565887655
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,7,17,19,1,21,,44.46006167964956,56.73188049476509
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,34,34,1,15,5.393999814987183,5.0,12.838368094915353
-Gemelo (voraz),2,029,Reforma - Bucareli,020,Reforma- Río Támesis,13,30,32,1,21,5.257999777793884,22.92420510975976,33.84795239892947
-Gemelo (voraz),3,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,17,19,0,15,3.2470000982284546,46.119771214045,55.72950522006661
+Regla umbral 90/10,1,029,Reforma - Bucareli,118,Liverpool-Dinamarca,8,31,32,0,17,,5.0,16.192741211341254
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,18,19,0,13,,28.53003372377088,41.317041672749596
+Regla umbral 90/10,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,31,33,0,5,,48.815328500859785,56.94062891707809
+Regla umbral 85/15,1,029,Reforma - Bucareli,118,Liverpool-Dinamarca,8,31,32,0,17,,5.0,16.192741211341254
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,18,19,0,13,,28.53003372377088,41.317041672749596
+Regla umbral 85/15,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,31,33,0,5,,48.815328500859785,56.94062891707809
+Regla umbral 80/20,1,029,Reforma - Bucareli,118,Liverpool-Dinamarca,8,31,32,0,17,,5.0,16.192741211341254
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,18,19,0,13,,28.53003372377088,41.317041672749596
+Regla umbral 80/20,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,31,33,0,5,,48.815328500859785,56.94062891707809
+Regla umbral 75/25,1,029,Reforma - Bucareli,118,Liverpool-Dinamarca,8,31,32,0,17,,5.0,16.192741211341254
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,18,19,0,13,,28.53003372377088,41.317041672749596
+Regla umbral 75/25,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,31,33,0,5,,48.815328500859785,56.94062891707809
+Regla umbral 70/30,1,029,Reforma - Bucareli,118,Liverpool-Dinamarca,8,31,32,0,17,,5.0,16.192741211341254
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,18,19,0,13,,28.53003372377088,41.317041672749596
+Regla umbral 70/30,3,031,Hamburgo - Insurgentes,119,Turín-Abraham González,2,31,33,0,5,,48.815328500859785,56.94062891707809
+Gemelo (voraz),1,029,Reforma - Bucareli,086,Sullivan-Insurgentes,9,31,32,1,15,6.259999990463257,5.0,15.08583701484441
+Gemelo (voraz),2,260,Av. Juárez-Balderas,118,Liverpool-Dinamarca,10,18,19,0,17,4.652999997138977,26.546711342987617,38.88400385541725
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,012,Río Lerma - Villalongín,8,31,33,0,13,3.9019999504089355,45.64937396392786,53.147660792038046
