@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 05:58 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 06:12 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 22:52 a 23:52
+## Último pronóstico: 21/11 06:12 a 07:12
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,35 +10,35 @@ Página actualizada automáticamente el 21/11/2026 05:58 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**13.7 °C** · sin lluvia · viento 3 km/h · día hábil
+**10.3 °C** · sin lluvia · viento 1 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
-| lluvia | sin lluvia | 0.988 | 0.981 |
-| lluvia previa | seco antes | 0.990 | 1.001 |
-| temperatura | normal (±1 °C) | 0.944 | 0.951 |
-| viento | < 5 km/h | 0.988 | 0.985 |
+| lluvia | sin lluvia | 0.991 | 0.996 |
+| lluvia previa | seco antes | 1.006 | 1.009 |
+| temperatura | normal (±1 °C) | 0.977 | 0.981 |
+| viento | < 5 km/h | 0.943 | 0.954 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-1 |
-| 115 Roma-Dinamarca | 0 / 26 | 0.99 | 0.00 | 0-2 |
-| 086 Sullivan-Insurgentes | 2 / 15 | 0.66 | 0.00 | 0-5 |
-| 112 Av. Morelos-Abraham González | 1 / 20 | 0.58 | 0.00 | 0-4 |
-| 270 De la República-Ponciano Arr | 2 / 27 | 0.50 | 0.00 | 0-5 |
-| 113 General Prim-Versalles | 2 / 15 | 0.37 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 2 / 17 | 0.36 | 0.00 | 0-4 |
-| 048 Independencia - Azueta | 5 / 9 | 0.36 | 0.00 | 0-4 |
-| 260 Av. Juárez-Balderas | 16 / 18 | 0.00 | 0.32 | 11-18 |
+| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-2 |
+| 119 Turín-Abraham González | 0 / 28 | 0.99 | 0.00 | 0-2 |
+| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-2 |
+| 020 Reforma- Río Támesis | 1 / 22 | 0.65 | 0.00 | 0-3 |
+| 114 Lucerna-Abraham González | 1 / 21 | 0.44 | 0.00 | 0-2 |
+| 112 Av. Morelos-Abraham González | 1 / 20 | 0.33 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 3 / 27 | 0.26 | 0.00 | 0-4 |
+| 115 Roma-Dinamarca | 1 / 26 | 0.26 | 0.00 | 0-4 |
+| 010 Reforma - Ramírez | 1 / 25 | 0.23 | 0.00 | 1-7 |
+| 031 Hamburgo - Insurgentes | 3 / 33 | 0.20 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 260 (16/18) a 020 (0/22)
-2. Llevar **11 bicis** de 450 (21/28) a 115 (0/26)
-3. Llevar **7 bicis** de 029 (26/30) a 086 (2/15)
+1. Llevar **5 bicis** de 260 (16/19) a 085 (0/15)
+2. Llevar **9 bicis** de 270 (13/27) a 020 (1/22)
+3. Llevar **4 bicis** de 259 (11/25) a 119 (0/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
