@@ -1,14 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,11,27,29,0,22,,5.0,14.745618578077686
-Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,11,27,29,0,22,,5.0,14.745618578077686
-Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,11,27,29,0,22,,5.0,14.745618578077686
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,255,José Rosas Moreno-Guillermo Prieto,10,25,30,0,33,,25.65594064523296,35.94984408433682
-Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,11,27,29,0,22,,5.0,14.745618578077686
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,255,José Rosas Moreno-Guillermo Prieto,10,25,30,0,33,,25.65594064523296,35.94984408433682
-Regla umbral 75/25,3,012,Río Lerma - Villalongín,041,Reforma - Av. de la República,4,12,15,1,31,,43.78182622955997,55.25075199464205
-Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,116,Londres-Roma,11,27,29,0,22,,5.0,14.745618578077686
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,255,José Rosas Moreno-Guillermo Prieto,10,25,30,0,33,,25.65594064523296,35.94984408433682
-Regla umbral 70/30,3,012,Río Lerma - Villalongín,041,Reforma - Av. de la República,4,12,15,1,31,,43.78182622955997,55.25075199464205
-Gemelo (voraz),1,270,De la República-Ponciano Arriaga,116,Londres-Roma,13,27,29,0,22,5.23800003528595,5.0,14.745618578077686
-Gemelo (voraz),2,012,Río Lerma - Villalongín,041,Reforma - Av. de la República,8,12,15,1,31,3.3510000109672546,23.073687338300644,34.54261310338273
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,255,José Rosas Moreno-Guillermo Prieto,12,25,30,0,33,2.599000047892332,41.52246652014941,51.816369959253265
+Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,12,27,30,0,33,,5.0,14.365247736625314
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,26,30,0,18,,24.659151175729175,36.859537226190255
+Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,12,27,30,0,33,,5.0,14.365247736625314
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,26,30,0,18,,24.659151175729175,36.859537226190255
+Regla umbral 80/20,3,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,7,18,22,1,22,,47.618489043738265,57.00857208700248
+Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,12,27,30,0,33,,5.0,14.365247736625314
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,26,30,0,18,,24.659151175729175,36.859537226190255
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,7,18,22,1,22,,47.618489043738265,57.00857208700248
+Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,12,27,30,0,33,,5.0,14.365247736625314
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,26,30,0,18,,24.659151175729175,36.859537226190255
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,112,Av. Morelos-Abraham González,7,18,22,1,22,,47.618489043738265,57.00857208700248
+Gemelo (voraz),1,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,13,27,30,3,31,4.247999966144562,5.0,12.084841949680968
+Gemelo (voraz),2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,12,15,0,33,2.9690001606941223,23.55376771476305,31.385749859986202
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,11,26,30,2,23,2.5079998411238194,41.67965329909006,52.82425065780349
