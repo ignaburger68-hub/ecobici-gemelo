@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 20:02 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 20:16 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 20:02 a 21:02
+## Último pronóstico: 20/11 20:16 a 21:16
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **17.2 °C** · sin lluvia · viento 5 km/h · día hábil
 
-El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.86** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 118 Liverpool-Dinamarca | 0 / 17 | 1.00 | 0.00 | 0-4 |
-| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.98 | 16-19 |
-| 113 General Prim-Versalles | 1 / 15 | 0.78 | 0.00 | 1-8 |
-| 012 Río Lerma - Villalongín | 1 / 13 | 0.77 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 32 / 34 | 0.00 | 0.72 | 25-33 |
-| 031 Hamburgo - Insurgentes | 32 / 33 | 0.00 | 0.69 | 25-33 |
-| 048 Independencia - Azueta | 1 / 9 | 0.65 | 0.03 | 0-5 |
-| 020 Reforma- Río Támesis | 2 / 21 | 0.60 | 0.00 | 0-6 |
-| 003 Reforma - Insurgentes | 4 / 28 | 0.55 | 0.00 | 0-6 |
+| 020 Reforma- Río Támesis | 0 / 21 | 0.98 | 0.00 | 0-4 |
+| 113 General Prim-Versalles | 0 / 15 | 0.98 | 0.00 | 1-8 |
+| 260 Av. Juárez-Balderas | 18 / 19 | 0.00 | 0.87 | 15-19 |
+| 048 Independencia - Azueta | 1 / 9 | 0.74 | 0.02 | 0-6 |
+| 118 Liverpool-Dinamarca | 1 / 17 | 0.66 | 0.00 | 0-6 |
+| 026 Reforma - Versalles | 11 / 12 | 0.01 | 0.66 | 6-12 |
+| 012 Río Lerma - Villalongín | 1 / 12 | 0.62 | 0.00 | 0-5 |
+| 029 Reforma - Bucareli | 30 / 32 | 0.00 | 0.55 | 26-32 |
+| 086 Sullivan-Insurgentes | 2 / 13 | 0.54 | 0.02 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 260 (19/19) a 118 (0/17)
-2. Llevar **14 bicis** de 555 (32/34) a 003 (4/28)
-3. Llevar **7 bicis** de 031 (32/33) a 113 (1/15)
+1. Llevar **11 bicis** de 260 (18/19) a 020 (0/21)
+2. Llevar **7 bicis** de 029 (30/32) a 113 (0/15)
+3. Llevar **5 bicis** de 026 (11/12) a 118 (1/17)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-282 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+283 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
