@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 15:00 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 15:14 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 15:00 a 16:00
+## Último pronóstico: 21/11 15:14 a 16:14
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.96** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 0 / 15 | 0.97 | 0.00 | 0-7 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.96 | 13-20 |
-| 041 Reforma - Av. de la Repúblic | 1 / 30 | 0.93 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 1 / 14 | 0.81 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 2 / 27 | 0.80 | 0.00 | 0-4 |
-| 020 Reforma- Río Támesis | 2 / 23 | 0.71 | 0.00 | 0-5 |
+| 085 Rosas Moreno - Sullivan | 0 / 15 | 0.99 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 0 / 14 | 0.98 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 0 / 15 | 0.98 | 0.00 | 0-6 |
+| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.95 | 0.00 | 0-4 |
+| 026 Reforma - Versalles | 1 / 15 | 0.81 | 0.00 | 0-4 |
+| 010 Reforma - Ramírez | 2 / 27 | 0.79 | 0.00 | 0-4 |
 | 115 Roma-Dinamarca | 2 / 27 | 0.70 | 0.00 | 0-5 |
-| 118 Liverpool-Dinamarca | 1 / 18 | 0.69 | 0.00 | 0-6 |
-| 112 Av. Morelos-Abraham González | 3 / 22 | 0.58 | 0.00 | 0-6 |
+| 260 Av. Juárez-Balderas | 19 / 20 | 0.00 | 0.69 | 13-20 |
+| 116 Londres-Roma | 2 / 23 | 0.69 | 0.00 | 0-6 |
+| 020 Reforma- Río Támesis | 2 / 23 | 0.69 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 260 (20/20) a 041 (1/30)
-2. Llevar **8 bicis** de 270 (28/31) a 086 (0/15)
-3. Llevar **13 bicis** de 031 (31/35) a 010 (2/27)
+1. Llevar **18 bicis** de 031 (33/35) a 041 (1/31)
+2. Llevar **8 bicis** de 260 (19/20) a 086 (0/15)
+3. Llevar **8 bicis** de 555 (30/34) a 012 (0/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-332 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+333 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
