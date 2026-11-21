@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 20/11/2026 20:16 (hora de Ciudad de México).
+Página actualizada automáticamente el 20/11/2026 20:30 (hora de Ciudad de México).
 
-## Último pronóstico: 20/11 20:16 a 21:16
+## Último pronóstico: 20/11 20:30 a 21:30
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,39 +10,39 @@ Página actualizada automáticamente el 20/11/2026 20:16 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**17.2 °C** · sin lluvia · viento 5 km/h · día hábil
+**16.0 °C** · sin lluvia · viento 2 km/h · día hábil
 
-El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.86** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.86** y las **devoluciones por 0.88** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
 | lluvia | sin lluvia | 0.988 | 0.981 |
 | lluvia previa | seco antes | 0.990 | 1.001 |
 | temperatura | normal (±1 °C) | 0.944 | 0.951 |
-| viento | 5-10 km/h | 0.872 | 0.905 |
+| viento | < 5 km/h | 0.988 | 0.985 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 119 Turín-Abraham González | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 020 Reforma- Río Támesis | 0 / 21 | 0.98 | 0.00 | 0-4 |
-| 113 General Prim-Versalles | 0 / 15 | 0.98 | 0.00 | 1-8 |
-| 260 Av. Juárez-Balderas | 18 / 19 | 0.00 | 0.87 | 15-19 |
-| 048 Independencia - Azueta | 1 / 9 | 0.74 | 0.02 | 0-6 |
-| 118 Liverpool-Dinamarca | 1 / 17 | 0.66 | 0.00 | 0-6 |
-| 026 Reforma - Versalles | 11 / 12 | 0.01 | 0.66 | 6-12 |
-| 012 Río Lerma - Villalongín | 1 / 12 | 0.62 | 0.00 | 0-5 |
-| 029 Reforma - Bucareli | 30 / 32 | 0.00 | 0.55 | 26-32 |
-| 086 Sullivan-Insurgentes | 2 / 13 | 0.54 | 0.02 | 0-7 |
+| 031 Hamburgo - Insurgentes | 34 / 34 | 0.00 | 0.99 | 29-34 |
+| 113 General Prim-Versalles | 0 / 15 | 0.98 | 0.01 | 0-7 |
+| 029 Reforma - Bucareli | 30 / 32 | 0.00 | 0.85 | 27-32 |
+| 086 Sullivan-Insurgentes | 1 / 15 | 0.83 | 0.00 | 0-7 |
+| 260 Av. Juárez-Balderas | 17 / 19 | 0.00 | 0.74 | 13-19 |
+| 020 Reforma- Río Támesis | 1 / 21 | 0.73 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 1 / 17 | 0.72 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 1 / 13 | 0.68 | 0.00 | 0-4 |
+| 026 Reforma - Versalles | 11 / 14 | 0.01 | 0.51 | 7-13 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 260 (18/19) a 020 (0/21)
-2. Llevar **7 bicis** de 029 (30/32) a 113 (0/15)
-3. Llevar **5 bicis** de 026 (11/12) a 118 (1/17)
+1. Llevar **8 bicis** de 031 (34/34) a 086 (1/15)
+2. Llevar **13 bicis** de 029 (30/32) a 020 (1/21)
+3. Llevar **7 bicis** de 260 (17/19) a 113 (0/15)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-283 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+284 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
