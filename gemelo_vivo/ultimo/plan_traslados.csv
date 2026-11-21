@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,5.0,11.351017922162619
-Regla umbral 90/10,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,15,33,33,1,33,,21.859805197950415,33.29091347972969
-Regla umbral 90/10,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,1,28,,46.037007178880394,56.864929065666956
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,2,28,,22.84794394293563,33.675865829722184
+Regla umbral 90/10,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,22,23,2,25,,43.6370861121666,51.97141670697074
 Regla umbral 85/15,1,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,5.0,11.351017922162619
-Regla umbral 85/15,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,15,33,33,1,33,,21.859805197950415,33.29091347972969
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,1,28,,46.037007178880394,56.864929065666956
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,2,28,,22.84794394293563,33.675865829722184
+Regla umbral 85/15,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,22,23,2,25,,43.6370861121666,51.97141670697074
 Regla umbral 80/20,1,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,5.0,11.351017922162619
-Regla umbral 80/20,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,15,33,33,1,33,,21.859805197950415,33.29091347972969
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,1,28,,46.037007178880394,56.864929065666956
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,2,28,,22.84794394293563,33.675865829722184
+Regla umbral 80/20,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,22,23,2,25,,43.6370861121666,51.97141670697074
 Regla umbral 75/25,1,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,5.0,11.351017922162619
-Regla umbral 75/25,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,15,33,33,1,33,,21.859805197950415,33.29091347972969
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,1,28,,46.037007178880394,56.864929065666956
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,2,28,,22.84794394293563,33.675865829722184
+Regla umbral 75/25,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,22,23,2,25,,43.6370861121666,51.97141670697074
 Regla umbral 70/30,1,116,Londres-Roma,119,Turín-Abraham González,2,22,22,0,5,,5.0,11.351017922162619
-Regla umbral 70/30,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,15,33,33,1,33,,21.859805197950415,33.29091347972969
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,1,28,,46.037007178880394,56.864929065666956
-Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,14,20,20,7,23,12.046000480651855,5.0,17.18093782808019
-Gemelo (voraz),2,029,Reforma - Bucareli,020,Reforma- Río Támesis,14,33,33,4,21,11.416999578475952,28.050619996595906,38.97436728576562
-Gemelo (voraz),3,116,Londres-Roma,256,Gómez Farías-Sadi Carnot,11,22,22,1,22,6.210999965667725,46.22637100274701,56.027583411843906
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,10,20,20,2,28,,22.84794394293563,33.675865829722184
+Regla umbral 70/30,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,22,23,2,25,,43.6370861121666,51.97141670697074
+Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,17,20,20,2,25,16.234000205993652,5.0,17.18093782808019
+Gemelo (voraz),2,029,Reforma - Bucareli,020,Reforma- Río Támesis,14,29,33,2,21,8.799999713897705,28.050619996595906,38.97436728576562
+Gemelo (voraz),3,116,Londres-Roma,008,Reforma - General Prim,8,22,22,3,14,4.884000062942505,46.22637100274701,52.77715772392343
