@@ -1,13 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,28,31,0,26,,5.0,15.869682168515716
-Regla umbral 85/15,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,28,31,0,26,,5.0,15.869682168515716
-Regla umbral 80/20,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,28,31,0,26,,5.0,15.869682168515716
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,6,16,19,0,27,,28.050619996595906,36.470245820725495
-Regla umbral 75/25,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,28,31,0,26,,5.0,15.869682168515716
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,6,16,19,0,27,,28.050619996595906,36.470245820725495
-Regla umbral 70/30,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,28,31,0,26,,5.0,15.869682168515716
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,6,16,19,0,27,,28.050619996595906,36.470245820725495
-Regla umbral 70/30,3,107-108,Tolsa-Balderas,119,Turín-Abraham González,2,42,58,0,5,,47.427861898726825,55.76168249790677
-Gemelo (voraz),1,029,Reforma - Bucareli,086,Sullivan-Insurgentes,10,28,31,1,14,4.0459999442100525,5.0,15.08583701484441
-Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,9,19,30,0,27,2.0309999072924256,24.877429459653825,32.235497574483496
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,11,20,28,0,26,1.940999942831695,38.50143323839177,49.821093991381034
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,26,,5.0,17.18093782808019
+Regla umbral 85/15,2,029,Reforma - Bucareli,020,Reforma- Río Támesis,11,26,30,0,22,,28.050619996595906,38.97436728576562
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,26,,5.0,17.18093782808019
+Regla umbral 80/20,2,029,Reforma - Bucareli,020,Reforma- Río Támesis,11,26,30,0,22,,28.050619996595906,38.97436728576562
+Regla umbral 80/20,3,026,Reforma - Versalles,119,Turín-Abraham González,2,10,12,0,5,,47.0146771272177,55.35307900030996
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,26,,5.0,17.18093782808019
+Regla umbral 75/25,2,029,Reforma - Bucareli,020,Reforma- Río Támesis,11,26,30,0,22,,28.050619996595906,38.97436728576562
+Regla umbral 75/25,3,026,Reforma - Versalles,119,Turín-Abraham González,2,10,12,0,5,,47.0146771272177,55.35307900030996
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,16,18,0,26,,5.0,17.18093782808019
+Regla umbral 70/30,2,029,Reforma - Bucareli,020,Reforma- Río Támesis,11,26,30,0,22,,28.050619996595906,38.97436728576562
+Regla umbral 70/30,3,026,Reforma - Versalles,119,Turín-Abraham González,2,10,12,0,5,,47.0146771272177,55.35307900030996
+Gemelo (voraz),1,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,8,16,18,0,22,2.525000035762787,5.0,17.271818815115534
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,11,21,28,0,26,1.995999988168478,28.41641617382896,39.73607692681823
+Gemelo (voraz),3,029,Reforma - Bucareli,086,Sullivan-Insurgentes,7,26,30,2,15,1.4569999724626541,50.605759095333944,60.69159611017835
