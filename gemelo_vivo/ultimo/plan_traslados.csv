@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,116,Londres-Roma,11,33,33,0,22,,5.0,14.882835252624195
-Regla umbral 90/10,2,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,5,11,11,0,14,,25.968293586239284,39.57138155047296
-Regla umbral 90/10,3,041,Reforma - Av. de la República,118,Liverpool-Dinamarca,8,26,27,0,16,,51.227329481890855,62.61463617727485
-Regla umbral 85/15,1,029,Reforma - Bucareli,116,Londres-Roma,11,33,33,0,22,,5.0,14.882835252624195
-Regla umbral 85/15,2,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,5,11,11,0,14,,25.968293586239284,39.57138155047296
-Regla umbral 85/15,3,041,Reforma - Av. de la República,118,Liverpool-Dinamarca,8,26,27,0,16,,51.227329481890855,62.61463617727485
-Regla umbral 80/20,1,029,Reforma - Bucareli,116,Londres-Roma,11,33,33,0,22,,5.0,14.882835252624195
-Regla umbral 80/20,2,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,5,11,11,0,14,,25.968293586239284,39.57138155047296
-Regla umbral 80/20,3,041,Reforma - Av. de la República,118,Liverpool-Dinamarca,8,26,27,0,16,,51.227329481890855,62.61463617727485
-Regla umbral 75/25,1,029,Reforma - Bucareli,116,Londres-Roma,11,33,33,0,22,,5.0,14.882835252624195
-Regla umbral 75/25,2,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,5,11,11,0,14,,25.968293586239284,39.57138155047296
-Regla umbral 75/25,3,041,Reforma - Av. de la República,118,Liverpool-Dinamarca,8,26,27,0,16,,51.227329481890855,62.61463617727485
-Regla umbral 70/30,1,029,Reforma - Bucareli,116,Londres-Roma,11,33,33,0,22,,5.0,14.882835252624195
-Regla umbral 70/30,2,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,5,11,11,0,14,,25.968293586239284,39.57138155047296
-Regla umbral 70/30,3,041,Reforma - Av. de la República,118,Liverpool-Dinamarca,8,26,27,0,16,,51.227329481890855,62.61463617727485
-Gemelo (voraz),1,029,Reforma - Bucareli,116,Londres-Roma,12,33,33,0,22,6.762999773025513,5.0,14.882835252624195
-Gemelo (voraz),2,260,Av. Juárez-Balderas,256,Gómez Farías-Sadi Carnot,10,19,20,0,23,4.892999887466431,25.940189555856605,36.80251965844765
-Gemelo (voraz),3,048,Independencia - Azueta,118,Liverpool-Dinamarca,6,11,11,0,16,4.790999889373779,48.48105063702754,60.77536603684341
+Regla umbral 90/10,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,33,33,0,15,,5.0,13.471954030986831
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,16,,23.08168803700844,34.2017833253492
+Regla umbral 90/10,3,048,Independencia - Azueta,116,Londres-Roma,5,11,11,0,22,,45.62396403330565,56.709422366920734
+Regla umbral 85/15,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,33,33,0,15,,5.0,13.471954030986831
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,16,,23.08168803700844,34.2017833253492
+Regla umbral 85/15,3,048,Independencia - Azueta,116,Londres-Roma,5,11,11,0,22,,45.62396403330565,56.709422366920734
+Regla umbral 80/20,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,33,33,0,15,,5.0,13.471954030986831
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,16,,23.08168803700844,34.2017833253492
+Regla umbral 80/20,3,048,Independencia - Azueta,116,Londres-Roma,5,11,11,0,22,,45.62396403330565,56.709422366920734
+Regla umbral 75/25,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,33,33,0,15,,5.0,13.471954030986831
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,16,,23.08168803700844,34.2017833253492
+Regla umbral 75/25,3,048,Independencia - Azueta,116,Londres-Roma,5,11,11,0,22,,45.62396403330565,56.709422366920734
+Regla umbral 70/30,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,33,33,0,15,,5.0,13.471954030986831
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,16,,23.08168803700844,34.2017833253492
+Regla umbral 70/30,3,048,Independencia - Azueta,116,Londres-Roma,5,11,11,0,22,,45.62396403330565,56.709422366920734
+Gemelo (voraz),1,029,Reforma - Bucareli,116,Londres-Roma,12,33,33,0,22,6.101999998092651,5.0,14.882835252624195
+Gemelo (voraz),2,260,Av. Juárez-Balderas,008,Reforma - General Prim,10,20,20,0,16,5.093999862670898,25.940189555856605,37.06028484419736
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,256,Gómez Farías-Sadi Carnot,12,26,28,1,23,4.090999960899353,46.01120262438524,53.472797357036065
