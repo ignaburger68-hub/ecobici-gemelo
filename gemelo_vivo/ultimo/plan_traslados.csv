@@ -1,17 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,11,24,26,0,23,,5.0,15.077143920913926
-Regla umbral 90/10,2,048,Independencia - Azueta,008,Reforma - General Prim,4,10,11,0,15,,26.162602254529016,37.58478296248547
-Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,11,24,26,0,23,,5.0,15.077143920913926
-Regla umbral 85/15,2,048,Independencia - Azueta,008,Reforma - General Prim,4,10,11,0,15,,26.162602254529016,37.58478296248547
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,11,24,26,0,23,,5.0,15.077143920913926
-Regla umbral 80/20,2,048,Independencia - Azueta,008,Reforma - General Prim,4,10,11,0,15,,26.162602254529016,37.58478296248547
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,17,20,0,26,,48.704878250826226,60.885816078906416
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,11,24,26,0,23,,5.0,15.077143920913926
-Regla umbral 75/25,2,048,Independencia - Azueta,008,Reforma - General Prim,4,10,11,0,15,,26.162602254529016,37.58478296248547
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,17,20,0,26,,48.704878250826226,60.885816078906416
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,11,24,26,0,23,,5.0,15.077143920913926
-Regla umbral 70/30,2,048,Independencia - Azueta,008,Reforma - General Prim,4,10,11,0,15,,26.162602254529016,37.58478296248547
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,7,17,20,0,26,,48.704878250826226,60.885816078906416
-Gemelo (voraz),1,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,9,17,20,0,22,4.462999939918518,5.0,17.271818815115534
-Gemelo (voraz),2,048,Independencia - Azueta,117,Londres-Nápoles,6,10,11,0,30,4.042999982833862,29.86444628163878,43.201026248048244
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,031,Hamburgo - Insurgentes,11,23,28,0,36,3.7569998502731323,54.76404612110842,66.27053798382072
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,20,20,0,26,,5.0,17.18093782808019
+Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,119,Turín-Abraham González,11,24,26,0,28,,27.36606056683962,38.58412971672436
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,20,20,0,26,,5.0,17.18093782808019
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,119,Turín-Abraham González,11,24,26,0,28,,27.36606056683962,38.58412971672436
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,20,20,0,26,,5.0,17.18093782808019
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,119,Turín-Abraham González,11,24,26,0,28,,27.36606056683962,38.58412971672436
+Regla umbral 80/20,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,3,9,11,1,36,,49.87587770431059,63.50105479300355
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,20,20,0,26,,5.0,17.18093782808019
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,119,Turín-Abraham González,11,24,26,0,28,,27.36606056683962,38.58412971672436
+Regla umbral 75/25,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,3,9,11,1,36,,49.87587770431059,63.50105479300355
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,10,20,20,0,26,,5.0,17.18093782808019
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,119,Turín-Abraham González,11,24,26,0,28,,27.36606056683962,38.58412971672436
+Regla umbral 70/30,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,3,9,11,1,36,,49.87587770431059,63.50105479300355
+Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,11,20,20,0,26,6.4690001010894775,5.0,17.18093782808019
+Gemelo (voraz),2,041,Reforma - Av. de la República,031,Hamburgo - Insurgentes,14,23,29,1,36,5.175999879837036,28.181279621298852,40.55067819777213
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,119,Turín-Abraham González,11,22,28,0,28,3.2109999656677246,52.05717006048443,62.86831700227482
