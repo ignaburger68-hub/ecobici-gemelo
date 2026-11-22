@@ -3,4 +3,4 @@ hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variab
 2026-11-22 18:00,fin de semana,pronosticado,17.3,-1.536,0.7,8.75,lluvia previa,llovió en las 3 h previas,0.743,0.789
 2026-11-22 18:00,fin de semana,pronosticado,17.3,-1.536,0.7,8.75,temperatura,más frío (−3 a −1 °C),0.843,0.875
 2026-11-22 18:00,fin de semana,pronosticado,17.3,-1.536,0.7,8.75,viento,5-10 km/h,0.93,0.955
-2026-11-22 18:00,fin de semana,pronosticado,17.3,-1.536,0.7,8.75,efecto total en la hora,,0.567,0.627
+2026-11-22 18:00,fin de semana,pronosticado,17.3,-1.536,0.7,8.75,efecto total en la hora,,0.546,0.609
