@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 07:21 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 07:35 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 07:21 a 08:21
+## Último pronóstico: 22/11 07:35 a 08:35
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 22/11/2026 07:21 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**13.4 °C** · sin lluvia · viento 1 km/h · día fin de semana
+**15.8 °C** · sin lluvia · viento 1 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.01** (1,00 = sin efecto).
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
+| 010 Reforma - Ramírez | 0 / 27 | 0.98 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 0 / 14 | 0.98 | 0.00 | 0-4 |
 | 012 Río Lerma - Villalongín | 0 / 15 | 0.98 | 0.00 | 0-4 |
 | 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.97 | 26-30 |
-| 116 Londres-Roma | 1 / 22 | 0.74 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.69 | 0.00 | 0-5 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.60 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 2 / 14 | 0.53 | 0.00 | 0-5 |
-| 008 Reforma - General Prim | 1 / 17 | 0.51 | 0.00 | 0-3 |
-| 259 Tómas Alva Edison-Ponciano A | 26 / 27 | 0.00 | 0.48 | 24-27 |
-| 026 Reforma - Versalles | 1 / 15 | 0.41 | 0.00 | 0-5 |
-| 260 Av. Juárez-Balderas | 3 / 20 | 0.25 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 1 / 14 | 0.75 | 0.00 | 0-5 |
+| 116 Londres-Roma | 1 / 22 | 0.72 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 1 / 17 | 0.48 | 0.00 | 0-3 |
+| 041 Reforma - Av. de la Repúblic | 3 / 31 | 0.33 | 0.00 | 0-6 |
+| 260 Av. Juárez-Balderas | 3 / 20 | 0.22 | 0.00 | 1-6 |
+| 259 Tómas Alva Edison-Ponciano A | 24 / 26 | 0.00 | 0.20 | 22-26 |
 
 ### Plan recomendado del camión
 
-1. Llevar **10 bicis** de 450 (30/30) a 116 (1/22)
-2. Llevar **10 bicis** de 259 (26/27) a 041 (1/31)
-3. Llevar **5 bicis** de 270 (25/31) a 086 (2/14)
+1. Llevar **6 bicis** de 450 (30/30) a 086 (1/14)
+2. Llevar **8 bicis** de 270 (25/31) a 010 (0/27)
+3. Llevar **8 bicis** de 259 (24/26) a 116 (1/22)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-371 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+372 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
