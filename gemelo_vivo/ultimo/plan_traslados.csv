@@ -1,17 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,28,30,0,15,,5.0,13.638683117947258
-Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,7,25,27,0,15,,21.519841878269027,30.685411726762005
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,28,30,0,15,,5.0,13.638683117947258
-Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,7,25,27,0,15,,21.519841878269027,30.685411726762005
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,28,30,0,15,,5.0,13.638683117947258
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,7,25,27,0,15,,21.519841878269027,30.685411726762005
-Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,008,Reforma - General Prim,8,29,35,0,16,,41.45836184384294,51.751013705727715
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,28,30,0,15,,5.0,13.638683117947258
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,7,25,27,0,15,,21.519841878269027,30.685411726762005
-Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,008,Reforma - General Prim,8,29,35,0,16,,41.45836184384294,51.751013705727715
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,28,30,0,15,,5.0,13.638683117947258
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,113,General Prim-Versalles,7,25,27,0,15,,21.519841878269027,30.685411726762005
-Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,008,Reforma - General Prim,8,29,35,0,16,,41.45836184384294,51.751013705727715
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,13,28,30,0,32,4.2710000872612,5.0,11.979853416766678
-Gemelo (voraz),2,048,Independencia - Azueta,008,Reforma - General Prim,5,9,11,0,16,2.6269999742507935,19.204419964306638,30.626600672263088
-Gemelo (voraz),3,031,Hamburgo - Insurgentes,026,Reforma - Versalles,6,28,36,0,15,2.219999998807907,38.1878583378763,47.53733483904242
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,28,30,0,16,,5.0,15.207020191987201
+Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,25,27,0,32,,24.31926847086239,32.003209453636174
+Regla umbral 90/10,3,048,Independencia - Azueta,010,Reforma - Ramírez,4,10,11,1,27,,39.22777600117613,48.852757444919526
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,28,30,0,16,,5.0,15.207020191987201
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,25,27,0,32,,24.31926847086239,32.003209453636174
+Regla umbral 85/15,3,048,Independencia - Azueta,010,Reforma - Ramírez,4,10,11,1,27,,39.22777600117613,48.852757444919526
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,28,30,0,16,,5.0,15.207020191987201
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,25,27,0,32,,24.31926847086239,32.003209453636174
+Regla umbral 80/20,3,048,Independencia - Azueta,010,Reforma - Ramírez,4,10,11,1,27,,39.22777600117613,48.852757444919526
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,28,30,0,16,,5.0,15.207020191987201
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,25,27,0,32,,24.31926847086239,32.003209453636174
+Regla umbral 75/25,3,048,Independencia - Azueta,010,Reforma - Ramírez,4,10,11,1,27,,39.22777600117613,48.852757444919526
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,28,30,0,16,,5.0,15.207020191987201
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,25,27,0,32,,24.31926847086239,32.003209453636174
+Regla umbral 70/30,3,048,Independencia - Azueta,010,Reforma - Ramírez,4,10,11,1,27,,39.22777600117613,48.852757444919526
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,14,28,30,0,32,4.5739999413490295,5.0,11.979853416766678
+Gemelo (voraz),2,048,Independencia - Azueta,008,Reforma - General Prim,5,10,11,0,16,3.2179999351501465,19.204419964306638,30.626600672263088
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,11,25,27,1,27,2.2420000433921814,39.73884895113828,47.14472179093849
