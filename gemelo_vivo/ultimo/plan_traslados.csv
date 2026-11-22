@@ -1,15 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,22,,5.0,15.910322067155272
-Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,9,26,27,1,20,,25.987465988069196,34.96691234731429
+Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,26,27,1,27,,25.987465988069196,33.39333882786941
 Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,22,,5.0,15.910322067155272
-Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,9,26,27,1,20,,25.987465988069196,34.96691234731429
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,26,27,1,27,,25.987465988069196,33.39333882786941
 Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,22,,5.0,15.910322067155272
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,9,26,27,1,20,,25.987465988069196,34.96691234731429
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,26,27,1,27,,25.987465988069196,33.39333882786941
+Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,7,25,31,1,17,,40.44245737607499,49.39337515626287
 Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,22,,5.0,15.910322067155272
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,9,26,27,1,20,,25.987465988069196,34.96691234731429
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,26,27,1,27,,25.987465988069196,33.39333882786941
+Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,7,25,31,1,17,,40.44245737607499,49.39337515626287
 Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,22,,5.0,15.910322067155272
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,9,26,27,1,20,,25.987465988069196,34.96691234731429
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,7,23,31,1,16,,43.38653817144388,52.33745595163176
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,9,30,30,0,22,1.7979999780654907,5.0,15.910322067155272
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,260,Av. Juárez-Balderas,6,26,27,1,20,1.0319999754428864,25.987465988069196,34.96691234731429
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,086,Sullivan-Insurgentes,6,23,31,3,14,0.7799999564886093,43.38653817144388,52.23439640999239
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,26,27,1,27,,25.987465988069196,33.39333882786941
+Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,7,25,31,1,17,,40.44245737607499,49.39337515626287
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,8,30,30,0,22,1.7290000021457672,5.0,15.910322067155272
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,086,Sullivan-Insurgentes,5,26,27,2,14,0.7950000166893005,25.987465988069196,34.852214945271584
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,260,Av. Juárez-Balderas,9,25,31,2,20,0.6270000040531158,43.700073183820095,52.119699007949684

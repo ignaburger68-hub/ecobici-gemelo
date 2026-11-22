@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 06:38 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 06:53 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 06:38 a 07:38
+## Último pronóstico: 22/11 06:52 a 07:52
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.01** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 116 Londres-Roma | 0 / 22 | 0.99 | 0.00 | 0-3 |
-| 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.98 | 27-30 |
-| 260 Av. Juárez-Balderas | 1 / 20 | 0.70 | 0.00 | 0-2 |
-| 259 Tómas Alva Edison-Ponciano A | 26 / 27 | 0.00 | 0.49 | 24-27 |
-| 086 Sullivan-Insurgentes | 3 / 14 | 0.45 | 0.00 | 0-6 |
-| 012 Río Lerma - Villalongín | 1 / 15 | 0.37 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 1 / 16 | 0.29 | 0.00 | 0-2 |
+| 116 Londres-Roma | 0 / 22 | 0.98 | 0.00 | 0-2 |
+| 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.97 | 26-30 |
+| 259 Tómas Alva Edison-Ponciano A | 26 / 27 | 0.00 | 0.53 | 24-27 |
+| 086 Sullivan-Insurgentes | 2 / 14 | 0.45 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 2 / 20 | 0.40 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 1 / 17 | 0.35 | 0.00 | 0-2 |
+| 010 Reforma - Ramírez | 1 / 27 | 0.29 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 1 / 15 | 0.27 | 0.00 | 0-4 |
 | 026 Reforma - Versalles | 1 / 15 | 0.24 | 0.00 | 0-4 |
-| 048 Independencia - Azueta | 2 / 11 | 0.12 | 0.00 | 1-4 |
-| 270 De la República-Ponciano Arr | 23 / 31 | 0.00 | 0.11 | 23-30 |
+| 041 Reforma - Av. de la Repúblic | 2 / 31 | 0.18 | 0.00 | 1-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 450 (30/30) a 116 (0/22)
-2. Llevar **6 bicis** de 259 (26/27) a 260 (1/20)
-3. Llevar **6 bicis** de 270 (23/31) a 086 (3/14)
+1. Llevar **8 bicis** de 450 (30/30) a 116 (0/22)
+2. Llevar **5 bicis** de 259 (26/27) a 086 (2/14)
+3. Llevar **9 bicis** de 270 (25/31) a 260 (2/20)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
