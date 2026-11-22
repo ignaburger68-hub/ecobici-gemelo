@@ -1,12 +1,14 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,10,24,27,1,32,,5.0,12.683940982773784
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,10,24,27,1,32,,5.0,12.683940982773784
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,10,25,30,1,31,,19.663794399540464,29.842963215416916
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,10,24,27,1,32,,5.0,12.683940982773784
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,10,25,30,1,31,,19.663794399540464,29.842963215416916
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,10,24,27,1,32,,5.0,12.683940982773784
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,10,25,30,1,31,,19.663794399540464,29.842963215416916
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,010,Reforma - Ramírez,7,23,31,1,27,,38.758297602716645,45.80741615092223
-Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,14,24,27,1,32,2.3749999161809683,5.0,12.683940982773784
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,8,23,31,1,16,1.4609999189851806,19.76878293245475,28.719700712642627
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,9,25,30,1,31,1.3240000009536743,38.92672090462983,49.10588972050628
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,26,30,0,30,,5.0,15.179168815876452
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,012,Río Lerma - Villalongín,7,23,27,0,15,,24.208861099982183,34.12298002805929
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,26,30,0,30,,5.0,15.179168815876452
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,012,Río Lerma - Villalongín,7,23,27,0,15,,24.208861099982183,34.12298002805929
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,26,30,0,30,,5.0,15.179168815876452
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,012,Río Lerma - Villalongín,7,23,27,0,15,,24.208861099982183,34.12298002805929
+Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,260,Av. Juárez-Balderas,9,26,33,1,21,,44.63776774440284,55.01655449137432
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,26,30,0,30,,5.0,15.179168815876452
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,012,Río Lerma - Villalongín,7,23,27,0,15,,24.208861099982183,34.12298002805929
+Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,260,Av. Juárez-Balderas,9,26,33,1,21,,44.63776774440284,55.01655449137432
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,9,26,30,0,30,1.8029999546706676,5.0,15.179168815876452
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,12,23,27,2,32,1.0020000096410513,24.208861099982183,31.892802082755967
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,260,Av. Juárez-Balderas,9,26,33,1,21,0.840999991632998,41.11978421911096,51.49857096608245

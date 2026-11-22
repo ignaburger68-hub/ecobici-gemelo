@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 21:25 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 21:39 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 21:25 a 22:25
+## Último pronóstico: 21/11 21:39 a 22:39
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 21/11/2026 21:25 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**16.5 °C** · sin lluvia · viento 2 km/h · día fin de semana
+**15.1 °C** · sin lluvia · viento 3 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,00 = sin efecto).
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 041 Reforma - Av. de la Repúblic | 1 / 32 | 0.83 | 0.00 | 0-6 |
-| 008 Reforma - General Prim | 1 / 16 | 0.80 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.77 | 0.00 | 0-4 |
-| 115 Roma-Dinamarca | 1 / 26 | 0.74 | 0.00 | 0-4 |
-| 003 Reforma - Insurgentes | 1 / 31 | 0.73 | 0.00 | 0-5 |
-| 260 Av. Juárez-Balderas | 3 / 21 | 0.33 | 0.00 | 0-6 |
-| 026 Reforma - Versalles | 3 / 15 | 0.30 | 0.00 | 0-6 |
-| 086 Sullivan-Insurgentes | 4 / 15 | 0.12 | 0.00 | 1-7 |
-| 048 Independencia - Azueta | 4 / 11 | 0.11 | 0.00 | 1-7 |
-| 113 General Prim-Versalles | 3 / 15 | 0.10 | 0.00 | 1-5 |
+| 012 Río Lerma - Villalongín | 0 / 15 | 0.98 | 0.00 | 0-3 |
+| 003 Reforma - Insurgentes | 0 / 30 | 0.98 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 1 / 21 | 0.68 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 2 / 32 | 0.56 | 0.00 | 0-6 |
+| 115 Roma-Dinamarca | 2 / 26 | 0.41 | 0.00 | 0-4 |
+| 026 Reforma - Versalles | 2 / 15 | 0.41 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 3 / 16 | 0.29 | 0.00 | 0-6 |
+| 010 Reforma - Ramírez | 3 / 27 | 0.23 | 0.00 | 0-6 |
+| 086 Sullivan-Insurgentes | 3 / 15 | 0.18 | 0.00 | 1-7 |
+| 048 Independencia - Azueta | 3 / 11 | 0.13 | 0.00 | 1-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 259 (24/27) a 041 (1/32)
-2. Llevar **8 bicis** de 270 (23/31) a 008 (1/16)
-3. Llevar **9 bicis** de 450 (25/30) a 003 (1/31)
+1. Llevar **9 bicis** de 450 (26/30) a 003 (0/30)
+2. Llevar **12 bicis** de 259 (23/27) a 041 (2/32)
+3. Llevar **9 bicis** de 555 (26/33) a 260 (1/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-359 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+360 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
