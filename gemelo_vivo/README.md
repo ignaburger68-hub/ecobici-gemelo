@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 06:23 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 06:38 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 06:23 a 07:23
+## Último pronóstico: 22/11 06:38 a 07:38
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 22/11/2026 06:23 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.7 °C** · sin lluvia · viento 1 km/h · día fin de semana
+**13.4 °C** · sin lluvia · viento 1 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.01** (1,00 = sin efecto).
 
@@ -24,20 +24,21 @@ El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.01** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 116 Londres-Roma | 0 / 22 | 0.99 | 0.00 | 0-3 |
-| 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.99 | 27-30 |
-| 259 Tómas Alva Edison-Ponciano A | 26 / 27 | 0.00 | 0.47 | 25-27 |
-| 012 Río Lerma - Villalongín | 1 / 15 | 0.36 | 0.00 | 0-2 |
-| 260 Av. Juárez-Balderas | 2 / 20 | 0.34 | 0.00 | 0-3 |
-| 086 Sullivan-Insurgentes | 4 / 14 | 0.25 | 0.00 | 1-6 |
-| 115 Roma-Dinamarca | 1 / 26 | 0.24 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.24 | 0.00 | 1-7 |
-| 026 Reforma - Versalles | 1 / 15 | 0.21 | 0.00 | 1-4 |
-| 008 Reforma - General Prim | 1 / 16 | 0.21 | 0.00 | 0-2 |
+| 450 Ramos Arizpe- Av México Teno | 30 / 30 | 0.00 | 0.98 | 27-30 |
+| 260 Av. Juárez-Balderas | 1 / 20 | 0.70 | 0.00 | 0-2 |
+| 259 Tómas Alva Edison-Ponciano A | 26 / 27 | 0.00 | 0.49 | 24-27 |
+| 086 Sullivan-Insurgentes | 3 / 14 | 0.45 | 0.00 | 0-6 |
+| 012 Río Lerma - Villalongín | 1 / 15 | 0.37 | 0.00 | 0-3 |
+| 008 Reforma - General Prim | 1 / 16 | 0.29 | 0.00 | 0-2 |
+| 026 Reforma - Versalles | 1 / 15 | 0.24 | 0.00 | 0-4 |
+| 048 Independencia - Azueta | 2 / 11 | 0.12 | 0.00 | 1-4 |
+| 270 De la República-Ponciano Arr | 23 / 31 | 0.00 | 0.11 | 23-30 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 450 (30/30) a 116 (0/22)
-2. Llevar **5 bicis** de 259 (26/27) a 086 (4/14)
+1. Llevar **9 bicis** de 450 (30/30) a 116 (0/22)
+2. Llevar **6 bicis** de 259 (26/27) a 260 (1/20)
+3. Llevar **6 bicis** de 270 (23/31) a 086 (3/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
