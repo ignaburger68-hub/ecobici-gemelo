@@ -1,6 +1,6 @@
 hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variable,categoria,factor_retiros,factor_devoluciones
-2026-11-22 09:00,fin de semana,pronosticado,17.8,1.778,0.0,0.8,lluvia,sin lluvia,0.991,0.996
-2026-11-22 09:00,fin de semana,pronosticado,17.8,1.778,0.0,0.8,lluvia previa,seco antes,1.006,1.009
-2026-11-22 09:00,fin de semana,pronosticado,17.8,1.778,0.0,0.8,temperatura,más cálido (1 a 3 °C),1.039,1.054
-2026-11-22 09:00,fin de semana,pronosticado,17.8,1.778,0.0,0.8,viento,< 5 km/h,0.943,0.954
-2026-11-22 09:00,fin de semana,pronosticado,17.8,1.778,0.0,0.8,efecto total en la hora,,0.977,1.011
+2026-11-22 10:00,fin de semana,pronosticado,19.45,1.513,0.0,0.5,lluvia,sin lluvia,0.991,0.996
+2026-11-22 10:00,fin de semana,pronosticado,19.45,1.513,0.0,0.5,lluvia previa,seco antes,1.006,1.009
+2026-11-22 10:00,fin de semana,pronosticado,19.45,1.513,0.0,0.5,temperatura,más cálido (1 a 3 °C),1.039,1.054
+2026-11-22 10:00,fin de semana,pronosticado,19.45,1.513,0.0,0.5,viento,< 5 km/h,0.943,0.954
+2026-11-22 10:00,fin de semana,pronosticado,19.45,1.513,0.0,0.5,efecto total en la hora,,0.977,1.011
