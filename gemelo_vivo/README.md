@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 21/11/2026 20:43 (hora de Ciudad de México).
+Página actualizada automáticamente el 21/11/2026 20:57 (hora de Ciudad de México).
 
-## Último pronóstico: 21/11 20:43 a 21:43
+## Último pronóstico: 21/11 20:57 a 21:57
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **16.5 °C** · sin lluvia · viento 2 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.95** y las **devoluciones por 0.98** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.93** y las **devoluciones por 0.96** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.95** y las **devoluciones por 0.98** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 0 / 16 | 0.97 | 0.00 | 0-5 |
-| 026 Reforma - Versalles | 0 / 15 | 0.97 | 0.00 | 0-5 |
-| 041 Reforma - Av. de la Repúblic | 1 / 32 | 0.85 | 0.00 | 0-8 |
-| 010 Reforma - Ramírez | 1 / 27 | 0.71 | 0.00 | 0-6 |
-| 260 Av. Juárez-Balderas | 2 / 20 | 0.42 | 0.00 | 0-8 |
-| 115 Roma-Dinamarca | 3 / 27 | 0.34 | 0.00 | 0-7 |
-| 003 Reforma - Insurgentes | 4 / 31 | 0.27 | 0.00 | 1-10 |
-| 048 Independencia - Azueta | 8 / 11 | 0.01 | 0.19 | 5-10 |
-| 086 Sullivan-Insurgentes | 10 / 15 | 0.00 | 0.12 | 7-14 |
+| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-2 |
+| 026 Reforma - Versalles | 0 / 15 | 0.98 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 1 / 16 | 0.82 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 32 | 0.81 | 0.00 | 0-7 |
+| 003 Reforma - Insurgentes | 1 / 31 | 0.73 | 0.00 | 0-6 |
+| 010 Reforma - Ramírez | 2 / 27 | 0.57 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 2 / 21 | 0.47 | 0.00 | 0-6 |
+| 115 Roma-Dinamarca | 3 / 26 | 0.36 | 0.00 | 0-6 |
+| 048 Independencia - Azueta | 8 / 11 | 0.00 | 0.17 | 5-10 |
+| 029 Reforma - Bucareli | 6 / 33 | 0.10 | 0.00 | 2-11 |
 
 ### Plan recomendado del camión
 
-1. Llevar **17 bicis** de 450 (26/30) a 041 (1/32)
-2. Llevar **7 bicis** de 270 (26/32) a 008 (0/16)
-3. Llevar **7 bicis** de 259 (24/27) a 026 (0/15)
+1. Llevar **15 bicis** de 450 (26/30) a 041 (1/32)
+2. Llevar **8 bicis** de 270 (25/32) a 026 (0/15)
+3. Llevar **9 bicis** de 259 (24/27) a 008 (1/16)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-356 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+357 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
