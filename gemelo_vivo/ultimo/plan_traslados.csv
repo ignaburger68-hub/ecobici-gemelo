@@ -1,9 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,12,25,26,0,30,,5.0,14.029692284105732
-Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,12,25,26,0,30,,5.0,14.029692284105732
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,12,25,26,0,30,,5.0,14.029692284105732
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,12,25,26,0,30,,5.0,14.029692284105732
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,12,25,26,0,30,,5.0,14.029692284105732
-Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,17,25,26,0,30,6.821000337600708,5.0,12.683940982773784
-Gemelo (voraz),2,107-108,Tolsa-Balderas,029,Reforma - Bucareli,15,23,59,1,32,3.2570000113919377,22.39557859340475,31.83205250093797
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,085,Rosas Moreno - Sullivan,8,13,30,0,15,3.0320000369101763,39.688175310667326,52.54072449323742
+Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,27,,5.0,12.405872839800208
+Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,27,,5.0,12.405872839800208
+Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,27,,5.0,12.405872839800208
+Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,27,,5.0,12.405872839800208
+Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,27,,5.0,12.405872839800208
+Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,15,25,26,2,30,5.8119999170303345,5.0,12.683940982773784
+Gemelo (voraz),2,107-108,Tolsa-Balderas,029,Reforma - Bucareli,15,24,59,1,33,3.7610000651329756,22.39557859340475,31.83205250093797
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,9,19,32,0,27,3.345999836921692,41.253174126389005,50.2160075483546
