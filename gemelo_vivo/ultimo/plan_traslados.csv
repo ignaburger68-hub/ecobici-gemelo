@@ -1,9 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,24,26,0,30,,5.0,12.683940982773784
-Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,24,26,0,30,,5.0,12.683940982773784
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,24,26,0,30,,5.0,12.683940982773784
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,24,26,0,30,,5.0,12.683940982773784
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,24,26,0,30,,5.0,12.683940982773784
-Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,17,24,26,0,30,3.6249999552965164,5.0,12.683940982773784
-Gemelo (voraz),2,107-108,Tolsa-Balderas,029,Reforma - Bucareli,11,21,58,1,33,2.348999904585071,22.39557859340475,31.83205250093797
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,260,Av. Juárez-Balderas,9,14,29,0,20,1.9939999533817172,39.688175310667326,47.639352808408745
+Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,26,,5.0,12.405872839800208
+Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,26,,5.0,12.405872839800208
+Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,26,,5.0,12.405872839800208
+Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,26,,5.0,12.405872839800208
+Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,12,25,26,0,26,,5.0,12.405872839800208
+Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,008,Reforma - General Prim,11,25,26,0,17,3.447000026702881,5.0,14.112248278875189
+Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,041,Reforma - Av. de la República,12,20,33,2,30,2.6010000854730606,24.40490014075997,33.63188227711497
+Gemelo (voraz),3,107-108,Tolsa-Balderas,029,Reforma - Bucareli,10,21,58,1,33,2.5749999564141035,43.343519887745934,52.779993795279154
