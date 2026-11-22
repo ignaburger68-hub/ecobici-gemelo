@@ -1,19 +1,16 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,048,Independencia - Azueta,260,Av. Juárez-Balderas,5,11,11,0,17,,5.0,11.111801725177918
-Regla umbral 90/10,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,14,30,32,1,33,,17.496485840135904,28.927594121915178
-Regla umbral 90/10,3,026,Reforma - Versalles,115,Roma-Dinamarca,4,10,11,1,25,,38.494840996110725,46.466627294150214
-Regla umbral 85/15,1,048,Independencia - Azueta,260,Av. Juárez-Balderas,5,11,11,0,17,,5.0,11.111801725177918
-Regla umbral 85/15,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,14,30,32,1,33,,17.496485840135904,28.927594121915178
-Regla umbral 85/15,3,026,Reforma - Versalles,115,Roma-Dinamarca,4,10,11,1,25,,38.494840996110725,46.466627294150214
-Regla umbral 80/20,1,048,Independencia - Azueta,260,Av. Juárez-Balderas,5,11,11,0,17,,5.0,11.111801725177918
-Regla umbral 80/20,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,14,30,32,1,33,,17.496485840135904,28.927594121915178
-Regla umbral 80/20,3,026,Reforma - Versalles,115,Roma-Dinamarca,4,10,11,1,25,,38.494840996110725,46.466627294150214
-Regla umbral 75/25,1,048,Independencia - Azueta,260,Av. Juárez-Balderas,5,11,11,0,17,,5.0,11.111801725177918
-Regla umbral 75/25,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,14,30,32,1,33,,17.496485840135904,28.927594121915178
-Regla umbral 75/25,3,026,Reforma - Versalles,115,Roma-Dinamarca,4,10,11,1,25,,38.494840996110725,46.466627294150214
-Regla umbral 70/30,1,048,Independencia - Azueta,260,Av. Juárez-Balderas,5,11,11,0,17,,5.0,11.111801725177918
-Regla umbral 70/30,2,029,Reforma - Bucareli,255,José Rosas Moreno-Guillermo Prieto,14,30,32,1,33,,17.496485840135904,28.927594121915178
-Regla umbral 70/30,3,026,Reforma - Versalles,115,Roma-Dinamarca,4,10,11,1,25,,38.494840996110725,46.466627294150214
-Gemelo (voraz),1,029,Reforma - Bucareli,260,Av. Juárez-Balderas,9,30,32,0,17,3.6699999570846558,5.0,11.384684114957984
-Gemelo (voraz),2,048,Independencia - Azueta,115,Roma-Dinamarca,5,11,11,1,25,3.1859999895095825,17.496485840135904,29.907540423888676
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,085,Rosas Moreno - Sullivan,7,22,26,1,14,2.2399998903274536,39.96664285719876,49.895956093102235
+Regla umbral 90/10,1,048,Independencia - Azueta,255,José Rosas Moreno-Guillermo Prieto,4,10,11,1,33,,5.0,18.518149384913244
+Regla umbral 85/15,1,048,Independencia - Azueta,255,José Rosas Moreno-Guillermo Prieto,4,10,11,1,33,,5.0,18.518149384913244
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,23,26,1,25,,27.442871777266777,37.627994516026206
+Regla umbral 80/20,1,048,Independencia - Azueta,255,José Rosas Moreno-Guillermo Prieto,4,10,11,1,33,,5.0,18.518149384913244
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,23,26,1,25,,27.442871777266777,37.627994516026206
+Regla umbral 80/20,3,026,Reforma - Versalles,031,Hamburgo - Insurgentes,3,9,11,3,35,,45.5997808140657,54.949257315231826
+Regla umbral 75/25,1,048,Independencia - Azueta,255,José Rosas Moreno-Guillermo Prieto,4,10,11,1,33,,5.0,18.518149384913244
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,23,26,1,25,,27.442871777266777,37.627994516026206
+Regla umbral 75/25,3,026,Reforma - Versalles,031,Hamburgo - Insurgentes,3,9,11,3,35,,45.5997808140657,54.949257315231826
+Regla umbral 70/30,1,048,Independencia - Azueta,255,José Rosas Moreno-Guillermo Prieto,4,10,11,1,33,,5.0,18.518149384913244
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,23,26,1,25,,27.442871777266777,37.627994516026206
+Regla umbral 70/30,3,026,Reforma - Versalles,031,Hamburgo - Insurgentes,3,9,11,3,35,,45.5997808140657,54.949257315231826
+Gemelo (voraz),1,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,11,1,25,2.0799999237060547,5.0,17.411054583752772
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,031,Hamburgo - Insurgentes,10,20,27,3,35,1.1649999916553497,27.47015701706285,38.97664887977515
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,7,23,26,1,33,0.9469999969005585,50.604670970087675,59.52939336244121
