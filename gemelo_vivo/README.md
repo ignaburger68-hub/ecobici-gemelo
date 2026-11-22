@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 11:23 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 11:37 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 11:23 a 12:23
+## Último pronóstico: 22/11 11:37 a 12:37
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,39 +10,39 @@ Página actualizada automáticamente el 22/11/2026 11:23 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**20.9 °C** · sin lluvia · viento 1 km/h · día fin de semana
+**21.9 °C** · lluvia 0.1 mm/h · viento 2 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.95** y las **devoluciones por 0.98** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.93** y las **devoluciones por 0.96** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
-| lluvia | sin lluvia | 0.991 | 0.996 |
+| lluvia | ligera (<1 mm/h) | 0.901 | 0.896 |
 | lluvia previa | seco antes | 1.006 | 1.009 |
 | temperatura | más cálido (1 a 3 °C) | 1.039 | 1.054 |
 | viento | < 5 km/h | 0.943 | 0.954 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 112 Av. Morelos-Abraham González | 0 / 20 | 0.99 | 0.00 | 0-4 |
-| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-3 |
-| 116 Londres-Roma | 0 / 23 | 0.99 | 0.00 | 0-4 |
-| 026 Reforma - Versalles | 0 / 12 | 0.99 | 0.00 | 0-4 |
 | 085 Rosas Moreno - Sullivan | 0 / 14 | 0.99 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 0 / 20 | 0.99 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 0 / 13 | 0.99 | 0.00 | 0-4 |
-| 003 Reforma - Insurgentes | 0 / 30 | 0.99 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.96 | 0.00 | 0-7 |
-| 010 Reforma - Ramírez | 2 / 27 | 0.92 | 0.00 | 0-4 |
+| 113 General Prim-Versalles | 0 / 15 | 0.99 | 0.00 | 0-4 |
+| 115 Roma-Dinamarca | 0 / 26 | 0.98 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 1 / 21 | 0.95 | 0.00 | 0-6 |
+| 116 Londres-Roma | 1 / 23 | 0.95 | 0.00 | 0-4 |
+| 255 José Rosas Moreno-Guillermo  | 1 / 33 | 0.94 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 1 / 14 | 0.89 | 0.00 | 0-6 |
+| 008 Reforma - General Prim | 1 / 17 | 0.88 | 0.00 | 0-5 |
+| 112 Av. Morelos-Abraham González | 1 / 20 | 0.88 | 0.00 | 0-6 |
+| 010 Reforma - Ramírez | 3 / 27 | 0.85 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **19 bicis** de 270 (28/30) a 041 (1/29)
-2. Llevar **15 bicis** de 259 (25/26) a 020 (0/20)
-3. Llevar **14 bicis** de 107-108 (23/58) a 116 (0/23)
+1. Llevar **13 bicis** de 270 (25/30) a 020 (1/21)
+2. Llevar **15 bicis** de 259 (25/26) a 041 (5/29)
+3. Llevar **13 bicis** de 107-108 (21/59) a 010 (3/27)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-388 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+389 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
