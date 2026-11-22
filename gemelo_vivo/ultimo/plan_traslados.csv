@@ -1,15 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,26,0,20,,5.0,13.181778744078006
-Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,26,0,20,,5.0,13.181778744078006
-Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,26,0,20,,5.0,13.181778744078006
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,113,General Prim-Versalles,6,16,19,0,15,,20.77254115676501,30.382275162786616
-Regla umbral 80/20,3,048,Independencia - Azueta,116,Londres-Roma,3,9,11,0,23,,40.029570953832035,51.11502928744713
-Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,26,0,20,,5.0,13.181778744078006
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,113,General Prim-Versalles,6,16,19,0,15,,20.77254115676501,30.382275162786616
-Regla umbral 75/25,3,048,Independencia - Azueta,116,Londres-Roma,3,9,11,0,23,,40.029570953832035,51.11502928744713
-Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,26,0,20,,5.0,13.181778744078006
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,113,General Prim-Versalles,6,16,19,0,15,,20.77254115676501,30.382275162786616
-Regla umbral 70/30,3,048,Independencia - Azueta,116,Londres-Roma,3,9,11,0,23,,40.029570953832035,51.11502928744713
-Gemelo (voraz),1,260,Av. Juárez-Balderas,116,Londres-Roma,8,16,19,0,23,5.296000003814697,5.0,16.057354303232408
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,15,25,26,3,27,4.435000002384186,26.134498224146334,33.540371063946544
-Gemelo (voraz),3,048,Independencia - Azueta,085,Rosas Moreno - Sullivan,6,9,11,0,14,4.1230000257492065,43.16535250768994,56.76844047192361
+Regla umbral 90/10,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,25,0,20,,5.0,13.181778744078006
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,17,,20.77254115676501,31.892636445105765
+Regla umbral 85/15,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,25,0,20,,5.0,13.181778744078006
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,17,,20.77254115676501,31.892636445105765
+Regla umbral 80/20,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,25,0,20,,5.0,13.181778744078006
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,17,,20.77254115676501,31.892636445105765
+Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,020,Reforma- Río Támesis,9,24,29,0,20,,40.843554225293644,50.722407206986965
+Regla umbral 75/25,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,25,0,20,,5.0,13.181778744078006
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,17,,20.77254115676501,31.892636445105765
+Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,020,Reforma- Río Támesis,9,24,29,0,20,,40.843554225293644,50.722407206986965
+Regla umbral 70/30,1,259,Tómas Alva Edison-Ponciano Arriaga,112,Av. Morelos-Abraham González,10,25,25,0,20,,5.0,13.181778744078006
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,20,20,0,17,,20.77254115676501,31.892636445105765
+Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,020,Reforma- Río Támesis,9,24,29,0,20,,40.843554225293644,50.722407206986965
+Gemelo (voraz),1,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,12,20,20,0,20,9.176000118255615,5.0,17.271818815115534
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,14,25,25,3,27,4.962000250816345,27.200886754755984,34.606759594556195
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,10,24,29,0,17,3.8889999389648438,41.65587814276178,50.60679592294966
