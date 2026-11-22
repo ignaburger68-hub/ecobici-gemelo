@@ -1,16 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,29,30,0,15,,5.0,13.638683117947258
+Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,11,25,27,2,30,,21.519841878269027,30.54953416237476
 Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,29,30,0,15,,5.0,13.638683117947258
-Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,24,27,0,26,,21.519841878269027,31.70496461702846
+Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,11,25,27,2,30,,21.519841878269027,30.54953416237476
 Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,29,30,0,15,,5.0,13.638683117947258
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,24,27,0,26,,21.519841878269027,31.70496461702846
-Regla umbral 80/20,3,114,Lucerna-Abraham González,003,Reforma - Insurgentes,7,19,23,1,29,,40.0392952118326,48.130514496254854
+Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,11,25,27,2,30,,21.519841878269027,30.54953416237476
 Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,29,30,0,15,,5.0,13.638683117947258
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,24,27,0,26,,21.519841878269027,31.70496461702846
-Regla umbral 75/25,3,114,Lucerna-Abraham González,003,Reforma - Insurgentes,7,19,23,1,29,,40.0392952118326,48.130514496254854
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,11,25,27,2,30,,21.519841878269027,30.54953416237476
+Regla umbral 75/25,3,114,Lucerna-Abraham González,010,Reforma - Ramírez,6,18,23,2,27,,38.640753446797014,46.340267718364295
 Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,7,29,30,0,15,,5.0,13.638683117947258
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,10,24,27,0,26,,21.519841878269027,31.70496461702846
-Regla umbral 70/30,3,114,Lucerna-Abraham González,003,Reforma - Insurgentes,7,19,23,1,29,,40.0392952118326,48.130514496254854
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,10,29,30,0,15,2.0550000071525574,5.0,13.638683117947258
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,9,24,27,0,26,1.3829999789595604,21.519841878269027,31.70496461702846
-Gemelo (voraz),3,114,Lucerna-Abraham González,003,Reforma - Insurgentes,9,19,23,1,29,1.0600000410340726,40.0392952118326,48.130514496254854
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,11,25,27,2,30,,21.519841878269027,30.54953416237476
+Regla umbral 70/30,3,114,Lucerna-Abraham González,010,Reforma - Ramírez,6,18,23,2,27,,38.640753446797014,46.340267718364295
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,8,29,30,0,15,1.855000078678131,5.0,13.638683117947258
+Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,003,Reforma - Insurgentes,10,25,27,2,30,0.7670000195503235,21.519841878269027,30.54953416237476
