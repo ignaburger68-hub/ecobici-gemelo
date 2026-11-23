@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 15:15 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 15:29 (hora de Ciudad de México).
 
-## Último pronóstico: 23/11 15:15 a 16:15
+## Último pronóstico: 23/11 15:29 a 16:29
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,29 +24,29 @@ El clima multiplica los **retiros por 0.83** y las **devoluciones por 0.87** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 085 Rosas Moreno - Sullivan | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.98 | 0.00 | 0-6 |
-| 041 Reforma - Av. de la Repúblic | 0 / 32 | 0.96 | 0.00 | 0-6 |
-| 010 Reforma - Ramírez | 1 / 26 | 0.95 | 0.00 | 0-4 |
-| 270 De la República-Ponciano Arr | 1 / 27 | 0.87 | 0.00 | 0-6 |
-| 112 Av. Morelos-Abraham González | 1 / 19 | 0.86 | 0.00 | 0-6 |
-| 026 Reforma - Versalles | 3 / 11 | 0.85 | 0.00 | 0-4 |
-| 255 José Rosas Moreno-Guillermo  | 1 / 33 | 0.85 | 0.00 | 0-5 |
-| 118 Liverpool-Dinamarca | 2 / 18 | 0.79 | 0.00 | 0-6 |
-| 260 Av. Juárez-Balderas | 3 / 19 | 0.76 | 0.00 | 0-7 |
+| 026 Reforma - Versalles | 0 / 11 | 1.00 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 0 / 19 | 0.99 | 0.00 | 0-5 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 0 / 32 | 0.96 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 2 / 26 | 0.93 | 0.00 | 0-5 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 26 | 0.83 | 0.00 | 0-5 |
+| 270 De la República-Ponciano Arr | 2 / 27 | 0.73 | 0.00 | 0-7 |
+| 255 José Rosas Moreno-Guillermo  | 2 / 33 | 0.71 | 0.00 | 0-6 |
+| 112 Av. Morelos-Abraham González | 2 / 20 | 0.65 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 117 (26/29) a 010 (1/26)
-2. Llevar **13 bicis** de 031 (24/35) a 041 (0/32)
-3. Llevar **10 bicis** de 029 (19/34) a 260 (3/19)
+1. Llevar **9 bicis** de 031 (23/35) a 026 (0/11)
+2. Llevar **12 bicis** de 117 (23/29) a 010 (2/26)
+3. Llevar **9 bicis** de 029 (19/34) a 020 (0/19)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-475 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+476 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.117 | 0.032 |
+| Gemelo | 0.118 | 0.032 |
 | Sin resincronizar | 0.254 | 0.087 |
 | Persistencia | 0.291 | 0.061 |
 | Persistencia 0/1 | 0.291 | 0.061 |
