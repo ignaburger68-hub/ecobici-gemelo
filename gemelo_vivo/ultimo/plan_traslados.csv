@@ -1,7 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,117,Londres-Nápoles,010,Reforma - Ramírez,7,22,29,0,25,,5.0,14.582930070070905
-Regla umbral 70/30,1,117,Londres-Nápoles,010,Reforma - Ramírez,7,22,29,0,25,,5.0,14.582930070070905
-Regla umbral 70/30,2,031,Hamburgo - Insurgentes,085,Rosas Moreno - Sullivan,2,26,35,0,5,,24.18983827676413,32.79742332538969
-Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,12,21,34,0,25,3.2929999083280563,5.0,12.783949118376132
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,10,26,35,1,18,2.4079999700188637,22.39085732506936,29.156227433579968
-Gemelo (voraz),3,116,Londres-Roma,026,Reforma - Versalles,5,14,22,1,11,1.9810000285506248,35.475668832082654,42.74758887698608
+Regla umbral 70/30,1,031,Hamburgo - Insurgentes,026,Reforma - Versalles,5,26,35,0,11,,5.0,14.349476501166123
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,20,34,0,26,2.5910000801086426,5.0,12.783949118376132
+Gemelo (voraz),2,031,Hamburgo - Insurgentes,003,Reforma - Insurgentes,10,26,35,0,26,2.005000039935112,22.39085732506936,29.99123760458064
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,6,10,29,1,18,1.8289999822154641,40.17040642045709,52.37079247091817
