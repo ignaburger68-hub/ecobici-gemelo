@@ -1,6 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,15,19,0,8,,5.0,14.23323688937522
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,15,19,0,8,,5.0,14.23323688937522
-Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,14,17,26,4,29,7.818999648094177,5.0,11.73221390052828
-Gemelo (voraz),2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,7,7,16,0,12,6.93500018119812,24.348823797010983,32.46413371780037
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,031,Hamburgo - Insurgentes,10,17,26,2,35,2.3000001832842827,43.396540142787195,55.41886122045395
+Regla umbral 80/20,1,118,Liverpool-Dinamarca,026,Reforma - Versalles,4,13,16,0,8,,5.0,13.56613845726512
+Regla umbral 75/25,1,118,Liverpool-Dinamarca,026,Reforma - Versalles,4,13,16,0,8,,5.0,13.56613845726512
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,15,19,0,14,,22.79937534664034,33.919470634981096
+Regla umbral 70/30,1,118,Liverpool-Dinamarca,026,Reforma - Versalles,4,13,16,0,8,,5.0,13.56613845726512
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,15,19,0,14,,22.79937534664034,33.919470634981096
+Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,13,13,16,1,30,14.044000148773193,5.0,17.616609896482704
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,10,15,26,0,12,6.878000378608704,29.693013142269308,40.62541956725613
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,116,Londres-Roma,7,15,26,1,23,2.2160000056028366,49.49016852445851,59.56731244537244
