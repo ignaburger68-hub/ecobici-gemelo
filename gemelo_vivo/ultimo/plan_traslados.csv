@@ -1,12 +1,12 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
-Regla umbral 85/15,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
-Regla umbral 80/20,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,8,21,26,1,25,,21.67417030484849,31.859293043607924
-Regla umbral 75/25,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,8,21,26,1,25,,21.67417030484849,31.859293043607924
-Regla umbral 70/30,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,115,Roma-Dinamarca,8,21,26,1,25,,21.67417030484849,31.859293043607924
-Gemelo (voraz),1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,16,32,33,0,28,4.426999926567078,5.0,14.499211720476076
-Gemelo (voraz),2,041,Reforma - Av. de la República,115,Roma-Dinamarca,6,15,25,1,25,1.4180000126361847,23.947702761121057,34.94804455433972
-Gemelo (voraz),3,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,13,19,2,17,0.7049999684095383,47.128982382419906,58.24907767076066
+Regla umbral 90/10,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,32,33,0,25,,5.0,15.869682168515716
+Regla umbral 85/15,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,32,33,0,25,,5.0,15.869682168515716
+Regla umbral 80/20,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,32,33,0,25,,5.0,15.869682168515716
+Regla umbral 75/25,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,32,33,0,25,,5.0,15.869682168515716
+Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,7,20,26,2,26,,26.054804907275148,33.46067774707536
+Regla umbral 70/30,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,32,33,0,25,,5.0,15.869682168515716
+Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,010,Reforma - Ramírez,7,20,26,2,26,,26.054804907275148,33.46067774707536
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,4,14,19,1,12,,42.61663920311901,54.07751353126221
+Gemelo (voraz),1,029,Reforma - Bucareli,115,Roma-Dinamarca,11,32,33,0,25,3.4320000410079956,5.0,15.869682168515716
+Gemelo (voraz),2,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,6,14,19,1,12,1.9220000505447388,28.050619996595906,39.51149432473912
+Gemelo (voraz),3,041,Reforma - Av. de la República,010,Reforma - Ramírez,7,17,27,2,26,1.5029999613761902,49.670729352920596,57.5420359243812
