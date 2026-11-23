@@ -1,7 +1,7 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,031,Hamburgo - Insurgentes,026,Reforma - Versalles,5,29,35,0,11,,5.0,14.349476501166123
-Regla umbral 75/25,1,031,Hamburgo - Insurgentes,026,Reforma - Versalles,5,29,35,0,11,,5.0,14.349476501166123
-Regla umbral 70/30,1,031,Hamburgo - Insurgentes,026,Reforma - Versalles,5,29,35,0,11,,5.0,14.349476501166123
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,13,29,35,0,26,4.609000135213137,5.0,14.606908206693227
-Gemelo (voraz),2,029,Reforma - Bucareli,003,Reforma - Insurgentes,11,20,34,0,26,3.0710001699626446,22.39085732506936,32.281472967461966
-Gemelo (voraz),3,116,Londres-Roma,026,Reforma - Versalles,6,10,22,0,11,2.614999983459711,39.13087389627016,46.402793941173584
+Regla umbral 75/25,1,029,Reforma - Bucareli,010,Reforma - Ramírez,9,26,34,0,26,,5.0,12.783949118376132
+Regla umbral 70/30,1,029,Reforma - Bucareli,010,Reforma - Ramírez,9,26,34,0,26,,5.0,12.783949118376132
+Regla umbral 70/30,2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,8,26,35,0,18,,22.39085732506936,29.156227433579968
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,14,26,34,0,26,5.494000226259232,5.0,12.783949118376132
+Gemelo (voraz),2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,6,9,20,1,19,2.7509999573230743,21.939910574419777,34.21172938953531
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,003,Reforma - Insurgentes,10,26,35,1,26,2.7030001133680344,40.99441521372224,48.594795493233526
