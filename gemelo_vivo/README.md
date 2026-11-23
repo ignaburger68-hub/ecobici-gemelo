@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 05:52 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 06:07 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 22:48 a 23:48
+## Último pronóstico: 23/11 06:06 a 07:06
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,34 +10,35 @@ Página actualizada automáticamente el 23/11/2026 05:52 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**13.5 °C** · sin lluvia · viento 4 km/h · día fin de semana
+**12.3 °C** · sin lluvia · viento 0 km/h · día hábil
 
-El clima multiplica los **retiros por 0.92** y las **devoluciones por 0.94** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.00** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
-| lluvia | sin lluvia | 0.991 | 0.996 |
-| lluvia previa | seco antes | 1.006 | 1.009 |
-| temperatura | normal (±1 °C) | 0.977 | 0.981 |
-| viento | < 5 km/h | 0.943 | 0.954 |
+| lluvia | sin lluvia | 0.988 | 0.981 |
+| lluvia previa | seco antes | 0.990 | 1.001 |
+| temperatura | más cálido (1 a 3 °C) | 1.019 | 1.036 |
+| viento | < 5 km/h | 0.988 | 0.985 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 0.99 | 31-33 |
-| 003 Reforma - Insurgentes | 0 / 26 | 0.99 | 0.00 | 0-3 |
-| 086 Sullivan-Insurgentes | 0 / 12 | 0.98 | 0.00 | 0-4 |
-| 048 Independencia - Azueta | 1 / 11 | 0.54 | 0.00 | 0-2 |
-| 008 Reforma - General Prim | 1 / 17 | 0.53 | 0.00 | 0-3 |
-| 119 Turín-Abraham González | 3 / 27 | 0.14 | 0.00 | 1-5 |
-| 098 Emilio Dondé-Av. Balderas | 23 / 27 | 0.00 | 0.13 | 22-26 |
-| 112 Av. Morelos-Abraham González | 3 / 20 | 0.07 | 0.00 | 1-5 |
-| 117 Londres-Nápoles | 3 / 30 | 0.07 | 0.00 | 1-5 |
-| 026 Reforma - Versalles | 4 / 11 | 0.05 | 0.00 | 1-5 |
+| 048 Independencia - Azueta | 0 / 11 | 1.00 | 0.00 | 0-2 |
+| 086 Sullivan-Insurgentes | 0 / 12 | 0.99 | 0.00 | 0-3 |
+| 008 Reforma - General Prim | 0 / 16 | 0.99 | 0.00 | 0-3 |
+| 450 Ramos Arizpe- Av México Teno | 0 / 10 | 0.98 | 0.00 | 0-3 |
+| 085 Rosas Moreno - Sullivan | 0 / 5 | 0.98 | 0.27 | 1-5 |
+| 020 Reforma- Río Támesis | 0 / 14 | 0.97 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 0 / 8 | 0.95 | 0.06 | 1-7 |
+| 112 Av. Morelos-Abraham González | 1 / 20 | 0.55 | 0.00 | 0-5 |
+| 003 Reforma - Insurgentes | 1 / 26 | 0.43 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 18 / 19 | 0.01 | 0.38 | 10-18 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 029 (33/33) a 003 (0/26)
-2. Llevar **5 bicis** de 098 (23/27) a 086 (0/12)
+1. Llevar **8 bicis** de 010 (10/25) a 086 (0/12)
+2. Llevar **6 bicis** de 260 (18/19) a 048 (0/11)
+3. Llevar **11 bicis** de 259 (17/26) a 555 (6/31)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 

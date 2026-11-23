@@ -1,12 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,33,33,0,26,,5.0,14.890615642392609
-Regla umbral 85/15,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,33,33,0,26,,5.0,14.890615642392609
-Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,6,23,27,0,12,,25.36608099290973,36.29848741789655
-Regla umbral 80/20,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,33,33,0,26,,5.0,14.890615642392609
-Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,6,23,27,0,12,,25.36608099290973,36.29848741789655
-Regla umbral 75/25,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,33,33,0,26,,5.0,14.890615642392609
-Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,6,23,27,0,12,,25.36608099290973,36.29848741789655
-Regla umbral 70/30,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,33,33,0,26,,5.0,14.890615642392609
-Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,6,23,27,0,12,,25.36608099290973,36.29848741789655
-Gemelo (voraz),1,029,Reforma - Bucareli,003,Reforma - Insurgentes,9,33,33,0,26,2.5649999380111694,5.0,14.890615642392609
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,5,23,27,0,12,1.1910000368952751,25.36608099290973,36.29848741789655
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,18,19,0,8,,5.0,14.23323688937522
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,18,19,0,8,,5.0,14.23323688937522
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,18,19,0,8,,5.0,14.23323688937522
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,18,19,0,8,,5.0,14.23323688937522
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,18,19,0,8,,5.0,14.23323688937522
+Gemelo (voraz),1,010,Reforma - Ramírez,086,Sullivan-Insurgentes,8,10,25,0,12,4.214000105857849,5.0,12.305117700416709
+Gemelo (voraz),2,260,Av. Juárez-Balderas,048,Independencia - Azueta,6,18,19,0,11,2.17099991440773,23.765992028559918,29.877793753737834
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,11,17,26,6,31,1.309999980032444,39.78607391735288,46.51828781788116
