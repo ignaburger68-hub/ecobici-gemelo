@@ -1,12 +1,11 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,117,Londres-Nápoles,041,Reforma - Av. de la República,11,26,29,0,32,,5.0,17.235547042389435
-Regla umbral 80/20,1,117,Londres-Nápoles,041,Reforma - Av. de la República,11,26,29,0,32,,5.0,17.235547042389435
-Regla umbral 80/20,2,048,Independencia - Azueta,270,De la República-Ponciano Arriaga,3,9,11,0,26,,24.460113589929392,33.766075104221144
-Regla umbral 75/25,1,117,Londres-Nápoles,041,Reforma - Av. de la República,11,26,29,0,32,,5.0,17.235547042389435
-Regla umbral 75/25,2,048,Independencia - Azueta,270,De la República-Ponciano Arriaga,3,9,11,0,26,,24.460113589929392,33.766075104221144
-Regla umbral 70/30,1,117,Londres-Nápoles,041,Reforma - Av. de la República,11,26,29,0,32,,5.0,17.235547042389435
-Regla umbral 70/30,2,048,Independencia - Azueta,270,De la República-Ponciano Arriaga,3,9,11,0,26,,24.460113589929392,33.766075104221144
-Regla umbral 70/30,3,115,Roma-Dinamarca,260,Av. Juárez-Balderas,6,18,24,0,20,,43.825177537531225,56.006115365611414
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,15,26,29,0,28,5.250000357627869,5.0,17.87317105006021
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,9,13,29,0,32,3.562000021338463,25.278628164174783,32.258481580941464
-Gemelo (voraz),3,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,8,18,24,0,26,3.4870000183582306,43.25882337416012,53.3179258074702
+Regla umbral 90/10,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,30,0,27,,5.0,15.363431750601787
+Regla umbral 85/15,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,30,0,27,,5.0,15.363431750601787
+Regla umbral 80/20,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,30,0,27,,5.0,15.363431750601787
+Regla umbral 75/25,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,30,0,27,,5.0,15.363431750601787
+Regla umbral 70/30,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,13,29,30,0,27,,5.0,15.363431750601787
+Regla umbral 70/30,2,048,Independencia - Azueta,041,Reforma - Av. de la República,2,8,11,0,32,,26.945572527144275,34.170139074684236
+Regla umbral 70/30,3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,5,17,24,0,14,,45.170480867902896,51.64888415574968
+Gemelo (voraz),1,117,Londres-Nápoles,041,Reforma - Av. de la República,15,29,30,0,32,5.956000089645386,5.0,17.235547042389435
+Gemelo (voraz),2,116,Londres-Roma,107-108,Tolsa-Balderas,8,12,21,1,56,3.535999983549118,27.308177701830537,36.30344275134362
+Gemelo (voraz),3,029,Reforma - Bucareli,555,Ribera de San Cosme - Insurgentes Centro,9,16,33,2,29,3.1059999614953995,45.73991665887684,55.16103828432787
