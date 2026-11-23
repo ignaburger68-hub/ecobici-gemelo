@@ -1,8 +1,8 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
-Regla umbral 75/25,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
-Regla umbral 70/30,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
-Regla umbral 70/30,2,115,Roma-Dinamarca,008,Reforma - General Prim,5,17,23,0,17,,21.413228159094572,27.535886734217172
-Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,18,20,30,1,57,14.486999869346619,5.0,15.86684333071258
-Gemelo (voraz),2,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,12,17,23,1,25,8.508000373840332,26.588655679451602,36.64775811276168
-Gemelo (voraz),3,026,Reforma - Versalles,086,Sullivan-Insurgentes,7,9,11,0,12,4.856999754905701,44.13583050700838,51.45199955005307
+Regla umbral 80/20,1,115,Roma-Dinamarca,003,Reforma - Insurgentes,8,20,24,0,26,,5.0,11.155432601398967
+Regla umbral 75/25,1,115,Roma-Dinamarca,003,Reforma - Insurgentes,8,20,24,0,26,,5.0,11.155432601398967
+Regla umbral 70/30,1,115,Roma-Dinamarca,003,Reforma - Insurgentes,8,20,24,0,26,,5.0,11.155432601398967
+Regla umbral 70/30,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,6,21,29,0,27,,18.905882504225488,29.269314254827275
+Gemelo (voraz),1,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,15,21,29,0,25,10.889999628067017,5.0,16.563019873060178
+Gemelo (voraz),2,115,Roma-Dinamarca,010,Reforma - Ramírez,13,20,24,1,27,8.441999435424805,26.622122306370255,34.80914845056221
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,7,9,26,0,12,4.960000395774841,43.81327471882768,54.7456811438145
