@@ -1,6 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,3,10,13,0,26,,5.0,12.305117700416709
-Regla umbral 70/30,1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,3,10,13,0,26,,5.0,12.305117700416709
-Gemelo (voraz),1,260,Av. Juárez-Balderas,115,Roma-Dinamarca,11,12,19,0,24,8.839999437332153,5.0,17.18093782808019
-Gemelo (voraz),2,086,Sullivan-Insurgentes,010,Reforma - Ramírez,7,10,13,0,26,5.237999618053436,23.659341115926967,30.964458816343676
-Gemelo (voraz),3,029,Reforma - Bucareli,113,General Prim-Versalles,10,18,31,0,14,4.568000286817551,38.74840793471981,47.22036196570664
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,16,20,0,26,,5.0,16.242051804680216
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,6,16,20,0,26,,5.0,16.242051804680216
+Gemelo (voraz),1,260,Av. Juárez-Balderas,117,Londres-Nápoles,14,16,20,0,27,12.362999677658081,5.0,18.287172057491397
+Gemelo (voraz),2,029,Reforma - Bucareli,115,Roma-Dinamarca,15,20,32,1,24,8.059999734163284,30.353478650523883,41.2231608190396
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,8,12,26,1,26,4.023000091314316,52.46953074344138,61.43236416540697
