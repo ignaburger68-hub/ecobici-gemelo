@@ -1,11 +1,9 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,6,15,18,0,32,,5.0,16.387306695383998
-Regla umbral 75/25,1,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,6,15,18,0,32,,5.0,16.387306695383998
-Regla umbral 75/25,2,117,Londres-Nápoles,048,Independencia - Azueta,5,24,30,0,11,,28.622853737773433,41.95943370418289
-Regla umbral 75/25,3,115,Roma-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,6,19,25,0,29,,54.370488287935665,65.61685821233745
-Regla umbral 70/30,1,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,6,15,18,0,32,,5.0,16.387306695383998
-Regla umbral 70/30,2,117,Londres-Nápoles,048,Independencia - Azueta,5,24,30,0,11,,28.622853737773433,41.95943370418289
-Regla umbral 70/30,3,115,Roma-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,6,19,25,0,29,,54.370488287935665,65.61685821233745
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,24,30,0,29,6.3349999487400055,5.0,17.87317105006021
-Gemelo (voraz),2,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,7,15,18,0,32,3.2599999457597733,30.489780946542915,41.87708764192691
-Gemelo (voraz),3,029,Reforma - Bucareli,086,Sullivan-Insurgentes,8,16,34,1,14,2.6659999638795853,47.152578619338456,57.238415634182864
+Regla umbral 80/20,1,117,Londres-Nápoles,041,Reforma - Av. de la República,10,25,30,0,32,,5.0,17.235547042389435
+Regla umbral 75/25,1,117,Londres-Nápoles,041,Reforma - Av. de la República,10,25,30,0,32,,5.0,17.235547042389435
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,5,14,18,0,27,,28.622853737773433,38.889169796546845
+Regla umbral 70/30,1,117,Londres-Nápoles,041,Reforma - Av. de la República,10,25,30,0,32,,5.0,17.235547042389435
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,5,14,18,0,27,,28.622853737773433,38.889169796546845
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,25,30,1,29,6.079000025987625,5.0,17.87317105006021
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,9,13,30,0,32,4.194000288844109,25.278628164174783,32.258481580941464
+Gemelo (voraz),3,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,6,11,23,0,27,3.0879998058080673,41.38970715613935,51.35092743858377
