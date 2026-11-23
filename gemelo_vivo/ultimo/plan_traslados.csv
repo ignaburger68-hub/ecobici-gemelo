@@ -1,7 +1,5 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,029,Reforma - Bucareli,010,Reforma - Ramírez,9,26,34,0,26,,5.0,12.783949118376132
-Regla umbral 70/30,1,029,Reforma - Bucareli,010,Reforma - Ramírez,9,26,34,0,26,,5.0,12.783949118376132
-Regla umbral 70/30,2,031,Hamburgo - Insurgentes,118,Liverpool-Dinamarca,8,26,35,0,18,,22.39085732506936,29.156227433579968
-Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,14,26,34,0,26,5.494000226259232,5.0,12.783949118376132
-Gemelo (voraz),2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,6,9,20,1,19,2.7509999573230743,21.939910574419777,34.21172938953531
-Gemelo (voraz),3,031,Hamburgo - Insurgentes,003,Reforma - Insurgentes,10,26,35,1,26,2.7030001133680344,40.99441521372224,48.594795493233526
+Regla umbral 70/30,1,029,Reforma - Bucareli,010,Reforma - Ramírez,7,24,33,0,26,,5.0,12.783949118376132
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,14,24,33,0,26,7.465999484062195,5.0,12.783949118376132
+Gemelo (voraz),2,116,Londres-Roma,115,Roma-Dinamarca,11,15,22,1,24,5.709999680519104,20.481337051822578,27.211187254537737
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,020,Reforma- Río Támesis,7,9,28,0,19,4.348999947309494,38.235335041604216,49.596612801329485
