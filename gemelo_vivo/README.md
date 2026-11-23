@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 19:42 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 19:56 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 19:42 a 20:42
+## Último pronóstico: 22/11 19:56 a 20:56
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.8 °C** · sin lluvia · viento 4 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.66** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.64** y las **devoluciones por 0.70** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.66** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 112 Av. Morelos-Abraham González | 0 / 20 | 0.98 | 0.00 | 0-4 |
-| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 0.96 | 24-32 |
-| 010 Reforma - Ramírez | 1 / 26 | 0.85 | 0.00 | 0-6 |
-| 008 Reforma - General Prim | 1 / 17 | 0.81 | 0.00 | 0-6 |
-| 115 Roma-Dinamarca | 1 / 25 | 0.74 | 0.00 | 0-6 |
-| 086 Sullivan-Insurgentes | 2 / 12 | 0.61 | 0.00 | 0-5 |
-| 048 Independencia - Azueta | 2 / 11 | 0.52 | 0.00 | 0-5 |
-| 260 Av. Juárez-Balderas | 16 / 19 | 0.00 | 0.48 | 11-19 |
-| 003 Reforma - Insurgentes | 5 / 26 | 0.34 | 0.00 | 1-10 |
-| 114 Lucerna-Abraham González | 2 / 22 | 0.31 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 0 / 26 | 0.98 | 0.00 | 0-6 |
+| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 0.97 | 25-33 |
+| 008 Reforma - General Prim | 1 / 17 | 0.83 | 0.00 | 0-6 |
+| 086 Sullivan-Insurgentes | 1 / 12 | 0.78 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 1 / 11 | 0.76 | 0.01 | 0-6 |
+| 260 Av. Juárez-Balderas | 17 / 19 | 0.00 | 0.63 | 12-19 |
+| 115 Roma-Dinamarca | 2 / 25 | 0.61 | 0.00 | 0-7 |
+| 048 Independencia - Azueta | 2 / 11 | 0.53 | 0.00 | 0-5 |
+| 270 De la República-Ponciano Arr | 4 / 24 | 0.45 | 0.00 | 0-7 |
+| 555 Ribera de San Cosme - Insurg | 3 / 31 | 0.43 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 029 (33/33) a 010 (1/26)
-2. Llevar **7 bicis** de 260 (16/19) a 008 (1/17)
-3. Llevar **11 bicis** de 259 (17/26) a 115 (1/25)
+1. Llevar **13 bicis** de 029 (33/33) a 010 (0/26)
+2. Llevar **8 bicis** de 260 (17/19) a 008 (1/17)
+3. Llevar **10 bicis** de 098 (20/27) a 115 (2/25)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-423 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+424 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
