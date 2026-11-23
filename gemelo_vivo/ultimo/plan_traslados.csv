@@ -1,6 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,117,Londres-Nápoles,026,Reforma - Versalles,5,23,29,0,11,,5.0,14.265170149388133
-Regla umbral 70/30,1,117,Londres-Nápoles,026,Reforma - Versalles,5,23,29,0,11,,5.0,14.265170149388133
-Gemelo (voraz),1,031,Hamburgo - Insurgentes,026,Reforma - Versalles,9,23,35,0,11,5.670999810099602,5.0,14.349476501166123
-Gemelo (voraz),2,117,Londres-Nápoles,010,Reforma - Ramírez,12,23,29,2,26,5.005999982357025,23.614646650554256,33.197576720625165
-Gemelo (voraz),3,029,Reforma - Bucareli,020,Reforma- Río Támesis,9,19,34,0,19,3.440000008791685,40.98152583900129,51.905273128171004
+Gemelo (voraz),1,031,Hamburgo - Insurgentes,010,Reforma - Ramírez,13,21,35,0,24,6.521000012755394,5.0,14.606908206693227
+Gemelo (voraz),2,029,Reforma - Bucareli,260,Av. Juárez-Balderas,10,19,34,2,20,4.053000371903181,22.39085732506936,28.775541440027343
+Gemelo (voraz),3,117,Londres-Nápoles,026,Reforma - Versalles,8,20,29,1,11,3.693000167608261,42.06271349751874,51.327883646906876
