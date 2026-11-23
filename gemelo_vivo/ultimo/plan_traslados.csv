@@ -1,14 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,,5.0,12.783949118376132
-Regla umbral 85/15,1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,,5.0,12.783949118376132
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,1,17,,21.939910574419777,33.06000586276053
-Regla umbral 80/20,1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,,5.0,12.783949118376132
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,1,17,,21.939910574419777,33.06000586276053
-Regla umbral 75/25,1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,,5.0,12.783949118376132
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,1,17,,21.939910574419777,33.06000586276053
-Regla umbral 70/30,1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,,5.0,12.783949118376132
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,17,19,1,17,,21.939910574419777,33.06000586276053
-Regla umbral 70/30,3,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,6,20,27,2,25,,43.294950079533415,54.31909786659989
-Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,13,33,33,0,26,5.58299994468689,5.0,12.783949118376132
-Gemelo (voraz),2,260,Av. Juárez-Balderas,008,Reforma - General Prim,8,17,19,1,17,3.3149999380111694,21.939910574419777,33.06000586276053
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,10,20,27,2,25,1.4020000486634672,43.294950079533415,54.31909786659989
+Regla umbral 90/10,1,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,0,11,,5.0,12.9004445055547
+Regla umbral 85/15,1,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,0,11,,5.0,12.9004445055547
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,010,Reforma - Ramírez,7,17,19,0,26,,22.133681394929923,31.289642850973568
+Regla umbral 80/20,1,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,0,11,,5.0,12.9004445055547
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,010,Reforma - Ramírez,7,17,19,0,26,,22.133681394929923,31.289642850973568
+Regla umbral 75/25,1,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,0,11,,5.0,12.9004445055547
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,010,Reforma - Ramírez,7,17,19,0,26,,22.133681394929923,31.289642850973568
+Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,7,20,26,0,21,,38.695515690773775,48.69027061862761
+Regla umbral 70/30,1,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,0,11,,5.0,12.9004445055547
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,010,Reforma - Ramírez,7,17,19,0,26,,22.133681394929923,31.289642850973568
+Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,7,20,26,0,21,,38.695515690773775,48.69027061862761
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,14,33,33,0,26,5.440999984741211,5.0,12.783949118376132
+Gemelo (voraz),2,260,Av. Juárez-Balderas,026,Reforma - Versalles,6,17,19,0,11,3.1569998264312744,21.939910574419777,31.173147463794997
+Gemelo (voraz),3,256,Gómez Farías-Sadi Carnot,008,Reforma - General Prim,7,16,22,1,17,1.6009999439120293,39.37352998949718,47.77073069475516
