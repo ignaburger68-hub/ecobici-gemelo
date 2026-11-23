@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 20:39 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 20:53 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 20:39 a 21:39
+## Último pronóstico: 22/11 20:53 a 21:53
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.2 °C** · sin lluvia · viento 5 km/h · día fin de semana
 
-El clima multiplica los **retiros por 0.80** y las **devoluciones por 0.84** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.86** y las **devoluciones por 0.89** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.80** y las **devoluciones por 0.84** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
+| 086 Sullivan-Insurgentes | 0 / 12 | 0.99 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 0 / 26 | 0.99 | 0.00 | 0-5 |
 | 085 Rosas Moreno - Sullivan | 0 / 14 | 0.98 | 0.00 | 0-4 |
-| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 0.98 | 28-33 |
-| 086 Sullivan-Insurgentes | 0 / 12 | 0.97 | 0.00 | 0-6 |
-| 026 Reforma - Versalles | 0 / 10 | 0.96 | 0.02 | 0-6 |
-| 010 Reforma - Ramírez | 0 / 26 | 0.96 | 0.00 | 0-6 |
-| 048 Independencia - Azueta | 1 / 11 | 0.66 | 0.00 | 0-5 |
-| 113 General Prim-Versalles | 1 / 15 | 0.63 | 0.00 | 0-4 |
-| 008 Reforma - General Prim | 2 / 17 | 0.55 | 0.00 | 0-7 |
-| 114 Lucerna-Abraham González | 1 / 22 | 0.44 | 0.00 | 0-4 |
-| 117 Londres-Nápoles | 2 / 30 | 0.38 | 0.00 | 0-6 |
+| 008 Reforma - General Prim | 0 / 17 | 0.98 | 0.00 | 0-5 |
+| 029 Reforma - Bucareli | 33 / 33 | 0.00 | 0.96 | 27-33 |
+| 113 General Prim-Versalles | 1 / 15 | 0.66 | 0.00 | 0-3 |
+| 026 Reforma - Versalles | 2 / 11 | 0.59 | 0.01 | 0-6 |
+| 114 Lucerna-Abraham González | 1 / 22 | 0.49 | 0.00 | 0-4 |
+| 048 Independencia - Azueta | 2 / 11 | 0.46 | 0.00 | 0-5 |
+| 003 Reforma - Insurgentes | 4 / 27 | 0.27 | 0.00 | 1-10 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 029 (33/33) a 010 (0/26)
-2. Llevar **4 bicis** de 041 (16/27) a 026 (0/10)
-3. Llevar **5 bicis** de 270 (15/25) a 086 (0/12)
+1. Llevar **10 bicis** de 029 (33/33) a 008 (0/17)
+2. Llevar **11 bicis** de 029 (33/33) a 010 (0/26)
+3. Llevar **6 bicis** de 098 (21/27) a 086 (0/12)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-427 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+428 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
