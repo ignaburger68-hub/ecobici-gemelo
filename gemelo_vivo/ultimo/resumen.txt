@@ -1,4 +1,4 @@
-Simulación de una hora — lunes 23/11/2026 08:00 a 09:00 (en vivo)
+Simulación de una hora — lunes 23/11/2026 08:14 a 09:14 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20
 Factor del día: retiros 0.91, devoluciones 0.85
 Estaciones con dato: 30 de 30
@@ -11,32 +11,32 @@ Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
+       263 Sadi Carnot - Gómez Farias B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-1
        085 Rosas Moreno - Sullivan    B=0/5  p vacía 1.00  p llena 0.00  B(t+60) 0-0
-       555 Ribera de San Cosme - Insu B=0/31  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       012 Río Lerma - Villalongín    B=0/13  p vacía 1.00  p llena 0.00  B(t+60) 0-4
-       003 Reforma - Insurgentes      B=0/26  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       260 Av. Juárez-Balderas        B=0/18  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       256 Gómez Farías-Sadi Carnot   B=0/21  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       086 Sullivan-Insurgentes       B=0/12  p vacía 1.00  p llena 0.00  B(t+60) 0-3
        048 Independencia - Azueta     B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       260 Av. Juárez-Balderas        B=1/17  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-       450 Ramos Arizpe- Av México Te B=0/14  p vacía 0.97  p llena 0.00  B(t+60) 1-5
-       086 Sullivan-Insurgentes       B=2/11  p vacía 0.94  p llena 0.00  B(t+60) 0-3
+       041 Reforma - Av. de la Repúbl B=0/27  p vacía 0.98  p llena 0.00  B(t+60) 0-3
+   107-108 Tolsa-Balderas             B=4/56  p vacía 0.98  p llena 0.00  B(t+60) 0-2
 
 Plan Regla umbral 90/10 (la mejor de las 5 reglas umbral en esta hora):
   sin traslados
 Plan Gemelo (voraz):
-  1. llevar 16 bicis de 010 (21/26) a 555 (0/31)
-  2. llevar 9 bicis de 117 (9/30) a 012 (0/13)
-  3. llevar 9 bicis de 115 (9/25) a 107-108 (6/56)
+  1. llevar 13 bicis de 115 (14/25) a 107-108 (4/56)
+  2. llevar 8 bicis de 113 (9/15) a 256 (0/21)
+  3. llevar 10 bicis de 117 (11/30) a 086 (0/12)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              136.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-★ Regla umbral 90/10                      136.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 85/15                      136.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 80/20                      138.4  (atiende -2.2 vs sin acción, IC95 -2.3 a -2.1)
-  Regla umbral 75/25                      138.4  (atiende -2.2 vs sin acción, IC95 -2.3 a -2.1)
-  Regla umbral 70/30                      138.4  (atiende -2.2 vs sin acción, IC95 -2.3 a -2.1)
-  Gemelo (voraz)                          112.7  (atiende +23.4 vs sin acción, IC95 +22.9 a +24.0)
-  Gemelo (voraz) con tiempos de viaje     124.1  (atiende +12.1 vs sin acción, IC95 +11.6 a +12.5)
+  Sin acción                              150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+★ Regla umbral 90/10                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 85/15                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 80/20                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 75/25                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 70/30                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                          126.4  (atiende +24.5 vs sin acción, IC95 +23.9 a +25.1)
+  Gemelo (voraz) con tiempos de viaje     136.7  (atiende +14.2 vs sin acción, IC95 +13.7 a +14.7)
 
-Validación: |simulada − exacta| máx 0.020, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.036, media 0.003 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.6 s
+Tiempo de cálculo: 1.7 s

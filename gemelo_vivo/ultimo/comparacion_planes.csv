@@ -1,9 +1,9 @@
 plan,traslados,bicis_movidas,no_atendida_media,ic95_inf,ic95_sup,atendidos_extra_vs_sin_accion,dif_ic95_inf,dif_ic95_sup,mejor_regla
-Sin acción,0,0,136.169,132.699,139.639,0.0,0.0,0.0,False
-Regla umbral 90/10,0,0,136.169,132.699,139.639,0.0,0.0,0.0,True
-Regla umbral 85/15,0,0,136.169,132.699,139.639,0.0,0.0,0.0,False
-Regla umbral 80/20,1,4,138.382,134.9,141.864,-2.213,-2.332,-2.094,False
-Regla umbral 75/25,1,4,138.382,134.9,141.864,-2.213,-2.332,-2.094,False
-Regla umbral 70/30,1,4,138.382,134.9,141.864,-2.213,-2.332,-2.094,False
-Gemelo (voraz),3,34,112.726,109.627,115.825,23.443,22.882,24.004,False
-Gemelo (voraz) con tiempos de viaje,3,34,124.083,120.867,127.299,12.086,11.629,12.543,False
+Sin acción,0,0,150.895,147.119,154.671,0.0,0.0,0.0,False
+Regla umbral 90/10,0,0,150.895,147.119,154.671,0.0,0.0,0.0,True
+Regla umbral 85/15,0,0,150.895,147.119,154.671,0.0,0.0,0.0,False
+Regla umbral 80/20,0,0,150.895,147.119,154.671,0.0,0.0,0.0,False
+Regla umbral 75/25,0,0,150.895,147.119,154.671,0.0,0.0,0.0,False
+Regla umbral 70/30,0,0,150.895,147.119,154.671,0.0,0.0,0.0,False
+Gemelo (voraz),3,31,126.427,123.082,129.772,24.468,23.865,25.071,False
+Gemelo (voraz) con tiempos de viaje,3,31,136.696,133.291,140.101,14.199,13.692,14.706,False
