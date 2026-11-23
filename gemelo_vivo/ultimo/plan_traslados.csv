@@ -1,15 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,13,30,33,0,28,,5.0,14.499211720476076
-Regla umbral 85/15,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,13,30,33,0,28,,5.0,14.499211720476076
-Regla umbral 80/20,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,13,30,33,0,28,,5.0,14.499211720476076
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,117,Londres-Nápoles,9,22,26,1,30,,21.67417030484849,33.42242979124812
-Regla umbral 80/20,3,048,Independencia - Azueta,115,Roma-Dinamarca,3,9,11,2,25,,46.75900975765758,59.17006434141035
-Regla umbral 75/25,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,13,30,33,0,28,,5.0,14.499211720476076
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,117,Londres-Nápoles,9,22,26,1,30,,21.67417030484849,33.42242979124812
-Regla umbral 75/25,3,048,Independencia - Azueta,115,Roma-Dinamarca,3,9,11,2,25,,46.75900975765758,59.17006434141035
-Regla umbral 70/30,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,13,30,33,0,28,,5.0,14.499211720476076
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,117,Londres-Nápoles,9,22,26,1,30,,21.67417030484849,33.42242979124812
-Regla umbral 70/30,3,048,Independencia - Azueta,115,Roma-Dinamarca,3,9,11,2,25,,46.75900975765758,59.17006434141035
-Gemelo (voraz),1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,16,30,33,0,28,3.416999936103821,5.0,14.499211720476076
-Gemelo (voraz),2,048,Independencia - Azueta,112,Av. Morelos-Abraham González,4,9,11,2,20,1.7600000500679016,26.081352497018564,33.89241483997969
-Gemelo (voraz),3,041,Reforma - Av. de la República,114,Lucerna-Abraham González,6,17,27,2,22,1.1990000009536743,40.5832134737387,49.71443904893658
+Regla umbral 90/10,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
+Regla umbral 90/10,2,048,Independencia - Azueta,115,Roma-Dinamarca,4,10,11,1,25,,26.081352497018564,38.492407080771336
+Regla umbral 85/15,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
+Regla umbral 85/15,2,048,Independencia - Azueta,115,Roma-Dinamarca,4,10,11,1,25,,26.081352497018564,38.492407080771336
+Regla umbral 80/20,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
+Regla umbral 80/20,2,048,Independencia - Azueta,115,Roma-Dinamarca,4,10,11,1,25,,26.081352497018564,38.492407080771336
+Regla umbral 80/20,3,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,9,22,26,3,31,,48.67752981953077,55.40974372005905
+Regla umbral 75/25,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
+Regla umbral 75/25,2,048,Independencia - Azueta,115,Roma-Dinamarca,4,10,11,1,25,,26.081352497018564,38.492407080771336
+Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,9,22,26,3,31,,48.67752981953077,55.40974372005905
+Regla umbral 70/30,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,14,32,33,0,28,,5.0,14.499211720476076
+Regla umbral 70/30,2,048,Independencia - Azueta,115,Roma-Dinamarca,4,10,11,1,25,,26.081352497018564,38.492407080771336
+Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,9,22,26,3,31,,48.67752981953077,55.40974372005905
+Gemelo (voraz),1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,17,32,33,0,28,4.164000034332275,5.0,14.499211720476076
+Gemelo (voraz),2,048,Independencia - Azueta,115,Roma-Dinamarca,6,10,11,1,25,2.2750000953674316,26.081352497018564,38.492407080771336
+Gemelo (voraz),3,041,Reforma - Av. de la República,555,Ribera de San Cosme - Insurgentes Centro,8,17,27,3,31,1.0579999685287476,49.492748873989996,58.719731010344994
