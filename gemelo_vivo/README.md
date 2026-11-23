@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 22/11/2026 18:45 (hora de Ciudad de México).
+Página actualizada automáticamente el 22/11/2026 18:59 (hora de Ciudad de México).
 
-## Último pronóstico: 22/11 18:45 a 19:45
+## Último pronóstico: 22/11 18:59 a 19:59
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.53** y las **devoluciones por 0.59** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 28 | 1.00 | 0.00 | 0-2 |
-| 029 Reforma - Bucareli | 32 / 33 | 0.00 | 0.84 | 26-33 |
-| 048 Independencia - Azueta | 10 / 11 | 0.00 | 0.74 | 7-11 |
-| 115 Roma-Dinamarca | 1 / 25 | 0.65 | 0.00 | 1-9 |
-| 086 Sullivan-Insurgentes | 2 / 12 | 0.46 | 0.01 | 0-6 |
-| 008 Reforma - General Prim | 2 / 17 | 0.46 | 0.00 | 0-7 |
-| 555 Ribera de San Cosme - Insurg | 3 / 31 | 0.33 | 0.00 | 1-9 |
-| 114 Lucerna-Abraham González | 3 / 22 | 0.28 | 0.00 | 0-6 |
+| 029 Reforma - Bucareli | 32 / 33 | 0.00 | 0.85 | 26-33 |
+| 115 Roma-Dinamarca | 1 / 25 | 0.66 | 0.00 | 1-9 |
+| 086 Sullivan-Insurgentes | 2 / 12 | 0.45 | 0.00 | 0-6 |
+| 008 Reforma - General Prim | 2 / 17 | 0.45 | 0.00 | 0-7 |
+| 010 Reforma - Ramírez | 3 / 26 | 0.29 | 0.00 | 0-6 |
+| 112 Av. Morelos-Abraham González | 3 / 20 | 0.29 | 0.00 | 1-7 |
+| 114 Lucerna-Abraham González | 3 / 22 | 0.29 | 0.00 | 0-6 |
 | 116 Londres-Roma | 4 / 23 | 0.26 | 0.00 | 0-8 |
-| 026 Reforma - Versalles | 7 / 11 | 0.01 | 0.24 | 4-11 |
+| 118 Liverpool-Dinamarca | 3 / 16 | 0.26 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **17 bicis** de 029 (32/33) a 263 (0/28)
-2. Llevar **6 bicis** de 048 (10/11) a 115 (1/25)
-3. Llevar **8 bicis** de 041 (17/27) a 555 (3/31)
+1. Llevar **16 bicis** de 029 (32/33) a 263 (0/28)
+2. Llevar **6 bicis** de 041 (15/25) a 115 (1/25)
+3. Llevar **5 bicis** de 260 (13/19) a 008 (2/17)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-419 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+420 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
