@@ -1,13 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,33,33,0,11,,5.0,12.104987464152984
-Regla umbral 85/15,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,33,33,0,11,,5.0,12.104987464152984
-Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,9,23,27,1,25,,19.358104225631095,28.36223049389656
-Regla umbral 80/20,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,33,33,0,11,,5.0,12.104987464152984
-Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,9,23,27,1,25,,19.358104225631095,28.36223049389656
-Regla umbral 75/25,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,33,33,0,11,,5.0,12.104987464152984
-Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,9,23,27,1,25,,19.358104225631095,28.36223049389656
-Regla umbral 70/30,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,33,33,0,11,,5.0,12.104987464152984
-Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,9,23,27,1,25,,19.358104225631095,28.36223049389656
-Gemelo (voraz),1,029,Reforma - Bucareli,048,Independencia - Azueta,7,33,33,0,11,3.516999840736389,5.0,12.104987464152984
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,10,23,27,1,25,1.1650000512599945,19.358104225631095,28.36223049389656
-Gemelo (voraz),3,029,Reforma - Bucareli,026,Reforma - Versalles,5,33,33,1,11,1.0079999454319477,36.14617961227269,44.04662411782739
+Regla umbral 90/10,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,32,33,0,11,,5.0,12.104987464152984
+Regla umbral 85/15,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,32,33,0,11,,5.0,12.104987464152984
+Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,008,Reforma - General Prim,7,23,27,1,17,,19.358104225631095,29.593048442403976
+Regla umbral 80/20,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,32,33,0,11,,5.0,12.104987464152984
+Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,008,Reforma - General Prim,7,23,27,1,17,,19.358104225631095,29.593048442403976
+Regla umbral 75/25,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,32,33,0,11,,5.0,12.104987464152984
+Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,008,Reforma - General Prim,7,23,27,1,17,,19.358104225631095,29.593048442403976
+Regla umbral 70/30,1,029,Reforma - Bucareli,048,Independencia - Azueta,5,32,33,0,11,,5.0,12.104987464152984
+Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,008,Reforma - General Prim,7,23,27,1,17,,19.358104225631095,29.593048442403976
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,113,General Prim-Versalles,4,14,19,1,15,,40.71314373074473,50.322877736766344
+Gemelo (voraz),1,029,Reforma - Bucareli,008,Reforma - General Prim,9,32,33,1,17,2.3679999709129333,5.0,14.786072262650283
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,048,Independencia - Azueta,5,23,27,0,11,1.1209999918937683,25.021016479423164,32.27413324090127
