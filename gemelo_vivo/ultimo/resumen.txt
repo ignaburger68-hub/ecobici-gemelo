@@ -1,6 +1,6 @@
-Simulación de una hora — lunes 23/11/2026 08:14 a 09:14 (en vivo)
+Simulación de una hora — lunes 23/11/2026 08:29 a 09:29 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-11, 2026-11-12, 2026-11-13, 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20
-Factor del día: retiros 0.91, devoluciones 0.85
+Factor del día: retiros 0.99, devoluciones 0.80
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 08:00 a 09:00 (día hábil): 14.6 °C (+0.7 °C respecto de lo normal a esa hora), sin lluvia, viento 2 km/h
@@ -11,32 +11,32 @@ Efecto del clima en la hora: retiros ×0.91 (-9 %), devoluciones ×0.92 (-8 %)  
   viento         < 5 km/h                       retiros ×0.988  devoluciones ×0.985
 
 Estaciones con más riesgo:
-       263 Sadi Carnot - Gómez Farias B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       263 Sadi Carnot - Gómez Farias B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       259 Tómas Alva Edison-Ponciano B=0/24  p vacía 1.00  p llena 0.00  B(t+60) 0-2
        085 Rosas Moreno - Sullivan    B=0/5  p vacía 1.00  p llena 0.00  B(t+60) 0-0
-       260 Av. Juárez-Balderas        B=0/18  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       256 Gómez Farías-Sadi Carnot   B=0/21  p vacía 1.00  p llena 0.00  B(t+60) 0-2
-       086 Sullivan-Insurgentes       B=0/12  p vacía 1.00  p llena 0.00  B(t+60) 0-3
-       048 Independencia - Azueta     B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       041 Reforma - Av. de la Repúbl B=0/27  p vacía 0.98  p llena 0.00  B(t+60) 0-3
-   107-108 Tolsa-Balderas             B=4/56  p vacía 0.98  p llena 0.00  B(t+60) 0-2
+   107-108 Tolsa-Balderas             B=0/56  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       256 Gómez Farías-Sadi Carnot   B=0/20  p vacía 1.00  p llena 0.00  B(t+60) 0-2
+       041 Reforma - Av. de la Repúbl B=0/27  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       029 Reforma - Bucareli         B=0/32  p vacía 1.00  p llena 0.00  B(t+60) 0-3
+       260 Av. Juárez-Balderas        B=0/19  p vacía 1.00  p llena 0.00  B(t+60) 0-3
 
 Plan Regla umbral 90/10 (la mejor de las 5 reglas umbral en esta hora):
   sin traslados
 Plan Gemelo (voraz):
-  1. llevar 13 bicis de 115 (14/25) a 107-108 (4/56)
-  2. llevar 8 bicis de 113 (9/15) a 256 (0/21)
-  3. llevar 10 bicis de 117 (11/30) a 086 (0/12)
+  1. llevar 16 bicis de 117 (16/29) a 107-108 (0/56)
+  2. llevar 9 bicis de 113 (9/14) a 259 (0/24)
+  3. llevar 14 bicis de 115 (16/24) a 029 (0/32)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                              150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-★ Regla umbral 90/10                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 85/15                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 80/20                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 75/25                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 70/30                      150.9  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Gemelo (voraz)                          126.4  (atiende +24.5 vs sin acción, IC95 +23.9 a +25.1)
-  Gemelo (voraz) con tiempos de viaje     136.7  (atiende +14.2 vs sin acción, IC95 +13.7 a +14.7)
+  Sin acción                              181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+★ Regla umbral 90/10                      181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 85/15                      181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 80/20                      181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 75/25                      181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 70/30                      181.3  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Gemelo (voraz)                          148.0  (atiende +33.3 vs sin acción, IC95 +32.6 a +34.0)
+  Gemelo (voraz) con tiempos de viaje     162.6  (atiende +18.7 vs sin acción, IC95 +18.1 a +19.2)
 
-Validación: |simulada − exacta| máx 0.036, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.028, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.7 s
+Tiempo de cálculo: 1.8 s

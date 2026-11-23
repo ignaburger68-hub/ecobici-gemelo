@@ -1,4 +1,4 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Gemelo (voraz),1,115,Roma-Dinamarca,107-108,Tolsa-Balderas,13,14,25,4,56,9.850000143051147,5.0,15.721812348739022
-Gemelo (voraz),2,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,8,9,15,0,21,7.58899998664856,23.921357629630904,33.38212702415839
-Gemelo (voraz),3,117,Londres-Nápoles,086,Sullivan-Insurgentes,10,11,30,0,12,7.018000394105911,44.237111171925946,52.34648310638387
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,16,16,29,0,56,12.817000210285187,5.0,15.86684333071258
+Gemelo (voraz),2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,9,9,14,0,24,10.556000709533691,24.066388611604463,33.23195846009744
+Gemelo (voraz),3,115,Roma-Dinamarca,029,Reforma - Bucareli,14,16,24,0,32,9.75899988412857,43.41708119885687,54.286763367372586
