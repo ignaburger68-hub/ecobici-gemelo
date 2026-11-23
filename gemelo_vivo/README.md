@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 06:21 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 06:35 (hora de Ciudad de México).
 
-## Último pronóstico: 23/11 06:21 a 07:21
+## Último pronóstico: 23/11 06:35 a 07:35
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 23/11/2026 06:21 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.3 °C** · sin lluvia · viento 0 km/h · día hábil
+**12.9 °C** · sin lluvia · viento 1 km/h · día hábil
 
 El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.00** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.00** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 048 Independencia - Azueta | 0 / 11 | 1.00 | 0.00 | 0-2 |
-| 008 Reforma - General Prim | 0 / 16 | 0.99 | 0.00 | 0-4 |
-| 086 Sullivan-Insurgentes | 0 / 12 | 0.99 | 0.00 | 0-2 |
-| 450 Ramos Arizpe- Av México Teno | 0 / 10 | 0.99 | 0.00 | 0-3 |
-| 020 Reforma- Río Támesis | 0 / 15 | 0.98 | 0.00 | 1-6 |
-| 085 Rosas Moreno - Sullivan | 0 / 5 | 0.96 | 0.51 | 2-5 |
-| 026 Reforma - Versalles | 0 / 8 | 0.96 | 0.10 | 1-7 |
-| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.90 | 9-18 |
-| 555 Ribera de San Cosme - Insurg | 8 / 31 | 0.54 | 0.00 | 0-7 |
-| 003 Reforma - Insurgentes | 1 / 26 | 0.50 | 0.00 | 0-4 |
+| 048 Independencia - Azueta | 0 / 11 | 1.00 | 0.00 | 0-3 |
+| 008 Reforma - General Prim | 0 / 16 | 0.99 | 0.00 | 0-5 |
+| 450 Ramos Arizpe- Av México Teno | 0 / 10 | 0.98 | 0.00 | 0-3 |
+| 085 Rosas Moreno - Sullivan | 0 / 5 | 0.96 | 0.59 | 2-5 |
+| 020 Reforma- Río Támesis | 0 / 14 | 0.96 | 0.01 | 1-8 |
+| 086 Sullivan-Insurgentes | 1 / 12 | 0.96 | 0.00 | 0-3 |
+| 026 Reforma - Versalles | 0 / 8 | 0.95 | 0.16 | 2-8 |
+| 031 Hamburgo - Insurgentes | 2 / 35 | 0.56 | 0.00 | 0-5 |
+| 112 Av. Morelos-Abraham González | 1 / 20 | 0.54 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 1 / 26 | 0.51 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 010 (11/25) a 086 (0/12)
-2. Llevar **6 bicis** de 118 (7/16) a 048 (0/11)
-3. Llevar **9 bicis** de 260 (19/19) a 555 (8/31)
+1. Llevar **7 bicis** de 118 (7/16) a 086 (1/12)
+2. Llevar **7 bicis** de 010 (11/25) a 048 (0/11)
+3. Llevar **11 bicis** de 259 (17/26) a 555 (11/31)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
