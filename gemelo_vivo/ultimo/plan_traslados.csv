@@ -1,13 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,117,Londres-Nápoles,020,Reforma- Río Támesis,8,29,31,0,17,,5.0,12.136533198636466
-Regla umbral 85/15,1,117,Londres-Nápoles,020,Reforma- Río Támesis,8,29,31,0,17,,5.0,12.136533198636466
-Regla umbral 85/15,2,115,Roma-Dinamarca,085,Rosas Moreno - Sullivan,2,21,24,0,5,,17.771340940927196,25.60393067126809
-Regla umbral 80/20,1,117,Londres-Nápoles,020,Reforma- Río Támesis,8,29,31,0,17,,5.0,12.136533198636466
-Regla umbral 80/20,2,115,Roma-Dinamarca,085,Rosas Moreno - Sullivan,2,21,24,0,5,,17.771340940927196,25.60393067126809
-Regla umbral 75/25,1,117,Londres-Nápoles,020,Reforma- Río Támesis,8,29,31,0,17,,5.0,12.136533198636466
-Regla umbral 75/25,2,115,Roma-Dinamarca,085,Rosas Moreno - Sullivan,2,21,24,0,5,,17.771340940927196,25.60393067126809
-Regla umbral 70/30,1,117,Londres-Nápoles,020,Reforma- Río Támesis,8,29,31,0,17,,5.0,12.136533198636466
-Regla umbral 70/30,2,115,Roma-Dinamarca,085,Rosas Moreno - Sullivan,2,21,24,0,5,,17.771340940927196,25.60393067126809
-Gemelo (voraz),1,117,Londres-Nápoles,010,Reforma - Ramírez,14,29,31,3,27,6.15500020980835,5.0,14.582930070070905
-Gemelo (voraz),2,115,Roma-Dinamarca,256,Gómez Farías-Sadi Carnot,11,21,24,0,22,3.3330000042915344,22.769956214262862,31.993804458029103
-Gemelo (voraz),3,113,General Prim-Versalles,048,Independencia - Azueta,5,10,15,0,11,2.749000072479248,41.45457385255659,51.101869643602015
+Regla umbral 90/10,1,117,Londres-Nápoles,112,Av. Morelos-Abraham González,10,31,31,0,21,,5.0,15.696806415990674
+Regla umbral 85/15,1,117,Londres-Nápoles,112,Av. Morelos-Abraham González,10,31,31,0,21,,5.0,15.696806415990674
+Regla umbral 85/15,2,115,Roma-Dinamarca,020,Reforma- Río Támesis,9,21,24,0,18,,25.327183681060628,30.961991423351357
+Regla umbral 80/20,1,117,Londres-Nápoles,112,Av. Morelos-Abraham González,10,31,31,0,21,,5.0,15.696806415990674
+Regla umbral 80/20,2,115,Roma-Dinamarca,020,Reforma- Río Támesis,9,21,24,0,18,,25.327183681060628,30.961991423351357
+Regla umbral 75/25,1,117,Londres-Nápoles,112,Av. Morelos-Abraham González,10,31,31,0,21,,5.0,15.696806415990674
+Regla umbral 75/25,2,115,Roma-Dinamarca,020,Reforma- Río Támesis,9,21,24,0,18,,25.327183681060628,30.961991423351357
+Regla umbral 70/30,1,117,Londres-Nápoles,112,Av. Morelos-Abraham González,10,31,31,0,21,,5.0,15.696806415990674
+Regla umbral 70/30,2,115,Roma-Dinamarca,020,Reforma- Río Támesis,9,21,24,0,18,,25.327183681060628,30.961991423351357
+Gemelo (voraz),1,117,Londres-Nápoles,086,Sullivan-Insurgentes,9,31,31,0,13,4.851999878883362,5.0,13.109371934457926
+Gemelo (voraz),2,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,6,9,15,0,27,3.294999837875366,21.000938551177818,30.05423715308079
+Gemelo (voraz),3,115,Roma-Dinamarca,048,Independencia - Azueta,7,21,24,0,11,3.0549997687339783,38.785868161756504,51.196922745509276
