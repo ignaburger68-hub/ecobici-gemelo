@@ -1,4 +1,8 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,16,16,29,0,56,12.817000210285187,5.0,15.86684333071258
-Gemelo (voraz),2,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,9,9,14,0,24,10.556000709533691,24.066388611604463,33.23195846009744
-Gemelo (voraz),3,115,Roma-Dinamarca,029,Reforma - Bucareli,14,16,24,0,32,9.75899988412857,43.41708119885687,54.286763367372586
+Regla umbral 80/20,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
+Regla umbral 75/25,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
+Regla umbral 70/30,1,026,Reforma - Versalles,112,Av. Morelos-Abraham González,3,9,11,0,20,,5.0,11.782850894024618
+Regla umbral 70/30,2,115,Roma-Dinamarca,008,Reforma - General Prim,5,17,23,0,17,,21.413228159094572,27.535886734217172
+Gemelo (voraz),1,117,Londres-Nápoles,107-108,Tolsa-Balderas,18,20,30,1,57,14.486999869346619,5.0,15.86684333071258
+Gemelo (voraz),2,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,12,17,23,1,25,8.508000373840332,26.588655679451602,36.64775811276168
+Gemelo (voraz),3,026,Reforma - Versalles,086,Sullivan-Insurgentes,7,9,11,0,12,4.856999754905701,44.13583050700838,51.45199955005307
