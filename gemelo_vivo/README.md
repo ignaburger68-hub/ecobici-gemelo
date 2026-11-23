@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 06:35 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 06:49 (hora de Ciudad de México).
 
-## Último pronóstico: 23/11 06:35 a 07:35
+## Último pronóstico: 23/11 06:49 a 07:49
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.98** y las **devoluciones por 1.00** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 048 Independencia - Azueta | 0 / 11 | 1.00 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 0 / 16 | 0.99 | 0.00 | 0-5 |
-| 450 Ramos Arizpe- Av México Teno | 0 / 10 | 0.98 | 0.00 | 0-3 |
-| 085 Rosas Moreno - Sullivan | 0 / 5 | 0.96 | 0.59 | 2-5 |
-| 020 Reforma- Río Támesis | 0 / 14 | 0.96 | 0.01 | 1-8 |
-| 086 Sullivan-Insurgentes | 1 / 12 | 0.96 | 0.00 | 0-3 |
-| 026 Reforma - Versalles | 0 / 8 | 0.95 | 0.16 | 2-8 |
-| 031 Hamburgo - Insurgentes | 2 / 35 | 0.56 | 0.00 | 0-5 |
-| 112 Av. Morelos-Abraham González | 1 / 20 | 0.54 | 0.00 | 0-6 |
-| 003 Reforma - Insurgentes | 1 / 26 | 0.51 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 0 / 12 | 1.00 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 0 / 11 | 0.99 | 0.00 | 0-2 |
+| 450 Ramos Arizpe- Av México Teno | 0 / 10 | 0.97 | 0.00 | 0-3 |
+| 020 Reforma- Río Támesis | 0 / 14 | 0.96 | 0.01 | 2-10 |
+| 008 Reforma - General Prim | 0 / 15 | 0.95 | 0.00 | 0-5 |
+| 555 Ribera de San Cosme - Insurg | 4 / 29 | 0.94 | 0.00 | 0-1 |
+| 026 Reforma - Versalles | 0 / 8 | 0.93 | 0.13 | 1-8 |
+| 085 Rosas Moreno - Sullivan | 0 / 5 | 0.91 | 0.66 | 2-5 |
+| 031 Hamburgo - Insurgentes | 2 / 35 | 0.72 | 0.00 | 0-5 |
+| 003 Reforma - Insurgentes | 1 / 26 | 0.54 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 118 (7/16) a 086 (1/12)
-2. Llevar **7 bicis** de 010 (11/25) a 048 (0/11)
-3. Llevar **11 bicis** de 259 (17/26) a 555 (11/31)
+1. Llevar **14 bicis** de 259 (17/26) a 555 (4/29)
+2. Llevar **7 bicis** de 118 (7/16) a 086 (0/12)
+3. Llevar **10 bicis** de 098 (17/26) a 031 (2/35)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 

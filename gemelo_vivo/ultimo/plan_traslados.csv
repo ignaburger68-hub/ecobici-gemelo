@@ -1,6 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 75/25,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,15,19,0,8,,5.0,14.23323688937522
 Regla umbral 70/30,1,260,Av. Juárez-Balderas,026,Reforma - Versalles,4,15,19,0,8,,5.0,14.23323688937522
-Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,7,7,16,1,12,5.551000118255615,5.0,13.11530992078939
-Gemelo (voraz),2,010,Reforma - Ramírez,048,Independencia - Azueta,7,11,25,0,11,2.1879999935626984,20.420427621206098,30.045409064949492
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,11,17,26,11,31,1.5339999943971634,39.953689228564535,46.685903129092814
+Gemelo (voraz),1,259,Tómas Alva Edison-Ponciano Arriaga,555,Ribera de San Cosme - Insurgentes Centro,14,17,26,4,29,7.818999648094177,5.0,11.73221390052828
+Gemelo (voraz),2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,7,7,16,0,12,6.93500018119812,24.348823797010983,32.46413371780037
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,031,Hamburgo - Insurgentes,10,17,26,2,35,2.3000001832842827,43.396540142787195,55.41886122045395
