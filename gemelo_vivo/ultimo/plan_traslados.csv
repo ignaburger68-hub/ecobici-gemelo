@@ -1,6 +1,11 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,114,Lucerna-Abraham González,008,Reforma - General Prim,5,16,21,0,14,,5.0,12.79879533928932
-Regla umbral 70/30,1,114,Lucerna-Abraham González,008,Reforma - General Prim,5,16,21,0,14,,5.0,12.79879533928932
-Gemelo (voraz),1,114,Lucerna-Abraham González,118,Liverpool-Dinamarca,9,16,21,0,17,3.4529999792575836,5.0,12.664476168442764
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,008,Reforma - General Prim,8,23,34,0,14,2.791999891400337,19.42984627695337,26.991103942566582
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,020,Reforma- Río Támesis,9,18,29,0,22,2.3240001322701573,37.22604815933946,48.58732591906473
+Regla umbral 85/15,1,085,Rosas Moreno - Sullivan,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,30,,5.0,14.935788731699715
+Regla umbral 80/20,1,085,Rosas Moreno - Sullivan,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,30,,5.0,14.935788731699715
+Regla umbral 75/25,1,085,Rosas Moreno - Sullivan,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,30,,5.0,14.935788731699715
+Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,048,Independencia - Azueta,5,23,29,0,10,,27.012191977486317,34.26530873896443
+Regla umbral 70/30,1,085,Rosas Moreno - Sullivan,555,Ribera de San Cosme - Insurgentes Centro,4,9,10,0,30,,5.0,14.935788731699715
+Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,048,Independencia - Azueta,5,23,29,0,10,,27.012191977486317,34.26530873896443
+Regla umbral 70/30,3,114,Lucerna-Abraham González,256,Gómez Farías-Sadi Carnot,4,15,21,0,21,,43.93541433849357,54.30583598413752
+Gemelo (voraz),1,085,Rosas Moreno - Sullivan,118,Liverpool-Dinamarca,5,9,10,1,17,3.6699999570846558,5.0,14.630203918733798
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,555,Ribera de San Cosme - Insurgentes Centro,12,23,29,0,30,2.582999847829342,25.11000019379422,37.18640343958082
+Gemelo (voraz),3,114,Lucerna-Abraham González,048,Independencia - Azueta,6,15,21,0,10,2.510000079870224,48.82520631210681,58.49531191163595

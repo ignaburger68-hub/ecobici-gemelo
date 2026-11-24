@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 24/11/2026 15:25 (hora de Ciudad de México).
+Página actualizada automáticamente el 24/11/2026 15:39 (hora de Ciudad de México).
 
-## Último pronóstico: 24/11 15:25 a 16:25
+## Último pronóstico: 24/11 15:39 a 16:39
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 24/11/2026 15:25 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**19.1 °C** · lluvia 0.7 mm/h · viento 8 km/h · día hábil
+**16.5 °C** · lluvia 0.3 mm/h · viento 9 km/h · día hábil
 
 El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,00 = sin efecto).
 
@@ -18,31 +18,31 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,
 | --- | --- | --- | --- |
 | lluvia | ligera (<1 mm/h) | 0.945 | 0.967 |
 | lluvia previa | llovió en las 3 h previas | 0.816 | 0.829 |
-| temperatura | más frío (−3 a −1 °C) | 0.841 | 0.872 |
+| temperatura | mucho más frío (< −3 °C) | 0.840 | 0.889 |
 | viento | 5-10 km/h | 0.872 | 0.905 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-5 |
-| 008 Reforma - General Prim | 0 / 14 | 0.98 | 0.00 | 0-3 |
-| 118 Liverpool-Dinamarca | 0 / 17 | 0.98 | 0.00 | 0-5 |
-| 115 Roma-Dinamarca | 1 / 26 | 0.82 | 0.00 | 0-6 |
-| 003 Reforma - Insurgentes | 1 / 26 | 0.79 | 0.00 | 0-5 |
-| 012 Río Lerma - Villalongín | 1 / 12 | 0.76 | 0.00 | 0-6 |
-| 107-108 Tolsa-Balderas | 1 / 55 | 0.76 | 0.00 | 0-8 |
-| 255 José Rosas Moreno-Guillermo  | 1 / 33 | 0.71 | 0.00 | 0-7 |
-| 085 Rosas Moreno - Sullivan | 1 / 10 | 0.69 | 0.03 | 0-6 |
-| 029 Reforma - Bucareli | 1 / 34 | 0.66 | 0.00 | 1-10 |
+| 048 Independencia - Azueta | 0 / 10 | 0.98 | 0.01 | 0-5 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.95 | 0.00 | 0-5 |
+| 555 Ribera de San Cosme - Insurg | 0 / 30 | 0.92 | 0.00 | 0-8 |
+| 118 Liverpool-Dinamarca | 1 / 17 | 0.89 | 0.00 | 0-4 |
+| 255 José Rosas Moreno-Guillermo  | 2 / 33 | 0.76 | 0.00 | 0-6 |
+| 029 Reforma - Bucareli | 1 / 34 | 0.75 | 0.00 | 1-10 |
+| 085 Rosas Moreno - Sullivan | 9 / 10 | 0.02 | 0.75 | 4-10 |
+| 003 Reforma - Insurgentes | 1 / 27 | 0.74 | 0.00 | 0-5 |
+| 020 Reforma- Río Támesis | 1 / 22 | 0.74 | 0.00 | 0-5 |
+| 115 Roma-Dinamarca | 2 / 26 | 0.65 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 114 (16/21) a 118 (0/17)
-2. Llevar **8 bicis** de 031 (23/34) a 008 (0/14)
-3. Llevar **9 bicis** de 098 (18/29) a 020 (0/22)
+1. Llevar **5 bicis** de 085 (9/10) a 118 (1/17)
+2. Llevar **12 bicis** de 098 (23/29) a 555 (0/30)
+3. Llevar **6 bicis** de 114 (15/21) a 048 (0/10)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-547 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+548 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
