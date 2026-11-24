@@ -1,18 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 90/10,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
-Regla umbral 85/15,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
-Regla umbral 80/20,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
-Regla umbral 75/25,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
-Regla umbral 70/30,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
-Gemelo (voraz),1,086,Sullivan-Insurgentes,031,Hamburgo - Insurgentes,8,16,16,4,36,2.147000014781952,5.0,12.838368094915353
-Gemelo (voraz),2,260,Av. Juárez-Balderas,117,Londres-Nápoles,8,21,21,1,30,1.8050000071525574,26.330970104117437,39.61814216160884
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,2,20,21,0,5,,5.0,18.02231202524314
+Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,13,29,31,1,30,,29.106705881149153,41.911563861967934
+Regla umbral 90/10,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,4,10,11,3,36,,55.248143828377394,68.87332091707034
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,2,20,21,0,5,,5.0,18.02231202524314
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,13,29,31,1,30,,29.106705881149153,41.911563861967934
+Regla umbral 85/15,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,4,10,11,3,36,,55.248143828377394,68.87332091707034
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,2,20,21,0,5,,5.0,18.02231202524314
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,13,29,31,1,30,,29.106705881149153,41.911563861967934
+Regla umbral 80/20,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,4,10,11,3,36,,55.248143828377394,68.87332091707034
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,2,20,21,0,5,,5.0,18.02231202524314
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,13,29,31,1,30,,29.106705881149153,41.911563861967934
+Regla umbral 75/25,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,4,10,11,3,36,,55.248143828377394,68.87332091707034
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,2,20,21,0,5,,5.0,18.02231202524314
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,13,29,31,1,30,,29.106705881149153,41.911563861967934
+Regla umbral 70/30,3,048,Independencia - Azueta,031,Hamburgo - Insurgentes,4,10,11,3,36,,55.248143828377394,68.87332091707034
+Gemelo (voraz),1,260,Av. Juárez-Balderas,031,Hamburgo - Insurgentes,11,20,21,3,36,1.2200000286102295,5.0,18.492602009202084
+Gemelo (voraz),2,048,Independencia - Azueta,117,Londres-Nápoles,5,10,11,1,30,0.6079999804496765,32.11777909789504,45.4543590643045
