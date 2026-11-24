@@ -1,15 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,10,26,29,0,21,,5.0,14.004126268265464
-Regla umbral 85/15,2,114,Lucerna-Abraham González,107-108,Tolsa-Balderas,7,18,21,0,55,,21.703640539832744,29.134671099569466
-Regla umbral 80/20,1,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,10,26,29,0,21,,5.0,14.004126268265464
-Regla umbral 80/20,2,114,Lucerna-Abraham González,107-108,Tolsa-Balderas,7,18,21,0,55,,21.703640539832744,29.134671099569466
-Regla umbral 80/20,3,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,1,31,,37.33421638046135,46.01287636746635
-Regla umbral 75/25,1,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,10,26,29,0,21,,5.0,14.004126268265464
-Regla umbral 75/25,2,114,Lucerna-Abraham González,107-108,Tolsa-Balderas,7,18,21,0,55,,21.703640539832744,29.134671099569466
-Regla umbral 75/25,3,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,1,31,,37.33421638046135,46.01287636746635
-Regla umbral 70/30,1,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,10,26,29,0,21,,5.0,14.004126268265464
-Regla umbral 70/30,2,114,Lucerna-Abraham González,107-108,Tolsa-Balderas,7,18,21,0,55,,21.703640539832744,29.134671099569466
-Regla umbral 70/30,3,113,General Prim-Versalles,041,Reforma - Av. de la República,4,11,13,1,31,,37.33421638046135,46.01287636746635
-Gemelo (voraz),1,260,Av. Juárez-Balderas,010,Reforma - Ramírez,13,15,19,0,21,11.16499948501587,5.0,14.155961456043645
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,14,26,29,1,27,5.710999965667725,23.160087724309108,33.635553074826234
-Gemelo (voraz),3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,18,21,1,31,2.9520000517368317,41.726772359248486,50.857997934446374
+Regla umbral 90/10,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,21,,5.0,12.06813541955165
+Regla umbral 90/10,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,5,12,13,0,27,,19.37325311996836,28.221111358516872
+Regla umbral 85/15,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,21,,5.0,12.06813541955165
+Regla umbral 85/15,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,5,12,13,0,27,,19.37325311996836,28.221111358516872
+Regla umbral 85/15,3,112,Av. Morelos-Abraham González,107-108,Tolsa-Balderas,7,16,18,0,55,,35.78106528478159,44.18774543635779
+Regla umbral 80/20,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,21,,5.0,12.06813541955165
+Regla umbral 80/20,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,5,12,13,0,27,,19.37325311996836,28.221111358516872
+Regla umbral 80/20,3,112,Av. Morelos-Abraham González,107-108,Tolsa-Balderas,7,16,18,0,55,,35.78106528478159,44.18774543635779
+Regla umbral 75/25,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,21,,5.0,12.06813541955165
+Regla umbral 75/25,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,5,12,13,0,27,,19.37325311996836,28.221111358516872
+Regla umbral 75/25,3,112,Av. Morelos-Abraham González,107-108,Tolsa-Balderas,7,16,18,0,55,,35.78106528478159,44.18774543635779
+Regla umbral 70/30,1,008,Reforma - General Prim,010,Reforma - Ramírez,8,16,16,0,21,,5.0,12.06813541955165
+Regla umbral 70/30,2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,5,12,13,0,27,,19.37325311996836,28.221111358516872
+Regla umbral 70/30,3,112,Av. Morelos-Abraham González,107-108,Tolsa-Balderas,7,16,18,0,55,,35.78106528478159,44.18774543635779
+Gemelo (voraz),1,260,Av. Juárez-Balderas,010,Reforma - Ramírez,12,14,19,0,21,8.669999837875366,5.0,14.155961456043645
+Gemelo (voraz),2,086,Sullivan-Insurgentes,270,De la República-Ponciano Arriaga,9,12,13,0,27,7.755999803543091,21.461079156460354,30.30893739500886
+Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,012,Río Lerma - Villalongín,7,25,29,1,12,4.609000205993652,40.03365779539875,52.25287315364835
