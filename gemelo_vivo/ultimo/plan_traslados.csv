@@ -1,18 +1,16 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,28,30,0,19,,5.0,15.450826418674641
-Regla umbral 90/10,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,8,27,29,0,17,,25.41204670111906,34.73757419556675
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,28,30,0,19,,5.0,15.450826418674641
-Regla umbral 85/15,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,8,27,29,0,17,,25.41204670111906,34.73757419556675
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,7,18,21,0,23,,45.79492849879916,52.17961261375714
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,28,30,0,19,,5.0,15.450826418674641
-Regla umbral 80/20,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,8,27,29,0,17,,25.41204670111906,34.73757419556675
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,7,18,21,0,23,,45.79492849879916,52.17961261375714
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,28,30,0,19,,5.0,15.450826418674641
-Regla umbral 75/25,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,8,27,29,0,17,,25.41204670111906,34.73757419556675
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,7,18,21,0,23,,45.79492849879916,52.17961261375714
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,9,28,30,0,19,,5.0,15.450826418674641
-Regla umbral 70/30,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,8,27,29,0,17,,25.41204670111906,34.73757419556675
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,7,18,21,0,23,,45.79492849879916,52.17961261375714
-Gemelo (voraz),1,263,Sadi Carnot - Gómez Farias,555,Ribera de San Cosme - Insurgentes Centro,18,27,29,8,30,8.456000626087189,5.0,12.590359279919182
-Gemelo (voraz),2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,9,9,19,5,16,6.176999926567078,25.206969176401888,33.32227909719128
-Gemelo (voraz),3,010,Reforma - Ramírez,107-108,Tolsa-Balderas,12,15,24,11,53,5.097000002861023,40.627396797607986,50.307256171323566
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,30,31,0,20,,5.0,15.450826418674641
+Regla umbral 90/10,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,6,28,29,0,13,,25.41204670111906,34.73757419556675
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,30,31,0,20,,5.0,15.450826418674641
+Regla umbral 85/15,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,6,28,29,0,13,,25.41204670111906,34.73757419556675
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,30,31,0,20,,5.0,15.450826418674641
+Regla umbral 80/20,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,6,28,29,0,13,,25.41204670111906,34.73757419556675
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,30,31,0,20,,5.0,15.450826418674641
+Regla umbral 75/25,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,6,28,29,0,13,,25.41204670111906,34.73757419556675
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,5,16,21,0,25,,45.79492849879916,52.17961261375714
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,10,30,31,0,20,,5.0,15.450826418674641
+Regla umbral 70/30,2,263,Sadi Carnot - Gómez Farias,116,Londres-Roma,6,28,29,0,13,,25.41204670111906,34.73757419556675
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,029,Reforma - Bucareli,5,16,21,0,25,,45.79492849879916,52.17961261375714
+Gemelo (voraz),1,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,14,14,19,5,32,11.86899995803833,5.0,17.616609896482704
+Gemelo (voraz),2,263,Sadi Carnot - Gómez Farias,107-108,Tolsa-Balderas,17,28,29,7,54,7.9959999322891235,25.206969176401888,37.306516566752215
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,11,30,31,2,15,5.4640002101659775,48.84730952562296,58.95730312401846
