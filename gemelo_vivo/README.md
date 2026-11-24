@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 24/11/2026 06:24 (hora de Ciudad de México).
+Página actualizada automáticamente el 24/11/2026 06:39 (hora de Ciudad de México).
 
-## Último pronóstico: 24/11 06:24 a 07:24
+## Último pronóstico: 24/11 06:39 a 07:39
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 24/11/2026 06:24 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**10.6 °C** · sin lluvia · viento 2 km/h · día hábil
+**11.6 °C** · sin lluvia · viento 2 km/h · día hábil
 
 El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 112 Av. Morelos-Abraham González | 0 / 20 | 1.00 | 0.00 | 0-5 |
-| 041 Reforma - Av. de la Repúblic | 0 / 32 | 1.00 | 0.00 | 0-4 |
-| 114 Lucerna-Abraham González | 0 / 16 | 0.99 | 0.00 | 0-3 |
-| 085 Rosas Moreno - Sullivan | 9 / 9 | 0.02 | 0.99 | 3-9 |
-| 259 Tómas Alva Edison-Ponciano A | 0 / 24 | 0.99 | 0.00 | 0-4 |
-| 116 Londres-Roma | 0 / 20 | 0.98 | 0.00 | 1-8 |
-| 029 Reforma - Bucareli | 0 / 25 | 0.96 | 0.00 | 3-14 |
-| 086 Sullivan-Insurgentes | 2 / 16 | 0.92 | 0.00 | 0-2 |
-| 008 Reforma - General Prim | 1 / 16 | 0.56 | 0.00 | 0-4 |
-| 555 Ribera de San Cosme - Insurg | 11 / 32 | 0.56 | 0.00 | 0-8 |
+| 041 Reforma - Av. de la Repúblic | 0 / 32 | 0.99 | 0.00 | 0-3 |
+| 112 Av. Morelos-Abraham González | 0 / 20 | 0.99 | 0.00 | 0-5 |
+| 114 Lucerna-Abraham González | 0 / 17 | 0.99 | 0.00 | 0-4 |
+| 259 Tómas Alva Edison-Ponciano A | 0 / 24 | 0.99 | 0.00 | 1-6 |
+| 116 Londres-Roma | 0 / 19 | 0.95 | 0.00 | 2-9 |
+| 086 Sullivan-Insurgentes | 3 / 16 | 0.95 | 0.00 | 0-2 |
+| 029 Reforma - Bucareli | 0 / 25 | 0.90 | 0.00 | 3-15 |
+| 555 Ribera de San Cosme - Insurg | 10 / 32 | 0.75 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 1 / 16 | 0.58 | 0.00 | 0-4 |
+| 107-108 Tolsa-Balderas | 13 / 54 | 0.52 | 0.00 | 0-9 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 450 (30/31) a 086 (2/16)
-2. Llevar **5 bicis** de 085 (9/9) a 041 (0/32)
-3. Llevar **15 bicis** de 263 (28/29) a 555 (11/32)
+1. Llevar **12 bicis** de 450 (29/31) a 086 (3/16)
+2. Llevar **18 bicis** de 263 (27/29) a 555 (10/32)
+3. Llevar **7 bicis** de 118 (8/19) a 041 (0/32)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
