@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,026,Reforma - Versalles,003,Reforma - Insurgentes,6,12,12,0,27,,5.0,12.01559339544933
-Regla umbral 90/10,2,113,General Prim-Versalles,008,Reforma - General Prim,7,15,15,0,15,,19.38165604048192,26.48133631821786
-Regla umbral 90/10,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,21,21,0,26,,34.280131657507184,42.61446225231133
-Regla umbral 85/15,1,026,Reforma - Versalles,003,Reforma - Insurgentes,6,12,12,0,27,,5.0,12.01559339544933
-Regla umbral 85/15,2,113,General Prim-Versalles,008,Reforma - General Prim,7,15,15,0,15,,19.38165604048192,26.48133631821786
-Regla umbral 85/15,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,21,21,0,26,,34.280131657507184,42.61446225231133
-Regla umbral 80/20,1,026,Reforma - Versalles,003,Reforma - Insurgentes,6,12,12,0,27,,5.0,12.01559339544933
-Regla umbral 80/20,2,113,General Prim-Versalles,008,Reforma - General Prim,7,15,15,0,15,,19.38165604048192,26.48133631821786
-Regla umbral 80/20,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,21,21,0,26,,34.280131657507184,42.61446225231133
-Regla umbral 75/25,1,026,Reforma - Versalles,003,Reforma - Insurgentes,6,12,12,0,27,,5.0,12.01559339544933
-Regla umbral 75/25,2,113,General Prim-Versalles,008,Reforma - General Prim,7,15,15,0,15,,19.38165604048192,26.48133631821786
-Regla umbral 75/25,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,21,21,0,26,,34.280131657507184,42.61446225231133
-Regla umbral 70/30,1,026,Reforma - Versalles,003,Reforma - Insurgentes,6,12,12,0,27,,5.0,12.01559339544933
-Regla umbral 70/30,2,113,General Prim-Versalles,008,Reforma - General Prim,7,15,15,0,15,,19.38165604048192,26.48133631821786
-Regla umbral 70/30,3,114,Lucerna-Abraham González,115,Roma-Dinamarca,10,21,21,0,26,,34.280131657507184,42.61446225231133
-Gemelo (voraz),1,114,Lucerna-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,14,21,21,0,28,8.09399962425232,5.0,16.638802872525986
-Gemelo (voraz),2,026,Reforma - Versalles,115,Roma-Dinamarca,7,12,12,0,26,5.667999982833862,26.091511019374725,34.06329731741422
-Gemelo (voraz),3,113,General Prim-Versalles,003,Reforma - Insurgentes,8,15,15,0,27,5.055999994277954,41.928179572206254,49.294242217238846
+Regla umbral 90/10,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 90/10,2,114,Lucerna-Abraham González,008,Reforma - General Prim,7,20,21,0,15,,20.457281929454844,28.256077268744164
+Regla umbral 85/15,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 85/15,2,114,Lucerna-Abraham González,008,Reforma - General Prim,7,20,21,0,15,,20.457281929454844,28.256077268744164
+Regla umbral 85/15,3,098,Emilio Dondé-Av. Balderas,270,De la República-Ponciano Arriaga,11,26,29,0,27,,38.491021485517045,48.21574188590694
+Regla umbral 80/20,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 80/20,2,114,Lucerna-Abraham González,008,Reforma - General Prim,7,20,21,0,15,,20.457281929454844,28.256077268744164
+Regla umbral 80/20,3,098,Emilio Dondé-Av. Balderas,270,De la República-Ponciano Arriaga,11,26,29,0,27,,38.491021485517045,48.21574188590694
+Regla umbral 75/25,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 75/25,2,114,Lucerna-Abraham González,008,Reforma - General Prim,7,20,21,0,15,,20.457281929454844,28.256077268744164
+Regla umbral 75/25,3,098,Emilio Dondé-Av. Balderas,270,De la República-Ponciano Arriaga,11,26,29,0,27,,38.491021485517045,48.21574188590694
+Regla umbral 70/30,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 70/30,2,114,Lucerna-Abraham González,008,Reforma - General Prim,7,20,21,0,15,,20.457281929454844,28.256077268744164
+Regla umbral 70/30,3,098,Emilio Dondé-Av. Balderas,270,De la República-Ponciano Arriaga,11,26,29,0,27,,38.491021485517045,48.21574188590694
+Gemelo (voraz),1,114,Lucerna-Abraham González,003,Reforma - Insurgentes,13,20,21,0,27,6.843000173568726,5.0,13.091219284422253
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,16,26,29,1,26,5.0859997272491455,23.566684634939374,34.59083242200585
+Gemelo (voraz),3,116,Londres-Roma,555,Ribera de San Cosme - Insurgentes Centro,11,15,23,1,29,4.479999899864197,41.32068262472101,52.81968472826783
