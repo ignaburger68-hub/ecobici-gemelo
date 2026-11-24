@@ -1,17 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,32,32,0,14,,5.0,13.471954030986831
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,20,20,0,22,,23.08168803700844,32.927123148692615
-Regla umbral 85/15,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,32,32,0,14,,5.0,13.471954030986831
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,20,20,0,22,,23.08168803700844,32.927123148692615
-Regla umbral 80/20,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,32,32,0,14,,5.0,13.471954030986831
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,20,20,0,22,,23.08168803700844,32.927123148692615
-Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,020,Reforma- Río Támesis,9,22,26,0,18,,44.5659260212186,55.41675789386732
-Regla umbral 75/25,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,32,32,0,14,,5.0,13.471954030986831
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,20,20,0,22,,23.08168803700844,32.927123148692615
-Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,020,Reforma- Río Támesis,9,22,26,0,18,,44.5659260212186,55.41675789386732
-Regla umbral 70/30,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,32,32,0,14,,5.0,13.471954030986831
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,20,20,0,22,,23.08168803700844,32.927123148692615
-Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,020,Reforma- Río Támesis,9,22,26,0,18,,44.5659260212186,55.41675789386732
-Gemelo (voraz),1,029,Reforma - Bucareli,119,Turín-Abraham González,19,32,32,0,27,12.914999961853027,5.0,15.508787275787796
-Gemelo (voraz),2,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,15,22,26,1,25,11.414999961853027,28.241454977393857,37.20428839935945
-Gemelo (voraz),3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,11,20,20,0,14,10.10099983215332,46.3602498554031,57.8211241835463
+Regla umbral 90/10,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,31,31,0,14,,5.0,13.471954030986831
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,10,20,20,0,26,,23.08168803700844,34.323739841688656
+Regla umbral 90/10,3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,7,26,26,0,14,,44.45496494315051,54.246557387959925
+Regla umbral 85/15,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,31,31,0,14,,5.0,13.471954030986831
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,10,20,20,0,26,,23.08168803700844,34.323739841688656
+Regla umbral 85/15,3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,7,26,26,0,14,,44.45496494315051,54.246557387959925
+Regla umbral 80/20,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,31,31,0,14,,5.0,13.471954030986831
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,10,20,20,0,26,,23.08168803700844,34.323739841688656
+Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,7,26,26,0,14,,44.45496494315051,54.246557387959925
+Regla umbral 75/25,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,31,31,0,14,,5.0,13.471954030986831
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,10,20,20,0,26,,23.08168803700844,34.323739841688656
+Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,7,26,26,0,14,,44.45496494315051,54.246557387959925
+Regla umbral 70/30,1,029,Reforma - Bucareli,113,General Prim-Versalles,7,31,31,0,14,,5.0,13.471954030986831
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,10,20,20,0,26,,23.08168803700844,34.323739841688656
+Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,086,Sullivan-Insurgentes,7,26,26,0,14,,44.45496494315051,54.246557387959925
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,119,Turín-Abraham González,19,26,26,1,28,19.667999267578125,5.0,17.73266770160606
+Gemelo (voraz),2,029,Reforma - Bucareli,086,Sullivan-Insurgentes,13,31,31,0,14,14.23799991607666,28.241454977393857,38.327291992238266
+Gemelo (voraz),3,260,Av. Juárez-Balderas,010,Reforma - Ramírez,14,20,20,3,27,11.934999942779541,49.78816632038147,58.94412777642512
