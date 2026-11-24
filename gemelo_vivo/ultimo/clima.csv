@@ -3,4 +3,4 @@ hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variab
 2026-11-24 15:00,hábil,pronosticado,19.05,-2.798,0.7,8.05,lluvia previa,llovió en las 3 h previas,0.816,0.829
 2026-11-24 15:00,hábil,pronosticado,19.05,-2.798,0.7,8.05,temperatura,más frío (−3 a −1 °C),0.841,0.872
 2026-11-24 15:00,hábil,pronosticado,19.05,-2.798,0.7,8.05,viento,5-10 km/h,0.872,0.905
-2026-11-24 15:00,hábil,pronosticado,19.05,-2.798,0.7,8.05,efecto total en la hora,,0.642,0.692
+2026-11-24 15:00,hábil,pronosticado,19.05,-2.798,0.7,8.05,efecto total en la hora,,0.604,0.662
