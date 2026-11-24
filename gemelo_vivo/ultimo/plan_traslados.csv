@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,9,20,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 90/10,3,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,13,29,31,2,36,,51.09041268324321,63.85647421605035
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
+Regla umbral 90/10,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
 Regla umbral 85/15,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,9,20,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,13,29,31,2,36,,51.09041268324321,63.85647421605035
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
+Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
 Regla umbral 80/20,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,9,20,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,13,29,31,2,36,,51.09041268324321,63.85647421605035
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
+Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
 Regla umbral 75/25,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,9,20,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,13,29,31,2,36,,51.09041268324321,63.85647421605035
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
+Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
 Regla umbral 70/30,1,086,Sullivan-Insurgentes,085,Rosas Moreno - Sullivan,2,16,16,0,5,,5.0,11.976070619689887
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,9,20,21,1,30,,24.998382644933027,38.28555470242443
-Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,031,Hamburgo - Insurgentes,13,29,31,2,36,,51.09041268324321,63.85647421605035
-Gemelo (voraz),1,086,Sullivan-Insurgentes,031,Hamburgo - Insurgentes,10,16,16,2,36,4.541000008583069,5.0,12.838368094915353
-Gemelo (voraz),2,260,Av. Juárez-Balderas,117,Londres-Nápoles,11,20,21,1,30,2.6410000324249268,26.330970104117437,39.61814216160884
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,8,29,31,1,15,1.6110000908374786,52.42300014242762,62.63002033441482
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,117,Londres-Nápoles,10,21,21,1,30,,24.998382644933027,38.28555470242443
+Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,107-108,Tolsa-Balderas,13,29,31,5,54,,51.09041268324321,62.631205642113954
+Gemelo (voraz),1,086,Sullivan-Insurgentes,031,Hamburgo - Insurgentes,8,16,16,4,36,2.147000014781952,5.0,12.838368094915353
+Gemelo (voraz),2,260,Av. Juárez-Balderas,117,Londres-Nápoles,8,21,21,1,30,1.8050000071525574,26.330970104117437,39.61814216160884
