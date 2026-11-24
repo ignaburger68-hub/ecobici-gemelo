@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 20:14 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 20:29 (hora de Ciudad de México).
 
-## Último pronóstico: 23/11 20:14 a 21:14
+## Último pronóstico: 23/11 20:28 a 21:28
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.1 °C** · lluvia 0.1 mm/h · viento 2 km/h · día hábil
 
-El clima multiplica los **retiros por 0.87** y las **devoluciones por 0.91** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.88** y las **devoluciones por 0.91** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,32 +24,32 @@ El clima multiplica los **retiros por 0.87** y las **devoluciones por 0.91** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 085 Rosas Moreno - Sullivan | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 450 Ramos Arizpe- Av México Teno | 29 / 29 | 0.00 | 1.00 | 27-29 |
-| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 19-21 |
-| 048 Independencia - Azueta | 10 / 10 | 0.00 | 0.99 | 7-10 |
-| 026 Reforma - Versalles | 12 / 12 | 0.00 | 0.99 | 9-12 |
-| 114 Lucerna-Abraham González | 0 / 23 | 0.97 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 30 / 32 | 0.00 | 0.88 | 27-32 |
-| 259 Tómas Alva Edison-Ponciano A | 24 / 27 | 0.00 | 0.52 | 23-27 |
-| 086 Sullivan-Insurgentes | 11 / 15 | 0.00 | 0.49 | 8-15 |
-| 029 Reforma - Bucareli | 29 / 33 | 0.00 | 0.47 | 26-33 |
+| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 18-21 |
+| 450 Ramos Arizpe- Av México Teno | 31 / 31 | 0.00 | 1.00 | 29-31 |
+| 048 Independencia - Azueta | 11 / 11 | 0.00 | 0.99 | 9-11 |
+| 117 Londres-Nápoles | 0 / 30 | 0.98 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 13 / 14 | 0.00 | 0.88 | 11-14 |
+| 555 Ribera de San Cosme - Insurg | 30 / 33 | 0.00 | 0.86 | 29-33 |
+| 086 Sullivan-Insurgentes | 13 / 16 | 0.00 | 0.80 | 12-16 |
+| 256 Gómez Farías-Sadi Carnot | 21 / 23 | 0.00 | 0.68 | 19-23 |
+| 029 Reforma - Bucareli | 30 / 34 | 0.00 | 0.68 | 30-34 |
 
 ### Plan recomendado del camión
 
-1. Llevar **15 bicis** de 260 (21/21) a 114 (0/23)
-2. Llevar **17 bicis** de 555 (30/32) a 117 (4/29)
-3. Llevar **16 bicis** de 450 (29/29) a 031 (3/36)
+1. Llevar **16 bicis** de 260 (21/21) a 117 (0/30)
+2. Llevar **19 bicis** de 555 (30/33) a 031 (2/36)
+3. Llevar **10 bicis** de 450 (31/31) a 008 (2/16)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-496 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+497 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.118 | 0.031 |
-| Sin resincronizar | 0.252 | 0.087 |
-| Persistencia | 0.289 | 0.060 |
-| Persistencia 0/1 | 0.289 | 0.060 |
+| Gemelo | 0.117 | 0.031 |
+| Sin resincronizar | 0.252 | 0.088 |
+| Persistencia | 0.288 | 0.060 |
+| Persistencia 0/1 | 0.288 | 0.060 |
 
 ![Brier por día](brier_vivo.png)
 
