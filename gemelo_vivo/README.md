@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 23/11/2026 19:01 (hora de Ciudad de México).
+Página actualizada automáticamente el 23/11/2026 19:18 (hora de Ciudad de México).
 
-## Último pronóstico: 23/11 19:01 a 20:01
+## Último pronóstico: 23/11 19:17 a 20:17
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.6 °C** · lluvia 0.1 mm/h · viento 3 km/h · día hábil
 
-El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.83** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.80** y las **devoluciones por 0.85** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.83** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 085 Rosas Moreno - Sullivan | 0 / 5 | 1.00 | 0.00 | 0-0 |
+| 555 Ribera de San Cosme - Insurg | 27 / 27 | 0.00 | 1.00 | 17-27 |
+| 119 Turín-Abraham González | 0 / 28 | 1.00 | 0.00 | 0-5 |
+| 118 Liverpool-Dinamarca | 0 / 18 | 0.99 | 0.00 | 0-3 |
 | 113 General Prim-Versalles | 0 / 14 | 0.99 | 0.00 | 0-6 |
-| 003 Reforma - Insurgentes | 0 / 26 | 0.99 | 0.00 | 0-6 |
-| 086 Sullivan-Insurgentes | 0 / 14 | 0.99 | 0.00 | 0-6 |
-| 555 Ribera de San Cosme - Insurg | 26 / 26 | 0.00 | 0.99 | 16-25 |
-| 119 Turín-Abraham González | 1 / 28 | 0.99 | 0.00 | 0-4 |
-| 029 Reforma - Bucareli | 31 / 31 | 0.00 | 0.98 | 20-30 |
-| 008 Reforma - General Prim | 1 / 15 | 0.97 | 0.00 | 0-6 |
-| 114 Lucerna-Abraham González | 1 / 23 | 0.97 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 3 / 27 | 0.97 | 0.00 | 3-13 |
+| 086 Sullivan-Insurgentes | 0 / 14 | 0.99 | 0.01 | 0-6 |
+| 012 Río Lerma - Villalongín | 0 / 13 | 0.99 | 0.01 | 0-5 |
+| 020 Reforma- Río Támesis | 0 / 20 | 0.99 | 0.00 | 0-8 |
+| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-7 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.98 | 14-20 |
 
 ### Plan recomendado del camión
 
-1. Llevar **19 bicis** de 555 (26/26) a 119 (1/28)
-2. Llevar **13 bicis** de 029 (31/31) a 086 (0/14)
-3. Llevar **14 bicis** de 260 (20/20) a 010 (3/27)
+1. Llevar **20 bicis** de 555 (27/27) a 119 (0/28)
+2. Llevar **13 bicis** de 260 (20/20) a 118 (0/18)
+3. Llevar **15 bicis** de 029 (31/32) a 003 (1/26)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-491 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+492 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
