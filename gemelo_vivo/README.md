@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 24/11/2026 16:51 (hora de Ciudad de México).
+Página actualizada automáticamente el 24/11/2026 17:06 (hora de Ciudad de México).
 
-## Último pronóstico: 24/11 16:51 a 17:51
+## Último pronóstico: 24/11 17:06 a 18:06
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.7 °C** · lluvia 1.1 mm/h · viento 3 km/h · día hábil
 
-El clima multiplica los **retiros por 0.55** y las **devoluciones por 0.62** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.54** y las **devoluciones por 0.61** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,33 +23,33 @@ El clima multiplica los **retiros por 0.55** y las **devoluciones por 0.62** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 041 Reforma - Av. de la Repúblic | 0 / 31 | 1.00 | 0.00 | 0-7 |
-| 115 Roma-Dinamarca | 0 / 26 | 0.98 | 0.00 | 0-5 |
-| 555 Ribera de San Cosme - Insurg | 0 / 29 | 0.98 | 0.00 | 3-15 |
-| 003 Reforma - Insurgentes | 1 / 27 | 0.87 | 0.00 | 0-6 |
-| 270 De la República-Ponciano Arr | 1 / 27 | 0.78 | 0.00 | 0-7 |
-| 259 Tómas Alva Edison-Ponciano A | 1 / 24 | 0.72 | 0.00 | 0-6 |
-| 112 Av. Morelos-Abraham González | 18 / 19 | 0.00 | 0.68 | 11-19 |
-| 098 Emilio Dondé-Av. Balderas | 26 / 29 | 0.00 | 0.66 | 25-29 |
-| 113 General Prim-Versalles | 13 / 14 | 0.01 | 0.64 | 6-14 |
-| 107-108 Tolsa-Balderas | 2 / 55 | 0.63 | 0.00 | 3-14 |
+| 010 Reforma - Ramírez | 0 / 21 | 0.99 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 1 / 27 | 0.89 | 0.00 | 0-8 |
+| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.89 | 0.00 | 0-8 |
+| 260 Av. Juárez-Balderas | 15 / 19 | 0.00 | 0.89 | 16-19 |
+| 012 Río Lerma - Villalongín | 1 / 12 | 0.88 | 0.00 | 0-5 |
+| 107-108 Tolsa-Balderas | 0 / 55 | 0.86 | 0.00 | 2-15 |
+| 270 De la República-Ponciano Arr | 2 / 27 | 0.75 | 0.00 | 0-6 |
+| 098 Emilio Dondé-Av. Balderas | 26 / 29 | 0.00 | 0.74 | 26-29 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 22 | 0.72 | 0.00 | 1-8 |
+| 259 Tómas Alva Edison-Ponciano A | 2 / 23 | 0.49 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **16 bicis** de 098 (26/29) a 115 (0/26)
-2. Llevar **12 bicis** de 114 (19/21) a 041 (0/31)
-3. Llevar **9 bicis** de 112 (18/19) a 555 (0/29)
+1. Llevar **13 bicis** de 260 (15/19) a 010 (0/21)
+2. Llevar **14 bicis** de 098 (26/29) a 003 (1/27)
+3. Llevar **9 bicis** de 114 (18/21) a 041 (1/31)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-553 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+554 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.114 | 0.032 |
 | Sin resincronizar | 0.243 | 0.084 |
-| Persistencia | 0.273 | 0.061 |
-| Persistencia 0/1 | 0.273 | 0.061 |
+| Persistencia | 0.272 | 0.061 |
+| Persistencia 0/1 | 0.272 | 0.061 |
 
 ![Brier por día](brier_vivo.png)
 
