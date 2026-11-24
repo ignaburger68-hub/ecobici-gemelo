@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 24/11/2026 11:09 (hora de Ciudad de México).
+Página actualizada automáticamente el 24/11/2026 11:24 (hora de Ciudad de México).
 
-## Último pronóstico: 24/11 11:09 a 12:09
+## Último pronóstico: 24/11 11:24 a 12:24
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **19.6 °C** · lluvia 0.4 mm/h · viento 5 km/h · día hábil
 
-El clima multiplica los **retiros por 0.77** y las **devoluciones por 0.83** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.80** y las **devoluciones por 0.85** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.77** y las **devoluciones por 0.83** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.99 | 0.00 | 0-4 |
-| 118 Liverpool-Dinamarca | 19 / 19 | 0.00 | 0.99 | 16-19 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 28 | 0.99 | 0.00 | 0-3 |
-| 026 Reforma - Versalles | 13 / 13 | 0.00 | 0.98 | 9-13 |
-| 085 Rosas Moreno - Sullivan | 0 / 10 | 0.98 | 0.01 | 0-4 |
-| 003 Reforma - Insurgentes | 0 / 27 | 0.95 | 0.00 | 0-5 |
-| 112 Av. Morelos-Abraham González | 1 / 19 | 0.70 | 0.00 | 0-6 |
-| 270 De la República-Ponciano Arr | 2 / 27 | 0.65 | 0.00 | 0-7 |
-| 113 General Prim-Versalles | 12 / 15 | 0.00 | 0.45 | 9-15 |
-| 086 Sullivan-Insurgentes | 2 / 15 | 0.42 | 0.00 | 0-7 |
+| 041 Reforma - Av. de la Repúblic | 0 / 30 | 0.98 | 0.00 | 0-4 |
+| 112 Av. Morelos-Abraham González | 0 / 20 | 0.97 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 0 / 15 | 0.96 | 0.00 | 0-6 |
+| 085 Rosas Moreno - Sullivan | 0 / 10 | 0.95 | 0.01 | 0-6 |
+| 118 Liverpool-Dinamarca | 18 / 19 | 0.00 | 0.88 | 16-19 |
+| 026 Reforma - Versalles | 12 / 13 | 0.00 | 0.77 | 7-13 |
+| 270 De la República-Ponciano Arr | 2 / 26 | 0.76 | 0.00 | 0-7 |
+| 113 General Prim-Versalles | 13 / 15 | 0.00 | 0.72 | 11-15 |
+| 003 Reforma - Insurgentes | 1 / 28 | 0.69 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 118 (19/19) a 256 (0/21)
-2. Llevar **6 bicis** de 026 (13/13) a 085 (0/10)
-3. Llevar **6 bicis** de 113 (12/15) a 003 (0/27)
+1. Llevar **12 bicis** de 118 (18/19) a 041 (0/30)
+2. Llevar **8 bicis** de 113 (13/15) a 270 (2/26)
+3. Llevar **5 bicis** de 026 (12/13) a 085 (0/10)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-529 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+530 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
