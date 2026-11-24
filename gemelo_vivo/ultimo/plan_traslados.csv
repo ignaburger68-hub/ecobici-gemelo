@@ -1,10 +1,12 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,31,,5.0,15.772950117080928
-Regla umbral 85/15,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,31,,5.0,15.772950117080928
-Regla umbral 80/20,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,31,,5.0,15.772950117080928
-Regla umbral 75/25,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,31,,5.0,15.772950117080928
-Regla umbral 70/30,1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,7,15,15,0,31,,5.0,15.772950117080928
-Regla umbral 70/30,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,6,19,26,1,32,,27.019320041482707,38.01966183470137
-Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,14,15,15,0,31,17.83400011062622,5.0,15.772950117080928
-Gemelo (voraz),2,115,Roma-Dinamarca,107-108,Tolsa-Balderas,17,19,26,4,56,11.682999849319458,27.019320041482707,37.74113239022173
-Gemelo (voraz),3,117,Londres-Nápoles,041,Reforma - Av. de la República,13,14,29,1,32,7.105999946594238,48.60797572093431,60.84352276332375
+Regla umbral 90/10,1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,,5.0,12.891566616719892
+Regla umbral 85/15,1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,,5.0,12.891566616719892
+Regla umbral 80/20,1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,,5.0,12.891566616719892
+Regla umbral 75/25,1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,,5.0,12.891566616719892
+Regla umbral 75/25,2,031,Hamburgo - Insurgentes,107-108,Tolsa-Balderas,9,27,35,1,55,,20.729934711635245,32.12686407784586
+Regla umbral 70/30,1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,,5.0,12.891566616719892
+Regla umbral 70/30,2,031,Hamburgo - Insurgentes,107-108,Tolsa-Balderas,9,27,35,1,55,,20.729934711635245,32.12686407784586
+Regla umbral 70/30,3,115,Roma-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,6,19,26,1,26,,42.84867642658488,53.03379916534431
+Gemelo (voraz),1,113,General Prim-Versalles,107-108,Tolsa-Balderas,15,15,15,1,55,20.476999282836914,5.0,13.199545280891883
+Gemelo (voraz),2,115,Roma-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,15,19,26,2,29,11.444000244140625,23.921357629630904,35.16772755403268
+Gemelo (voraz),3,117,Londres-Nápoles,086,Sullivan-Insurgentes,12,17,30,0,15,8.829000234603882,48.04089860409289,56.150270538550814
