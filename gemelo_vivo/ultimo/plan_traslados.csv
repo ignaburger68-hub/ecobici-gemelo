@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,12,31,31,0,25,,5.0,16.02414778706648
 Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,28,28,0,18,,27.343808540055743,39.544194590516824
-Regla umbral 90/10,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,32,33,1,28,,50.73693580185808,60.62755144425069
+Regla umbral 90/10,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,32,1,28,,50.73693580185808,60.62755144425069
 Regla umbral 85/15,1,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,12,31,31,0,25,,5.0,16.02414778706648
 Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,28,28,0,18,,27.343808540055743,39.544194590516824
-Regla umbral 85/15,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,32,33,1,28,,50.73693580185808,60.62755144425069
+Regla umbral 85/15,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,32,1,28,,50.73693580185808,60.62755144425069
 Regla umbral 80/20,1,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,12,31,31,0,25,,5.0,16.02414778706648
 Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,28,28,0,18,,27.343808540055743,39.544194590516824
-Regla umbral 80/20,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,32,33,1,28,,50.73693580185808,60.62755144425069
+Regla umbral 80/20,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,32,1,28,,50.73693580185808,60.62755144425069
 Regla umbral 75/25,1,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,12,31,31,0,25,,5.0,16.02414778706648
 Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,28,28,0,18,,27.343808540055743,39.544194590516824
-Regla umbral 75/25,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,32,33,1,28,,50.73693580185808,60.62755144425069
+Regla umbral 75/25,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,32,1,28,,50.73693580185808,60.62755144425069
 Regla umbral 70/30,1,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,12,31,31,0,25,,5.0,16.02414778706648
 Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,118,Liverpool-Dinamarca,9,28,28,0,18,,27.343808540055743,39.544194590516824
-Regla umbral 70/30,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,32,33,1,28,,50.73693580185808,60.62755144425069
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,11,28,28,0,25,3.46999990940094,5.0,16.319660752989265
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,118,Liverpool-Dinamarca,8,31,31,0,18,2.882999897003174,27.343808540055743,37.82360481511617
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,003,Reforma - Insurgentes,10,27,29,1,28,1.391999989748001,50.44021471159888,60.57143981306073
+Regla umbral 70/30,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,31,32,1,28,,50.73693580185808,60.62755144425069
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,12,28,28,0,25,3.4359999895095825,5.0,16.319660752989265
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,086,Sullivan-Insurgentes,7,31,31,1,14,2.8809999227523804,27.343808540055743,38.27621496504256
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,118,Liverpool-Dinamarca,9,27,29,0,18,2.0229999721050262,48.06780740985198,60.68441730633468
