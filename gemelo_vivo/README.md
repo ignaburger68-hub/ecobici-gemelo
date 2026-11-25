@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 06:23 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 06:37 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 06:23 a 07:23
+## Último pronóstico: 25/11 06:37 a 07:37
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 25/11/2026 06:23 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**11.5 °C** · sin lluvia · viento 3 km/h · día hábil
+**11.9 °C** · sin lluvia · viento 3 km/h · día hábil
 
 El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 098 Emilio Dondé-Av. Balderas | 0 / 15 | 1.00 | 0.00 | 0-2 |
-| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-5 |
-| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-4 |
-| 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 0.98 | 21-27 |
-| 114 Lucerna-Abraham González | 1 / 23 | 0.90 | 0.00 | 0-2 |
-| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.90 | 8-18 |
-| 086 Sullivan-Insurgentes | 2 / 14 | 0.88 | 0.00 | 0-3 |
-| 113 General Prim-Versalles | 1 / 15 | 0.77 | 0.00 | 0-4 |
-| 116 Londres-Roma | 1 / 23 | 0.66 | 0.00 | 0-6 |
+| 114 Lucerna-Abraham González | 0 / 23 | 1.00 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 0 / 14 | 1.00 | 0.00 | 0-2 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 15 | 0.99 | 0.00 | 0-2 |
+| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-7 |
+| 008 Reforma - General Prim | 0 / 15 | 0.98 | 0.00 | 0-5 |
+| 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 0.96 | 18-26 |
+| 020 Reforma- Río Támesis | 1 / 22 | 0.70 | 0.00 | 0-6 |
+| 041 Reforma - Av. de la Repúblic | 3 / 30 | 0.54 | 0.00 | 0-6 |
+| 113 General Prim-Versalles | 2 / 15 | 0.48 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 450 (27/27) a 086 (2/14)
-2. Llevar **6 bicis** de 260 (19/19) a 114 (1/23)
-3. Llevar **5 bicis** de 010 (7/24) a 113 (1/15)
+1. Llevar **12 bicis** de 450 (27/27) a 086 (0/14)
+2. Llevar **12 bicis** de 119 (27/29) a 114 (0/23)
+3. Llevar **9 bicis** de 259 (20/24) a 041 (3/30)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
