@@ -1,16 +1,16 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,117,Londres-Nápoles,010,Reforma - Ramírez,11,25,27,0,25,,5.0,14.582930070070905
-Regla umbral 90/10,2,116,Londres-Roma,020,Reforma- Río Támesis,9,21,23,0,21,,22.280318003517355,29.532321720498743
-Regla umbral 85/15,1,117,Londres-Nápoles,010,Reforma - Ramírez,11,25,27,0,25,,5.0,14.582930070070905
-Regla umbral 85/15,2,116,Londres-Roma,020,Reforma- Río Támesis,9,21,23,0,21,,22.280318003517355,29.532321720498743
-Regla umbral 80/20,1,117,Londres-Nápoles,010,Reforma - Ramírez,11,25,27,0,25,,5.0,14.582930070070905
-Regla umbral 80/20,2,116,Londres-Roma,020,Reforma- Río Támesis,9,21,23,0,21,,22.280318003517355,29.532321720498743
-Regla umbral 75/25,1,117,Londres-Nápoles,010,Reforma - Ramírez,11,25,27,0,25,,5.0,14.582930070070905
-Regla umbral 75/25,2,116,Londres-Roma,020,Reforma- Río Támesis,9,21,23,0,21,,22.280318003517355,29.532321720498743
-Regla umbral 75/25,3,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,24,0,6,,35.167129462789475,43.89876047146519
-Regla umbral 70/30,1,117,Londres-Nápoles,010,Reforma - Ramírez,11,25,27,0,25,,5.0,14.582930070070905
-Regla umbral 70/30,2,116,Londres-Roma,020,Reforma- Río Támesis,9,21,23,0,21,,22.280318003517355,29.532321720498743
-Regla umbral 70/30,3,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,24,0,6,,35.167129462789475,43.89876047146519
-Gemelo (voraz),1,116,Londres-Roma,010,Reforma - Ramírez,14,21,23,0,25,8.174999952316284,5.0,12.697387933446448
-Gemelo (voraz),2,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,15,25,27,0,30,7.796999990940094,22.28031800351735,35.15348905357756
-Gemelo (voraz),3,098,Emilio Dondé-Av. Balderas,270,De la República-Ponciano Arriaga,14,21,31,1,26,5.536999963223934,47.22989229936416,56.95461269975405
+Regla umbral 90/10,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,26,,5.0,12.697387933446448
+Regla umbral 85/15,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,26,,5.0,12.697387933446448
+Regla umbral 85/15,2,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,22,25,0,6,,20.884414077638404,29.616045086314116
+Regla umbral 80/20,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,26,,5.0,12.697387933446448
+Regla umbral 80/20,2,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,22,25,0,6,,20.884414077638404,29.616045086314116
+Regla umbral 80/20,3,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,9,25,31,0,26,,39.97947683691591,51.542496709976085
+Regla umbral 75/25,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,26,,5.0,12.697387933446448
+Regla umbral 75/25,2,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,22,25,0,6,,20.884414077638404,29.616045086314116
+Regla umbral 75/25,3,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,9,25,31,0,26,,39.97947683691591,51.542496709976085
+Regla umbral 70/30,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,26,,5.0,12.697387933446448
+Regla umbral 70/30,2,115,Roma-Dinamarca,263,Sadi Carnot - Gómez Farias,3,22,25,0,6,,20.884414077638404,29.616045086314116
+Regla umbral 70/30,3,117,Londres-Nápoles,270,De la República-Ponciano Arriaga,9,25,31,0,26,,39.97947683691591,51.542496709976085
+Gemelo (voraz),1,116,Londres-Roma,041,Reforma - Av. de la República,15,23,23,1,31,8.674000024795532,5.0,15.072630659441103
+Gemelo (voraz),2,115,Roma-Dinamarca,270,De la República-Ponciano Arriaga,13,22,25,0,26,6.711000233888626,26.072972452659766,36.13207488596984
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,555,Ribera de San Cosme - Insurgentes Centro,16,27,34,0,30,6.259000346064568,47.638566748682145,60.267208445022774
