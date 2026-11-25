@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,27,27,0,23,,5.0,15.450826418674641
-Regla umbral 90/10,2,119,Turín-Abraham González,008,Reforma - General Prim,7,27,29,0,15,,22.102375356995196,29.997091307911003
-Regla umbral 90/10,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,11,0,6,,41.419272015867456,53.001412792409944
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,27,27,0,23,,5.0,15.450826418674641
-Regla umbral 85/15,2,119,Turín-Abraham González,008,Reforma - General Prim,7,27,29,0,15,,22.102375356995196,29.997091307911003
-Regla umbral 85/15,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,11,0,6,,41.419272015867456,53.001412792409944
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,27,27,0,23,,5.0,15.450826418674641
-Regla umbral 80/20,2,119,Turín-Abraham González,008,Reforma - General Prim,7,27,29,0,15,,22.102375356995196,29.997091307911003
-Regla umbral 80/20,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,11,0,6,,41.419272015867456,53.001412792409944
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,27,27,0,23,,5.0,15.450826418674641
-Regla umbral 75/25,2,119,Turín-Abraham González,008,Reforma - General Prim,7,27,29,0,15,,22.102375356995196,29.997091307911003
-Regla umbral 75/25,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,11,0,6,,41.419272015867456,53.001412792409944
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,27,27,0,23,,5.0,15.450826418674641
-Regla umbral 70/30,2,119,Turín-Abraham González,008,Reforma - General Prim,7,27,29,0,15,,22.102375356995196,29.997091307911003
-Regla umbral 70/30,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,11,0,6,,41.419272015867456,53.001412792409944
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,12,27,27,0,14,8.313999831676483,5.0,15.109993598395498
-Gemelo (voraz),2,119,Turín-Abraham González,114,Lucerna-Abraham González,12,27,29,0,23,3.369000181555748,23.89983204011462,30.551380978435176
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,9,20,24,3,30,1.2949999663978815,40.54613590628901,48.230076889062794
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,5.0,15.207020191987201
+Regla umbral 90/10,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,27,29,0,6,,23.101736142903007,33.758968389151974
+Regla umbral 90/10,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,10,11,0,23,,45.34110916569446,57.93373663221771
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,5.0,15.207020191987201
+Regla umbral 85/15,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,27,29,0,6,,23.101736142903007,33.758968389151974
+Regla umbral 85/15,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,10,11,0,23,,45.34110916569446,57.93373663221771
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,5.0,15.207020191987201
+Regla umbral 80/20,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,27,29,0,6,,23.101736142903007,33.758968389151974
+Regla umbral 80/20,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,10,11,0,23,,45.34110916569446,57.93373663221771
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,5.0,15.207020191987201
+Regla umbral 75/25,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,27,29,0,6,,23.101736142903007,33.758968389151974
+Regla umbral 75/25,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,10,11,0,23,,45.34110916569446,57.93373663221771
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,5.0,15.207020191987201
+Regla umbral 70/30,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,27,29,0,6,,23.101736142903007,33.758968389151974
+Regla umbral 70/30,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,10,11,0,23,,45.34110916569446,57.93373663221771
+Gemelo (voraz),1,119,Turín-Abraham González,086,Sullivan-Insurgentes,12,27,29,1,14,7.452999860048294,5.0,13.789838441719121
+Gemelo (voraz),2,118,Liverpool-Dinamarca,114,Lucerna-Abraham González,4,4,18,1,23,2.503999948501587,21.905148362508513,29.569624530951277
+Gemelo (voraz),3,048,Independencia - Azueta,020,Reforma- Río Támesis,5,10,11,0,23,2.0680000483989716,39.23973013048042,51.832357597003664
