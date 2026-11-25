@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,12,28,29,2,28,,5.0,16.380150230921107
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,8,18,19,2,27,,27.208072117707665,38.45012392238788
-Regla umbral 90/10,3,048,Independencia - Azueta,026,Reforma - Versalles,4,10,11,1,13,,50.03923100708232,59.62647619800761
-Regla umbral 85/15,1,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,12,28,29,2,28,,5.0,16.380150230921107
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,8,18,19,2,27,,27.208072117707665,38.45012392238788
-Regla umbral 85/15,3,048,Independencia - Azueta,026,Reforma - Versalles,4,10,11,1,13,,50.03923100708232,59.62647619800761
-Regla umbral 80/20,1,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,12,28,29,2,28,,5.0,16.380150230921107
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,8,18,19,2,27,,27.208072117707665,38.45012392238788
-Regla umbral 80/20,3,048,Independencia - Azueta,026,Reforma - Versalles,4,10,11,1,13,,50.03923100708232,59.62647619800761
-Regla umbral 75/25,1,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,12,28,29,2,28,,5.0,16.380150230921107
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,8,18,19,2,27,,27.208072117707665,38.45012392238788
-Regla umbral 75/25,3,048,Independencia - Azueta,026,Reforma - Versalles,4,10,11,1,13,,50.03923100708232,59.62647619800761
-Regla umbral 70/30,1,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,12,28,29,2,28,,5.0,16.380150230921107
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,8,18,19,2,27,,27.208072117707665,38.45012392238788
-Regla umbral 70/30,3,048,Independencia - Azueta,026,Reforma - Versalles,4,10,11,1,13,,50.03923100708232,59.62647619800761
-Gemelo (voraz),1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,11,18,19,2,27,3.17999991774559,5.0,16.242051804680216
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,026,Reforma - Versalles,5,28,29,1,13,2.1230000257492065,26.71751715519734,35.450278433097594
-Gemelo (voraz),3,048,Independencia - Azueta,113,General Prim-Versalles,5,10,11,2,15,1.5609999597072601,45.03752362402288,54.684819415068304
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
+Regla umbral 90/10,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
+Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
+Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
+Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
+Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
+Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
+Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
+Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
+Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
+Gemelo (voraz),1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,14,19,19,1,27,5.209999978542328,5.0,16.242051804680216
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,8,28,29,2,22,2.012000024318695,26.71751715519734,35.7216434234628
+Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,23,26,1,15,1.2480000257492065,43.9647291325427,53.71665840732385
