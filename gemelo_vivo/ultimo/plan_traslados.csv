@@ -1,8 +1,6 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,15,0,6,,5.0,14.053298601902974
-Regla umbral 75/25,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,18,23,0,13,,23.378826096350668,32.69211548878302
-Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,15,0,6,,5.0,14.053298601902974
-Regla umbral 70/30,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,18,23,0,13,,23.378826096350668,32.69211548878302
-Gemelo (voraz),1,116,Londres-Roma,003,Reforma - Insurgentes,12,18,23,1,26,6.615999817848206,5.0,11.849400928808194
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,085,Rosas Moreno - Sullivan,8,13,31,0,13,3.7960000783205032,22.324866279325317,35.17741546189541
-Gemelo (voraz),3,107-108,Tolsa-Balderas,012,Río Lerma - Villalongín,7,8,56,1,13,3.2150002121925354,48.22546928166941,60.43666804587971
+Regla umbral 75/25,1,116,Londres-Roma,010,Reforma - Ramírez,6,18,23,0,26,,5.0,12.697387933446448
+Regla umbral 70/30,1,116,Londres-Roma,010,Reforma - Ramírez,6,18,23,0,26,,5.0,12.697387933446448
+Gemelo (voraz),1,116,Londres-Roma,115,Roma-Dinamarca,12,18,23,7,24,7.014999866485596,5.0,11.72985020271516
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,020,Reforma- Río Támesis,9,11,31,0,21,5.245000123977661,22.753997989781638,34.11527574950691
+Gemelo (voraz),3,107-108,Tolsa-Balderas,085,Rosas Moreno - Sullivan,6,7,56,0,13,3.73199999332428,45.31500828526401,58.36306210503801
