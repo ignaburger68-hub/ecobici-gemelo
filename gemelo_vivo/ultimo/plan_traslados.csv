@@ -1,10 +1,8 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,116,Londres-Roma,026,Reforma - Versalles,5,19,23,0,10,,5.0,12.271920044903425
-Regla umbral 80/20,2,008,Reforma - General Prim,003,Reforma - Insurgentes,5,14,17,0,26,,19.159951163580054,24.46478066536349
-Regla umbral 75/25,1,116,Londres-Roma,026,Reforma - Versalles,5,19,23,0,10,,5.0,12.271920044903425
-Regla umbral 75/25,2,008,Reforma - General Prim,003,Reforma - Insurgentes,5,14,17,0,26,,19.159951163580054,24.46478066536349
-Regla umbral 70/30,1,116,Londres-Roma,026,Reforma - Versalles,5,19,23,0,10,,5.0,12.271920044903425
-Regla umbral 70/30,2,008,Reforma - General Prim,003,Reforma - Insurgentes,5,14,17,0,26,,19.159951163580054,24.46478066536349
-Gemelo (voraz),1,116,Londres-Roma,003,Reforma - Insurgentes,13,19,23,0,26,7.358999967575073,5.0,11.849400928808194
-Gemelo (voraz),2,008,Reforma - General Prim,026,Reforma - Versalles,7,14,17,0,10,5.452000141143799,17.15423043059163,24.04226154926826
-Gemelo (voraz),3,115,Roma-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,6,17,25,0,29,3.311999887228012,32.01404784730775,43.26041777170953
+Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,15,0,6,,5.0,14.053298601902974
+Regla umbral 75/25,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,18,23,0,13,,23.378826096350668,32.69211548878302
+Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,15,0,6,,5.0,14.053298601902974
+Regla umbral 70/30,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,18,23,0,13,,23.378826096350668,32.69211548878302
+Gemelo (voraz),1,116,Londres-Roma,003,Reforma - Insurgentes,12,18,23,1,26,6.615999817848206,5.0,11.849400928808194
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,085,Rosas Moreno - Sullivan,8,13,31,0,13,3.7960000783205032,22.324866279325317,35.17741546189541
+Gemelo (voraz),3,107-108,Tolsa-Balderas,012,Río Lerma - Villalongín,7,8,56,1,13,3.2150002121925354,48.22546928166941,60.43666804587971
