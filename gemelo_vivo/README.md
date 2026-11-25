@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 07:34 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 07:49 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 07:34 a 08:34
+## Último pronóstico: 25/11 07:49 a 08:49
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **12.7 °C** · lluvia 0.1 mm/h · viento 3 km/h · día hábil
 
-El clima multiplica los **retiros por 0.84** y las **devoluciones por 0.88** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.85** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,32 +24,32 @@ El clima multiplica los **retiros por 0.84** y las **devoluciones por 0.88** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-4 |
-| 098 Emilio Dondé-Av. Balderas | 0 / 17 | 0.98 | 0.00 | 0-3 |
-| 118 Liverpool-Dinamarca | 16 / 17 | 0.00 | 0.90 | 12-17 |
-| 255 José Rosas Moreno-Guillermo  | 4 / 35 | 0.86 | 0.00 | 0-4 |
-| 256 Gómez Farías-Sadi Carnot | 2 / 21 | 0.84 | 0.00 | 0-4 |
-| 086 Sullivan-Insurgentes | 3 / 14 | 0.82 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 3 / 31 | 0.81 | 0.00 | 0-4 |
-| 020 Reforma- Río Támesis | 1 / 23 | 0.78 | 0.00 | 0-9 |
-| 114 Lucerna-Abraham González | 2 / 23 | 0.69 | 0.00 | 0-6 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.98 | 0.00 | 0-4 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 18 | 0.98 | 0.00 | 0-5 |
+| 116 Londres-Roma | 0 / 21 | 0.91 | 0.02 | 2-14 |
+| 031 Hamburgo - Insurgentes | 0 / 34 | 0.89 | 0.00 | 2-14 |
+| 086 Sullivan-Insurgentes | 2 / 13 | 0.89 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 3 / 14 | 0.89 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 5 / 18 | 0.86 | 0.00 | 0-5 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 21 | 0.84 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 3 / 31 | 0.77 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 118 (16/17) a 255 (4/35)
-2. Llevar **8 bicis** de 270 (24/28) a 086 (3/14)
-3. Llevar **11 bicis** de 107-108 (41/57) a 256 (2/21)
+1. Llevar **7 bicis** de 113 (8/15) a 012 (3/14)
+2. Llevar **10 bicis** de 270 (24/28) a 260 (5/18)
+3. Llevar **13 bicis** de 119 (22/28) a 555 (3/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-585 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+586 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.114 | 0.033 |
-| Sin resincronizar | 0.238 | 0.083 |
-| Persistencia | 0.266 | 0.061 |
-| Persistencia 0/1 | 0.266 | 0.061 |
+| Gemelo | 0.113 | 0.033 |
+| Sin resincronizar | 0.238 | 0.082 |
+| Persistencia | 0.266 | 0.060 |
+| Persistencia 0/1 | 0.266 | 0.060 |
 
 ![Brier por día](brier_vivo.png)
 

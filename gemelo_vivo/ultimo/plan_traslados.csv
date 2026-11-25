@@ -1,18 +1,16 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 90/10,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 85/15,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
-Regla umbral 85/15,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 80/20,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
-Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
-Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
-Gemelo (voraz),1,118,Liverpool-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,11,16,17,4,35,7.301000118255615,5.0,16.104893343960413
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,086,Sullivan-Insurgentes,8,24,28,3,14,3.467000037431717,25.470141080585726,34.31799931913424
-Gemelo (voraz),3,107-108,Tolsa-Balderas,256,Gómez Farías-Sadi Carnot,11,41,57,2,21,3.151000067591667,45.390360500279954,57.83631410728085
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
+Regla umbral 85/15,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
+Regla umbral 80/20,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
+Regla umbral 80/20,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
+Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
+Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
+Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
+Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
+Gemelo (voraz),1,113,General Prim-Versalles,012,Río Lerma - Villalongín,7,8,15,3,14,5.455000042915344,5.0,14.10499155525549
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,260,Av. Juárez-Balderas,10,24,28,5,18,4.094000265002251,24.113032456540083,32.53265828066967
+Gemelo (voraz),3,119,Turín-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,13,22,28,3,28,3.928000047802925,44.02958430144268,56.762252003048744
