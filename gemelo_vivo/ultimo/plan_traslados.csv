@@ -1,17 +1,15 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,25,27,0,23,,5.0,15.450826418674641
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,25,27,0,23,,5.0,15.450826418674641
-Regla umbral 85/15,2,119,Turín-Abraham González,008,Reforma - General Prim,6,26,29,0,13,,22.102375356995196,29.997091307911003
-Regla umbral 85/15,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,21,24,0,6,,39.10933958678619,46.28429817115861
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,25,27,0,23,,5.0,15.450826418674641
-Regla umbral 80/20,2,119,Turín-Abraham González,008,Reforma - General Prim,6,26,29,0,13,,22.102375356995196,29.997091307911003
-Regla umbral 80/20,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,21,24,0,6,,39.10933958678619,46.28429817115861
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,25,27,0,23,,5.0,15.450826418674641
-Regla umbral 75/25,2,119,Turín-Abraham González,008,Reforma - General Prim,6,26,29,0,13,,22.102375356995196,29.997091307911003
-Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,21,24,0,6,,39.10933958678619,46.28429817115861
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,11,25,27,0,23,,5.0,15.450826418674641
-Regla umbral 70/30,2,119,Turín-Abraham González,008,Reforma - General Prim,6,26,29,0,13,,22.102375356995196,29.997091307911003
-Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,21,24,0,6,,39.10933958678619,46.28429817115861
-Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,9,9,17,0,14,8.22000002861023,5.0,13.11530992078939
-Gemelo (voraz),2,119,Turín-Abraham González,041,Reforma - Av. de la República,16,26,29,1,31,4.8100002855062485,21.905148362508513,32.643466448506466
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,255,José Rosas Moreno-Guillermo Prieto,12,21,24,5,34,3.0809998363256454,40.32740743128025,49.25212982363378
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 80/20,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
+Regla umbral 80/20,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 75/25,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
+Regla umbral 75/25,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 70/30,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
+Regla umbral 70/30,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
+Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,11,14,17,0,14,10.364999771118164,5.0,13.11530992078939
+Gemelo (voraz),2,119,Turín-Abraham González,255,José Rosas Moreno-Guillermo Prieto,15,24,29,4,35,6.775000154972076,21.905148362508513,33.74536708797261
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,19,24,3,31,4.065000087022781,42.67008948032615,50.35403046309993
