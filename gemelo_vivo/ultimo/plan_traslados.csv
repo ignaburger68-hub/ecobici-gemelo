@@ -1,18 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,098,Emilio Dondé-Av. Balderas,116,Londres-Roma,11,31,31,0,23,,5.0,14.440939405465592
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,29,30,2,31,,25.351261472620862,35.530430288497314
-Regla umbral 85/15,1,098,Emilio Dondé-Av. Balderas,116,Londres-Roma,11,31,31,0,23,,5.0,14.440939405465592
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,29,30,2,31,,25.351261472620862,35.530430288497314
-Regla umbral 85/15,3,026,Reforma - Versalles,113,General Prim-Versalles,5,13,15,1,15,,42.54602368394664,48.87089424079375
-Regla umbral 80/20,1,098,Emilio Dondé-Av. Balderas,116,Londres-Roma,11,31,31,0,23,,5.0,14.440939405465592
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,29,30,2,31,,25.351261472620862,35.530430288497314
-Regla umbral 80/20,3,026,Reforma - Versalles,113,General Prim-Versalles,5,13,15,1,15,,42.54602368394664,48.87089424079375
-Regla umbral 75/25,1,098,Emilio Dondé-Av. Balderas,116,Londres-Roma,11,31,31,0,23,,5.0,14.440939405465592
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,29,30,2,31,,25.351261472620862,35.530430288497314
-Regla umbral 75/25,3,026,Reforma - Versalles,113,General Prim-Versalles,5,13,15,1,15,,42.54602368394664,48.87089424079375
-Regla umbral 70/30,1,098,Emilio Dondé-Av. Balderas,116,Londres-Roma,11,31,31,0,23,,5.0,14.440939405465592
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,13,29,30,2,31,,25.351261472620862,35.530430288497314
-Regla umbral 70/30,3,026,Reforma - Versalles,113,General Prim-Versalles,5,13,15,1,15,,42.54602368394664,48.87089424079375
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,12,29,30,0,23,4.773000001907349,5.0,15.910322067155272
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,31,31,2,31,3.1850001215934753,25.351261472620862,35.82672682313799
-Gemelo (voraz),3,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,34,1,15,1.0209999680519104,45.7173424655306,54.18929649651743
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,23,,5.0,15.910322067155272
+Regla umbral 90/10,2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,6,29,31,1,15,,25.351261472620862,33.51935642479829
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,23,,5.0,15.910322067155272
+Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,6,29,31,1,15,,25.351261472620862,33.51935642479829
+Regla umbral 85/15,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,11,30,35,4,30,,41.99131045578512,51.88192609817773
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,23,,5.0,15.910322067155272
+Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,6,29,31,1,15,,25.351261472620862,33.51935642479829
+Regla umbral 80/20,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,11,30,35,4,30,,41.99131045578512,51.88192609817773
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,23,,5.0,15.910322067155272
+Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,6,29,31,1,15,,25.351261472620862,33.51935642479829
+Regla umbral 75/25,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,11,30,35,4,30,,41.99131045578512,51.88192609817773
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,11,30,30,0,23,,5.0,15.910322067155272
+Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,6,29,31,1,15,,25.351261472620862,33.51935642479829
+Regla umbral 70/30,3,029,Reforma - Bucareli,003,Reforma - Insurgentes,11,30,35,4,30,,41.99131045578512,51.88192609817773
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,13,30,30,0,23,6.443999886512756,5.0,15.910322067155272
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,8,29,31,1,15,2.2480000853538513,25.351261472620862,33.51935642479829
+Gemelo (voraz),3,029,Reforma - Bucareli,118,Liverpool-Dinamarca,9,30,35,3,19,0.8709999620914459,41.99131045578512,53.18405166712637
