@@ -1,15 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 90/10,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
 Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
+Regla umbral 85/15,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
+Regla umbral 85/15,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
 Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 80/20,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
-Regla umbral 80/20,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
+Regla umbral 80/20,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
+Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
 Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 75/25,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
-Regla umbral 75/25,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
+Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
 Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,12,26,27,0,27,,5.0,15.179168815876452
-Regla umbral 70/30,2,119,Turín-Abraham González,020,Reforma- Río Támesis,9,24,29,0,23,,23.367460341250617,31.795427310337608
-Regla umbral 70/30,3,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,14,17,0,6,,39.2304425392783,49.49675859805171
-Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,11,14,17,0,14,10.364999771118164,5.0,13.11530992078939
-Gemelo (voraz),2,119,Turín-Abraham González,255,José Rosas Moreno-Guillermo Prieto,15,24,29,4,35,6.775000154972076,21.905148362508513,33.74536708797261
-Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,041,Reforma - Av. de la República,11,19,24,3,31,4.065000087022781,42.67008948032615,50.35403046309993
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,16,17,0,6,,22.768512237237445,33.03482829601086
+Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,098,Emilio Dondé-Av. Balderas,8,24,28,0,17,,40.53731183850987,50.262032238899764
+Gemelo (voraz),1,118,Liverpool-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,11,16,17,4,35,7.301000118255615,5.0,16.104893343960413
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,086,Sullivan-Insurgentes,8,24,28,3,14,3.467000037431717,25.470141080585726,34.31799931913424
+Gemelo (voraz),3,107-108,Tolsa-Balderas,256,Gómez Farías-Sadi Carnot,11,41,57,2,21,3.151000067591667,45.390360500279954,57.83631410728085
