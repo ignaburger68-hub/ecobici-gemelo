@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,19,19,0,15,,5.0,14.609734006021608
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,24.361663280802752,34.56868347278996
-Regla umbral 90/10,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,42.463399423705766,50.286616151842864
-Regla umbral 85/15,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,19,19,0,15,,5.0,14.609734006021608
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,24.361663280802752,34.56868347278996
-Regla umbral 85/15,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,42.463399423705766,50.286616151842864
-Regla umbral 80/20,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,19,19,0,15,,5.0,14.609734006021608
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,24.361663280802752,34.56868347278996
-Regla umbral 80/20,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,42.463399423705766,50.286616151842864
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,19,19,0,15,,5.0,14.609734006021608
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,24.361663280802752,34.56868347278996
-Regla umbral 75/25,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,42.463399423705766,50.286616151842864
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,19,19,0,15,,5.0,14.609734006021608
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,008,Reforma - General Prim,7,26,27,0,15,,24.361663280802752,34.56868347278996
-Regla umbral 70/30,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,42.463399423705766,50.286616151842864
-Gemelo (voraz),1,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,19,19,2,13,3.8410000801086426,5.0,16.46087432814321
-Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,9,26,27,0,15,2.139999806880951,26.570867926538707,36.32279720131985
-Gemelo (voraz),3,119,Turín-Abraham González,114,Lucerna-Abraham González,12,27,29,2,23,1.368999969214201,43.460395561599384,50.11194449991994
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,19,19,0,15,,5.0,16.120095288340757
+Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.327115480327958,34.90322864766406
+Regla umbral 90/10,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,45.560460893913024,53.38367762205013
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,19,19,0,15,,5.0,16.120095288340757
+Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.327115480327958,34.90322864766406
+Regla umbral 85/15,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,45.560460893913024,53.38367762205013
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,19,19,0,15,,5.0,16.120095288340757
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.327115480327958,34.90322864766406
+Regla umbral 80/20,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,45.560460893913024,53.38367762205013
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,19,19,0,15,,5.0,16.120095288340757
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.327115480327958,34.90322864766406
+Regla umbral 75/25,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,45.560460893913024,53.38367762205013
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,008,Reforma - General Prim,7,19,19,0,15,,5.0,16.120095288340757
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.327115480327958,34.90322864766406
+Regla umbral 70/30,3,119,Turín-Abraham González,115,Roma-Dinamarca,12,27,29,0,25,,45.560460893913024,53.38367762205013
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,9,27,27,2,14,4.630999952554703,5.0,15.109993598395498
+Gemelo (voraz),2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,6,19,19,1,23,2.433000147342682,26.570867926538707,36.416303038222885
+Gemelo (voraz),3,010,Reforma - Ramírez,113,General Prim-Versalles,5,7,24,1,15,1.3720000088214874,44.11581730979017,50.929668665364986

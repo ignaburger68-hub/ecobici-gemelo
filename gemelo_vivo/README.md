@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 06:09 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 06:23 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 06:09 a 07:09
+## Último pronóstico: 25/11 06:23 a 07:23
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 113 General Prim-Versalles | 0 / 15 | 1.00 | 0.00 | 0-1 |
-| 098 Emilio Dondé-Av. Balderas | 0 / 15 | 0.99 | 0.00 | 0-1 |
-| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-3 |
-| 117 Londres-Nápoles | 0 / 28 | 0.98 | 0.00 | 0-4 |
-| 115 Roma-Dinamarca | 0 / 25 | 0.98 | 0.00 | 0-4 |
-| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.96 | 8-18 |
-| 086 Sullivan-Insurgentes | 2 / 13 | 0.89 | 0.00 | 0-2 |
-| 114 Lucerna-Abraham González | 2 / 23 | 0.68 | 0.00 | 0-2 |
-| 003 Reforma - Insurgentes | 1 / 27 | 0.53 | 0.00 | 0-3 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 15 | 1.00 | 0.00 | 0-2 |
+| 115 Roma-Dinamarca | 0 / 25 | 0.99 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-4 |
+| 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 0.98 | 21-27 |
+| 114 Lucerna-Abraham González | 1 / 23 | 0.90 | 0.00 | 0-2 |
+| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.90 | 8-18 |
+| 086 Sullivan-Insurgentes | 2 / 14 | 0.88 | 0.00 | 0-3 |
+| 113 General Prim-Versalles | 1 / 15 | 0.77 | 0.00 | 0-4 |
+| 116 Londres-Roma | 1 / 23 | 0.66 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 260 (19/19) a 086 (2/13)
-2. Llevar **9 bicis** de 450 (26/27) a 113 (0/15)
-3. Llevar **12 bicis** de 119 (27/29) a 114 (2/23)
+1. Llevar **9 bicis** de 450 (27/27) a 086 (2/14)
+2. Llevar **6 bicis** de 260 (19/19) a 114 (1/23)
+3. Llevar **5 bicis** de 010 (7/24) a 113 (1/15)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
