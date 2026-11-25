@@ -1,19 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,17,17,0,6,,5.0,15.26631605877341
-Regla umbral 90/10,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,,25.3344552230484,36.8409470857607
-Regla umbral 90/10,3,115,Roma-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,10,23,25,1,27,,46.900049519070784,58.21971027206005
-Regla umbral 85/15,1,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,17,17,0,6,,5.0,15.26631605877341
-Regla umbral 85/15,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,,25.3344552230484,36.8409470857607
-Regla umbral 85/15,3,115,Roma-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,10,23,25,1,27,,46.900049519070784,58.21971027206005
-Regla umbral 80/20,1,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,17,17,0,6,,5.0,15.26631605877341
-Regla umbral 80/20,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,,25.3344552230484,36.8409470857607
-Regla umbral 80/20,3,115,Roma-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,10,23,25,1,27,,46.900049519070784,58.21971027206005
-Regla umbral 75/25,1,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,17,17,0,6,,5.0,15.26631605877341
-Regla umbral 75/25,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,,25.3344552230484,36.8409470857607
-Regla umbral 75/25,3,115,Roma-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,10,23,25,1,27,,46.900049519070784,58.21971027206005
-Regla umbral 70/30,1,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,17,17,0,6,,5.0,15.26631605877341
-Regla umbral 70/30,2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,,25.3344552230484,36.8409470857607
-Regla umbral 70/30,3,115,Roma-Dinamarca,450,Ramos Arizpe- Av México Tenochtitlan,10,23,25,1,27,,46.900049519070784,58.21971027206005
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,16,25,28,3,30,5.261999845504761,5.0,17.87317105006021
-Gemelo (voraz),2,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,33,35,0,26,4.264000058174133,30.501812746400837,42.00830460911314
-Gemelo (voraz),3,118,Liverpool-Dinamarca,256,Gómez Farías-Sadi Carnot,8,17,17,3,22,3.3700000047683716,53.01828112827131,63.77723294581932
+Regla umbral 90/10,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
+Regla umbral 90/10,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,,24.095062759277504,35.09540455249616
+Regla umbral 85/15,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
+Regla umbral 85/15,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,,24.095062759277504,35.09540455249616
+Regla umbral 85/15,3,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,6,15,17,0,26,,46.48271124788016,57.778841743196224
+Regla umbral 80/20,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
+Regla umbral 80/20,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,,24.095062759277504,35.09540455249616
+Regla umbral 80/20,3,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,6,15,17,0,26,,46.48271124788016,57.778841743196224
+Regla umbral 75/25,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
+Regla umbral 75/25,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,,24.095062759277504,35.09540455249616
+Regla umbral 75/25,3,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,6,15,17,0,26,,46.48271124788016,57.778841743196224
+Regla umbral 70/30,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
+Regla umbral 70/30,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,,24.095062759277504,35.09540455249616
+Regla umbral 70/30,3,118,Liverpool-Dinamarca,259,Tómas Alva Edison-Ponciano Arriaga,6,15,17,0,26,,46.48271124788016,57.778841743196224
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,15,26,28,2,30,5.4059998989105225,5.0,17.87317105006021
+Gemelo (voraz),2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,30,3.3150001168251038,29.11954097446199,40.11988276768065
+Gemelo (voraz),3,031,Hamburgo - Insurgentes,270,De la República-Ponciano Arriaga,13,30,34,2,26,2.3730000406503677,52.48928134415392,63.995773206866225
