@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,3,12,12,0,6,,5.0,12.83250757122101
-Regla umbral 90/10,2,029,Reforma - Bucareli,098,Emilio Dondé-Av. Balderas,5,29,31,0,11,,22.331719291697084,30.18784210142644
-Regla umbral 90/10,3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,10,23,25,1,34,,41.21198988849292,50.54227397959518
+Regla umbral 90/10,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,32,,21.564138579896724,32.56448037311539
+Regla umbral 90/10,3,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,31,34,0,17,,44.93387894958866,52.77224704450401
 Regla umbral 85/15,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,3,12,12,0,6,,5.0,12.83250757122101
-Regla umbral 85/15,2,029,Reforma - Bucareli,098,Emilio Dondé-Av. Balderas,5,29,31,0,11,,22.331719291697084,30.18784210142644
-Regla umbral 85/15,3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,10,23,25,1,34,,41.21198988849292,50.54227397959518
+Regla umbral 85/15,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,32,,21.564138579896724,32.56448037311539
+Regla umbral 85/15,3,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,31,34,0,17,,44.93387894958866,52.77224704450401
 Regla umbral 80/20,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,3,12,12,0,6,,5.0,12.83250757122101
-Regla umbral 80/20,2,029,Reforma - Bucareli,098,Emilio Dondé-Av. Balderas,5,29,31,0,11,,22.331719291697084,30.18784210142644
-Regla umbral 80/20,3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,10,23,25,1,34,,41.21198988849292,50.54227397959518
+Regla umbral 80/20,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,32,,21.564138579896724,32.56448037311539
+Regla umbral 80/20,3,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,31,34,0,17,,44.93387894958866,52.77224704450401
 Regla umbral 75/25,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,3,12,12,0,6,,5.0,12.83250757122101
-Regla umbral 75/25,2,029,Reforma - Bucareli,098,Emilio Dondé-Av. Balderas,5,29,31,0,11,,22.331719291697084,30.18784210142644
-Regla umbral 75/25,3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,10,23,25,1,34,,41.21198988849292,50.54227397959518
+Regla umbral 75/25,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,32,,21.564138579896724,32.56448037311539
+Regla umbral 75/25,3,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,31,34,0,17,,44.93387894958866,52.77224704450401
 Regla umbral 70/30,1,026,Reforma - Versalles,263,Sadi Carnot - Gómez Farias,3,12,12,0,6,,5.0,12.83250757122101
-Regla umbral 70/30,2,029,Reforma - Bucareli,098,Emilio Dondé-Av. Balderas,5,29,31,0,11,,22.331719291697084,30.18784210142644
-Regla umbral 70/30,3,115,Roma-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,10,23,25,1,34,,41.21198988849292,50.54227397959518
-Gemelo (voraz),1,026,Reforma - Versalles,555,Ribera de San Cosme - Insurgentes Centro,9,12,12,1,30,6.646999835968018,5.0,14.452708146848739
-Gemelo (voraz),2,115,Roma-Dinamarca,107-108,Tolsa-Balderas,13,23,25,3,57,3.8940000534057617,25.69907807125052,36.42089041998954
-Gemelo (voraz),3,029,Reforma - Bucareli,086,Sullivan-Insurgentes,10,29,31,1,17,3.5740000009536743,45.85736432752276,55.94320134236717
+Regla umbral 70/30,2,115,Roma-Dinamarca,041,Reforma - Av. de la República,10,23,25,0,32,,21.564138579896724,32.56448037311539
+Regla umbral 70/30,3,031,Hamburgo - Insurgentes,086,Sullivan-Insurgentes,8,31,34,0,17,,44.93387894958866,52.77224704450401
+Gemelo (voraz),1,026,Reforma - Versalles,555,Ribera de San Cosme - Insurgentes Centro,8,12,12,2,30,5.634999990463257,5.0,14.452708146848739
+Gemelo (voraz),2,010,Reforma - Ramírez,041,Reforma - Av. de la República,13,24,27,0,32,4.156999945640564,23.415541568814326,31.286848140274934
+Gemelo (voraz),3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,10,23,25,0,17,3.9079999327659607,42.28718993349359,48.765593221340374
