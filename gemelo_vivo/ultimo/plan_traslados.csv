@@ -1,16 +1,14 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
-Regla umbral 85/15,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
-Regla umbral 80/20,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
-Regla umbral 80/20,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
-Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
-Regla umbral 75/25,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,116,Londres-Roma,10,25,27,0,21,,5.0,15.910322067155272
-Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,003,Reforma - Insurgentes,10,24,28,0,27,,25.65594064523296,34.5712750325327
-Regla umbral 70/30,3,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,20,24,0,6,,43.60096731663843,50.77592590101085
-Gemelo (voraz),1,113,General Prim-Versalles,012,Río Lerma - Villalongín,7,8,15,3,14,5.455000042915344,5.0,14.10499155525549
-Gemelo (voraz),2,270,De la República-Ponciano Arriaga,260,Av. Juárez-Balderas,10,24,28,5,18,4.094000265002251,24.113032456540083,32.53265828066967
-Gemelo (voraz),3,119,Turín-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,13,22,28,3,28,3.928000047802925,44.02958430144268,56.762252003048744
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,25,28,0,27,,5.0,15.179168815876452
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,25,28,0,27,,5.0,15.179168815876452
+Regla umbral 80/20,2,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,5,14,17,0,31,,22.768512237237445,34.15581893262144
+Regla umbral 80/20,3,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,23,28,0,6,,41.24066088230241,48.74314442480142
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,25,28,0,27,,5.0,15.179168815876452
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,5,14,17,0,31,,22.768512237237445,34.15581893262144
+Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,23,28,0,6,,41.24066088230241,48.74314442480142
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,11,25,28,0,27,,5.0,15.179168815876452
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,5,14,17,0,31,,22.768512237237445,34.15581893262144
+Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,23,28,0,6,,41.24066088230241,48.74314442480142
+Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,10,14,17,0,14,8.270000100135803,5.0,13.11530992078939
+Gemelo (voraz),2,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,8,9,15,0,21,7.630999565124512,21.00687653750928,30.46764593203677
+Gemelo (voraz),3,026,Reforma - Versalles,260,Av. Juárez-Balderas,8,9,14,0,17,6.948000073432922,38.668028457738956,47.901265347114176

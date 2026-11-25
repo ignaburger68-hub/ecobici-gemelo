@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 07:49 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 08:03 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 07:49 a 08:49
+## Último pronóstico: 25/11 08:03 a 09:03
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **12.7 °C** · lluvia 0.1 mm/h · viento 3 km/h · día hábil
 
-El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.85** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.78** y las **devoluciones por 0.83** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,29 +24,29 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.85** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 003 Reforma - Insurgentes | 0 / 27 | 0.98 | 0.00 | 0-4 |
-| 098 Emilio Dondé-Av. Balderas | 0 / 18 | 0.98 | 0.00 | 0-5 |
-| 116 Londres-Roma | 0 / 21 | 0.91 | 0.02 | 2-14 |
-| 031 Hamburgo - Insurgentes | 0 / 34 | 0.89 | 0.00 | 2-14 |
-| 086 Sullivan-Insurgentes | 2 / 13 | 0.89 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 3 / 14 | 0.89 | 0.00 | 0-5 |
-| 260 Av. Juárez-Balderas | 5 / 18 | 0.86 | 0.00 | 0-5 |
-| 256 Gómez Farías-Sadi Carnot | 1 / 21 | 0.84 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 3 / 31 | 0.77 | 0.00 | 0-6 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 1.00 | 0.00 | 0-3 |
+| 260 Av. Juárez-Balderas | 0 / 17 | 1.00 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 0 / 14 | 1.00 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-3 |
+| 041 Reforma - Av. de la Repúblic | 0 / 31 | 0.99 | 0.00 | 0-3 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 18 | 0.97 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 1 / 14 | 0.94 | 0.00 | 0-4 |
+| 555 Ribera de San Cosme - Insurg | 4 / 26 | 0.81 | 0.00 | 0-5 |
+| 112 Av. Morelos-Abraham González | 1 / 17 | 0.74 | 0.00 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 113 (8/15) a 012 (3/14)
-2. Llevar **10 bicis** de 270 (24/28) a 260 (5/18)
-3. Llevar **13 bicis** de 119 (22/28) a 555 (3/28)
+1. Llevar **10 bicis** de 118 (14/17) a 086 (0/14)
+2. Llevar **8 bicis** de 113 (9/15) a 256 (0/21)
+3. Llevar **8 bicis** de 026 (9/14) a 260 (0/17)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-586 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+587 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
-| Gemelo | 0.113 | 0.033 |
+| Gemelo | 0.114 | 0.033 |
 | Sin resincronizar | 0.238 | 0.082 |
 | Persistencia | 0.266 | 0.060 |
 | Persistencia 0/1 | 0.266 | 0.060 |
