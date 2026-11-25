@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 05:55 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 06:09 (hora de Ciudad de México).
 
-## Último pronóstico: 24/11 22:50 a 23:50
+## Último pronóstico: 25/11 06:09 a 07:09
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,35 +10,35 @@ Página actualizada automáticamente el 25/11/2026 05:55 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.8 °C** · lluvia 1.0 mm/h · viento 6 km/h · día hábil
+**11.5 °C** · sin lluvia · viento 3 km/h · día hábil
 
-El clima multiplica los **retiros por 0.48** y las **devoluciones por 0.55** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.91** y las **devoluciones por 0.92** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
-| lluvia | moderada (1-4 mm/h) | 0.804 | 0.846 |
-| lluvia previa | llovió en las 3 h previas | 0.816 | 0.829 |
-| temperatura | más frío (−3 a −1 °C) | 0.841 | 0.872 |
-| viento | 5-10 km/h | 0.872 | 0.905 |
+| lluvia | sin lluvia | 0.988 | 0.981 |
+| lluvia previa | seco antes | 0.990 | 1.001 |
+| temperatura | normal (±1 °C) | 0.944 | 0.951 |
+| viento | < 5 km/h | 0.988 | 0.985 |
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 115 Roma-Dinamarca | 0 / 25 | 1.00 | 0.00 | 0-1 |
-| 118 Liverpool-Dinamarca | 0 / 18 | 1.00 | 0.00 | 0-2 |
-| 450 Ramos Arizpe- Av México Teno | 28 / 28 | 0.00 | 0.99 | 26-28 |
-| 098 Emilio Dondé-Av. Balderas | 31 / 31 | 0.00 | 0.99 | 28-31 |
-| 086 Sullivan-Insurgentes | 1 / 14 | 0.75 | 0.00 | 0-4 |
-| 003 Reforma - Insurgentes | 1 / 28 | 0.68 | 0.00 | 0-3 |
-| 116 Londres-Roma | 2 / 23 | 0.59 | 0.00 | 0-3 |
-| 085 Rosas Moreno - Sullivan | 1 / 15 | 0.53 | 0.00 | 0-4 |
-| 020 Reforma- Río Támesis | 3 / 23 | 0.43 | 0.00 | 0-3 |
-| 555 Ribera de San Cosme - Insurg | 27 / 29 | 0.00 | 0.39 | 22-29 |
+| 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
+| 113 General Prim-Versalles | 0 / 15 | 1.00 | 0.00 | 0-1 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 15 | 0.99 | 0.00 | 0-1 |
+| 008 Reforma - General Prim | 0 / 15 | 0.99 | 0.00 | 0-3 |
+| 117 Londres-Nápoles | 0 / 28 | 0.98 | 0.00 | 0-4 |
+| 115 Roma-Dinamarca | 0 / 25 | 0.98 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 19 / 19 | 0.00 | 0.96 | 8-18 |
+| 086 Sullivan-Insurgentes | 2 / 13 | 0.89 | 0.00 | 0-2 |
+| 114 Lucerna-Abraham González | 2 / 23 | 0.68 | 0.00 | 0-2 |
+| 003 Reforma - Insurgentes | 1 / 27 | 0.53 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 450 (28/28) a 115 (0/25)
-2. Llevar **7 bicis** de 098 (31/31) a 086 (1/14)
-3. Llevar **9 bicis** de 555 (27/29) a 118 (0/18)
+1. Llevar **8 bicis** de 260 (19/19) a 086 (2/13)
+2. Llevar **9 bicis** de 450 (26/27) a 113 (0/15)
+3. Llevar **12 bicis** de 119 (27/29) a 114 (2/23)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
