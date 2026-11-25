@@ -1,18 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
-Regla umbral 90/10,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
-Regla umbral 85/15,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
-Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
-Regla umbral 85/15,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
-Regla umbral 80/20,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
-Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
-Regla umbral 80/20,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
-Regla umbral 75/25,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
-Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
-Regla umbral 75/25,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
-Regla umbral 70/30,1,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,9,19,19,1,28,,5.0,15.827921886786559
-Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,003,Reforma - Insurgentes,12,28,29,1,27,,27.208072117707665,37.683537468224785
-Regla umbral 70/30,3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,6,23,26,1,15,,47.862706284101236,57.614635558882384
-Gemelo (voraz),1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,14,19,19,1,27,5.209999978542328,5.0,16.242051804680216
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,010,Reforma - Ramírez,8,28,29,2,22,2.012000024318695,26.71751715519734,35.7216434234628
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,5,23,26,1,15,1.2480000257492065,43.9647291325427,53.71665840732385
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,20,20,0,15,,5.0,14.609734006021608
+Regla umbral 90/10,2,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,13,28,29,1,28,,22.777828958199038,34.15797918912014
+Regla umbral 90/10,3,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,9,21,23,1,27,,39.65292948712034,47.833530761284365
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,20,20,0,15,,5.0,14.609734006021608
+Regla umbral 85/15,2,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,13,28,29,1,28,,22.777828958199038,34.15797918912014
+Regla umbral 85/15,3,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,9,21,23,1,27,,39.65292948712034,47.833530761284365
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,20,20,0,15,,5.0,14.609734006021608
+Regla umbral 80/20,2,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,13,28,29,1,28,,22.777828958199038,34.15797918912014
+Regla umbral 80/20,3,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,9,21,23,1,27,,39.65292948712034,47.833530761284365
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,20,20,0,15,,5.0,14.609734006021608
+Regla umbral 75/25,2,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,13,28,29,1,28,,22.777828958199038,34.15797918912014
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,9,21,23,1,27,,39.65292948712034,47.833530761284365
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,113,General Prim-Versalles,7,20,20,0,15,,5.0,14.609734006021608
+Regla umbral 70/30,2,098,Emilio Dondé-Av. Balderas,263,Sadi Carnot - Gómez Farias,13,28,29,1,28,,22.777828958199038,34.15797918912014
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,9,21,23,1,27,,39.65292948712034,47.833530761284365
+Gemelo (voraz),1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,14,20,20,1,27,5.240000247955322,5.0,16.242051804680216
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,113,General Prim-Versalles,7,28,29,0,15,2.6069998741149902,26.71751715519734,34.88561210737477
+Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,116,Londres-Roma,10,26,31,2,23,1.313999965786934,45.6585622244557,57.15756432800252
