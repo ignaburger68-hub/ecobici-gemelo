@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 11:22 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 11:36 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 11:22 a 12:22
+## Último pronóstico: 25/11 11:36 a 12:36
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 25/11/2026 11:22 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**15.2 °C** · sin lluvia · viento 2 km/h · día hábil
+**16.7 °C** · sin lluvia · viento 1 km/h · día hábil
 
 El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.86** (1,00 = sin efecto).
 
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.86** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 029 Reforma - Bucareli | 0 / 29 | 1.00 | 0.00 | 0-4 |
-| 270 De la República-Ponciano Arr | 0 / 26 | 1.00 | 0.00 | 0-4 |
-| 086 Sullivan-Insurgentes | 0 / 17 | 0.99 | 0.00 | 0-4 |
-| 555 Ribera de San Cosme - Insurg | 2 / 30 | 0.86 | 0.00 | 0-3 |
-| 041 Reforma - Av. de la Repúblic | 2 / 31 | 0.84 | 0.00 | 0-3 |
-| 107-108 Tolsa-Balderas | 1 / 57 | 0.82 | 0.00 | 0-6 |
-| 260 Av. Juárez-Balderas | 1 / 20 | 0.80 | 0.00 | 0-5 |
-| 450 Ramos Arizpe- Av México Teno | 1 / 27 | 0.77 | 0.00 | 0-3 |
-| 012 Río Lerma - Villalongín | 3 / 14 | 0.71 | 0.00 | 0-5 |
+| 270 De la República-Ponciano Arr | 0 / 26 | 0.98 | 0.00 | 0-6 |
+| 086 Sullivan-Insurgentes | 0 / 17 | 0.98 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 31 | 0.94 | 0.00 | 0-3 |
+| 118 Liverpool-Dinamarca | 16 / 17 | 0.00 | 0.84 | 12-17 |
+| 029 Reforma - Bucareli | 2 / 32 | 0.83 | 0.00 | 0-6 |
+| 555 Ribera de San Cosme - Insurg | 3 / 30 | 0.78 | 0.00 | 0-4 |
+| 260 Av. Juárez-Balderas | 1 / 20 | 0.75 | 0.00 | 0-7 |
+| 450 Ramos Arizpe- Av México Teno | 1 / 27 | 0.74 | 0.00 | 0-3 |
+| 085 Rosas Moreno - Sullivan | 2 / 13 | 0.73 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **19 bicis** de 031 (32/34) a 029 (0/29)
-2. Llevar **15 bicis** de 117 (23/28) a 270 (0/26)
-3. Llevar **9 bicis** de 118 (15/17) a 555 (2/30)
+1. Llevar **10 bicis** de 118 (16/17) a 041 (1/31)
+2. Llevar **16 bicis** de 117 (23/28) a 555 (3/30)
+3. Llevar **13 bicis** de 031 (31/35) a 270 (0/26)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-601 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+602 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
