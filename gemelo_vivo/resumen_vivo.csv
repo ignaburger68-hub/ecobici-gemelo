@@ -1,9 +1,9 @@
 dias,modelo,instantes,pares,brier_vacia,brier_llena
-días hábiles,Gemelo,409,11476,0.1141,0.0333
-días hábiles,Sin resincronizar,409,11476,0.2438,0.084
-días hábiles,Persistencia,409,11476,0.2726,0.0611
-días hábiles,Persistencia 0/1,409,11476,0.2726,0.0611
-todos los días,Gemelo,565,15937,0.1068,0.0306
-todos los días,Sin resincronizar,565,15937,0.2275,0.0792
-todos los días,Persistencia,565,15937,0.2405,0.0549
-todos los días,Persistencia 0/1,565,15937,0.2405,0.0549
+días hábiles,Gemelo,410,11505,0.1142,0.0333
+días hábiles,Sin resincronizar,410,11505,0.2439,0.084
+días hábiles,Persistencia,410,11505,0.2726,0.061
+días hábiles,Persistencia 0/1,410,11505,0.2726,0.061
+todos los días,Gemelo,566,15966,0.1069,0.0306
+todos los días,Sin resincronizar,566,15966,0.2275,0.0792
+todos los días,Persistencia,566,15966,0.2406,0.0549
+todos los días,Persistencia 0/1,566,15966,0.2406,0.0549
