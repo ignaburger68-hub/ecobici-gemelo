@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 05:52 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 06:07 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 22:47 a 23:47
+## Último pronóstico: 26/11 06:07 a 07:07
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 26/11/2026 05:52 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**11.5 °C** · sin lluvia · viento 2 km/h · día hábil
+**8.8 °C** · sin lluvia · viento 1 km/h · día hábil
 
 El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 117 Londres-Nápoles | 0 / 28 | 1.00 | 0.00 | 0-2 |
-| 020 Reforma- Río Támesis | 0 / 22 | 1.00 | 0.00 | 0-1 |
-| 115 Roma-Dinamarca | 0 / 25 | 1.00 | 0.00 | 0-1 |
-| 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 1.00 | 25-27 |
-| 003 Reforma - Insurgentes | 0 / 28 | 0.99 | 0.00 | 0-2 |
 | 008 Reforma - General Prim | 0 / 12 | 0.99 | 0.00 | 0-2 |
-| 026 Reforma - Versalles | 1 / 10 | 0.95 | 0.00 | 0-1 |
-| 048 Independencia - Azueta | 10 / 10 | 0.04 | 0.92 | 3-9 |
-| 041 Reforma - Av. de la Repúblic | 31 / 32 | 0.00 | 0.70 | 25-32 |
+| 031 Hamburgo - Insurgentes | 0 / 32 | 0.99 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 0 / 16 | 0.98 | 0.00 | 1-7 |
+| 270 De la República-Ponciano Arr | 0 / 1 | 0.97 | 0.91 | 1-1 |
+| 026 Reforma - Versalles | 0 / 8 | 0.97 | 0.01 | 0-5 |
+| 117 Londres-Nápoles | 0 / 24 | 0.96 | 0.00 | 1-6 |
+| 029 Reforma - Bucareli | 0 / 26 | 0.93 | 0.00 | 1-8 |
+| 114 Lucerna-Abraham González | 1 / 21 | 0.82 | 0.00 | 0-1 |
+| 020 Reforma- Río Támesis | 1 / 22 | 0.69 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **15 bicis** de 450 (27/27) a 020 (0/22)
-2. Llevar **8 bicis** de 041 (31/32) a 026 (1/10)
-3. Llevar **9 bicis** de 260 (20/21) a 117 (0/28)
+1. Llevar **8 bicis** de 450 (26/27) a 086 (5/17)
+2. Llevar **7 bicis** de 010 (9/25) a 114 (1/21)
+3. Llevar **5 bicis** de 085 (10/13) a 031 (0/32)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
