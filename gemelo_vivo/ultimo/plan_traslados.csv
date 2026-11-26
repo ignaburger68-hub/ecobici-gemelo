@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 90/10,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,25.9138293348926,36.27726108549439
-Regla umbral 90/10,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,46.2384813679388,55.36970694313669
-Regla umbral 85/15,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 85/15,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,25.9138293348926,36.27726108549439
-Regla umbral 85/15,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,46.2384813679388,55.36970694313669
-Regla umbral 80/20,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 80/20,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,25.9138293348926,36.27726108549439
-Regla umbral 80/20,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,46.2384813679388,55.36970694313669
-Regla umbral 75/25,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 75/25,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,25.9138293348926,36.27726108549439
-Regla umbral 75/25,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,46.2384813679388,55.36970694313669
-Regla umbral 70/30,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 70/30,2,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,25.9138293348926,36.27726108549439
-Regla umbral 70/30,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,46.2384813679388,55.36970694313669
-Gemelo (voraz),1,117,Londres-Nápoles,086,Sullivan-Insurgentes,11,27,27,0,15,7.614000082015991,5.0,13.109371934457926
-Gemelo (voraz),2,113,General Prim-Versalles,041,Reforma - Av. de la República,9,15,15,0,30,5.2809998989105225,21.000938551177818,29.67959853818282
-Gemelo (voraz),3,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,10,19,21,0,33,3.9079997539520264,36.06131133087481,48.807405030025514
+Regla umbral 90/10,1,113,General Prim-Versalles,029,Reforma - Bucareli,6,15,15,0,13,,5.0,13.471954030986831
+Regla umbral 90/10,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,25.538260624019316,37.28652011041894
+Regla umbral 90/10,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,47.281275038272774,56.412500613470655
+Regla umbral 85/15,1,113,General Prim-Versalles,029,Reforma - Bucareli,6,15,15,0,13,,5.0,13.471954030986831
+Regla umbral 85/15,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,25.538260624019316,37.28652011041894
+Regla umbral 85/15,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,47.281275038272774,56.412500613470655
+Regla umbral 80/20,1,113,General Prim-Versalles,029,Reforma - Bucareli,6,15,15,0,13,,5.0,13.471954030986831
+Regla umbral 80/20,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,25.538260624019316,37.28652011041894
+Regla umbral 80/20,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,47.281275038272774,56.412500613470655
+Regla umbral 75/25,1,113,General Prim-Versalles,029,Reforma - Bucareli,6,15,15,0,13,,5.0,13.471954030986831
+Regla umbral 75/25,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,25.538260624019316,37.28652011041894
+Regla umbral 75/25,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,47.281275038272774,56.412500613470655
+Regla umbral 70/30,1,113,General Prim-Versalles,029,Reforma - Bucareli,6,15,15,0,13,,5.0,13.471954030986831
+Regla umbral 70/30,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,25.538260624019316,37.28652011041894
+Regla umbral 70/30,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,9,20,22,0,30,,47.281275038272774,56.412500613470655
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,19,27,27,0,27,10.826000213623047,5.0,17.87317105006021
+Gemelo (voraz),2,113,General Prim-Versalles,107-108,Tolsa-Balderas,10,15,15,0,54,6.651000261306763,28.64612116714114,36.84566644803302
+Gemelo (voraz),3,260,Av. Juárez-Balderas,256,Gómez Farías-Sadi Carnot,10,19,21,0,21,5.062000036239624,46.57211330969235,57.434443412283386
