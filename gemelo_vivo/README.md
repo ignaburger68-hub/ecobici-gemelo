@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 17:04 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 17:18 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 17:04 a 18:04
+## Último pronóstico: 26/11 17:18 a 18:18
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **13.9 °C** · lluvia 0.3 mm/h · viento 9 km/h · día hábil
 
-El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.65** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.57** y las **devoluciones por 0.65** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.65** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 010 Reforma - Ramírez | 0 / 25 | 1.00 | 0.00 | 0-5 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 18-21 |
-| 026 Reforma - Versalles | 0 / 11 | 1.00 | 0.00 | 0-4 |
-| 085 Rosas Moreno - Sullivan | 0 / 13 | 0.99 | 0.00 | 0-2 |
-| 003 Reforma - Insurgentes | 1 / 27 | 0.95 | 0.00 | 0-6 |
-| 029 Reforma - Bucareli | 29 / 29 | 0.00 | 0.91 | 23-29 |
-| 270 De la República-Ponciano Arr | 0 / 6 | 0.86 | 0.88 | 5-6 |
-| 119 Turín-Abraham González | 3 / 24 | 0.86 | 0.00 | 0-5 |
-| 020 Reforma- Río Támesis | 3 / 22 | 0.82 | 0.00 | 0-5 |
+| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 1.00 | 16-20 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.97 | 0.00 | 0-7 |
+| 085 Rosas Moreno - Sullivan | 1 / 13 | 0.95 | 0.00 | 0-3 |
+| 119 Turín-Abraham González | 1 / 24 | 0.91 | 0.00 | 0-5 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 25 | 0.90 | 0.00 | 0-6 |
+| 029 Reforma - Bucareli | 28 / 30 | 0.00 | 0.88 | 23-30 |
+| 555 Ribera de San Cosme - Insurg | 0 / 33 | 0.85 | 0.00 | 1-17 |
+| 270 De la República-Ponciano Arr | 0 / 8 | 0.84 | 0.79 | 6-8 |
+| 020 Reforma- Río Támesis | 3 / 21 | 0.79 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **18 bicis** de 260 (21/21) a 010 (0/25)
-2. Llevar **10 bicis** de 029 (29/29) a 026 (0/11)
-3. Llevar **10 bicis** de 114 (21/22) a 085 (0/13)
+1. Llevar **17 bicis** de 260 (20/20) a 119 (1/24)
+2. Llevar **17 bicis** de 029 (28/30) a 003 (0/27)
+3. Llevar **8 bicis** de 112 (13/14) a 085 (1/13)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-696 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+697 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
