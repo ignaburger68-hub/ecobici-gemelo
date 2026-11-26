@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Regla umbral 90/10,2,029,Reforma - Bucareli,012,Río Lerma - Villalongín,7,27,28,0,14,,26.081352497018564,37.48870671613609
-Regla umbral 90/10,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,9,20,21,1,25,,50.275714665114805,62.456652493194994
-Regla umbral 85/15,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Regla umbral 85/15,2,029,Reforma - Bucareli,012,Río Lerma - Villalongín,7,27,28,0,14,,26.081352497018564,37.48870671613609
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,9,20,21,1,25,,50.275714665114805,62.456652493194994
-Regla umbral 80/20,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Regla umbral 80/20,2,029,Reforma - Bucareli,012,Río Lerma - Villalongín,7,27,28,0,14,,26.081352497018564,37.48870671613609
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,9,20,21,1,25,,50.275714665114805,62.456652493194994
-Regla umbral 75/25,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Regla umbral 75/25,2,029,Reforma - Bucareli,012,Río Lerma - Villalongín,7,27,28,0,14,,26.081352497018564,37.48870671613609
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,9,20,21,1,25,,50.275714665114805,62.456652493194994
-Regla umbral 70/30,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Regla umbral 70/30,2,029,Reforma - Bucareli,012,Río Lerma - Villalongín,7,27,28,0,14,,26.081352497018564,37.48870671613609
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,115,Roma-Dinamarca,9,20,21,1,25,,50.275714665114805,62.456652493194994
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,115,Roma-Dinamarca,16,24,26,1,25,6.075000047683716,5.0,16.319660752989265
-Gemelo (voraz),2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,10,20,21,0,14,4.976000070571899,28.500598581069454,41.287606530048166
-Gemelo (voraz),3,048,Independencia - Azueta,086,Sullivan-Insurgentes,6,10,10,3,16,3.659000039100647,54.52286521758212,66.41784564209166
+Regla umbral 90/10,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,30,30,0,6,,5.0,14.499211720476076
+Regla umbral 90/10,2,048,Independencia - Azueta,020,Reforma- Río Támesis,5,11,11,0,22,,26.081352497018564,38.67397996354181
+Regla umbral 90/10,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,21,21,0,16,,50.94579877865735,62.406673106800554
+Regla umbral 85/15,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,30,30,0,6,,5.0,14.499211720476076
+Regla umbral 85/15,2,048,Independencia - Azueta,020,Reforma- Río Támesis,5,11,11,0,22,,26.081352497018564,38.67397996354181
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,21,21,0,16,,50.94579877865735,62.406673106800554
+Regla umbral 80/20,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,30,30,0,6,,5.0,14.499211720476076
+Regla umbral 80/20,2,048,Independencia - Azueta,020,Reforma- Río Támesis,5,11,11,0,22,,26.081352497018564,38.67397996354181
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,21,21,0,16,,50.94579877865735,62.406673106800554
+Regla umbral 75/25,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,30,30,0,6,,5.0,14.499211720476076
+Regla umbral 75/25,2,048,Independencia - Azueta,020,Reforma- Río Támesis,5,11,11,0,22,,26.081352497018564,38.67397996354181
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,21,21,0,16,,50.94579877865735,62.406673106800554
+Regla umbral 70/30,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,30,30,0,6,,5.0,14.499211720476076
+Regla umbral 70/30,2,048,Independencia - Azueta,020,Reforma- Río Támesis,5,11,11,0,22,,26.081352497018564,38.67397996354181
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,8,21,21,0,16,,50.94579877865735,62.406673106800554
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,086,Sullivan-Insurgentes,12,27,27,0,16,8.672999858856201,5.0,15.109993598395498
+Gemelo (voraz),2,260,Av. Juárez-Balderas,115,Roma-Dinamarca,13,21,21,1,25,5.7809998989105225,26.570867926538707,38.7518057546189
+Gemelo (voraz),3,048,Independencia - Azueta,020,Reforma- Río Támesis,7,11,11,0,22,3.885000228881836,51.16286033837167,63.75548780489492
