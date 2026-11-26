@@ -1,17 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,029,Reforma - Bucareli,4,19,21,0,8,,26.191353637388346,32.57603775234633
-Regla umbral 85/15,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,029,Reforma - Bucareli,4,19,21,0,8,,26.191353637388346,32.57603775234633
-Regla umbral 80/20,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,029,Reforma - Bucareli,4,19,21,0,8,,26.191353637388346,32.57603775234633
-Regla umbral 80/20,3,118,Liverpool-Dinamarca,270,De la República-Ponciano Arriaga,4,16,19,0,8,,43.76877896368759,54.77875548284577
-Regla umbral 75/25,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,029,Reforma - Bucareli,4,19,21,0,8,,26.191353637388346,32.57603775234633
-Regla umbral 75/25,3,118,Liverpool-Dinamarca,270,De la República-Ponciano Arriaga,4,16,19,0,8,,43.76877896368759,54.77875548284577
-Regla umbral 70/30,1,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,5.0,15.363431750601787
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,029,Reforma - Bucareli,4,19,21,0,8,,26.191353637388346,32.57603775234633
-Regla umbral 70/30,3,118,Liverpool-Dinamarca,270,De la República-Ponciano Arriaga,4,16,19,0,8,,43.76877896368759,54.77875548284577
-Gemelo (voraz),1,117,Londres-Nápoles,041,Reforma - Av. de la República,15,26,28,1,32,6.020000100135803,5.0,17.235547042389435
-Gemelo (voraz),2,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,11,14,1,15,4.449999809265137,25.914207029394436,33.80577364611433
-Gemelo (voraz),3,260,Av. Juárez-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,19,21,0,34,3.1420000195503235,45.26664797425754,58.01274167340824
+Regla umbral 90/10,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
+Regla umbral 85/15,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
+Regla umbral 85/15,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
+Regla umbral 80/20,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
+Regla umbral 80/20,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
+Regla umbral 75/25,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
+Regla umbral 75/25,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
+Regla umbral 70/30,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
+Regla umbral 70/30,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
+Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,9,12,14,0,32,7.3979997634887695,5.0,13.678659987005002
+Gemelo (voraz),2,118,Liverpool-Dinamarca,256,Gómez Farías-Sadi Carnot,8,19,19,1,23,3.851999878883362,25.065966682389,35.82491849993701
+Gemelo (voraz),3,260,Av. Juárez-Balderas,107-108,Tolsa-Balderas,11,19,21,3,55,3.36899995803833,46.68724860252806,56.413695464187384
