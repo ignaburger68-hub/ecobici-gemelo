@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 15:39 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 15:53 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 15:39 a 16:39
+## Último pronóstico: 26/11 15:53 a 16:53
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **15.2 °C** · lluvia 0.6 mm/h · viento 6 km/h · día hábil
 
-El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.67** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.58** y las **devoluciones por 0.66** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.67** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 041 Reforma - Av. de la Repúblic | 0 / 30 | 0.99 | 0.00 | 0-5 |
-| 085 Rosas Moreno - Sullivan | 0 / 11 | 0.98 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 1 / 24 | 0.97 | 0.00 | 0-4 |
-| 029 Reforma - Bucareli | 0 / 5 | 0.85 | 0.95 | 5-5 |
-| 117 Londres-Nápoles | 27 / 27 | 0.00 | 0.89 | 14-25 |
-| 098 Emilio Dondé-Av. Balderas | 1 / 29 | 0.88 | 0.00 | 0-5 |
-| 270 De la República-Ponciano Arr | 0 / 6 | 0.88 | 0.61 | 3-6 |
-| 048 Independencia - Azueta | 1 / 9 | 0.85 | 0.01 | 0-5 |
-| 255 José Rosas Moreno-Guillermo  | 1 / 33 | 0.84 | 0.00 | 0-6 |
+| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 0 / 25 | 0.99 | 0.00 | 0-4 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 29 | 0.99 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 0 / 9 | 0.98 | 0.02 | 0-5 |
+| 085 Rosas Moreno - Sullivan | 0 / 11 | 0.98 | 0.00 | 0-5 |
+| 117 Londres-Nápoles | 27 / 27 | 0.00 | 0.97 | 16-26 |
+| 029 Reforma - Bucareli | 0 / 5 | 0.82 | 0.97 | 5-5 |
+| 270 De la República-Ponciano Arr | 0 / 5 | 0.88 | 0.73 | 3-5 |
+| 260 Av. Juárez-Balderas | 19 / 21 | 0.00 | 0.81 | 18-21 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 117 (27/27) a 010 (1/24)
-2. Llevar **10 bicis** de 260 (19/21) a 041 (0/30)
-3. Llevar **6 bicis** de 113 (11/14) a 085 (0/11)
+1. Llevar **13 bicis** de 260 (19/21) a 010 (0/25)
+2. Llevar **7 bicis** de 113 (12/14) a 085 (0/11)
+3. Llevar **11 bicis** de 114 (19/22) a 020 (0/22)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-690 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+691 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
