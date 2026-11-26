@@ -1,6 +1,6 @@
-Simulación de una hora — jueves 26/11/2026 17:32 a 18:32 (en vivo)
+Simulación de una hora — jueves 26/11/2026 17:47 a 18:47 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-17, 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25
-Factor del día: retiros 1.39, devoluciones 1.30
+Factor del día: retiros 1.26, devoluciones 1.26
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 18:00 a 19:00 (día hábil): 12.7 °C (-5.5 °C respecto de lo normal a esa hora), sin lluvia, viento 7 km/h
@@ -12,33 +12,33 @@ Efecto del clima en la hora: retiros ×0.58 (-42 %), devoluciones ×0.65 (-35 %)
 
 Estaciones con más riesgo:
        263 Sadi Carnot - Gómez Farias B=0/6  p vacía 1.00  p llena 0.00  B(t+60) 0-0
-       029 Reforma - Bucareli         B=30/30  p vacía 0.00  p llena 1.00  B(t+60) 24-30
-       260 Av. Juárez-Balderas        B=21/21  p vacía 0.00  p llena 1.00  B(t+60) 17-21
-       255 José Rosas Moreno-Guillerm B=0/33  p vacía 0.97  p llena 0.00  B(t+60) 0-7
-       008 Reforma - General Prim     B=3/8  p vacía 0.89  p llena 0.05  B(t+60) 0-2
-       270 De la República-Ponciano A B=0/7  p vacía 0.76  p llena 0.89  B(t+60) 6-7
-       048 Independencia - Azueta     B=7/8  p vacía 0.03  p llena 0.89  B(t+60) 4-8
-       259 Tómas Alva Edison-Ponciano B=1/26  p vacía 0.85  p llena 0.00  B(t+60) 0-8
+       260 Av. Juárez-Balderas        B=21/21  p vacía 0.00  p llena 1.00  B(t+60) 18-21
+       029 Reforma - Bucareli         B=29/30  p vacía 0.00  p llena 0.99  B(t+60) 26-30
+       085 Rosas Moreno - Sullivan    B=1/13  p vacía 0.97  p llena 0.00  B(t+60) 0-4
+       255 José Rosas Moreno-Guillerm B=0/34  p vacía 0.94  p llena 0.00  B(t+60) 0-7
+       048 Independencia - Azueta     B=7/8  p vacía 0.03  p llena 0.90  B(t+60) 4-8
+       115 Roma-Dinamarca             B=4/22  p vacía 0.90  p llena 0.00  B(t+60) 0-4
+       012 Río Lerma - Villalongín    B=2/14  p vacía 0.85  p llena 0.00  B(t+60) 0-3
 
 Plan Regla umbral 85/15 (la mejor de las 5 reglas umbral en esta hora):
-  1. llevar 3 bicis de 029 (30/30) a 263 (0/6)
-  2. llevar 3 bicis de 260 (21/21) a 270 (0/7)
-  3. llevar 3 bicis de 048 (7/8) a 255 (0/33)
+  1. llevar 3 bicis de 260 (21/21) a 263 (0/6)
+  2. llevar 5 bicis de 029 (29/30) a 270 (0/10)
+  3. llevar 3 bicis de 048 (7/8) a 255 (0/34)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 029 (30/30) a 031 (11/27)
-  2. llevar 16 bicis de 260 (21/21) a 119 (2/24)
-  3. llevar 5 bicis de 048 (7/8) a 085 (3/13)
+  1. llevar 16 bicis de 029 (29/30) a 115 (4/22)
+  2. llevar 11 bicis de 260 (21/21) a 085 (1/13)
+  3. llevar 6 bicis de 048 (7/8) a 012 (2/14)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               95.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 90/10                       92.0  (atiende +3.1 vs sin acción, IC95 +3.0 a +3.1)
-★ Regla umbral 85/15                       88.7  (atiende +6.4 vs sin acción, IC95 +6.3 a +6.5)
-  Regla umbral 80/20                       88.7  (atiende +6.4 vs sin acción, IC95 +6.3 a +6.5)
-  Regla umbral 75/25                       88.7  (atiende +6.4 vs sin acción, IC95 +6.3 a +6.5)
-  Regla umbral 70/30                       88.7  (atiende +6.4 vs sin acción, IC95 +6.3 a +6.5)
-  Gemelo (voraz)                           63.0  (atiende +32.0 vs sin acción, IC95 +31.3 a +32.8)
-  Gemelo (voraz) con tiempos de viaje      77.2  (atiende +17.9 vs sin acción, IC95 +17.3 a +18.4)
+  Sin acción                               82.6  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 90/10                       79.0  (atiende +3.6 vs sin acción, IC95 +3.5 a +3.7)
+★ Regla umbral 85/15                       75.7  (atiende +6.9 vs sin acción, IC95 +6.7 a +7.1)
+  Regla umbral 80/20                       75.7  (atiende +6.9 vs sin acción, IC95 +6.7 a +7.1)
+  Regla umbral 75/25                       75.7  (atiende +6.9 vs sin acción, IC95 +6.7 a +7.1)
+  Regla umbral 70/30                       75.7  (atiende +6.9 vs sin acción, IC95 +6.7 a +7.1)
+  Gemelo (voraz)                           50.8  (atiende +31.8 vs sin acción, IC95 +31.1 a +32.6)
+  Gemelo (voraz) con tiempos de viaje      63.3  (atiende +19.3 vs sin acción, IC95 +18.7 a +19.8)
 
-Validación: |simulada − exacta| máx 0.029, media 0.005 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.022, media 0.004 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 1.8 s
