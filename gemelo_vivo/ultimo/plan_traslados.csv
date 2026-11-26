@@ -1,19 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,5.0,14.670105599529142
-Regla umbral 90/10,2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,24,0,6,,24.664860527382974,31.83981911175539
-Regla umbral 90/10,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,1,19,21,0,2,,42.667740998541944,51.087366822671534
-Regla umbral 85/15,1,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,5.0,14.670105599529142
-Regla umbral 85/15,2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,24,0,6,,24.664860527382974,31.83981911175539
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,1,19,21,0,2,,42.667740998541944,51.087366822671534
-Regla umbral 80/20,1,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,5.0,14.670105599529142
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,24,0,6,,24.664860527382974,31.83981911175539
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,1,19,21,0,2,,42.667740998541944,51.087366822671534
-Regla umbral 75/25,1,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,5.0,14.670105599529142
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,24,0,6,,24.664860527382974,31.83981911175539
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,1,19,21,0,2,,42.667740998541944,51.087366822671534
-Regla umbral 70/30,1,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,5.0,14.670105599529142
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,24,0,6,,24.664860527382974,31.83981911175539
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,1,19,21,0,2,,42.667740998541944,51.087366822671534
-Gemelo (voraz),1,119,Turín-Abraham González,086,Sullivan-Insurgentes,12,22,27,0,16,6.8680000603199005,5.0,13.789838441719121
-Gemelo (voraz),2,259,Tómas Alva Edison-Ponciano Arriaga,256,Gómez Farías-Sadi Carnot,11,22,24,1,21,6.232999920845032,22.654587398921503,29.678900078134248
-Gemelo (voraz),3,118,Liverpool-Dinamarca,041,Reforma - Av. de la República,8,11,16,0,31,5.649999916553497,40.43785189568226,51.825158591066256
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,029,Reforma - Bucareli,8,19,21,0,26,,5.0,11.384684114957984
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,029,Reforma - Bucareli,8,19,21,0,26,,5.0,11.384684114957984
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,029,Reforma - Bucareli,8,19,21,0,26,,5.0,11.384684114957984
+Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,22,26,0,6,,18.60857521879738,27.18468838613348
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,029,Reforma - Bucareli,8,19,21,0,26,,5.0,11.384684114957984
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,22,26,0,6,,18.60857521879738,27.18468838613348
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,029,Reforma - Bucareli,8,19,21,0,26,,5.0,11.384684114957984
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,22,26,0,6,,18.60857521879738,27.18468838613348
+Regla umbral 70/30,3,119,Turín-Abraham González,041,Reforma - Av. de la República,5,19,27,0,31,,37.84192063238245,48.5802387183804
+Gemelo (voraz),1,119,Turín-Abraham González,555,Ribera de San Cosme - Insurgentes Centro,13,19,27,2,26,7.769999921321869,5.0,17.73266770160606
+Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,012,Río Lerma - Villalongín,10,14,30,2,15,6.269999861717224,29.809070947392662,42.02828630564227
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,086,Sullivan-Insurgentes,9,20,25,0,16,5.331999778747559,51.94240523371938,60.807154190921764
