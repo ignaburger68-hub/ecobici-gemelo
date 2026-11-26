@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 06:21 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 06:35 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 06:21 a 07:21
+## Último pronóstico: 26/11 06:35 a 07:35
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 26/11/2026 06:21 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**8.8 °C** · sin lluvia · viento 1 km/h · día hábil
+**9.2 °C** · sin lluvia · viento 1 km/h · día hábil
 
 El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,00 = sin efecto).
 
@@ -23,22 +23,22 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
+| 114 Lucerna-Abraham González | 0 / 20 | 1.00 | 0.00 | 0-2 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 008 Reforma - General Prim | 0 / 12 | 1.00 | 0.00 | 0-2 |
-| 003 Reforma - Insurgentes | 0 / 28 | 0.99 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 0 / 32 | 0.99 | 0.00 | 0-5 |
-| 118 Liverpool-Dinamarca | 0 / 16 | 0.98 | 0.01 | 2-10 |
-| 029 Reforma - Bucareli | 0 / 26 | 0.98 | 0.00 | 2-10 |
-| 270 De la República-Ponciano Arr | 0 / 1 | 0.97 | 0.94 | 1-1 |
-| 117 Londres-Nápoles | 0 / 24 | 0.97 | 0.00 | 1-8 |
-| 114 Lucerna-Abraham González | 1 / 21 | 0.89 | 0.00 | 0-1 |
-| 020 Reforma- Río Támesis | 1 / 22 | 0.80 | 0.00 | 0-3 |
+| 003 Reforma - Insurgentes | 0 / 28 | 1.00 | 0.00 | 0-2 |
+| 020 Reforma- Río Támesis | 0 / 22 | 0.99 | 0.00 | 0-3 |
+| 026 Reforma - Versalles | 0 / 9 | 0.97 | 0.02 | 0-5 |
+| 029 Reforma - Bucareli | 0 / 26 | 0.94 | 0.00 | 3-12 |
+| 117 Londres-Nápoles | 0 / 24 | 0.94 | 0.00 | 2-11 |
+| 086 Sullivan-Insurgentes | 5 / 16 | 0.84 | 0.00 | 0-3 |
+| 555 Ribera de San Cosme - Insurg | 9 / 26 | 0.70 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 3 / 32 | 0.63 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 085 (11/13) a 086 (5/16)
-2. Llevar **8 bicis** de 010 (11/25) a 114 (1/21)
-3. Llevar **13 bicis** de 450 (26/27) a 041 (2/32)
+1. Llevar **9 bicis** de 010 (12/25) a 086 (5/16)
+2. Llevar **13 bicis** de 450 (25/27) a 555 (9/26)
+3. Llevar **6 bicis** de 085 (11/13) a 114 (0/20)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 

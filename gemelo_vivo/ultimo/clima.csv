@@ -1,6 +1,6 @@
 hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variable,categoria,factor_retiros,factor_devoluciones
-2026-11-26 06:00,hábil,pronosticado,8.75,-2.202,0.0,1.15,lluvia,sin lluvia,0.988,0.981
-2026-11-26 06:00,hábil,pronosticado,8.75,-2.202,0.0,1.15,lluvia previa,seco antes,0.99,1.001
-2026-11-26 06:00,hábil,pronosticado,8.75,-2.202,0.0,1.15,temperatura,más frío (−3 a −1 °C),0.841,0.872
-2026-11-26 06:00,hábil,pronosticado,8.75,-2.202,0.0,1.15,viento,< 5 km/h,0.988,0.985
-2026-11-26 06:00,hábil,pronosticado,8.75,-2.202,0.0,1.15,efecto total en la hora,,0.813,0.843
+2026-11-26 07:00,hábil,pronosticado,9.15,-2.439,0.0,1.25,lluvia,sin lluvia,0.988,0.981
+2026-11-26 07:00,hábil,pronosticado,9.15,-2.439,0.0,1.25,lluvia previa,seco antes,0.99,1.001
+2026-11-26 07:00,hábil,pronosticado,9.15,-2.439,0.0,1.25,temperatura,más frío (−3 a −1 °C),0.841,0.872
+2026-11-26 07:00,hábil,pronosticado,9.15,-2.439,0.0,1.25,viento,< 5 km/h,0.988,0.985
+2026-11-26 07:00,hábil,pronosticado,9.15,-2.439,0.0,1.25,efecto total en la hora,,0.813,0.843
