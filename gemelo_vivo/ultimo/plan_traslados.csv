@@ -1,18 +1,18 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,28,29,0,26,,5.0,14.890615642392609
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,20,21,0,11,,26.132667447072823,37.25276273541358
-Regla umbral 85/15,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,28,29,0,26,,5.0,14.890615642392609
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,20,21,0,11,,26.132667447072823,37.25276273541358
-Regla umbral 85/15,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,9,10,0,21,,48.67494344337003,61.26757090989328
-Regla umbral 80/20,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,28,29,0,26,,5.0,14.890615642392609
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,20,21,0,11,,26.132667447072823,37.25276273541358
-Regla umbral 80/20,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,9,10,0,21,,48.67494344337003,61.26757090989328
-Regla umbral 75/25,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,28,29,0,26,,5.0,14.890615642392609
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,20,21,0,11,,26.132667447072823,37.25276273541358
-Regla umbral 75/25,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,9,10,0,21,,48.67494344337003,61.26757090989328
-Regla umbral 70/30,1,029,Reforma - Bucareli,003,Reforma - Insurgentes,13,28,29,0,26,,5.0,14.890615642392609
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,5,20,21,0,11,,26.132667447072823,37.25276273541358
-Regla umbral 70/30,3,048,Independencia - Azueta,020,Reforma- Río Támesis,4,9,10,0,21,,48.67494344337003,61.26757090989328
-Gemelo (voraz),1,029,Reforma - Bucareli,031,Hamburgo - Insurgentes,19,28,29,0,29,15.243000030517578,5.0,17.220845796407534
-Gemelo (voraz),2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,16,20,21,0,21,14.330000877380371,30.71344780560962,42.985266620725156
-Gemelo (voraz),3,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,14,16,27,2,29,10.940000057220459,53.836098493373875,66.70926954343409
+Regla umbral 90/10,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,9,20,21,0,27,,5.0,16.242051804680216
+Regla umbral 90/10,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,27,29,0,11,,26.132667447072826,35.91873970972311
+Regla umbral 85/15,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,9,20,21,0,27,,5.0,16.242051804680216
+Regla umbral 85/15,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,27,29,0,11,,26.132667447072826,35.91873970972311
+Regla umbral 85/15,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,9,10,0,6,,47.34092041767956,58.92306119422205
+Regla umbral 80/20,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,9,20,21,0,27,,5.0,16.242051804680216
+Regla umbral 80/20,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,27,29,0,11,,26.132667447072826,35.91873970972311
+Regla umbral 80/20,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,9,10,0,6,,47.34092041767956,58.92306119422205
+Regla umbral 75/25,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,9,20,21,0,27,,5.0,16.242051804680216
+Regla umbral 75/25,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,27,29,0,11,,26.132667447072826,35.91873970972311
+Regla umbral 75/25,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,9,10,0,6,,47.34092041767956,58.92306119422205
+Regla umbral 70/30,1,260,Av. Juárez-Balderas,003,Reforma - Insurgentes,9,20,21,0,27,,5.0,16.242051804680216
+Regla umbral 70/30,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,27,29,0,11,,26.132667447072826,35.91873970972311
+Regla umbral 70/30,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,9,10,0,6,,47.34092041767956,58.92306119422205
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,18,21,25,1,25,15.470999717712402,5.0,13.96283342196559
+Gemelo (voraz),2,029,Reforma - Bucareli,003,Reforma - Insurgentes,17,27,29,0,27,10.986000061035156,21.74678254034172,31.63739818273433
+Gemelo (voraz),3,260,Av. Juárez-Balderas,008,Reforma - General Prim,9,20,21,0,11,9.212999820709229,42.879449987414546,53.9995452757553
