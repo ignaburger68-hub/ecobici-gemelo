@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,048,Independencia - Azueta,008,Reforma - General Prim,5,11,11,0,13,,5.0,16.42218070795645
-Regla umbral 90/10,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.62920089994365,35.20531406727975
-Regla umbral 90/10,3,029,Reforma - Bucareli,117,Londres-Nápoles,13,28,29,1,28,,44.70452578775583,56.77083238078831
-Regla umbral 85/15,1,048,Independencia - Azueta,008,Reforma - General Prim,5,11,11,0,13,,5.0,16.42218070795645
-Regla umbral 85/15,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.62920089994365,35.20531406727975
-Regla umbral 85/15,3,029,Reforma - Bucareli,117,Londres-Nápoles,13,28,29,1,28,,44.70452578775583,56.77083238078831
-Regla umbral 80/20,1,048,Independencia - Azueta,008,Reforma - General Prim,5,11,11,0,13,,5.0,16.42218070795645
-Regla umbral 80/20,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.62920089994365,35.20531406727975
-Regla umbral 80/20,3,029,Reforma - Bucareli,117,Londres-Nápoles,13,28,29,1,28,,44.70452578775583,56.77083238078831
-Regla umbral 75/25,1,048,Independencia - Azueta,008,Reforma - General Prim,5,11,11,0,13,,5.0,16.42218070795645
-Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.62920089994365,35.20531406727975
-Regla umbral 75/25,3,029,Reforma - Bucareli,117,Londres-Nápoles,13,28,29,1,28,,44.70452578775583,56.77083238078831
-Regla umbral 70/30,1,048,Independencia - Azueta,008,Reforma - General Prim,5,11,11,0,13,,5.0,16.42218070795645
-Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,263,Sadi Carnot - Gómez Farias,3,27,27,0,6,,26.62920089994365,35.20531406727975
-Regla umbral 70/30,3,029,Reforma - Bucareli,117,Londres-Nápoles,13,28,29,1,28,,44.70452578775583,56.77083238078831
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,117,Londres-Nápoles,16,27,27,1,28,5.903000116348267,5.0,17.80485798081878
-Gemelo (voraz),2,041,Reforma - Av. de la República,086,Sullivan-Insurgentes,7,30,32,1,17,3.5640000104904175,30.040405023208216,40.19964005138969
-Gemelo (voraz),3,048,Independencia - Azueta,020,Reforma- Río Támesis,6,11,11,1,22,3.136000156402588,52.09462047589923,64.68724794242247
+Regla umbral 90/10,1,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,6,27,27,0,12,,5.0,13.950917780187877
+Regla umbral 90/10,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,21,21,0,22,,25.071013068528632,37.342831883644166
+Regla umbral 90/10,3,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,10,0,24,,49.93545935016741,62.346513933920185
+Regla umbral 85/15,1,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,6,27,27,0,12,,5.0,13.950917780187877
+Regla umbral 85/15,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,21,21,0,22,,25.071013068528632,37.342831883644166
+Regla umbral 85/15,3,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,10,0,24,,49.93545935016741,62.346513933920185
+Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,6,27,27,0,12,,5.0,13.950917780187877
+Regla umbral 80/20,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,21,21,0,22,,25.071013068528632,37.342831883644166
+Regla umbral 80/20,3,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,10,0,24,,49.93545935016741,62.346513933920185
+Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,6,27,27,0,12,,5.0,13.950917780187877
+Regla umbral 75/25,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,21,21,0,22,,25.071013068528632,37.342831883644166
+Regla umbral 75/25,3,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,10,0,24,,49.93545935016741,62.346513933920185
+Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,008,Reforma - General Prim,6,27,27,0,12,,5.0,13.950917780187877
+Regla umbral 70/30,2,260,Av. Juárez-Balderas,020,Reforma- Río Támesis,10,21,21,0,22,,25.071013068528632,37.342831883644166
+Regla umbral 70/30,3,048,Independencia - Azueta,115,Roma-Dinamarca,5,10,10,0,24,,49.93545935016741,62.346513933920185
+Gemelo (voraz),1,041,Reforma - Av. de la República,117,Londres-Nápoles,19,31,32,0,28,5.74399995803833,5.0,17.235547042389435
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,13,26,27,0,22,4.584000110626221,30.040405023208216,41.18500238192164
+Gemelo (voraz),3,270,De la República-Ponciano Arriaga,115,Roma-Dinamarca,13,27,27,0,24,4.020999908447266,51.06385536361496,61.122957796925036
