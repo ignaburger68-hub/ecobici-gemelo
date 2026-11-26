@@ -1,18 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
-Regla umbral 90/10,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
-Regla umbral 85/15,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
-Regla umbral 85/15,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
-Regla umbral 85/15,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
-Regla umbral 80/20,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
-Regla umbral 80/20,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
-Regla umbral 80/20,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
-Regla umbral 75/25,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
-Regla umbral 75/25,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
-Regla umbral 75/25,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
-Regla umbral 70/30,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,4,19,19,0,9,,5.0,16.192741211341254
-Regla umbral 70/30,2,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,8,19,21,0,32,,22.577425326299238,28.959138118991227
-Regla umbral 70/30,3,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,12,14,0,6,,37.637798105996225,46.6910967078992
-Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,9,12,14,0,32,7.3979997634887695,5.0,13.678659987005002
-Gemelo (voraz),2,118,Liverpool-Dinamarca,256,Gómez Farías-Sadi Carnot,8,19,19,1,23,3.851999878883362,25.065966682389,35.82491849993701
-Gemelo (voraz),3,260,Av. Juárez-Balderas,107-108,Tolsa-Balderas,11,19,21,3,55,3.36899995803833,46.68724860252806,56.413695464187384
+Regla umbral 90/10,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,3,19,19,0,7,,5.0,16.192741211341254
+Regla umbral 90/10,2,113,General Prim-Versalles,041,Reforma - Av. de la República,6,13,14,0,32,,24.664695242328087,33.343355229333085
+Regla umbral 90/10,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,45.57890227172252,55.9423340223243
+Regla umbral 85/15,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,3,19,19,0,7,,5.0,16.192741211341254
+Regla umbral 85/15,2,113,General Prim-Versalles,041,Reforma - Av. de la República,6,13,14,0,32,,24.664695242328087,33.343355229333085
+Regla umbral 85/15,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,45.57890227172252,55.9423340223243
+Regla umbral 80/20,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,3,19,19,0,7,,5.0,16.192741211341254
+Regla umbral 80/20,2,113,General Prim-Versalles,041,Reforma - Av. de la República,6,13,14,0,32,,24.664695242328087,33.343355229333085
+Regla umbral 80/20,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,45.57890227172252,55.9423340223243
+Regla umbral 75/25,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,3,19,19,0,7,,5.0,16.192741211341254
+Regla umbral 75/25,2,113,General Prim-Versalles,041,Reforma - Av. de la República,6,13,14,0,32,,24.664695242328087,33.343355229333085
+Regla umbral 75/25,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,45.57890227172252,55.9423340223243
+Regla umbral 70/30,1,118,Liverpool-Dinamarca,029,Reforma - Bucareli,3,19,19,0,7,,5.0,16.192741211341254
+Regla umbral 70/30,2,113,General Prim-Versalles,041,Reforma - Av. de la República,6,13,14,0,32,,24.664695242328087,33.343355229333085
+Regla umbral 70/30,3,117,Londres-Nápoles,263,Sadi Carnot - Gómez Farias,3,26,28,0,6,,45.57890227172252,55.9423340223243
+Gemelo (voraz),1,113,General Prim-Versalles,107-108,Tolsa-Balderas,9,13,14,0,54,6.744999885559082,5.0,13.199545280891883
+Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,14,26,28,0,32,4.876000165939331,24.066388611604463,36.301935653993894
+Gemelo (voraz),3,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,9,19,21,0,15,4.6540000438690186,42.68364844668588,55.47065639566459
