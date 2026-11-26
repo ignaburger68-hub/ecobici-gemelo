@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,008,Reforma - General Prim,113,General Prim-Versalles,7,15,15,0,14,,5.0,12.099680277735938
-Regla umbral 90/10,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,12,29,29,0,25,,20.57163430872277,30.462249951115382
-Regla umbral 90/10,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,21,21,0,21,,41.7043017557956,51.54973686747978
-Regla umbral 85/15,1,008,Reforma - General Prim,113,General Prim-Versalles,7,15,15,0,14,,5.0,12.099680277735938
-Regla umbral 85/15,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,12,29,29,0,25,,20.57163430872277,30.462249951115382
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,21,21,0,21,,41.7043017557956,51.54973686747978
-Regla umbral 80/20,1,008,Reforma - General Prim,113,General Prim-Versalles,7,15,15,0,14,,5.0,12.099680277735938
-Regla umbral 80/20,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,12,29,29,0,25,,20.57163430872277,30.462249951115382
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,21,21,0,21,,41.7043017557956,51.54973686747978
-Regla umbral 75/25,1,008,Reforma - General Prim,113,General Prim-Versalles,7,15,15,0,14,,5.0,12.099680277735938
-Regla umbral 75/25,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,12,29,29,0,25,,20.57163430872277,30.462249951115382
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,21,21,0,21,,41.7043017557956,51.54973686747978
-Regla umbral 70/30,1,008,Reforma - General Prim,113,General Prim-Versalles,7,15,15,0,14,,5.0,12.099680277735938
-Regla umbral 70/30,2,029,Reforma - Bucareli,003,Reforma - Insurgentes,12,29,29,0,25,,20.57163430872277,30.462249951115382
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,10,21,21,0,21,,41.7043017557956,51.54973686747978
-Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,15,26,27,0,25,10.067000150680542,5.0,15.179168815876452
-Gemelo (voraz),2,260,Av. Juárez-Balderas,114,Lucerna-Abraham González,13,21,21,0,21,7.199000000953674,26.421220620556667,36.26665573224085
-Gemelo (voraz),3,029,Reforma - Bucareli,113,General Prim-Versalles,8,29,29,0,14,6.171000361442566,45.15757283044018,53.62952686142701
+Regla umbral 90/10,1,026,Reforma - Versalles,113,General Prim-Versalles,3,7,7,0,15,,5.0,11.324870556847111
+Regla umbral 90/10,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,29,29,0,6,,19.796824587833942,29.29603630831002
+Regla umbral 90/10,3,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,6,21,21,0,13,,40.12395819509658,53.146270220339716
+Regla umbral 85/15,1,026,Reforma - Versalles,113,General Prim-Versalles,3,7,7,0,15,,5.0,11.324870556847111
+Regla umbral 85/15,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,29,29,0,6,,19.796824587833942,29.29603630831002
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,6,21,21,0,13,,40.12395819509658,53.146270220339716
+Regla umbral 80/20,1,026,Reforma - Versalles,113,General Prim-Versalles,3,7,7,0,15,,5.0,11.324870556847111
+Regla umbral 80/20,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,29,29,0,6,,19.796824587833942,29.29603630831002
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,6,21,21,0,13,,40.12395819509658,53.146270220339716
+Regla umbral 75/25,1,026,Reforma - Versalles,113,General Prim-Versalles,3,7,7,0,15,,5.0,11.324870556847111
+Regla umbral 75/25,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,29,29,0,6,,19.796824587833942,29.29603630831002
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,6,21,21,0,13,,40.12395819509658,53.146270220339716
+Regla umbral 70/30,1,026,Reforma - Versalles,113,General Prim-Versalles,3,7,7,0,15,,5.0,11.324870556847111
+Regla umbral 70/30,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,29,29,0,6,,19.796824587833942,29.29603630831002
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,085,Rosas Moreno - Sullivan,6,21,21,0,13,,40.12395819509658,53.146270220339716
+Gemelo (voraz),1,260,Av. Juárez-Balderas,117,Londres-Nápoles,14,21,21,1,29,7.257000088691711,5.0,18.287172057491397
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,003,Reforma - Insurgentes,15,25,27,1,27,6.7330002784729,31.092030038310178,41.27119885418663
+Gemelo (voraz),3,029,Reforma - Bucareli,113,General Prim-Versalles,7,29,29,0,15,4.0959999561309814,51.16181449657924,59.63376852756607
