@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,24,,5.0,12.697387933446448
-Regla umbral 90/10,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,29,29,0,11,,20.481337051822578,30.26740931447286
-Regla umbral 90/10,3,048,Independencia - Azueta,003,Reforma - Insurgentes,5,10,10,0,27,,41.689590022429314,53.27869710712375
-Regla umbral 85/15,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,24,,5.0,12.697387933446448
-Regla umbral 85/15,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,29,29,0,11,,20.481337051822578,30.26740931447286
-Regla umbral 85/15,3,048,Independencia - Azueta,003,Reforma - Insurgentes,5,10,10,0,27,,41.689590022429314,53.27869710712375
-Regla umbral 80/20,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,24,,5.0,12.697387933446448
-Regla umbral 80/20,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,29,29,0,11,,20.481337051822578,30.26740931447286
-Regla umbral 80/20,3,048,Independencia - Azueta,003,Reforma - Insurgentes,5,10,10,0,27,,41.689590022429314,53.27869710712375
-Regla umbral 75/25,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,24,,5.0,12.697387933446448
-Regla umbral 75/25,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,29,29,0,11,,20.481337051822578,30.26740931447286
-Regla umbral 75/25,3,048,Independencia - Azueta,003,Reforma - Insurgentes,5,10,10,0,27,,41.689590022429314,53.27869710712375
-Regla umbral 70/30,1,116,Londres-Roma,010,Reforma - Ramírez,11,23,23,0,24,,5.0,12.697387933446448
-Regla umbral 70/30,2,029,Reforma - Bucareli,008,Reforma - General Prim,5,29,29,0,11,,20.481337051822578,30.26740931447286
-Regla umbral 70/30,3,048,Independencia - Azueta,003,Reforma - Insurgentes,5,10,10,0,27,,41.689590022429314,53.27869710712375
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,20,25,26,0,24,18.644999027252197,5.0,13.96283342196559
-Gemelo (voraz),2,029,Reforma - Bucareli,115,Roma-Dinamarca,13,29,29,0,23,10.263999462127686,21.74678254034172,32.616464708857436
-Gemelo (voraz),3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,10,21,21,0,16,9.347999572753906,44.797402536937625,56.25827686508083
+Regla umbral 90/10,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,7,26,26,0,15,,5.0,15.772950117080928
+Regla umbral 90/10,2,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,25.420245908126347,35.09035150765549
+Regla umbral 90/10,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,21,21,0,6,,44.935786619339666,55.76370850612622
+Regla umbral 85/15,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,7,26,26,0,15,,5.0,15.772950117080928
+Regla umbral 85/15,2,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,25.420245908126347,35.09035150765549
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,21,21,0,6,,44.935786619339666,55.76370850612622
+Regla umbral 80/20,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,7,26,26,0,15,,5.0,15.772950117080928
+Regla umbral 80/20,2,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,25.420245908126347,35.09035150765549
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,21,21,0,6,,44.935786619339666,55.76370850612622
+Regla umbral 75/25,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,7,26,26,0,15,,5.0,15.772950117080928
+Regla umbral 75/25,2,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,25.420245908126347,35.09035150765549
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,21,21,0,6,,44.935786619339666,55.76370850612622
+Regla umbral 70/30,1,555,Ribera de San Cosme - Insurgentes Centro,113,General Prim-Versalles,7,26,26,0,15,,5.0,15.772950117080928
+Regla umbral 70/30,2,048,Independencia - Azueta,114,Lucerna-Abraham González,5,10,10,0,21,,25.420245908126347,35.09035150765549
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,21,21,0,6,,44.935786619339666,55.76370850612622
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,010,Reforma - Ramírez,20,26,26,1,24,18.045998573303223,5.0,13.96283342196559
+Gemelo (voraz),2,450,Ramos Arizpe- Av México Tenochtitlan,113,General Prim-Versalles,13,26,27,0,15,11.883000373840332,22.205919131045487,31.95784840582663
+Gemelo (voraz),3,260,Av. Juárez-Balderas,086,Sullivan-Insurgentes,10,21,21,0,16,9.2669997215271,41.567582411848235,53.02845673999144
