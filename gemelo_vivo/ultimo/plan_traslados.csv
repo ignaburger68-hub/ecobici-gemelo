@@ -2,8 +2,13 @@ plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B
 Regla umbral 90/10,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
 Regla umbral 85/15,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
 Regla umbral 80/20,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
+Regla umbral 80/20,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,19,23,0,13,,25.907668270990182,35.22095766342254
 Regla umbral 75/25,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
+Regla umbral 75/25,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,19,23,0,13,,25.907668270990182,35.22095766342254
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,255,José Rosas Moreno-Guillermo Prieto,6,17,22,0,33,,43.064515246530306,49.97238746211432
 Regla umbral 70/30,1,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,5.0,16.582140776542488
-Gemelo (voraz),1,048,Independencia - Azueta,031,Hamburgo - Insurgentes,10,10,10,1,29,9.021999835968018,5.0,18.625177088692958
-Gemelo (voraz),2,098,Emilio Dondé-Av. Balderas,115,Roma-Dinamarca,9,10,31,1,23,6.685000419616699,30.64749816635971,41.67164595342619
-Gemelo (voraz),3,116,Londres-Roma,117,Londres-Nápoles,11,16,23,4,28,6.555000305175781,48.40149615614135,55.65297304217992
+Regla umbral 70/30,2,116,Londres-Roma,085,Rosas Moreno - Sullivan,6,19,23,0,13,,25.907668270990182,35.22095766342254
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,255,José Rosas Moreno-Guillermo Prieto,6,17,22,0,33,,43.064515246530306,49.97238746211432
+Gemelo (voraz),1,029,Reforma - Bucareli,031,Hamburgo - Insurgentes,14,18,28,2,29,10.112000226974487,5.0,17.220845796407534
+Gemelo (voraz),2,256,Gómez Farías-Sadi Carnot,117,Londres-Nápoles,13,17,22,4,29,8.842999815940857,27.770994088714062,38.625978236481615
+Gemelo (voraz),3,048,Independencia - Azueta,115,Roma-Dinamarca,8,10,10,1,24,8.355000138282776,51.962558202891074,64.37361278664385
