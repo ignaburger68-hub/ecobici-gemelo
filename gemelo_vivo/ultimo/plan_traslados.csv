@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 90/10,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
-Regla umbral 90/10,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 90/10,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,18,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 90/10,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,2,19,21,0,5,,46.55593828936901,54.9755641134986
 Regla umbral 85/15,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 85/15,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
-Regla umbral 85/15,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 85/15,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,18,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,2,19,21,0,5,,46.55593828936901,54.9755641134986
 Regla umbral 80/20,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 80/20,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
-Regla umbral 80/20,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 80/20,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,18,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,2,19,21,0,5,,46.55593828936901,54.9755641134986
 Regla umbral 75/25,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
-Regla umbral 75/25,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,18,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,2,19,21,0,5,,46.55593828936901,54.9755641134986
 Regla umbral 70/30,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
-Regla umbral 70/30,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,20,27,27,0,26,15.30899953842163,5.0,17.87317105006021
-Gemelo (voraz),2,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,14,19,19,1,54,11.687999963760376,30.489780946542915,40.16630877507115
-Gemelo (voraz),3,113,General Prim-Versalles,086,Sullivan-Insurgentes,11,15,15,0,16,8.404000282287598,48.365854055963034,56.257420672682926
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,18,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,270,De la República-Ponciano Arriaga,2,19,21,0,5,,46.55593828936901,54.9755641134986
+Gemelo (voraz),1,113,General Prim-Versalles,107-108,Tolsa-Balderas,12,15,15,0,54,9.540000438690186,5.0,13.199545280891883
+Gemelo (voraz),2,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,13,18,19,0,26,9.247999668121338,22.87607310942012,35.49268300590282
+Gemelo (voraz),3,117,Londres-Nápoles,086,Sullivan-Insurgentes,12,21,27,0,15,6.597999691963196,48.36585405596303,56.47522599042095
