@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 09:12 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 09:26 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 09:12 a 10:12
+## Último pronóstico: 26/11 09:26 a 10:26
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.86** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 020 Reforma- Río Támesis | 0 / 20 | 1.00 | 0.00 | 0-4 |
-| 117 Londres-Nápoles | 27 / 27 | 0.00 | 1.00 | 22-27 |
-| 270 De la República-Ponciano Arr | 0 / 1 | 0.84 | 1.00 | 1-1 |
-| 259 Tómas Alva Edison-Ponciano A | 0 / 25 | 1.00 | 0.00 | 0-2 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 22 | 0.99 | 0.00 | 0-3 |
-| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.99 | 10-15 |
-| 255 José Rosas Moreno-Guillermo  | 0 / 33 | 0.99 | 0.00 | 0-3 |
-| 555 Ribera de San Cosme - Insurg | 0 / 25 | 0.98 | 0.00 | 0-3 |
-| 003 Reforma - Insurgentes | 0 / 28 | 0.97 | 0.00 | 0-4 |
+| 555 Ribera de San Cosme - Insurg | 0 / 26 | 1.00 | 0.00 | 0-3 |
+| 259 Tómas Alva Edison-Ponciano A | 0 / 25 | 1.00 | 0.00 | 0-3 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 22 | 1.00 | 0.00 | 0-3 |
+| 117 Londres-Nápoles | 27 / 27 | 0.00 | 1.00 | 20-27 |
+| 086 Sullivan-Insurgentes | 0 / 16 | 0.99 | 0.00 | 0-2 |
+| 107-108 Tolsa-Balderas | 1 / 54 | 0.99 | 0.00 | 0-3 |
+| 270 De la República-Ponciano Arr | 0 / 1 | 0.90 | 0.99 | 1-1 |
+| 020 Reforma- Río Támesis | 0 / 21 | 0.99 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 19 / 19 | 0.00 | 0.98 | 14-19 |
 
 ### Plan recomendado del camión
 
-1. Llevar **19 bicis** de 117 (27/27) a 555 (0/25)
-2. Llevar **13 bicis** de 113 (15/15) a 107-108 (3/54)
-3. Llevar **12 bicis** de 115 (22/25) a 086 (2/16)
+1. Llevar **20 bicis** de 117 (27/27) a 555 (0/26)
+2. Llevar **14 bicis** de 118 (19/19) a 107-108 (1/54)
+3. Llevar **11 bicis** de 113 (15/15) a 086 (0/16)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-663 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+664 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |

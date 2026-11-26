@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,28,,5.0,12.366062645032592
-Regla umbral 90/10,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,20.116512547859113,31.86477203425874
-Regla umbral 90/10,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,21,0,6,,40.84421839350384,51.67214028029039
-Regla umbral 85/15,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,28,,5.0,12.366062645032592
-Regla umbral 85/15,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,20.116512547859113,31.86477203425874
-Regla umbral 85/15,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,21,0,6,,40.84421839350384,51.67214028029039
-Regla umbral 80/20,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,28,,5.0,12.366062645032592
-Regla umbral 80/20,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,20.116512547859113,31.86477203425874
-Regla umbral 80/20,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,21,0,6,,40.84421839350384,51.67214028029039
-Regla umbral 75/25,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,28,,5.0,12.366062645032592
-Regla umbral 75/25,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,20.116512547859113,31.86477203425874
-Regla umbral 75/25,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,21,0,6,,40.84421839350384,51.67214028029039
-Regla umbral 70/30,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,28,,5.0,12.366062645032592
-Regla umbral 70/30,2,117,Londres-Nápoles,259,Tómas Alva Edison-Ponciano Arriaga,12,27,27,0,25,,20.116512547859113,31.86477203425874
-Regla umbral 70/30,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,21,0,6,,40.84421839350384,51.67214028029039
-Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,19,27,27,0,25,16.223000526428223,5.0,17.87317105006021
-Gemelo (voraz),2,113,General Prim-Versalles,107-108,Tolsa-Balderas,13,15,15,3,54,11.056000232696533,28.64612116714114,36.84566644803302
-Gemelo (voraz),3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,12,22,25,2,16,6.444000005722046,47.56747879677204,54.045882084618825
+Regla umbral 90/10,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
+Regla umbral 90/10,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 90/10,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 85/15,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
+Regla umbral 85/15,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 85/15,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 80/20,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
+Regla umbral 80/20,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 80/20,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 75/25,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
+Regla umbral 75/25,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 75/25,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Regla umbral 70/30,1,113,General Prim-Versalles,259,Tómas Alva Edison-Ponciano Arriaga,7,15,15,0,25,,5.0,14.165569848492977
+Regla umbral 70/30,2,118,Liverpool-Dinamarca,263,Sadi Carnot - Gómez Farias,3,19,19,0,6,,25.461700343809042,35.728016402582455
+Regla umbral 70/30,3,117,Londres-Nápoles,020,Reforma- Río Támesis,10,27,27,0,21,,46.091448153184245,53.22798135182071
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,20,27,27,0,26,15.30899953842163,5.0,17.87317105006021
+Gemelo (voraz),2,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,14,19,19,1,54,11.687999963760376,30.489780946542915,40.16630877507115
+Gemelo (voraz),3,113,General Prim-Versalles,086,Sullivan-Insurgentes,11,15,15,0,16,8.404000282287598,48.365854055963034,56.257420672682926
