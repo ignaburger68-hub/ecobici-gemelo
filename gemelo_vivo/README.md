@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 25/11/2026 20:11 (hora de Ciudad de México).
+Página actualizada automáticamente el 25/11/2026 20:25 (hora de Ciudad de México).
 
-## Último pronóstico: 25/11 20:11 a 21:11
+## Último pronóstico: 25/11 20:25 a 21:25
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **13.2 °C** · sin lluvia · viento 10 km/h · día hábil
 
-El clima multiplica los **retiros por 0.72** y las **devoluciones por 0.78** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.74** y las **devoluciones por 0.79** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -25,24 +25,24 @@ El clima multiplica los **retiros por 0.72** y las **devoluciones por 0.78** (1,
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
 | 450 Ramos Arizpe- Av México Teno | 27 / 27 | 0.00 | 1.00 | 24-27 |
-| 041 Reforma - Av. de la Repúblic | 31 / 31 | 0.00 | 0.99 | 25-31 |
-| 026 Reforma - Versalles | 7 / 7 | 0.03 | 0.99 | 3-7 |
-| 048 Independencia - Azueta | 10 / 10 | 0.00 | 0.98 | 6-10 |
-| 020 Reforma- Río Támesis | 0 / 21 | 0.98 | 0.00 | 0-5 |
-| 003 Reforma - Insurgentes | 0 / 27 | 0.98 | 0.00 | 0-5 |
-| 012 Río Lerma - Villalongín | 0 / 14 | 0.97 | 0.00 | 0-5 |
-| 260 Av. Juárez-Balderas | 20 / 21 | 0.00 | 0.95 | 18-21 |
-| 113 General Prim-Versalles | 0 / 15 | 0.92 | 0.00 | 0-8 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-5 |
+| 048 Independencia - Azueta | 10 / 10 | 0.00 | 0.99 | 6-10 |
+| 113 General Prim-Versalles | 0 / 15 | 0.98 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 31 / 31 | 0.00 | 0.96 | 24-31 |
+| 114 Lucerna-Abraham González | 0 / 21 | 0.93 | 0.00 | 0-6 |
+| 260 Av. Juárez-Balderas | 19 / 20 | 0.00 | 0.89 | 15-20 |
+| 555 Ribera de San Cosme - Insurg | 25 / 26 | 0.00 | 0.89 | 14-25 |
+| 008 Reforma - General Prim | 1 / 13 | 0.76 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **15 bicis** de 260 (20/21) a 003 (0/27)
-2. Llevar **17 bicis** de 450 (27/27) a 117 (3/29)
-3. Llevar **12 bicis** de 041 (31/31) a 020 (0/21)
+1. Llevar **17 bicis** de 450 (27/27) a 003 (0/27)
+2. Llevar **10 bicis** de 260 (19/20) a 113 (0/15)
+3. Llevar **11 bicis** de 555 (25/26) a 020 (2/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-638 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+639 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
