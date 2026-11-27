@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 09:26 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 09:40 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 09:26 a 10:26
+## Último pronóstico: 27/11 09:40 a 10:40
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 27/11/2026 09:26 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**11.1 °C** · lluvia 0.2 mm/h · viento 7 km/h · día hábil
+**11.4 °C** · lluvia 0.8 mm/h · viento 8 km/h · día hábil
 
 El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.78** (1,00 = sin efecto).
 
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.78** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 008 Reforma - General Prim | 16 / 16 | 0.00 | 1.00 | 12-16 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.98 | 0.00 | 0-5 |
-| 113 General Prim-Versalles | 14 / 15 | 0.00 | 0.96 | 12-15 |
-| 118 Liverpool-Dinamarca | 18 / 19 | 0.00 | 0.92 | 15-19 |
-| 012 Río Lerma - Villalongín | 13 / 14 | 0.00 | 0.91 | 10-14 |
-| 107-108 Tolsa-Balderas | 0 / 30 | 0.90 | 0.00 | 2-10 |
-| 048 Independencia - Azueta | 9 / 10 | 0.00 | 0.89 | 5-10 |
-| 086 Sullivan-Insurgentes | 2 / 16 | 0.75 | 0.00 | 0-5 |
-| 041 Reforma - Av. de la Repúblic | 2 / 29 | 0.70 | 0.00 | 0-5 |
+| 008 Reforma - General Prim | 16 / 16 | 0.00 | 1.00 | 10-16 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.99 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 14 / 14 | 0.00 | 0.99 | 10-14 |
+| 107-108 Tolsa-Balderas | 0 / 31 | 0.94 | 0.00 | 3-10 |
+| 086 Sullivan-Insurgentes | 1 / 16 | 0.91 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 17 / 19 | 0.00 | 0.82 | 15-19 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 26 | 0.81 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 2 / 30 | 0.80 | 0.00 | 0-4 |
+| 048 Independencia - Azueta | 10 / 11 | 0.00 | 0.79 | 7-11 |
 
 ### Plan recomendado del camión
 
-1. Llevar **10 bicis** de 008 (16/16) a 086 (2/16)
-2. Llevar **12 bicis** de 118 (18/19) a 256 (0/21)
-3. Llevar **11 bicis** de 113 (14/15) a 041 (2/29)
+1. Llevar **9 bicis** de 012 (14/14) a 086 (1/16)
+2. Llevar **10 bicis** de 008 (16/16) a 041 (2/30)
+3. Llevar **11 bicis** de 118 (17/19) a 256 (0/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-736 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+737 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
