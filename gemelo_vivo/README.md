@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 11:34 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 11:48 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 11:33 a 12:33
+## Último pronóstico: 27/11 11:48 a 12:48
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **11.9 °C** · lluvia 2.3 mm/h · viento 11 km/h · día hábil
 
-El clima multiplica los **retiros por 0.52** y las **devoluciones por 0.60** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.50** y las **devoluciones por 0.58** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.52** y las **devoluciones por 0.60** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
+| 112 Av. Morelos-Abraham González | 0 / 22 | 0.99 | 0.00 | 0-4 |
 | 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.98 | 10-15 |
-| 086 Sullivan-Insurgentes | 0 / 14 | 0.98 | 0.00 | 0-4 |
-| 026 Reforma - Versalles | 0 / 1 | 0.94 | 0.94 | 1-1 |
-| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.88 | 0.00 | 0-3 |
-| 112 Av. Morelos-Abraham González | 1 / 22 | 0.84 | 0.00 | 0-3 |
-| 107-108 Tolsa-Balderas | 0 / 10 | 0.77 | 0.29 | 4-10 |
-| 259 Tómas Alva Edison-Ponciano A | 1 / 25 | 0.72 | 0.00 | 0-4 |
-| 114 Lucerna-Abraham González | 21 / 23 | 0.00 | 0.47 | 18-23 |
-| 003 Reforma - Insurgentes | 3 / 29 | 0.45 | 0.00 | 0-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.93 | 0.00 | 0-3 |
+| 107-108 Tolsa-Balderas | 0 / 8 | 0.90 | 0.24 | 2-8 |
+| 255 José Rosas Moreno-Guillermo  | 1 / 34 | 0.90 | 0.00 | 0-5 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 26 | 0.88 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 1 / 15 | 0.62 | 0.00 | 0-5 |
+| 118 Liverpool-Dinamarca | 16 / 18 | 0.00 | 0.55 | 11-18 |
+| 116 Londres-Roma | 2 / 22 | 0.49 | 0.00 | 0-8 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 113 (15/15) a 041 (1/28)
-2. Llevar **11 bicis** de 114 (21/23) a 112 (1/22)
-3. Llevar **7 bicis** de 118 (14/17) a 086 (0/14)
+1. Llevar **9 bicis** de 113 (15/15) a 041 (1/29)
+2. Llevar **12 bicis** de 114 (21/23) a 255 (1/34)
+3. Llevar **8 bicis** de 118 (16/18) a 259 (1/26)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-745 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+746 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
