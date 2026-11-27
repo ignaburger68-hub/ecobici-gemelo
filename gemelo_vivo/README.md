@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 18:01 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 18:15 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 18:01 a 19:01
+## Último pronóstico: 26/11 18:15 a 19:15
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **12.7 °C** · sin lluvia · viento 7 km/h · día hábil
 
-El clima multiplica los **retiros por 0.59** y las **devoluciones por 0.65** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.61** y las **devoluciones por 0.67** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.59** y las **devoluciones por 0.65** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 18-21 |
-| 012 Río Lerma - Villalongín | 0 / 15 | 0.99 | 0.00 | 0-3 |
-| 048 Independencia - Azueta | 8 / 8 | 0.01 | 0.99 | 5-8 |
-| 029 Reforma - Bucareli | 30 / 30 | 0.00 | 0.98 | 27-30 |
-| 008 Reforma - General Prim | 2 / 9 | 0.97 | 0.00 | 0-2 |
-| 116 Londres-Roma | 22 / 22 | 0.00 | 0.92 | 12-22 |
-| 115 Roma-Dinamarca | 4 / 22 | 0.88 | 0.00 | 0-7 |
-| 270 De la República-Ponciano Arr | 0 / 9 | 0.87 | 0.83 | 7-9 |
-| 113 General Prim-Versalles | 4 / 14 | 0.70 | 0.00 | 0-5 |
+| 048 Independencia - Azueta | 8 / 8 | 0.01 | 1.00 | 4-8 |
+| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 19-21 |
+| 113 General Prim-Versalles | 0 / 13 | 0.99 | 0.00 | 0-2 |
+| 270 De la República-Ponciano Arr | 0 / 7 | 0.82 | 0.96 | 7-7 |
+| 115 Roma-Dinamarca | 1 / 20 | 0.88 | 0.00 | 0-7 |
+| 085 Rosas Moreno - Sullivan | 1 / 13 | 0.86 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 2 / 15 | 0.86 | 0.00 | 0-3 |
+| 029 Reforma - Bucareli | 24 / 29 | 0.00 | 0.86 | 25-29 |
+| 026 Reforma - Versalles | 1 / 9 | 0.82 | 0.09 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **13 bicis** de 260 (21/21) a 012 (0/15)
-2. Llevar **16 bicis** de 029 (30/30) a 115 (4/22)
-3. Llevar **6 bicis** de 048 (8/8) a 008 (2/9)
+1. Llevar **13 bicis** de 260 (21/21) a 113 (0/13)
+2. Llevar **13 bicis** de 029 (24/29) a 115 (1/20)
+3. Llevar **7 bicis** de 048 (8/8) a 012 (2/15)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-700 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+701 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
