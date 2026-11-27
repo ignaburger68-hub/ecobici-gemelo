@@ -1,6 +1,6 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 01:07 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 01:21 (hora de Ciudad de México).
 
 ## Último pronóstico: 26/11 23:00 a 00:00
 
