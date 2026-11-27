@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 12:46 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 13:00 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 12:46 a 13:46
+## Último pronóstico: 27/11 13:00 a 14:00
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **12.3 °C** · lluvia 5.5 mm/h · viento 11 km/h · día hábil
 
-El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.59** y las **devoluciones por 0.66** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 1.00 | 0.00 | 0-4 |
-| 555 Ribera de San Cosme - Insurg | 0 / 30 | 0.99 | 0.00 | 0-4 |
-| 114 Lucerna-Abraham González | 22 / 23 | 0.00 | 0.92 | 18-23 |
-| 113 General Prim-Versalles | 14 / 15 | 0.00 | 0.81 | 10-15 |
-| 086 Sullivan-Insurgentes | 1 / 15 | 0.79 | 0.00 | 0-5 |
-| 041 Reforma - Av. de la Repúblic | 3 / 29 | 0.56 | 0.00 | 0-6 |
-| 026 Reforma - Versalles | 13 / 15 | 0.00 | 0.54 | 10-15 |
-| 118 Liverpool-Dinamarca | 15 / 17 | 0.00 | 0.54 | 10-17 |
-| 255 José Rosas Moreno-Guillermo  | 3 / 34 | 0.50 | 0.00 | 0-6 |
+| 041 Reforma - Av. de la Repúblic | 0 / 29 | 1.00 | 0.00 | 0-1 |
+| 555 Ribera de San Cosme - Insurg | 0 / 31 | 1.00 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 0 / 14 | 0.99 | 0.00 | 0-4 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.97 | 9-15 |
+| 255 José Rosas Moreno-Guillermo  | 1 / 34 | 0.91 | 0.00 | 0-5 |
+| 256 Gómez Farías-Sadi Carnot | 1 / 21 | 0.80 | 0.00 | 0-6 |
+| 270 De la República-Ponciano Arr | 4 / 26 | 0.77 | 0.00 | 0-5 |
+| 098 Emilio Dondé-Av. Balderas | 2 / 29 | 0.75 | 0.00 | 0-7 |
+| 085 Rosas Moreno - Sullivan | 4 / 13 | 0.53 | 0.01 | 0-6 |
 
 ### Plan recomendado del camión
 
-1. Llevar **15 bicis** de 114 (22/23) a 555 (0/30)
-2. Llevar **8 bicis** de 113 (14/15) a 256 (0/21)
-3. Llevar **7 bicis** de 118 (15/17) a 086 (1/15)
+1. Llevar **11 bicis** de 113 (15/15) a 041 (0/29)
+2. Llevar **14 bicis** de 114 (20/23) a 555 (0/31)
+3. Llevar **7 bicis** de 118 (15/17) a 086 (0/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-750 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+751 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
