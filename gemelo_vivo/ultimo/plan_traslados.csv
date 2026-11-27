@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,026,Reforma - Versalles,6,31,31,0,13,,5.0,12.9004445055547
-Regla umbral 90/10,2,041,Reforma - Av. de la República,263,Sadi Carnot - Gómez Farias,3,27,28,0,6,,20.929407314171087,30.377898354816068
-Regla umbral 90/10,3,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,2,19,20,0,5,,35.87284865281627,43.3344433854671
-Regla umbral 85/15,1,029,Reforma - Bucareli,026,Reforma - Versalles,6,31,31,0,13,,5.0,12.9004445055547
-Regla umbral 85/15,2,041,Reforma - Av. de la República,263,Sadi Carnot - Gómez Farias,3,27,28,0,6,,20.929407314171087,30.377898354816068
-Regla umbral 85/15,3,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,2,19,20,0,5,,35.87284865281627,43.3344433854671
-Regla umbral 80/20,1,029,Reforma - Bucareli,026,Reforma - Versalles,6,31,31,0,13,,5.0,12.9004445055547
-Regla umbral 80/20,2,041,Reforma - Av. de la República,263,Sadi Carnot - Gómez Farias,3,27,28,0,6,,20.929407314171087,30.377898354816068
-Regla umbral 80/20,3,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,2,19,20,0,5,,35.87284865281627,43.3344433854671
-Regla umbral 75/25,1,029,Reforma - Bucareli,026,Reforma - Versalles,6,31,31,0,13,,5.0,12.9004445055547
-Regla umbral 75/25,2,041,Reforma - Av. de la República,263,Sadi Carnot - Gómez Farias,3,27,28,0,6,,20.929407314171087,30.377898354816068
-Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,2,19,20,0,5,,35.87284865281627,43.3344433854671
-Regla umbral 70/30,1,029,Reforma - Bucareli,026,Reforma - Versalles,6,31,31,0,13,,5.0,12.9004445055547
-Regla umbral 70/30,2,041,Reforma - Av. de la República,263,Sadi Carnot - Gómez Farias,3,27,28,0,6,,20.929407314171087,30.377898354816068
-Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,2,19,20,0,5,,35.87284865281627,43.3344433854671
-Gemelo (voraz),1,256,Gómez Farías-Sadi Carnot,020,Reforma- Río Támesis,11,19,20,1,21,5.686000108718872,5.0,13.76796219808059
-Gemelo (voraz),2,029,Reforma - Bucareli,086,Sullivan-Insurgentes,7,31,31,0,14,4.770999908447266,24.691709487250304,34.777546502094715
-Gemelo (voraz),3,041,Reforma - Av. de la República,115,Roma-Dinamarca,12,27,28,1,23,4.749000072479248,44.93678153027619,55.93712332349486
+Regla umbral 90/10,1,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,29,0,13,,5.0,13.471954030986831
+Regla umbral 90/10,2,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,1,19,20,0,3,,22.932723425514318,30.39431815816514
+Regla umbral 90/10,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,20,0,6,,38.81394398229473,49.641865869081286
+Regla umbral 85/15,1,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,29,0,13,,5.0,13.471954030986831
+Regla umbral 85/15,2,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,1,19,20,0,3,,22.932723425514318,30.39431815816514
+Regla umbral 85/15,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,20,0,6,,38.81394398229473,49.641865869081286
+Regla umbral 80/20,1,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,29,0,13,,5.0,13.471954030986831
+Regla umbral 80/20,2,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,1,19,20,0,3,,22.932723425514318,30.39431815816514
+Regla umbral 80/20,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,20,0,6,,38.81394398229473,49.641865869081286
+Regla umbral 75/25,1,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,29,0,13,,5.0,13.471954030986831
+Regla umbral 75/25,2,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,1,19,20,0,3,,22.932723425514318,30.39431815816514
+Regla umbral 75/25,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,20,0,6,,38.81394398229473,49.641865869081286
+Regla umbral 70/30,1,029,Reforma - Bucareli,113,General Prim-Versalles,6,29,29,0,13,,5.0,13.471954030986831
+Regla umbral 70/30,2,256,Gómez Farías-Sadi Carnot,270,De la República-Ponciano Arriaga,1,19,20,0,3,,22.932723425514318,30.39431815816514
+Regla umbral 70/30,3,260,Av. Juárez-Balderas,263,Sadi Carnot - Gómez Farias,3,19,20,0,6,,38.81394398229473,49.641865869081286
+Gemelo (voraz),1,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,9,19,20,0,14,5.937999963760376,5.0,17.78700794897871
+Gemelo (voraz),2,029,Reforma - Bucareli,010,Reforma - Ramírez,13,29,29,4,26,4.726999878883362,29.19436216809624,36.97831128647237
+Gemelo (voraz),3,256,Gómez Farías-Sadi Carnot,113,General Prim-Versalles,6,19,20,0,13,3.684000015258789,44.744927641471726,54.205697035999215
