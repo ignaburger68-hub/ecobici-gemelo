@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 11:48 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 12:02 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 11:48 a 12:48
+## Último pronóstico: 27/11 12:02 a 13:02
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **11.9 °C** · lluvia 2.3 mm/h · viento 11 km/h · día hábil
 
-El clima multiplica los **retiros por 0.50** y las **devoluciones por 0.58** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.47** y las **devoluciones por 0.56** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.50** y las **devoluciones por 0.58** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 112 Av. Morelos-Abraham González | 0 / 22 | 0.99 | 0.00 | 0-4 |
-| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.98 | 10-15 |
-| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.93 | 0.00 | 0-3 |
-| 107-108 Tolsa-Balderas | 0 / 8 | 0.90 | 0.24 | 2-8 |
-| 255 José Rosas Moreno-Guillermo  | 1 / 34 | 0.90 | 0.00 | 0-5 |
-| 259 Tómas Alva Edison-Ponciano A | 1 / 26 | 0.88 | 0.00 | 0-3 |
-| 086 Sullivan-Insurgentes | 1 / 15 | 0.62 | 0.00 | 0-5 |
-| 118 Liverpool-Dinamarca | 16 / 18 | 0.00 | 0.55 | 11-18 |
-| 116 Londres-Roma | 2 / 22 | 0.49 | 0.00 | 0-8 |
+| 112 Av. Morelos-Abraham González | 0 / 22 | 0.99 | 0.00 | 0-3 |
+| 041 Reforma - Av. de la Repúblic | 0 / 29 | 0.99 | 0.00 | 0-4 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.99 | 11-15 |
+| 118 Liverpool-Dinamarca | 18 / 18 | 0.00 | 0.98 | 12-18 |
+| 026 Reforma - Versalles | 15 / 15 | 0.00 | 0.96 | 10-15 |
+| 259 Tómas Alva Edison-Ponciano A | 1 / 26 | 0.78 | 0.00 | 0-3 |
+| 255 José Rosas Moreno-Guillermo  | 1 / 34 | 0.63 | 0.00 | 0-5 |
+| 555 Ribera de San Cosme - Insurg | 4 / 32 | 0.59 | 0.00 | 0-5 |
+| 012 Río Lerma - Villalongín | 10 / 12 | 0.00 | 0.50 | 7-12 |
 
 ### Plan recomendado del camión
 
-1. Llevar **9 bicis** de 113 (15/15) a 041 (1/29)
-2. Llevar **12 bicis** de 114 (21/23) a 255 (1/34)
-3. Llevar **8 bicis** de 118 (16/18) a 259 (1/26)
+1. Llevar **8 bicis** de 113 (15/15) a 041 (0/29)
+2. Llevar **9 bicis** de 118 (18/18) a 555 (4/32)
+3. Llevar **6 bicis** de 026 (15/15) a 112 (0/22)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-746 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+747 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
