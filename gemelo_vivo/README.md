@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 06:04 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 06:19 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 06:04 a 07:04
+## Último pronóstico: 27/11 06:18 a 07:18
 
 ![Mapa](ultimo/mapa.png)
 
@@ -24,21 +24,21 @@ El clima multiplica los **retiros por 0.81** y las **devoluciones por 0.84** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 003 Reforma - Insurgentes | 0 / 24 | 1.00 | 0.00 | 0-2 |
-| 041 Reforma - Av. de la Repúblic | 0 / 25 | 0.98 | 0.00 | 0-4 |
-| 116 Londres-Roma | 0 / 17 | 0.98 | 0.00 | 0-5 |
-| 031 Hamburgo - Insurgentes | 0 / 34 | 0.97 | 0.00 | 0-4 |
-| 026 Reforma - Versalles | 0 / 9 | 0.96 | 0.02 | 1-6 |
-| 107-108 Tolsa-Balderas | 0 / 15 | 0.90 | 0.01 | 2-10 |
-| 020 Reforma- Río Támesis | 1 / 21 | 0.66 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 1 / 11 | 0.45 | 0.00 | 0-3 |
-| 118 Liverpool-Dinamarca | 1 / 18 | 0.26 | 0.00 | 2-8 |
+| 041 Reforma - Av. de la Repúblic | 0 / 25 | 1.00 | 0.00 | 0-4 |
+| 003 Reforma - Insurgentes | 0 / 24 | 0.99 | 0.00 | 0-2 |
+| 031 Hamburgo - Insurgentes | 0 / 34 | 0.99 | 0.00 | 0-5 |
+| 026 Reforma - Versalles | 0 / 9 | 0.97 | 0.03 | 1-6 |
+| 107-108 Tolsa-Balderas | 0 / 16 | 0.93 | 0.00 | 2-9 |
+| 020 Reforma- Río Támesis | 1 / 21 | 0.74 | 0.00 | 0-3 |
+| 008 Reforma - General Prim | 1 / 11 | 0.54 | 0.00 | 0-3 |
+| 085 Rosas Moreno - Sullivan | 8 / 10 | 0.01 | 0.45 | 5-10 |
+| 117 Londres-Nápoles | 2 / 28 | 0.29 | 0.00 | 1-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 450 (20/23) a 041 (0/25)
-2. Llevar **10 bicis** de 270 (21/28) a 020 (1/21)
-3. Llevar **4 bicis** de 256 (18/21) a 003 (0/24)
+1. Llevar **4 bicis** de 085 (8/10) a 041 (0/25)
+2. Llevar **5 bicis** de 256 (18/21) a 031 (0/34)
+3. Llevar **9 bicis** de 450 (20/23) a 020 (1/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
