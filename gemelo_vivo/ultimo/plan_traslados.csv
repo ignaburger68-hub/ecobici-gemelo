@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.905264113280627
-Regla umbral 90/10,2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,14,14,0,34,,20.846062363804677,28.678044509027828
-Regla umbral 90/10,3,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,11,11,0,27,,42.19619389394107,51.21364103463469
-Regla umbral 85/15,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.905264113280627
-Regla umbral 85/15,2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,14,14,0,34,,20.846062363804677,28.678044509027828
-Regla umbral 85/15,3,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,11,11,0,27,,42.19619389394107,51.21364103463469
-Regla umbral 80/20,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.905264113280627
-Regla umbral 80/20,2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,14,14,0,34,,20.846062363804677,28.678044509027828
-Regla umbral 80/20,3,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,11,11,0,27,,42.19619389394107,51.21364103463469
-Regla umbral 75/25,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.905264113280627
-Regla umbral 75/25,2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,14,14,0,34,,20.846062363804677,28.678044509027828
-Regla umbral 75/25,3,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,11,11,0,27,,42.19619389394107,51.21364103463469
-Regla umbral 70/30,1,008,Reforma - General Prim,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.905264113280627
-Regla umbral 70/30,2,012,Río Lerma - Villalongín,255,José Rosas Moreno-Guillermo Prieto,7,14,14,0,34,,20.846062363804677,28.678044509027828
-Regla umbral 70/30,3,048,Independencia - Azueta,107-108,Tolsa-Balderas,5,11,11,0,27,,42.19619389394107,51.21364103463469
-Gemelo (voraz),1,118,Liverpool-Dinamarca,255,José Rosas Moreno-Guillermo Prieto,14,17,19,0,34,8.166000008583069,5.0,16.104893343960413
-Gemelo (voraz),2,012,Río Lerma - Villalongín,256,Gómez Farías-Sadi Carnot,11,14,14,0,21,6.038000106811523,23.936875489183564,32.30239923291981
-Gemelo (voraz),3,113,General Prim-Versalles,116,Londres-Roma,8,14,15,1,22,3.7020002007484436,41.7631686274473,48.214755418218864
+Regla umbral 90/10,1,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,3,14,14,0,6,,5.0,12.940798250524052
+Regla umbral 90/10,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,14,15,0,14,,21.994096852427027,29.88566346914692
+Regla umbral 90/10,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,9,21,23,0,27,,36.364066756993694,47.085879105732715
+Regla umbral 85/15,1,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,3,14,14,0,6,,5.0,12.940798250524052
+Regla umbral 85/15,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,14,15,0,14,,21.994096852427027,29.88566346914692
+Regla umbral 85/15,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,9,21,23,0,27,,36.364066756993694,47.085879105732715
+Regla umbral 80/20,1,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,3,14,14,0,6,,5.0,12.940798250524052
+Regla umbral 80/20,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,14,15,0,14,,21.994096852427027,29.88566346914692
+Regla umbral 80/20,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,9,21,23,0,27,,36.364066756993694,47.085879105732715
+Regla umbral 75/25,1,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,3,14,14,0,6,,5.0,12.940798250524052
+Regla umbral 75/25,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,14,15,0,14,,21.994096852427027,29.88566346914692
+Regla umbral 75/25,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,9,21,23,0,27,,36.364066756993694,47.085879105732715
+Regla umbral 70/30,1,012,Río Lerma - Villalongín,263,Sadi Carnot - Gómez Farias,3,14,14,0,6,,5.0,12.940798250524052
+Regla umbral 70/30,2,113,General Prim-Versalles,086,Sullivan-Insurgentes,6,14,15,0,14,,21.994096852427027,29.88566346914692
+Regla umbral 70/30,3,115,Roma-Dinamarca,107-108,Tolsa-Balderas,9,21,23,0,27,,36.364066756993694,47.085879105732715
+Gemelo (voraz),1,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,11,17,19,0,14,8.400000095367432,5.0,13.11530992078939
+Gemelo (voraz),2,012,Río Lerma - Villalongín,256,Gómez Farías-Sadi Carnot,8,14,14,1,21,4.671000123023987,19.455610888495308,27.821134632231555
+Gemelo (voraz),3,113,General Prim-Versalles,255,José Rosas Moreno-Guillermo Prieto,8,14,15,1,34,3.6959997415542603,37.281904026759044,47.91213265492953
