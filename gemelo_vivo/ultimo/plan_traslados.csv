@@ -1,14 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,20,23,0,9,,5.0,13.638683117947258
-Regla umbral 85/15,2,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,7,18,21,0,24,,21.83906564364944,30.019666917813467
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,20,23,0,9,,5.0,13.638683117947258
-Regla umbral 80/20,2,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,7,18,21,0,24,,21.83906564364944,30.019666917813467
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,20,23,0,9,,5.0,13.638683117947258
-Regla umbral 75/25,2,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,7,18,21,0,24,,21.83906564364944,30.019666917813467
-Regla umbral 75/25,3,085,Rosas Moreno - Sullivan,041,Reforma - Av. de la República,3,8,10,0,25,,37.56425967411791,49.22020760553581
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,20,23,0,9,,5.0,13.638683117947258
-Regla umbral 70/30,2,256,Gómez Farías-Sadi Carnot,003,Reforma - Insurgentes,7,18,21,0,24,,21.83906564364944,30.019666917813467
-Regla umbral 70/30,3,085,Rosas Moreno - Sullivan,041,Reforma - Av. de la República,3,8,10,0,25,,37.56425967411791,49.22020760553581
-Gemelo (voraz),1,085,Rosas Moreno - Sullivan,041,Reforma - Av. de la República,4,8,10,0,25,2.237000048160553,5.0,16.6559479314179
-Gemelo (voraz),2,256,Gómez Farías-Sadi Carnot,031,Hamburgo - Insurgentes,5,18,21,0,34,1.1850000768899918,26.152913257562496,36.70306154986902
-Gemelo (voraz),3,450,Ramos Arizpe- Av México Tenochtitlan,020,Reforma- Río Támesis,9,20,23,1,21,1.1040000598877668,49.46912308267616,60.61372044138959
+Regla umbral 90/10,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,21,23,0,8,,5.0,13.638683117947258
+Regla umbral 85/15,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,21,23,0,8,,5.0,13.638683117947258
+Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,21,23,0,8,,5.0,13.638683117947258
+Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,21,23,0,8,,5.0,13.638683117947258
+Regla umbral 75/25,2,085,Rosas Moreno - Sullivan,003,Reforma - Insurgentes,3,8,10,0,24,,22.784619486934268,30.329212243238715
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,041,Reforma - Av. de la República,5,16,21,0,25,,38.50981351740274,48.00677884354734
+Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,4,21,23,0,8,,5.0,13.638683117947258
+Regla umbral 70/30,2,085,Rosas Moreno - Sullivan,003,Reforma - Insurgentes,3,8,10,0,24,,22.784619486934268,30.329212243238715
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,041,Reforma - Av. de la República,5,16,21,0,25,,38.50981351740274,48.00677884354734
+Gemelo (voraz),1,450,Ramos Arizpe- Av México Tenochtitlan,041,Reforma - Av. de la República,11,21,23,0,25,3.252000080421567,5.0,11.979853416766678
+Gemelo (voraz),2,270,De la República-Ponciano Arriaga,114,Lucerna-Abraham González,10,21,28,1,21,1.7360000568442047,19.064695366447644,28.56232325667966
+Gemelo (voraz),3,259,Tómas Alva Edison-Ponciano Arriaga,031,Hamburgo - Insurgentes,8,17,26,1,34,1.4570000125095248,38.557078184533495,50.18510027484602
