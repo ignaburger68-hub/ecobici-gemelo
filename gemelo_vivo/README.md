@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 13:56 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 14:11 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 13:56 a 14:56
+## Último pronóstico: 27/11 14:10 a 15:10
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 27/11/2026 13:56 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**12.3 °C** · lluvia 0.3 mm/h · viento 13 km/h · día hábil
+**9.8 °C** · lluvia 0.3 mm/h · viento 13 km/h · día hábil
 
 El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,00 = sin efecto).
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.64** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 003 Reforma - Insurgentes | 0 / 26 | 1.00 | 0.00 | 0-3 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 086 Sullivan-Insurgentes | 0 / 15 | 1.00 | 0.00 | 0-4 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 1.00 | 0.00 | 0-1 |
+| 010 Reforma - Ramírez | 0 / 25 | 1.00 | 0.00 | 0-3 |
 | 255 José Rosas Moreno-Guillermo  | 0 / 33 | 1.00 | 0.00 | 0-3 |
-| 026 Reforma - Versalles | 0 / 14 | 1.00 | 0.00 | 0-3 |
-| 041 Reforma - Av. de la Repúblic | 1 / 28 | 1.00 | 0.00 | 0-2 |
-| 555 Ribera de San Cosme - Insurg | 1 / 32 | 0.99 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 1 / 12 | 0.98 | 0.00 | 0-3 |
-| 098 Emilio Dondé-Av. Balderas | 2 / 30 | 0.92 | 0.00 | 0-2 |
+| 003 Reforma - Insurgentes | 0 / 27 | 0.99 | 0.00 | 0-4 |
+| 098 Emilio Dondé-Av. Balderas | 0 / 30 | 0.99 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 1 / 10 | 0.98 | 0.00 | 0-2 |
+| 256 Gómez Farías-Sadi Carnot | 3 / 21 | 0.93 | 0.00 | 0-3 |
+| 012 Río Lerma - Villalongín | 2 / 12 | 0.91 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 3 / 15 | 0.86 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 3 / 28 | 0.84 | 0.00 | 0-3 |
 
 ### Plan recomendado del camión
 
-1. Llevar **19 bicis** de 107-108 (40/55) a 041 (1/28)
-2. Llevar **12 bicis** de 114 (20/23) a 256 (0/21)
-3. Llevar **9 bicis** de 113 (12/15) a 086 (0/15)
+1. Llevar **18 bicis** de 107-108 (39/55) a 010 (0/25)
+2. Llevar **9 bicis** de 113 (13/15) a 256 (3/21)
+3. Llevar **9 bicis** de 107-108 (39/55) a 255 (0/33)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-755 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+756 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
