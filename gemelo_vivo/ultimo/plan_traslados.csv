@@ -1,10 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,5,13,15,0,25,,5.0,11.813851355574819
-Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,5,13,15,0,25,,5.0,11.813851355574819
-Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,5,13,15,0,25,,5.0,11.813851355574819
-Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,5,13,15,0,25,,5.0,11.813851355574819
-Regla umbral 70/30,2,114,Lucerna-Abraham González,003,Reforma - Insurgentes,5,17,23,0,27,,19.513365627142097,27.604584911564352
-Regla umbral 70/30,3,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,39,55,0,6,,38.11939053053983,50.218937920890156
-Gemelo (voraz),1,107-108,Tolsa-Balderas,010,Reforma - Ramírez,18,39,55,0,25,7.616999939084053,5.0,14.67985937371558
-Gemelo (voraz),2,113,General Prim-Versalles,256,Gómez Farías-Sadi Carnot,9,13,15,3,21,6.0809996128082275,21.4937107292904,30.954480123817888
-Gemelo (voraz),3,107-108,Tolsa-Balderas,255,José Rosas Moreno-Guillermo Prieto,9,39,55,0,33,4.755000174045563,43.40043373081878,57.19754762467497
+Regla umbral 90/10,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 85/15,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 85/15,2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,23,0,15,,20.457281929454844,29.118858523546646
+Regla umbral 80/20,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 80/20,2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,23,0,15,,20.457281929454844,29.118858523546646
+Regla umbral 75/25,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 75/25,2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,23,0,15,,20.457281929454844,29.118858523546646
+Regla umbral 70/30,1,113,General Prim-Versalles,003,Reforma - Insurgentes,7,15,15,0,27,,5.0,12.366062645032592
+Regla umbral 70/30,2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,7,20,23,0,15,,20.457281929454844,29.118858523546646
+Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,7,15,15,0,15,6.240999937057495,5.0,12.891566616719892
+Gemelo (voraz),2,107-108,Tolsa-Balderas,115,Roma-Dinamarca,13,36,55,6,23,4.368000030517578,23.963927797865605,34.68574014660463
+Gemelo (voraz),3,114,Lucerna-Abraham González,012,Río Lerma - Villalongín,8,20,23,0,12,4.113999754190445,43.02007074140877,52.80032196425557
