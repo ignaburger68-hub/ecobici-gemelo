@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,041,Reforma - Av. de la República,13,31,31,0,27,,5.0,10.275490977411547
-Regla umbral 90/10,2,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,22,23,0,6,,19.40671655260943,29.367936835053847
-Regla umbral 90/10,3,113,General Prim-Versalles,048,Independencia - Azueta,5,14,15,0,10,,38.42123543695682,48.06853122800224
-Regla umbral 85/15,1,029,Reforma - Bucareli,041,Reforma - Av. de la República,13,31,31,0,27,,5.0,10.275490977411547
-Regla umbral 85/15,2,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,22,23,0,6,,19.40671655260943,29.367936835053847
-Regla umbral 85/15,3,113,General Prim-Versalles,048,Independencia - Azueta,5,14,15,0,10,,38.42123543695682,48.06853122800224
-Regla umbral 80/20,1,029,Reforma - Bucareli,041,Reforma - Av. de la República,13,31,31,0,27,,5.0,10.275490977411547
-Regla umbral 80/20,2,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,22,23,0,6,,19.40671655260943,29.367936835053847
-Regla umbral 80/20,3,113,General Prim-Versalles,048,Independencia - Azueta,5,14,15,0,10,,38.42123543695682,48.06853122800224
-Regla umbral 75/25,1,029,Reforma - Bucareli,041,Reforma - Av. de la República,13,31,31,0,27,,5.0,10.275490977411547
-Regla umbral 75/25,2,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,22,23,0,6,,19.40671655260943,29.367936835053847
-Regla umbral 75/25,3,113,General Prim-Versalles,048,Independencia - Azueta,5,14,15,0,10,,38.42123543695682,48.06853122800224
-Regla umbral 70/30,1,029,Reforma - Bucareli,041,Reforma - Av. de la República,13,31,31,0,27,,5.0,10.275490977411547
-Regla umbral 70/30,2,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,22,23,0,6,,19.40671655260943,29.367936835053847
-Regla umbral 70/30,3,113,General Prim-Versalles,048,Independencia - Azueta,5,14,15,0,10,,38.42123543695682,48.06853122800224
-Gemelo (voraz),1,029,Reforma - Bucareli,041,Reforma - Av. de la República,17,31,31,0,27,6.5829998254776,5.0,10.275490977411547
-Gemelo (voraz),2,114,Lucerna-Abraham González,010,Reforma - Ramírez,11,22,23,2,25,2.0779999494552612,19.40671655260943,27.10623082417671
-Gemelo (voraz),3,113,General Prim-Versalles,012,Río Lerma - Villalongín,5,14,15,1,12,1.762000024318695,33.92008217975153,43.02507373500702
+Regla umbral 90/10,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,24,,5.0,11.813851355574819
+Regla umbral 90/10,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,31,31,0,6,,19.59780047395095,29.097012194427027
+Regla umbral 90/10,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,,39.058232476871446,48.18945805206933
+Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,24,,5.0,11.813851355574819
+Regla umbral 85/15,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,31,31,0,6,,19.59780047395095,29.097012194427027
+Regla umbral 85/15,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,,39.058232476871446,48.18945805206933
+Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,24,,5.0,11.813851355574819
+Regla umbral 80/20,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,31,31,0,6,,19.59780047395095,29.097012194427027
+Regla umbral 80/20,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,,39.058232476871446,48.18945805206933
+Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,24,,5.0,11.813851355574819
+Regla umbral 75/25,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,31,31,0,6,,19.59780047395095,29.097012194427027
+Regla umbral 75/25,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,,39.058232476871446,48.18945805206933
+Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,7,15,15,0,24,,5.0,11.813851355574819
+Regla umbral 70/30,2,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,31,31,0,6,,19.59780047395095,29.097012194427027
+Regla umbral 70/30,3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,,39.058232476871446,48.18945805206933
+Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,17,31,31,0,24,8.008999586105347,5.0,12.783949118376132
+Gemelo (voraz),2,113,General Prim-Versalles,012,Río Lerma - Villalongín,7,15,15,0,12,3.3220001459121704,19.59780047395095,28.702792029206442
+Gemelo (voraz),3,114,Lucerna-Abraham González,041,Reforma - Av. de la República,10,22,23,0,27,2.5160000324249268,38.48304325205324,47.614268827251124
