@@ -1,8 +1,12 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,4,12,15,0,17,,5.0,12.037235495643506
-Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,8,23,29,0,29,,19.597189421908222,26.68203137158919
-Regla umbral 70/30,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,4,12,15,0,17,,5.0,12.037235495643506
-Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,8,23,29,0,29,,19.597189421908222,26.68203137158919
-Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,11,12,15,0,29,9.240999460220337,5.0,13.678659987005002
-Gemelo (voraz),2,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,19,29,4,34,6.355000019073486,25.914207029394436,38.78737807945465
-Gemelo (voraz),3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,9,14,24,2,14,4.819000005722046,50.03374800385643,56.51215129170321
+Regla umbral 90/10,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 85/15,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 80/20,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 80/20,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,9,25,31,0,29,,21.555782144401988,28.640624094082956
+Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,9,25,31,0,29,,21.555782144401988,28.640624094082956
+Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,9,25,31,0,29,,21.555782144401988,28.640624094082956
+Gemelo (voraz),1,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,14,15,15,2,35,13.044000148773193,5.0,15.772950117080928
+Gemelo (voraz),2,117,Londres-Nápoles,086,Sullivan-Insurgentes,10,20,29,0,13,8.150999546051025,28.64612116714114,36.755493101599065
+Gemelo (voraz),3,115,Roma-Dinamarca,041,Reforma - Av. de la República,8,11,22,0,29,4.389000058174133,43.233896389445846,54.23423818266451
