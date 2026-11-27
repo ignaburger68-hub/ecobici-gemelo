@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 20:39 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 20:53 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 20:39 a 21:39
+## Último pronóstico: 26/11 20:53 a 21:53
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **11.8 °C** · lluvia 0.3 mm/h · viento 4 km/h · día hábil
 
-El clima multiplica los **retiros por 0.71** y las **devoluciones por 0.78** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.74** y las **devoluciones por 0.81** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.71** y las **devoluciones por 0.78** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
+| 010 Reforma - Ramírez | 0 / 26 | 1.00 | 0.00 | 0-2 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 260 Av. Juárez-Balderas | 20 / 20 | 0.00 | 0.98 | 14-20 |
-| 270 De la República-Ponciano Arr | 0 / 2 | 0.90 | 0.98 | 2-2 |
-| 048 Independencia - Azueta | 9 / 9 | 0.01 | 0.97 | 5-9 |
-| 010 Reforma - Ramírez | 2 / 25 | 0.95 | 0.00 | 0-1 |
-| 113 General Prim-Versalles | 1 / 13 | 0.81 | 0.00 | 0-3 |
-| 012 Río Lerma - Villalongín | 2 / 14 | 0.81 | 0.00 | 0-3 |
-| 117 Londres-Nápoles | 4 / 28 | 0.72 | 0.00 | 0-3 |
-| 029 Reforma - Bucareli | 27 / 29 | 0.00 | 0.66 | 21-29 |
-| 020 Reforma- Río Támesis | 3 / 21 | 0.61 | 0.00 | 0-4 |
+| 270 De la República-Ponciano Arr | 0 / 2 | 0.92 | 0.99 | 2-2 |
+| 048 Independencia - Azueta | 9 / 9 | 0.00 | 0.99 | 6-9 |
+| 029 Reforma - Bucareli | 29 / 29 | 0.00 | 0.98 | 21-29 |
+| 012 Río Lerma - Villalongín | 2 / 14 | 0.83 | 0.00 | 0-3 |
+| 260 Av. Juárez-Balderas | 19 / 20 | 0.00 | 0.81 | 15-20 |
+| 026 Reforma - Versalles | 2 / 12 | 0.79 | 0.00 | 0-4 |
+| 020 Reforma- Río Támesis | 2 / 21 | 0.78 | 0.00 | 0-4 |
+| 117 Londres-Nápoles | 3 / 28 | 0.74 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 260 (20/20) a 010 (2/25)
-2. Llevar **15 bicis** de 029 (27/29) a 117 (4/28)
+1. Llevar **20 bicis** de 029 (29/29) a 010 (0/26)
+2. Llevar **11 bicis** de 260 (19/20) a 117 (3/28)
 3. Llevar **6 bicis** de 048 (9/9) a 012 (2/14)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-711 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+712 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
