@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 11:05 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 11:19 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 11:05 a 12:05
+## Último pronóstico: 27/11 11:19 a 12:19
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **11.8 °C** · lluvia 0.6 mm/h · viento 10 km/h · día hábil
 
-El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.65** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.54** y las **devoluciones por 0.62** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.65** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.97 | 9-15 |
-| 107-108 Tolsa-Balderas | 0 / 27 | 0.94 | 0.00 | 3-12 |
-| 112 Av. Morelos-Abraham González | 1 / 22 | 0.84 | 0.00 | 0-3 |
-| 041 Reforma - Av. de la Repúblic | 2 / 29 | 0.84 | 0.00 | 0-3 |
-| 048 Independencia - Azueta | 10 / 11 | 0.01 | 0.68 | 6-11 |
-| 086 Sullivan-Insurgentes | 2 / 15 | 0.63 | 0.00 | 0-5 |
-| 115 Roma-Dinamarca | 22 / 23 | 0.00 | 0.61 | 15-22 |
-| 116 Londres-Roma | 2 / 22 | 0.53 | 0.00 | 0-7 |
-| 029 Reforma - Bucareli | 7 / 34 | 0.48 | 0.00 | 0-6 |
+| 041 Reforma - Av. de la Repúblic | 0 / 28 | 1.00 | 0.00 | 0-3 |
+| 112 Av. Morelos-Abraham González | 0 / 22 | 0.99 | 0.00 | 0-3 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 0.97 | 10-15 |
+| 107-108 Tolsa-Balderas | 0 / 29 | 0.89 | 0.00 | 4-13 |
+| 115 Roma-Dinamarca | 22 / 23 | 0.00 | 0.73 | 16-23 |
+| 116 Londres-Roma | 1 / 21 | 0.65 | 0.00 | 0-8 |
+| 259 Tómas Alva Edison-Ponciano A | 3 / 26 | 0.42 | 0.00 | 0-5 |
+| 048 Independencia - Azueta | 8 / 11 | 0.01 | 0.37 | 5-11 |
+| 118 Liverpool-Dinamarca | 14 / 17 | 0.00 | 0.33 | 11-17 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 113 (15/15) a 041 (2/29)
-2. Llevar **10 bicis** de 115 (22/23) a 112 (1/22)
-3. Llevar **6 bicis** de 048 (10/11) a 029 (7/34)
+1. Llevar **9 bicis** de 113 (15/15) a 041 (0/28)
+2. Llevar **10 bicis** de 115 (22/23) a 112 (0/22)
+3. Llevar **7 bicis** de 118 (14/17) a 116 (1/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-743 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+744 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.113 | 0.037 |
-| Sin resincronizar | 0.244 | 0.081 |
+| Sin resincronizar | 0.243 | 0.081 |
 | Persistencia | 0.250 | 0.062 |
 | Persistencia 0/1 | 0.250 | 0.062 |
 
