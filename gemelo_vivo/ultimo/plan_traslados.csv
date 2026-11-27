@@ -1,11 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
 Regla umbral 85/15,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 85/15,2,048,Independencia - Azueta,086,Sullivan-Insurgentes,4,9,10,0,15,,25.63543937844546,37.530419802954995
+Regla umbral 85/15,3,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,17,19,0,31,,45.64572972374439,55.322257552272625
 Regla umbral 80/20,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
+Regla umbral 80/20,2,048,Independencia - Azueta,086,Sullivan-Insurgentes,4,9,10,0,15,,25.63543937844546,37.530419802954995
+Regla umbral 80/20,3,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,17,19,0,31,,45.64572972374439,55.322257552272625
 Regla umbral 75/25,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
-Regla umbral 75/25,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,14,18,0,13,,24.319614660676386,32.43492458146578
+Regla umbral 75/25,2,048,Independencia - Azueta,086,Sullivan-Insurgentes,4,9,10,0,15,,25.63543937844546,37.530419802954995
+Regla umbral 75/25,3,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,17,19,0,31,,45.64572972374439,55.322257552272625
 Regla umbral 70/30,1,113,General Prim-Versalles,263,Sadi Carnot - Gómez Farias,3,15,15,0,6,,5.0,14.053298601902974
-Regla umbral 70/30,2,118,Liverpool-Dinamarca,086,Sullivan-Insurgentes,5,14,18,0,13,,24.319614660676386,32.43492458146578
-Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,11,15,15,0,13,12.074000358581543,5.0,12.891566616719892
-Gemelo (voraz),2,118,Liverpool-Dinamarca,555,Ribera de San Cosme - Insurgentes Centro,10,14,18,2,35,4.902999997138977,21.00687653750928,33.623486433991985
-Gemelo (voraz),3,008,Reforma - General Prim,256,Gómez Farías-Sadi Carnot,5,6,13,0,21,4.519000053405762,43.91613829587676,52.31333900113474
+Regla umbral 70/30,2,048,Independencia - Azueta,086,Sullivan-Insurgentes,4,9,10,0,15,,25.63543937844546,37.530419802954995
+Regla umbral 70/30,3,118,Liverpool-Dinamarca,107-108,Tolsa-Balderas,7,17,19,0,31,,45.64572972374439,55.322257552272625
+Gemelo (voraz),1,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,19,21,30,0,34,12.485999584197998,5.0,17.87317105006021
+Gemelo (voraz),2,113,General Prim-Versalles,086,Sullivan-Insurgentes,12,15,15,0,15,11.002999782562256,28.64612116714114,36.53768778386103
+Gemelo (voraz),3,118,Liverpool-Dinamarca,256,Gómez Farías-Sadi Carnot,12,17,19,0,21,5.918999910354614,44.652997704650424,55.411949522198434

@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 08:57 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 09:12 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 08:57 a 09:57
+## Último pronóstico: 27/11 09:11 a 10:11
 
 ![Mapa](ultimo/mapa.png)
 
@@ -23,26 +23,26 @@ El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.78** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 15 / 15 | 0.00 | 1.00 | 13-15 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 1.00 | 12-15 |
+| 086 Sullivan-Insurgentes | 0 / 15 | 0.99 | 0.00 | 0-4 |
 | 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.99 | 0.00 | 0-4 |
-| 086 Sullivan-Insurgentes | 0 / 13 | 0.99 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.91 | 0.00 | 0-5 |
-| 107-108 Tolsa-Balderas | 0 / 31 | 0.91 | 0.00 | 3-12 |
-| 555 Ribera de San Cosme - Insurg | 2 / 35 | 0.78 | 0.00 | 0-5 |
-| 116 Londres-Roma | 1 / 23 | 0.78 | 0.00 | 0-9 |
-| 008 Reforma - General Prim | 6 / 13 | 0.01 | 0.60 | 8-13 |
-| 118 Liverpool-Dinamarca | 14 / 18 | 0.00 | 0.55 | 11-18 |
+| 555 Ribera de San Cosme - Insurg | 0 / 34 | 0.97 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 9 / 10 | 0.00 | 0.90 | 6-10 |
+| 118 Liverpool-Dinamarca | 17 / 19 | 0.00 | 0.85 | 15-19 |
+| 008 Reforma - General Prim | 10 / 14 | 0.00 | 0.84 | 10-14 |
+| 117 Londres-Nápoles | 21 / 30 | 0.00 | 0.84 | 28-30 |
+| 107-108 Tolsa-Balderas | 0 / 31 | 0.81 | 0.00 | 3-13 |
 
 ### Plan recomendado del camión
 
-1. Llevar **11 bicis** de 113 (15/15) a 086 (0/13)
-2. Llevar **10 bicis** de 118 (14/18) a 555 (2/35)
-3. Llevar **5 bicis** de 008 (6/13) a 256 (0/21)
+1. Llevar **19 bicis** de 117 (21/30) a 555 (0/34)
+2. Llevar **12 bicis** de 113 (15/15) a 086 (0/15)
+3. Llevar **12 bicis** de 118 (17/19) a 256 (0/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-734 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+735 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
