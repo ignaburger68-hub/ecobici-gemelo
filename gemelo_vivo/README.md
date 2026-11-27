@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 26/11/2026 17:47 (hora de Ciudad de México).
+Página actualizada automáticamente el 26/11/2026 18:01 (hora de Ciudad de México).
 
-## Último pronóstico: 26/11 17:47 a 18:47
+## Último pronóstico: 26/11 18:01 a 19:01
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **12.7 °C** · sin lluvia · viento 7 km/h · día hábil
 
-El clima multiplica los **retiros por 0.58** y las **devoluciones por 0.65** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.59** y las **devoluciones por 0.65** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -25,24 +25,24 @@ El clima multiplica los **retiros por 0.58** y las **devoluciones por 0.65** (1,
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
 | 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 18-21 |
-| 029 Reforma - Bucareli | 29 / 30 | 0.00 | 0.99 | 26-30 |
-| 085 Rosas Moreno - Sullivan | 1 / 13 | 0.97 | 0.00 | 0-4 |
-| 255 José Rosas Moreno-Guillermo  | 0 / 34 | 0.94 | 0.00 | 0-7 |
-| 048 Independencia - Azueta | 7 / 8 | 0.03 | 0.90 | 4-8 |
-| 115 Roma-Dinamarca | 4 / 22 | 0.90 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 2 / 14 | 0.85 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 4 / 9 | 0.83 | 0.04 | 0-3 |
-| 270 De la República-Ponciano Arr | 0 / 10 | 0.81 | 0.61 | 5-10 |
+| 012 Río Lerma - Villalongín | 0 / 15 | 0.99 | 0.00 | 0-3 |
+| 048 Independencia - Azueta | 8 / 8 | 0.01 | 0.99 | 5-8 |
+| 029 Reforma - Bucareli | 30 / 30 | 0.00 | 0.98 | 27-30 |
+| 008 Reforma - General Prim | 2 / 9 | 0.97 | 0.00 | 0-2 |
+| 116 Londres-Roma | 22 / 22 | 0.00 | 0.92 | 12-22 |
+| 115 Roma-Dinamarca | 4 / 22 | 0.88 | 0.00 | 0-7 |
+| 270 De la República-Ponciano Arr | 0 / 9 | 0.87 | 0.83 | 7-9 |
+| 113 General Prim-Versalles | 4 / 14 | 0.70 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **16 bicis** de 029 (29/30) a 115 (4/22)
-2. Llevar **11 bicis** de 260 (21/21) a 085 (1/13)
-3. Llevar **6 bicis** de 048 (7/8) a 012 (2/14)
+1. Llevar **13 bicis** de 260 (21/21) a 012 (0/15)
+2. Llevar **16 bicis** de 029 (30/30) a 115 (4/22)
+3. Llevar **6 bicis** de 048 (8/8) a 008 (2/9)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-699 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+700 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
