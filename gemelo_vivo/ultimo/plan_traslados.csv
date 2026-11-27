@@ -1,12 +1,11 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 80/20,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,3,19,23,0,6,,5.0,13.638683117947258
-Regla umbral 80/20,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,26,0,21,,21.519841878269027,31.514596806122857
-Regla umbral 75/25,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,3,19,23,0,6,,5.0,13.638683117947258
-Regla umbral 75/25,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,26,0,21,,21.519841878269027,31.514596806122857
-Regla umbral 75/25,3,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,28,0,6,,41.01222469635488,48.51470823885389
-Regla umbral 70/30,1,450,Ramos Arizpe- Av México Tenochtitlan,026,Reforma - Versalles,3,19,23,0,6,,5.0,13.638683117947258
-Regla umbral 70/30,2,259,Tómas Alva Edison-Ponciano Arriaga,114,Lucerna-Abraham González,8,21,26,0,21,,21.519841878269027,31.514596806122857
-Regla umbral 70/30,3,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,22,28,0,6,,41.01222469635488,48.51470823885389
-Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,5,5,13,1,26,3.0159998536109924,5.0,13.678659987005002
-Gemelo (voraz),2,117,Londres-Nápoles,114,Lucerna-Abraham González,5,7,28,0,21,1.3890000581741333,25.914207029394436,34.70246856003713
-Gemelo (voraz),3,270,De la República-Ponciano Arriaga,012,Río Lerma - Villalongín,5,22,28,6,14,0.9729999899864197,44.20009645026915,54.208137351553745
+Regla umbral 80/20,1,270,De la República-Ponciano Arriaga,026,Reforma - Versalles,1,23,28,0,3,,5.0,12.488072394246704
+Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,026,Reforma - Versalles,1,23,28,0,3,,5.0,12.488072394246704
+Regla umbral 75/25,2,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,6,18,23,0,21,,21.12675551219396,31.5775819308686
+Regla umbral 75/25,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,2,7,9,0,6,,41.24768753039774,52.82982830694023
+Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,026,Reforma - Versalles,1,23,28,0,3,,5.0,12.488072394246704
+Regla umbral 70/30,2,450,Ramos Arizpe- Av México Tenochtitlan,114,Lucerna-Abraham González,6,18,23,0,21,,21.12675551219396,31.5775819308686
+Regla umbral 70/30,3,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,2,7,9,0,6,,41.24768753039774,52.82982830694023
+Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,5,5,13,1,13,3.5269999504089355,5.0,12.891566616719892
+Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,6,7,27,1,26,2.6490001678466797,21.000938551177818,33.23648559356725
+Gemelo (voraz),3,010,Reforma - Ramírez,114,Lucerna-Abraham González,4,12,26,0,21,0.7259999960660934,41.10779216502786,48.80730643659514
