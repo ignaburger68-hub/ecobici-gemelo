@@ -1,8 +1,8 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 75/25,1,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,23,29,0,6,,5.0,12.502483542499014
-Regla umbral 75/25,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,2,7,9,0,25,,24.084624319041502,33.102071459735114
-Regla umbral 70/30,1,270,De la República-Ponciano Arriaga,263,Sadi Carnot - Gómez Farias,3,23,29,0,6,,5.0,12.502483542499014
-Regla umbral 70/30,2,048,Independencia - Azueta,107-108,Tolsa-Balderas,2,7,9,0,25,,24.084624319041502,33.102071459735114
-Gemelo (voraz),1,113,General Prim-Versalles,086,Sullivan-Insurgentes,8,9,14,2,14,6.776000022888184,5.0,12.891566616719892
-Gemelo (voraz),2,117,Londres-Nápoles,041,Reforma - Av. de la República,13,14,28,2,28,4.294000029563904,21.000938551177818,33.23648559356725
-Gemelo (voraz),3,115,Roma-Dinamarca,020,Reforma- Río Támesis,8,11,24,2,20,3.135000228881836,44.23682738678591,49.871635129076644
+Regla umbral 75/25,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,4,12,15,0,17,,5.0,12.037235495643506
+Regla umbral 75/25,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,8,23,29,0,29,,19.597189421908222,26.68203137158919
+Regla umbral 70/30,1,113,General Prim-Versalles,112,Av. Morelos-Abraham González,4,12,15,0,17,,5.0,12.037235495643506
+Regla umbral 70/30,2,270,De la República-Ponciano Arriaga,041,Reforma - Av. de la República,8,23,29,0,29,,19.597189421908222,26.68203137158919
+Gemelo (voraz),1,113,General Prim-Versalles,041,Reforma - Av. de la República,11,12,15,0,29,9.240999460220337,5.0,13.678659987005002
+Gemelo (voraz),2,117,Londres-Nápoles,555,Ribera de San Cosme - Insurgentes Centro,17,19,29,4,34,6.355000019073486,25.914207029394436,38.78737807945465
+Gemelo (voraz),3,115,Roma-Dinamarca,086,Sullivan-Insurgentes,9,14,24,2,14,4.819000005722046,50.03374800385643,56.51215129170321
