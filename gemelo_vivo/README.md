@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 08:43 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 08:57 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 08:43 a 09:43
+## Último pronóstico: 27/11 08:57 a 09:57
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **11.1 °C** · lluvia 0.2 mm/h · viento 7 km/h · día hábil
 
-El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.77** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.78** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -23,33 +23,33 @@ El clima multiplica los **retiros por 0.69** y las **devoluciones por 0.77** (1,
 
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
-| 113 General Prim-Versalles | 15 / 15 | 0.00 | 1.00 | 14-15 |
+| 113 General Prim-Versalles | 15 / 15 | 0.00 | 1.00 | 13-15 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 086 Sullivan-Insurgentes | 0 / 13 | 1.00 | 0.00 | 0-5 |
-| 256 Gómez Farías-Sadi Carnot | 0 / 19 | 0.99 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 0 / 29 | 0.98 | 0.00 | 0-6 |
-| 107-108 Tolsa-Balderas | 0 / 29 | 0.92 | 0.00 | 3-12 |
-| 555 Ribera de San Cosme - Insurg | 2 / 35 | 0.91 | 0.00 | 0-7 |
-| 117 Londres-Nápoles | 20 / 29 | 0.00 | 0.67 | 24-29 |
-| 003 Reforma - Insurgentes | 3 / 28 | 0.52 | 0.00 | 1-7 |
-| 008 Reforma - General Prim | 6 / 13 | 0.01 | 0.48 | 7-13 |
+| 256 Gómez Farías-Sadi Carnot | 0 / 21 | 0.99 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 0 / 13 | 0.99 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 1 / 29 | 0.91 | 0.00 | 0-5 |
+| 107-108 Tolsa-Balderas | 0 / 31 | 0.91 | 0.00 | 3-12 |
+| 555 Ribera de San Cosme - Insurg | 2 / 35 | 0.78 | 0.00 | 0-5 |
+| 116 Londres-Roma | 1 / 23 | 0.78 | 0.00 | 0-9 |
+| 008 Reforma - General Prim | 6 / 13 | 0.01 | 0.60 | 8-13 |
+| 118 Liverpool-Dinamarca | 14 / 18 | 0.00 | 0.55 | 11-18 |
 
 ### Plan recomendado del camión
 
-1. Llevar **14 bicis** de 113 (15/15) a 555 (2/35)
-2. Llevar **10 bicis** de 117 (20/29) a 086 (0/13)
-3. Llevar **8 bicis** de 115 (11/22) a 041 (0/29)
+1. Llevar **11 bicis** de 113 (15/15) a 086 (0/13)
+2. Llevar **10 bicis** de 118 (14/18) a 555 (2/35)
+3. Llevar **5 bicis** de 008 (6/13) a 256 (0/21)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-733 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+734 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.113 | 0.036 |
 | Sin resincronizar | 0.245 | 0.080 |
-| Persistencia | 0.253 | 0.061 |
-| Persistencia 0/1 | 0.253 | 0.061 |
+| Persistencia | 0.252 | 0.061 |
+| Persistencia 0/1 | 0.252 | 0.061 |
 
 ![Brier por día](brier_vivo.png)
 

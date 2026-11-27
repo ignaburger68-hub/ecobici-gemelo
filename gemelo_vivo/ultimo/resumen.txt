@@ -1,43 +1,43 @@
-Simulación de una hora — viernes 27/11/2026 08:43 a 09:43 (en vivo)
+Simulación de una hora — viernes 27/11/2026 08:57 a 09:57 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26
-Factor del día: retiros 0.95, devoluciones 1.05
+Factor del día: retiros 1.05, devoluciones 1.06
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 09:00 a 10:00 (día hábil): 11.1 °C (-4.3 °C respecto de lo normal a esa hora), lluvia 0.2 mm/h, viento 7 km/h
-Efecto del clima en la hora: retiros ×0.69 (-31 %), devoluciones ×0.77 (-23 %)  (×1,00 = sin efecto)
+Efecto del clima en la hora: retiros ×0.69 (-31 %), devoluciones ×0.78 (-22 %)  (×1,00 = sin efecto)
   lluvia         ligera (<1 mm/h)               retiros ×0.945  devoluciones ×0.967
   lluvia previa  seco antes                     retiros ×0.990  devoluciones ×1.001
   temperatura    mucho más frío (< −3 °C)       retiros ×0.840  devoluciones ×0.889
   viento         5-10 km/h                      retiros ×0.872  devoluciones ×0.905
 
 Estaciones con más riesgo:
-       113 General Prim-Versalles     B=15/15  p vacía 0.00  p llena 1.00  B(t+60) 14-15
+       113 General Prim-Versalles     B=15/15  p vacía 0.00  p llena 1.00  B(t+60) 13-15
        263 Sadi Carnot - Gómez Farias B=0/6  p vacía 1.00  p llena 0.00  B(t+60) 0-0
-       086 Sullivan-Insurgentes       B=0/13  p vacía 1.00  p llena 0.00  B(t+60) 0-5
-       256 Gómez Farías-Sadi Carnot   B=0/19  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       041 Reforma - Av. de la Repúbl B=0/29  p vacía 0.98  p llena 0.00  B(t+60) 0-6
-   107-108 Tolsa-Balderas             B=0/29  p vacía 0.92  p llena 0.00  B(t+60) 3-12
-       555 Ribera de San Cosme - Insu B=2/35  p vacía 0.91  p llena 0.00  B(t+60) 0-7
-       117 Londres-Nápoles            B=20/29  p vacía 0.00  p llena 0.67  B(t+60) 24-29
+       256 Gómez Farías-Sadi Carnot   B=0/21  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       086 Sullivan-Insurgentes       B=0/13  p vacía 0.99  p llena 0.00  B(t+60) 0-4
+       041 Reforma - Av. de la Repúbl B=1/29  p vacía 0.91  p llena 0.00  B(t+60) 0-5
+   107-108 Tolsa-Balderas             B=0/31  p vacía 0.91  p llena 0.00  B(t+60) 3-12
+       555 Ribera de San Cosme - Insu B=2/35  p vacía 0.78  p llena 0.00  B(t+60) 0-5
+       116 Londres-Roma               B=1/23  p vacía 0.78  p llena 0.00  B(t+60) 0-9
 
-Plan Regla umbral 80/20 (la mejor de las 5 reglas umbral en esta hora):
+Plan Regla umbral 75/25 (la mejor de las 5 reglas umbral en esta hora):
   1. llevar 3 bicis de 113 (15/15) a 263 (0/6)
-  2. llevar 9 bicis de 270 (25/31) a 041 (0/29)
+  2. llevar 5 bicis de 118 (14/18) a 086 (0/13)
 Plan Gemelo (voraz):
-  1. llevar 14 bicis de 113 (15/15) a 555 (2/35)
-  2. llevar 10 bicis de 117 (20/29) a 086 (0/13)
-  3. llevar 8 bicis de 115 (11/22) a 041 (0/29)
+  1. llevar 11 bicis de 113 (15/15) a 086 (0/13)
+  2. llevar 10 bicis de 118 (14/18) a 555 (2/35)
+  3. llevar 5 bicis de 008 (6/13) a 256 (0/21)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               57.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-  Regla umbral 90/10                       54.8  (atiende +2.9 vs sin acción, IC95 +2.9 a +2.9)
-  Regla umbral 85/15                       54.8  (atiende +2.9 vs sin acción, IC95 +2.9 a +2.9)
-★ Regla umbral 80/20                       51.3  (atiende +6.4 vs sin acción, IC95 +6.2 a +6.5)
-  Regla umbral 75/25                       51.3  (atiende +6.4 vs sin acción, IC95 +6.2 a +6.5)
-  Regla umbral 70/30                       51.3  (atiende +6.4 vs sin acción, IC95 +6.2 a +6.5)
-  Gemelo (voraz)                           32.9  (atiende +24.8 vs sin acción, IC95 +24.1 a +25.5)
-  Gemelo (voraz) con tiempos de viaje      43.1  (atiende +14.6 vs sin acción, IC95 +14.1 a +15.1)
+  Sin acción                               57.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+  Regla umbral 90/10                       54.3  (atiende +2.9 vs sin acción, IC95 +2.9 a +2.9)
+  Regla umbral 85/15                       54.3  (atiende +2.9 vs sin acción, IC95 +2.9 a +2.9)
+  Regla umbral 80/20                       54.3  (atiende +2.9 vs sin acción, IC95 +2.9 a +2.9)
+★ Regla umbral 75/25                       49.2  (atiende +8.0 vs sin acción, IC95 +7.8 a +8.2)
+  Regla umbral 70/30                       49.2  (atiende +8.0 vs sin acción, IC95 +7.8 a +8.2)
+  Gemelo (voraz)                           35.5  (atiende +21.7 vs sin acción, IC95 +21.2 a +22.2)
+  Gemelo (voraz) con tiempos de viaje      42.9  (atiende +14.3 vs sin acción, IC95 +13.9 a +14.8)
 
-Validación: |simulada − exacta| máx 0.030, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.027, media 0.004 (error de Monte Carlo ≈ 0.016)
 
-Tiempo de cálculo: 1.5 s
+Tiempo de cálculo: 1.4 s
