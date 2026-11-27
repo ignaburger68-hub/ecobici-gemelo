@@ -1,17 +1,17 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
 Regla umbral 90/10,1,029,Reforma - Bucareli,026,Reforma - Versalles,7,31,31,0,14,,5.0,12.9004445055547
-Regla umbral 90/10,2,119,Turín-Abraham González,010,Reforma - Ramírez,11,24,25,0,25,,21.238846378646958,30.051964396947476
+Regla umbral 90/10,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,24,25,0,6,,21.238846378646958,31.896078624895924
 Regla umbral 85/15,1,029,Reforma - Bucareli,026,Reforma - Versalles,7,31,31,0,14,,5.0,12.9004445055547
-Regla umbral 85/15,2,119,Turín-Abraham González,010,Reforma - Ramírez,11,24,25,0,25,,21.238846378646958,30.051964396947476
+Regla umbral 85/15,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,24,25,0,6,,21.238846378646958,31.896078624895924
 Regla umbral 80/20,1,029,Reforma - Bucareli,026,Reforma - Versalles,7,31,31,0,14,,5.0,12.9004445055547
-Regla umbral 80/20,2,119,Turín-Abraham González,010,Reforma - Ramírez,11,24,25,0,25,,21.238846378646958,30.051964396947476
-Regla umbral 80/20,3,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,19,23,0,6,,37.75147866851476,47.71269895095917
+Regla umbral 80/20,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,24,25,0,6,,21.238846378646958,31.896078624895924
+Regla umbral 80/20,3,114,Lucerna-Abraham González,012,Río Lerma - Villalongín,5,19,23,0,11,,41.85729890734034,51.637550130187144
 Regla umbral 75/25,1,029,Reforma - Bucareli,026,Reforma - Versalles,7,31,31,0,14,,5.0,12.9004445055547
-Regla umbral 75/25,2,119,Turín-Abraham González,010,Reforma - Ramírez,11,24,25,0,25,,21.238846378646958,30.051964396947476
-Regla umbral 75/25,3,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,19,23,0,6,,37.75147866851476,47.71269895095917
+Regla umbral 75/25,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,24,25,0,6,,21.238846378646958,31.896078624895924
+Regla umbral 75/25,3,114,Lucerna-Abraham González,012,Río Lerma - Villalongín,5,19,23,0,11,,41.85729890734034,51.637550130187144
 Regla umbral 70/30,1,029,Reforma - Bucareli,026,Reforma - Versalles,7,31,31,0,14,,5.0,12.9004445055547
-Regla umbral 70/30,2,119,Turín-Abraham González,010,Reforma - Ramírez,11,24,25,0,25,,21.238846378646958,30.051964396947476
-Regla umbral 70/30,3,114,Lucerna-Abraham González,263,Sadi Carnot - Gómez Farias,3,19,23,0,6,,37.75147866851476,47.71269895095917
-Gemelo (voraz),1,029,Reforma - Bucareli,010,Reforma - Ramírez,18,31,31,0,25,7.908000349998474,5.0,12.783949118376132
-Gemelo (voraz),2,119,Turín-Abraham González,026,Reforma - Versalles,8,24,25,0,14,3.2979999780654907,21.59706713667665,29.93546900976891
-Gemelo (voraz),3,113,General Prim-Versalles,012,Río Lerma - Villalongín,6,12,15,0,11,1.8999999165534973,36.260339566616025,45.36533112187151
+Regla umbral 70/30,2,119,Turín-Abraham González,263,Sadi Carnot - Gómez Farias,3,24,25,0,6,,21.238846378646958,31.896078624895924
+Regla umbral 70/30,3,114,Lucerna-Abraham González,012,Río Lerma - Villalongín,5,19,23,0,11,,41.85729890734034,51.637550130187144
+Gemelo (voraz),1,029,Reforma - Bucareli,026,Reforma - Versalles,10,31,31,0,14,7.2729997634887695,5.0,12.9004445055547
+Gemelo (voraz),2,119,Turín-Abraham González,012,Río Lerma - Villalongín,7,24,25,0,11,3.560999870300293,21.238846378646958,30.772706728654505
+Gemelo (voraz),3,029,Reforma - Bucareli,115,Roma-Dinamarca,13,31,31,2,23,2.0019999742507935,42.180060947772034,53.04974311628775

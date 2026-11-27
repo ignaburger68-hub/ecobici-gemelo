@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 17:44 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 17:58 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 17:44 a 18:44
+## Último pronóstico: 27/11 17:58 a 18:58
 
 ![Mapa](ultimo/mapa.png)
 
@@ -12,7 +12,7 @@ _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Me
 
 **9.5 °C** · lluvia 0.5 mm/h · viento 4 km/h · día hábil
 
-El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.67** (1,00 = sin efecto).
+El clima multiplica los **retiros por 0.62** y las **devoluciones por 0.69** (1,00 = sin efecto).
 
 | Variable | Condición | Factor retiros | Factor devoluciones |
 | --- | --- | --- | --- |
@@ -26,23 +26,23 @@ El clima multiplica los **retiros por 0.60** y las **devoluciones por 0.67** (1,
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
 | 029 Reforma - Bucareli | 31 / 31 | 0.00 | 1.00 | 28-31 |
 | 012 Río Lerma - Villalongín | 0 / 11 | 0.99 | 0.00 | 0-3 |
-| 010 Reforma - Ramírez | 0 / 25 | 0.98 | 0.00 | 0-4 |
 | 026 Reforma - Versalles | 0 / 14 | 0.98 | 0.00 | 0-3 |
-| 119 Turín-Abraham González | 24 / 25 | 0.00 | 0.74 | 21-25 |
-| 115 Roma-Dinamarca | 3 / 22 | 0.61 | 0.00 | 0-4 |
-| 041 Reforma - Av. de la Repúblic | 1 / 27 | 0.52 | 0.00 | 1-7 |
-| 117 Londres-Nápoles | 3 / 30 | 0.49 | 0.00 | 0-5 |
-| 008 Reforma - General Prim | 3 / 16 | 0.42 | 0.00 | 0-5 |
+| 119 Turín-Abraham González | 24 / 25 | 0.00 | 0.79 | 20-25 |
+| 010 Reforma - Ramírez | 1 / 25 | 0.73 | 0.00 | 0-5 |
+| 115 Roma-Dinamarca | 2 / 23 | 0.71 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 2 / 18 | 0.64 | 0.00 | 0-4 |
+| 008 Reforma - General Prim | 4 / 16 | 0.34 | 0.00 | 0-6 |
+| 117 Londres-Nápoles | 5 / 30 | 0.28 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **18 bicis** de 029 (31/31) a 010 (0/25)
-2. Llevar **8 bicis** de 119 (24/25) a 026 (0/14)
-3. Llevar **6 bicis** de 113 (12/15) a 012 (0/11)
+1. Llevar **10 bicis** de 029 (31/31) a 026 (0/14)
+2. Llevar **7 bicis** de 119 (24/25) a 012 (0/11)
+3. Llevar **13 bicis** de 029 (31/31) a 115 (2/23)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-771 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+772 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
