@@ -1,19 +1,19 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,33,33,0,24,,5.0,15.869682168515716
-Regla umbral 90/10,2,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,28.28073675226849,39.86287752881098
-Regla umbral 90/10,3,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,2,35,35,0,5,,47.45323680873016,54.81130492355983
-Regla umbral 85/15,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,33,33,0,24,,5.0,15.869682168515716
-Regla umbral 85/15,2,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,28.28073675226849,39.86287752881098
-Regla umbral 85/15,3,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,2,35,35,0,5,,47.45323680873016,54.81130492355983
-Regla umbral 80/20,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,33,33,0,24,,5.0,15.869682168515716
-Regla umbral 80/20,2,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,28.28073675226849,39.86287752881098
-Regla umbral 80/20,3,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,2,35,35,0,5,,47.45323680873016,54.81130492355983
-Regla umbral 75/25,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,33,33,0,24,,5.0,15.869682168515716
-Regla umbral 75/25,2,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,28.28073675226849,39.86287752881098
-Regla umbral 75/25,3,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,2,35,35,0,5,,47.45323680873016,54.81130492355983
-Regla umbral 70/30,1,029,Reforma - Bucareli,115,Roma-Dinamarca,12,33,33,0,24,,5.0,15.869682168515716
-Regla umbral 70/30,2,048,Independencia - Azueta,263,Sadi Carnot - Gómez Farias,3,10,10,0,6,,28.28073675226849,39.86287752881098
-Regla umbral 70/30,3,555,Ribera de San Cosme - Insurgentes Centro,270,De la República-Ponciano Arriaga,2,35,35,0,5,,47.45323680873016,54.81130492355983
-Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,115,Roma-Dinamarca,19,35,35,0,24,16.341000080108643,5.0,16.24636992440178
-Gemelo (voraz),2,029,Reforma - Bucareli,114,Lucerna-Abraham González,13,33,33,1,21,7.851000428199768,27.116052092917496,36.00696919111683
-Gemelo (voraz),3,048,Independencia - Azueta,086,Sullivan-Insurgentes,7,10,10,0,15,5.425000429153442,45.677074790645975,57.57205521515551
+Regla umbral 90/10,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,33,33,0,6,,5.0,14.499211720476076
+Regla umbral 90/10,2,041,Reforma - Av. de la República,270,De la República-Ponciano Arriaga,2,28,29,0,4,,23.947702761121057,31.032544710802025
+Regla umbral 90/10,3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,7,20,21,0,15,,38.494139443452845,46.85966318718909
+Regla umbral 85/15,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,33,33,0,6,,5.0,14.499211720476076
+Regla umbral 85/15,2,041,Reforma - Av. de la República,270,De la República-Ponciano Arriaga,2,28,29,0,4,,23.947702761121057,31.032544710802025
+Regla umbral 85/15,3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,7,20,21,0,15,,38.494139443452845,46.85966318718909
+Regla umbral 80/20,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,33,33,0,6,,5.0,14.499211720476076
+Regla umbral 80/20,2,041,Reforma - Av. de la República,270,De la República-Ponciano Arriaga,2,28,29,0,4,,23.947702761121057,31.032544710802025
+Regla umbral 80/20,3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,7,20,21,0,15,,38.494139443452845,46.85966318718909
+Regla umbral 75/25,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,33,33,0,6,,5.0,14.499211720476076
+Regla umbral 75/25,2,041,Reforma - Av. de la República,270,De la República-Ponciano Arriaga,2,28,29,0,4,,23.947702761121057,31.032544710802025
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,7,20,21,0,15,,38.494139443452845,46.85966318718909
+Regla umbral 70/30,1,029,Reforma - Bucareli,263,Sadi Carnot - Gómez Farias,3,33,33,0,6,,5.0,14.499211720476076
+Regla umbral 70/30,2,041,Reforma - Av. de la República,270,De la República-Ponciano Arriaga,2,28,29,0,4,,23.947702761121057,31.032544710802025
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,7,20,21,0,15,,38.494139443452845,46.85966318718909
+Gemelo (voraz),1,555,Ribera de San Cosme - Insurgentes Centro,117,Londres-Nápoles,15,26,32,1,29,5.924000024795532,5.0,17.87317105006021
+Gemelo (voraz),2,041,Reforma - Av. de la República,115,Roma-Dinamarca,11,28,29,1,23,4.9709999561309814,30.108718092449646,41.10905988566831
+Gemelo (voraz),3,029,Reforma - Bucareli,012,Río Lerma - Villalongín,8,33,33,0,15,4.674000024795532,51.978742054184025,63.386096273301554
