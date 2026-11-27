@@ -1,14 +1,13 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,14,15,0,25,,5.0,11.813851355574819
-Regla umbral 85/15,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,14,15,0,25,,5.0,11.813851355574819
-Regla umbral 85/15,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,8,20,23,0,19,,19.513365627142097,28.292990366359014
-Regla umbral 80/20,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,14,15,0,25,,5.0,11.813851355574819
-Regla umbral 80/20,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,8,20,23,0,19,,19.513365627142097,28.292990366359014
-Regla umbral 75/25,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,14,15,0,25,,5.0,11.813851355574819
-Regla umbral 75/25,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,8,20,23,0,19,,19.513365627142097,28.292990366359014
-Regla umbral 70/30,1,113,General Prim-Versalles,010,Reforma - Ramírez,6,14,15,0,25,,5.0,11.813851355574819
-Regla umbral 70/30,2,114,Lucerna-Abraham González,020,Reforma- Río Támesis,8,20,23,0,19,,19.513365627142097,28.292990366359014
-Regla umbral 70/30,3,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,39,55,0,6,,39.492722902116114,51.59227029246644
-Gemelo (voraz),1,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,19,39,55,2,29,8.2590002566576,5.0,14.711637610630966
-Gemelo (voraz),2,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,10,14,15,1,32,7.264999985694885,23.390297597635968,34.163247714716896
-Gemelo (voraz),3,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,11,20,23,0,14,6.114999875426292,45.80205058724288,54.46362718133469
+Regla umbral 90/10,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,10,22,23,0,25,,5.0,12.699514271567278
+Regla umbral 85/15,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,10,22,23,0,25,,5.0,12.699514271567278
+Regla umbral 80/20,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,10,22,23,0,25,,5.0,12.699514271567278
+Regla umbral 75/25,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,10,22,23,0,25,,5.0,12.699514271567278
+Regla umbral 75/25,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,12,15,0,28,,19.513365627142097,28.1920256141471
+Regla umbral 75/25,3,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,42,55,0,6,,37.903663224778064,50.003210615128395
+Regla umbral 70/30,1,114,Lucerna-Abraham González,010,Reforma - Ramírez,10,22,23,0,25,,5.0,12.699514271567278
+Regla umbral 70/30,2,113,General Prim-Versalles,041,Reforma - Av. de la República,4,12,15,0,28,,19.513365627142097,28.1920256141471
+Regla umbral 70/30,3,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,42,55,0,6,,37.903663224778064,50.003210615128395
+Gemelo (voraz),1,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,20,42,55,0,28,10.356000162661076,5.0,14.711637610630966
+Gemelo (voraz),2,114,Lucerna-Abraham González,086,Sullivan-Insurgentes,13,22,23,0,15,8.670000076293945,23.84286318582885,32.50443977992065
+Gemelo (voraz),3,113,General Prim-Versalles,555,Ribera de San Cosme - Insurgentes Centro,9,12,15,1,32,6.171999454498291,40.396006396640544,51.16895651372147
