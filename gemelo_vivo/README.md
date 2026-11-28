@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 06:44 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 06:58 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 06:44 a 07:44
+## Último pronóstico: 28/11 06:58 a 07:58
 
 ![Mapa](ultimo/mapa.png)
 
@@ -29,18 +29,18 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 29 | 1.00 | 0.00 | 0-1 |
 | 012 Río Lerma - Villalongín | 0 / 11 | 1.00 | 0.00 | 0-2 |
-| 031 Hamburgo - Insurgentes | 0 / 3 | 0.99 | 0.04 | 0-2 |
-| 270 De la República-Ponciano Arr | 0 / 22 | 0.93 | 0.00 | 0-5 |
-| 086 Sullivan-Insurgentes | 14 / 15 | 0.00 | 0.40 | 11-15 |
-| 117 Londres-Nápoles | 1 / 28 | 0.21 | 0.00 | 0-2 |
+| 031 Hamburgo - Insurgentes | 0 / 3 | 0.99 | 0.06 | 0-2 |
+| 270 De la República-Ponciano Arr | 0 / 22 | 0.96 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 15 / 16 | 0.00 | 0.47 | 12-16 |
+| 117 Londres-Nápoles | 1 / 28 | 0.26 | 0.00 | 0-2 |
 
 ### Plan recomendado del camión
 
-1. Llevar **4 bicis** de 086 (14/15) a 263 (0/29)
+1. Llevar **5 bicis** de 086 (15/16) a 263 (0/29)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-797 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+798 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
