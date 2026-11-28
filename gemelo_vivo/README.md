@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 19:23 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 19:38 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 19:23 a 20:23
+## Último pronóstico: 27/11 19:37 a 20:37
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 27/11/2026 19:23 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**8.3 °C** · lluvia 1.3 mm/h · viento 10 km/h · día hábil
+**8.1 °C** · lluvia 1.3 mm/h · viento 9 km/h · día hábil
 
 El clima multiplica los **retiros por 0.48** y las **devoluciones por 0.56** (1,00 = sin efecto).
 
@@ -24,25 +24,25 @@ El clima multiplica los **retiros por 0.48** y las **devoluciones por 0.56** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 012 Río Lerma - Villalongín | 0 / 11 | 0.99 | 0.00 | 0-3 |
-| 114 Lucerna-Abraham González | 23 / 23 | 0.00 | 0.98 | 20-23 |
-| 008 Reforma - General Prim | 0 / 15 | 0.98 | 0.00 | 0-3 |
-| 115 Roma-Dinamarca | 0 / 23 | 0.98 | 0.00 | 0-4 |
-| 010 Reforma - Ramírez | 0 / 25 | 0.96 | 0.00 | 0-6 |
-| 086 Sullivan-Insurgentes | 14 / 15 | 0.00 | 0.76 | 11-15 |
-| 026 Reforma - Versalles | 1 / 14 | 0.73 | 0.00 | 0-4 |
-| 029 Reforma - Bucareli | 28 / 30 | 0.00 | 0.59 | 25-30 |
-| 119 Turín-Abraham González | 23 / 25 | 0.00 | 0.30 | 20-25 |
+| 114 Lucerna-Abraham González | 23 / 23 | 0.00 | 0.99 | 20-23 |
+| 008 Reforma - General Prim | 0 / 16 | 0.99 | 0.00 | 0-2 |
+| 012 Río Lerma - Villalongín | 0 / 11 | 0.98 | 0.00 | 0-3 |
+| 086 Sullivan-Insurgentes | 13 / 15 | 0.00 | 0.61 | 11-15 |
+| 026 Reforma - Versalles | 1 / 14 | 0.53 | 0.00 | 0-4 |
+| 029 Reforma - Bucareli | 28 / 30 | 0.00 | 0.48 | 25-30 |
+| 117 Londres-Nápoles | 2 / 28 | 0.41 | 0.00 | 0-5 |
+| 010 Reforma - Ramírez | 2 / 25 | 0.21 | 0.00 | 0-6 |
+| 041 Reforma - Av. de la Repúblic | 3 / 27 | 0.20 | 0.00 | 1-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 086 (14/15) a 115 (0/23)
-2. Llevar **6 bicis** de 114 (23/23) a 012 (0/11)
-3. Llevar **9 bicis** de 029 (28/30) a 010 (0/25)
+1. Llevar **7 bicis** de 114 (23/23) a 008 (0/16)
+2. Llevar **6 bicis** de 086 (13/15) a 012 (0/11)
+3. Llevar **8 bicis** de 029 (28/30) a 117 (2/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-778 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+779 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
