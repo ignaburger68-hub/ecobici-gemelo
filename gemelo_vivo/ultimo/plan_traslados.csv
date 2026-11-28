@@ -7,9 +7,9 @@ Regla umbral 80/20,1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,1,16,16,0,3
 Regla umbral 80/20,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,2,20,21,0,5,,21.461079156460354,32.58117444480111
 Regla umbral 75/25,1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,1,16,16,0,3,,5.0,12.305117700416709
 Regla umbral 75/25,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,2,20,21,0,5,,21.461079156460354,32.58117444480111
-Regla umbral 75/25,3,119,Turín-Abraham González,270,De la República-Ponciano Arriaga,7,22,29,0,20,,40.47589039571692,51.2870373375073
+Regla umbral 75/25,3,119,Turín-Abraham González,270,De la República-Ponciano Arriaga,7,22,29,0,21,,40.47589039571692,51.2870373375073
 Regla umbral 70/30,1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,1,16,16,0,3,,5.0,12.305117700416709
 Regla umbral 70/30,2,260,Av. Juárez-Balderas,008,Reforma - General Prim,2,20,21,0,5,,21.461079156460354,32.58117444480111
-Regla umbral 70/30,3,119,Turín-Abraham González,270,De la República-Ponciano Arriaga,7,22,29,0,20,,40.47589039571692,51.2870373375073
-Gemelo (voraz),1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,9,16,16,1,28,2.818000078201294,5.0,15.15923502818148
-Gemelo (voraz),2,260,Av. Juárez-Balderas,012,Río Lerma - Villalongín,6,20,21,0,11,2.3740000128746033,21.540947820873466,34.32795576985218
+Regla umbral 70/30,3,119,Turín-Abraham González,270,De la República-Ponciano Arriaga,7,22,29,0,21,,40.47589039571692,51.2870373375073
+Gemelo (voraz),1,260,Av. Juárez-Balderas,041,Reforma - Av. de la República,10,20,21,2,29,2.6840001046657562,5.0,11.381712792691989
+Gemelo (voraz),2,086,Sullivan-Insurgentes,112,Av. Morelos-Abraham González,9,16,16,3,22,2.297000139951706,21.54094782087347,30.639277200372383
