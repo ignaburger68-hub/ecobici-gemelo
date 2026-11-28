@@ -1,6 +1,6 @@
-Simulación de una hora — viernes 27/11/2026 18:12 a 19:12 (en vivo)
+Simulación de una hora — viernes 27/11/2026 18:27 a 19:27 (en vivo)
 Réplicas: 1000 · phi = 0.1 · ventana: 2026-11-18, 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26
-Factor del día: retiros 0.41, devoluciones 0.43
+Factor del día: retiros 0.42, devoluciones 0.40
 Estaciones con dato: 30 de 30
 
 Clima pronosticado de 18:00 a 19:00 (día hábil): 9.5 °C (-8.0 °C respecto de lo normal a esa hora), lluvia 0.5 mm/h, viento 4 km/h
@@ -12,33 +12,33 @@ Efecto del clima en la hora: retiros ×0.64 (-36 %), devoluciones ×0.70 (-30 %)
 
 Estaciones con más riesgo:
        263 Sadi Carnot - Gómez Farias B=0/6  p vacía 1.00  p llena 0.00  B(t+60) 0-0
+       012 Río Lerma - Villalongín    B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-2
        026 Reforma - Versalles        B=0/14  p vacía 0.99  p llena 0.00  B(t+60) 0-4
-       012 Río Lerma - Villalongín    B=0/11  p vacía 0.99  p llena 0.00  B(t+60) 0-3
-       029 Reforma - Bucareli         B=30/31  p vacía 0.00  p llena 0.85  B(t+60) 28-31
+       029 Reforma - Bucareli         B=28/29  p vacía 0.00  p llena 0.93  B(t+60) 26-29
+       118 Liverpool-Dinamarca        B=1/18  p vacía 0.89  p llena 0.00  B(t+60) 0-3
+       008 Reforma - General Prim     B=2/16  p vacía 0.84  p llena 0.00  B(t+60) 0-2
        010 Reforma - Ramírez          B=1/25  p vacía 0.83  p llena 0.00  B(t+60) 0-4
-       008 Reforma - General Prim     B=2/16  p vacía 0.82  p llena 0.00  B(t+60) 0-2
-       119 Turín-Abraham González     B=24/25  p vacía 0.00  p llena 0.75  B(t+60) 20-25
-       118 Liverpool-Dinamarca        B=2/18  p vacía 0.71  p llena 0.00  B(t+60) 0-4
+       119 Turín-Abraham González     B=24/25  p vacía 0.00  p llena 0.77  B(t+60) 19-25
 
 Plan Regla umbral 90/10 (la mejor de las 5 reglas umbral en esta hora):
-  1. llevar 7 bicis de 029 (30/31) a 026 (0/14)
+  1. llevar 7 bicis de 029 (28/29) a 026 (0/14)
   2. llevar 3 bicis de 119 (24/25) a 263 (0/6)
   3. llevar 5 bicis de 114 (21/23) a 012 (0/11)
 Plan Gemelo (voraz):
-  1. llevar 8 bicis de 029 (30/31) a 012 (0/11)
-  2. llevar 10 bicis de 119 (24/25) a 008 (2/16)
-  3. llevar 8 bicis de 029 (30/31) a 026 (0/14)
+  1. llevar 8 bicis de 029 (28/29) a 012 (0/11)
+  2. llevar 11 bicis de 119 (24/25) a 008 (2/16)
+  3. llevar 5 bicis de 048 (7/10) a 026 (0/14)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                               21.7  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-★ Regla umbral 90/10                       13.2  (atiende +8.5 vs sin acción, IC95 +8.3 a +8.8)
-  Regla umbral 85/15                       13.2  (atiende +8.5 vs sin acción, IC95 +8.3 a +8.8)
-  Regla umbral 80/20                       13.2  (atiende +8.5 vs sin acción, IC95 +8.3 a +8.8)
-  Regla umbral 75/25                       13.2  (atiende +8.5 vs sin acción, IC95 +8.3 a +8.8)
-  Regla umbral 70/30                       13.2  (atiende +8.5 vs sin acción, IC95 +8.3 a +8.8)
-  Gemelo (voraz)                           10.2  (atiende +11.5 vs sin acción, IC95 +11.1 a +11.9)
-  Gemelo (voraz) con tiempos de viaje      15.2  (atiende +6.5 vs sin acción, IC95 +6.2 a +6.8)
+  Sin acción                               22.1  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+★ Regla umbral 90/10                       13.5  (atiende +8.6 vs sin acción, IC95 +8.3 a +8.8)
+  Regla umbral 85/15                       13.5  (atiende +8.6 vs sin acción, IC95 +8.3 a +8.8)
+  Regla umbral 80/20                       13.5  (atiende +8.6 vs sin acción, IC95 +8.3 a +8.8)
+  Regla umbral 75/25                       13.5  (atiende +8.6 vs sin acción, IC95 +8.3 a +8.8)
+  Regla umbral 70/30                       13.5  (atiende +8.6 vs sin acción, IC95 +8.3 a +8.8)
+  Gemelo (voraz)                            9.9  (atiende +12.2 vs sin acción, IC95 +11.8 a +12.5)
+  Gemelo (voraz) con tiempos de viaje      15.0  (atiende +7.1 vs sin acción, IC95 +6.9 a +7.4)
 
-Validación: |simulada − exacta| máx 0.028, media 0.003 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.037, media 0.003 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.8 s
