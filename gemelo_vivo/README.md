@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 06:02 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 06:16 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 06:02 a 07:02
+## Último pronóstico: 28/11 06:16 a 07:16
 
 ![Mapa](ultimo/mapa.png)
 
@@ -26,17 +26,17 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 010 Reforma - Ramírez | 0 / 3 | 1.00 | 0.00 | 0-0 |
 | 003 Reforma - Insurgentes | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 008 Reforma - General Prim | 0 / 5 | 1.00 | 0.00 | 0-0 |
-| 012 Río Lerma - Villalongín | 0 / 11 | 1.00 | 0.00 | 0-1 |
+| 117 Londres-Nápoles | 0 / 28 | 1.00 | 0.00 | 0-1 |
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 29 | 1.00 | 0.00 | 0-1 |
-| 117 Londres-Nápoles | 0 / 28 | 1.00 | 0.00 | 0-1 |
-| 031 Hamburgo - Insurgentes | 0 / 5 | 0.99 | 0.00 | 0-2 |
-| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 12-16 |
-| 107-108 Tolsa-Balderas | 0 / 6 | 0.98 | 0.01 | 0-3 |
+| 012 Río Lerma - Villalongín | 0 / 11 | 1.00 | 0.00 | 0-1 |
+| 031 Hamburgo - Insurgentes | 0 / 3 | 0.99 | 0.03 | 0-2 |
+| 270 De la República-Ponciano Arr | 0 / 22 | 0.98 | 0.00 | 0-5 |
+| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.98 | 12-16 |
 
 ### Plan recomendado del camión
 
-1. Llevar **6 bicis** de 086 (16/16) a 263 (0/29)
+1. Llevar **5 bicis** de 086 (16/16) a 263 (0/29)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 

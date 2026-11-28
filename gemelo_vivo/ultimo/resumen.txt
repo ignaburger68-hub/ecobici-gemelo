@@ -1,6 +1,6 @@
-Simulación de una hora — sábado 28/11/2026 06:02 a 07:02 (en vivo)
+Simulación de una hora — sábado 28/11/2026 06:16 a 07:16 (en vivo)
 Réplicas: 1000 · phi = 0.15 · ventana: 2026-11-19, 2026-11-20, 2026-11-23, 2026-11-24, 2026-11-25, 2026-11-26, 2026-11-27
-Factor del día: retiros 0.84, devoluciones 0.81
+Factor del día: retiros 0.87, devoluciones 0.72
 Estaciones con dato: 29 de 30
 
 Clima pronosticado de 06:00 a 07:00 (día fin de semana): 6.2 °C (-4.3 °C respecto de lo normal a esa hora), lluvia 1.7 mm/h, viento 5 km/h
@@ -14,28 +14,28 @@ Estaciones con más riesgo:
        010 Reforma - Ramírez          B=0/3  p vacía 1.00  p llena 0.00  B(t+60) 0-0
        003 Reforma - Insurgentes      B=0/1  p vacía 1.00  p llena 0.00  B(t+60) 0-0
        008 Reforma - General Prim     B=0/5  p vacía 1.00  p llena 0.00  B(t+60) 0-0
-       012 Río Lerma - Villalongín    B=0/11  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       117 Londres-Nápoles            B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-1
        020 Reforma- Río Támesis       B=0/1  p vacía 1.00  p llena 0.00  B(t+60) 0-0
        263 Sadi Carnot - Gómez Farias B=0/29  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       117 Londres-Nápoles            B=0/28  p vacía 1.00  p llena 0.00  B(t+60) 0-1
-       031 Hamburgo - Insurgentes     B=0/5  p vacía 0.99  p llena 0.00  B(t+60) 0-2
+       012 Río Lerma - Villalongín    B=0/11  p vacía 1.00  p llena 0.00  B(t+60) 0-1
+       031 Hamburgo - Insurgentes     B=0/3  p vacía 0.99  p llena 0.03  B(t+60) 0-2
 
 Plan Regla umbral 90/10 (la mejor de las 5 reglas umbral en esta hora):
   1. llevar 1 bicis de 086 (16/16) a 010 (0/3)
   2. llevar 2 bicis de 256 (21/23) a 008 (0/5)
 Plan Gemelo (voraz):
-  1. llevar 6 bicis de 086 (16/16) a 263 (0/29)
+  1. llevar 5 bicis de 086 (16/16) a 263 (0/29)
 
 Demanda no atendida esperada en la hora (30 estaciones, réplicas nuevas y comunes a los planes):
-  Sin acción                                9.2  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
-★ Regla umbral 90/10                        8.8  (atiende +0.4 vs sin acción, IC95 +0.3 a +0.4)
-  Regla umbral 85/15                        8.8  (atiende +0.4 vs sin acción, IC95 +0.3 a +0.4)
-  Regla umbral 80/20                        8.8  (atiende +0.4 vs sin acción, IC95 +0.3 a +0.4)
-  Regla umbral 75/25                        8.8  (atiende +0.4 vs sin acción, IC95 +0.3 a +0.4)
-  Regla umbral 70/30                        8.8  (atiende +0.4 vs sin acción, IC95 +0.3 a +0.4)
-  Gemelo (voraz)                            8.4  (atiende +0.8 vs sin acción, IC95 +0.7 a +0.8)
-  Gemelo (voraz) con tiempos de viaje       8.5  (atiende +0.7 vs sin acción, IC95 +0.6 a +0.7)
+  Sin acción                                8.8  (atiende +0.0 vs sin acción, IC95 +0.0 a +0.0)
+★ Regla umbral 90/10                        8.5  (atiende +0.3 vs sin acción, IC95 +0.3 a +0.4)
+  Regla umbral 85/15                        8.5  (atiende +0.3 vs sin acción, IC95 +0.3 a +0.4)
+  Regla umbral 80/20                        8.5  (atiende +0.3 vs sin acción, IC95 +0.3 a +0.4)
+  Regla umbral 75/25                        8.5  (atiende +0.3 vs sin acción, IC95 +0.3 a +0.4)
+  Regla umbral 70/30                        8.5  (atiende +0.3 vs sin acción, IC95 +0.3 a +0.4)
+  Gemelo (voraz)                            8.0  (atiende +0.9 vs sin acción, IC95 +0.8 a +0.9)
+  Gemelo (voraz) con tiempos de viaje       8.1  (atiende +0.7 vs sin acción, IC95 +0.7 a +0.8)
 
-Validación: |simulada − exacta| máx 0.017, media 0.000 (error de Monte Carlo ≈ 0.016)
+Validación: |simulada − exacta| máx 0.005, media 0.000 (error de Monte Carlo ≈ 0.016)
 
 Tiempo de cálculo: 0.4 s
