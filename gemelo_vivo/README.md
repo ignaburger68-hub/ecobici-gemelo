@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 07:27 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 07:41 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 07:27 a 08:27
+## Último pronóstico: 28/11 07:41 a 08:41
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 28/11/2026 07:27 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**6.7 °C** · lluvia 1.5 mm/h · viento 4 km/h · día fin de semana
+**7.0 °C** · lluvia 1.7 mm/h · viento 3 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,00 = sin efecto).
 
@@ -29,18 +29,18 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 263 Sadi Carnot - Gómez Farias | 0 / 29 | 0.99 | 0.00 | 0-2 |
 | 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 13-16 |
-| 031 Hamburgo - Insurgentes | 0 / 3 | 0.99 | 0.23 | 0-3 |
 | 012 Río Lerma - Villalongín | 0 / 11 | 0.99 | 0.00 | 0-2 |
-| 270 De la República-Ponciano Arr | 0 / 23 | 0.97 | 0.00 | 0-5 |
-| 117 Londres-Nápoles | 1 / 28 | 0.30 | 0.00 | 0-4 |
+| 031 Hamburgo - Insurgentes | 0 / 3 | 0.98 | 0.32 | 0-3 |
+| 270 De la República-Ponciano Arr | 0 / 22 | 0.96 | 0.00 | 1-5 |
+| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.61 | 0.00 | 0-4 |
 
 ### Plan recomendado del camión
 
-1. Llevar **7 bicis** de 086 (16/16) a 263 (0/29)
+1. Llevar **9 bicis** de 086 (16/16) a 041 (1/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-800 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+801 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
