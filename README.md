@@ -254,6 +254,21 @@ Calcula, como lo habría hecho el gemelo en cada momento, las tasas de retiros y
 
 Opciones: `--estacion 116` (una estación; por defecto las 30 sumadas) y `--horas 08:00,13:00,18:00` (horas de la vista 2). Resultados (PNG y CSV) en `resultados_gemelo/tasas/` (o `tasas_116/`). Tarda ~1 minuto por semana. Lo mismo se explora en el tablero, pestaña **«Tasas»**.
 
+### `clima_logit`: efecto del clima con regresión logística
+```bash
+py -3.14 gemelo.py clima_logit --desde 2026-11-09 --hasta 2026-11-20
+```
+Una fila por estación y pronóstico (días hábiles, 06:00–22:45). Variable a explicar: si la estación **quedó vacía** (o **llena**) en la hora siguiente. Variables de clima: llueve en la hora, llovió en las 3 h previas, temperatura respecto de lo normal (por °C) y viento (por 5 km/h). Dos modelos para cada evento:
+1. **¿El clima afecta?** Clima + ocupación inicial + franja horaria + perfil de la estación.
+2. **¿El gemelo ya lo capta?** Clima + la probabilidad que dio el gemelo. Si los betas del clima quedan cerca de 0, el gemelo ya incorpora el efecto.
+
+Los errores estándar son robustos por conglomerado día-hora (el clima es el mismo para las 30 estaciones en una hora). Resultados en `resultados_gemelo/clima_logit/`: `coeficientes.csv` (beta, error estándar, z, p, razón de odds OR = exp(beta) e IC95), `resumen.txt`, `efectos_clima.png` y los datos usados. Opcional: `--validar-desde 2026-11-23 --validar-hasta 2026-11-27` compara el Brier del gemelo con y sin el clima agregado en otro periodo.
+
+Para ver solo los betas del clima:
+```bash
+py -3.14 -c "import pandas as pd; c=pd.read_csv('resultados_gemelo/clima_logit/coeficientes.csv'); print(c[c.es_clima][['evento','modelo','variable','beta','ee_robusto','p_valor','OR','OR_ic95_inf','OR_ic95_sup']].round(3).to_string(index=False))"
+```
+
 ### `ciclo`: un ciclo del gemelo en vivo
 **Lo corre GitHub cada 15 minutos; no lo corras sin `--t0` en tu computador.** Sin `--t0` escribe en `gemelo_vivo/`, el registro oficial. Para probarlo con un instante pasado (escribe en `gemelo_vivo_prueba/`, que no se sube):
 ```bash
@@ -368,6 +383,7 @@ El repositorio debe ser **público**: así los minutos de Actions son gratis e i
 | `clima_ecobici.py` | Descarga del clima (Open-Meteo) |
 | `tablero.py` | Tablero Streamlit |
 | `tasas_gemelo.py` | Análisis de cómo cambian las tasas (comando `tasas` y pestaña «Tasas») |
+| `clima_logit.py` | Regresión logística del efecto del clima (comando `clima_logit`) |
 | `diagnostico_feed.py` | Diagnóstico de cobertura del feed |
 | `estaciones_seleccionadas.csv` | Las 30 estaciones del gemelo |
 | `perfil_base_15min.csv` | Perfil base de demanda |

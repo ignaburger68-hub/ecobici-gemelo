@@ -186,6 +186,11 @@ def figura(coef):
         ax.set_yticks(range(len(VARS_CLIMA)), [NOMBRES[v] for v in VARS_CLIMA], fontsize=8)
         ax.invert_yaxis()
         ax.set_xscale("log")
+        from matplotlib.ticker import FixedLocator, FixedFormatter, NullFormatter
+        marcas = [0.5, 0.75, 1, 1.5, 2]
+        ax.xaxis.set_major_locator(FixedLocator(marcas))
+        ax.xaxis.set_major_formatter(FixedFormatter(["0,5", "0,75", "1", "1,5", "2"]))
+        ax.xaxis.set_minor_formatter(NullFormatter())
         ax.set_title(f"Quedar {ev}", loc="left")
         ax.set_xlabel("Razón de odds (IC95, escala log) · 1 = sin efecto")
         ax.spines[["top", "right"]].set_visible(False)
