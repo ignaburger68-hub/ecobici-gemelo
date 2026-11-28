@@ -1,14 +1,14 @@
 plan,orden,origen,origen_nombre,destino,destino_nombre,bicis,B_origen,C_origen,B_destino,C_destino,mejora_esperada,min_carga,min_descarga
-Regla umbral 90/10,1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,7,15,16,0,27,,5.0,15.15923502818148
-Regla umbral 85/15,1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,7,15,16,0,27,,5.0,15.15923502818148
-Regla umbral 80/20,1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,7,15,16,0,27,,5.0,15.15923502818148
-Regla umbral 80/20,2,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,46,55,0,6,,24.870872638812443,36.97042002916277
-Regla umbral 75/25,1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,7,15,16,0,27,,5.0,15.15923502818148
-Regla umbral 75/25,2,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,46,55,0,6,,24.870872638812443,36.97042002916277
-Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,117,Londres-Nápoles,6,17,22,2,28,,42.465370327162965,53.32035447493052
-Regla umbral 70/30,1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,7,15,16,0,27,,5.0,15.15923502818148
-Regla umbral 70/30,2,107-108,Tolsa-Balderas,263,Sadi Carnot - Gómez Farias,3,46,55,0,6,,24.870872638812443,36.97042002916277
-Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,117,Londres-Nápoles,6,17,22,2,28,,42.465370327162965,53.32035447493052
-Gemelo (voraz),1,086,Sullivan-Insurgentes,041,Reforma - Av. de la República,8,15,16,0,27,2.788999915122986,5.0,15.15923502818148
-Gemelo (voraz),2,256,Gómez Farías-Sadi Carnot,010,Reforma - Ramírez,9,17,22,2,26,1.2050000568851829,24.656200354326078,32.42281670932543
-Gemelo (voraz),3,119,Turín-Abraham González,117,Londres-Nápoles,8,19,26,2,28,0.6689999828813598,41.23593472762595,48.78519688393907
+Regla umbral 90/10,1,086,Sullivan-Insurgentes,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.254171155427827
+Regla umbral 85/15,1,086,Sullivan-Insurgentes,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.254171155427827
+Regla umbral 80/20,1,086,Sullivan-Insurgentes,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.254171155427827
+Regla umbral 80/20,2,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,13,45,56,1,28,,24.353718545778154,34.06535615640912
+Regla umbral 75/25,1,086,Sullivan-Insurgentes,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.254171155427827
+Regla umbral 75/25,2,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,13,45,56,1,28,,24.353718545778154,34.06535615640912
+Regla umbral 75/25,3,256,Gómez Farías-Sadi Carnot,117,Londres-Nápoles,6,17,22,2,28,,43.56232148255372,54.41730563032127
+Regla umbral 70/30,1,086,Sullivan-Insurgentes,263,Sadi Carnot - Gómez Farias,3,16,16,0,6,,5.0,12.254171155427827
+Regla umbral 70/30,2,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,13,45,56,1,28,,24.353718545778154,34.06535615640912
+Regla umbral 70/30,3,256,Gómez Farías-Sadi Carnot,117,Londres-Nápoles,6,17,22,2,28,,43.56232148255372,54.41730563032127
+Gemelo (voraz),1,086,Sullivan-Insurgentes,010,Reforma - Ramírez,8,16,16,2,26,3.009000062942505,5.0,12.305117700416709
+Gemelo (voraz),2,107-108,Tolsa-Balderas,041,Reforma - Av. de la República,10,45,56,1,28,1.2309999465942383,21.98497707413229,31.696614684763254
+Gemelo (voraz),3,256,Gómez Farías-Sadi Carnot,012,Río Lerma - Villalongín,6,17,22,1,11,1.065000010537915,41.19358001090785,49.5591037546441

@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 27/11/2026 20:20 (hora de Ciudad de México).
+Página actualizada automáticamente el 27/11/2026 20:34 (hora de Ciudad de México).
 
-## Último pronóstico: 27/11 20:20 a 21:20
+## Último pronóstico: 27/11 20:34 a 21:34
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 27/11/2026 20:20 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**8.1 °C** · lluvia 1.3 mm/h · viento 9 km/h · día hábil
+**8.1 °C** · lluvia 1.5 mm/h · viento 7 km/h · día hábil
 
 El clima multiplica los **retiros por 0.48** y las **devoluciones por 0.56** (1,00 = sin efecto).
 
@@ -24,30 +24,30 @@ El clima multiplica los **retiros por 0.48** y las **devoluciones por 0.56** (1,
 | Estación | Bicis / capacidad | P(vacía) | P(llena) | Bicis en 1 h (IC 80 %) |
 | --- | --- | --- | --- | --- |
 | 263 Sadi Carnot - Gómez Farias | 0 / 6 | 1.00 | 0.00 | 0-0 |
-| 041 Reforma - Av. de la Repúblic | 0 / 27 | 0.98 | 0.00 | 0-2 |
-| 086 Sullivan-Insurgentes | 15 / 16 | 0.00 | 0.68 | 11-16 |
-| 010 Reforma - Ramírez | 2 / 26 | 0.67 | 0.00 | 0-3 |
-| 117 Londres-Nápoles | 2 / 28 | 0.52 | 0.00 | 0-3 |
-| 115 Roma-Dinamarca | 2 / 25 | 0.50 | 0.00 | 0-3 |
-| 026 Reforma - Versalles | 2 / 14 | 0.43 | 0.00 | 0-4 |
-| 012 Río Lerma - Villalongín | 2 / 11 | 0.42 | 0.00 | 0-3 |
-| 008 Reforma - General Prim | 2 / 16 | 0.30 | 0.00 | 0-3 |
-| 555 Ribera de San Cosme - Insurg | 5 / 32 | 0.24 | 0.00 | 0-7 |
+| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 11-16 |
+| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.77 | 0.00 | 0-3 |
+| 012 Río Lerma - Villalongín | 1 / 11 | 0.75 | 0.00 | 0-2 |
+| 010 Reforma - Ramírez | 2 / 26 | 0.72 | 0.00 | 0-2 |
+| 117 Londres-Nápoles | 2 / 28 | 0.56 | 0.00 | 0-3 |
+| 026 Reforma - Versalles | 2 / 14 | 0.42 | 0.00 | 0-3 |
+| 555 Ribera de San Cosme - Insurg | 6 / 32 | 0.32 | 0.00 | 0-7 |
+| 008 Reforma - General Prim | 2 / 16 | 0.24 | 0.00 | 0-3 |
+| 115 Roma-Dinamarca | 4 / 26 | 0.20 | 0.00 | 0-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 086 (15/16) a 041 (0/27)
-2. Llevar **9 bicis** de 256 (17/22) a 010 (2/26)
-3. Llevar **8 bicis** de 119 (19/26) a 117 (2/28)
+1. Llevar **8 bicis** de 086 (16/16) a 010 (2/26)
+2. Llevar **10 bicis** de 107-108 (45/56) a 041 (1/28)
+3. Llevar **6 bicis** de 256 (17/22) a 012 (1/11)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-782 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+783 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
 | Gemelo | 0.111 | 0.036 |
-| Sin resincronizar | 0.239 | 0.082 |
+| Sin resincronizar | 0.238 | 0.082 |
 | Persistencia | 0.242 | 0.060 |
 | Persistencia 0/1 | 0.242 | 0.060 |
 
