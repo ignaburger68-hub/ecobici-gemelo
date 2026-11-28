@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 08:52 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 09:08 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 08:52 a 09:52
+## Último pronóstico: 28/11 09:08 a 10:08
 
 ![Mapa](ultimo/mapa.png)
 
@@ -27,21 +27,21 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 003 Reforma - Insurgentes | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 008 Reforma - General Prim | 0 / 5 | 1.00 | 0.00 | 0-0 |
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
-| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 14-16 |
-| 031 Hamburgo - Insurgentes | 0 / 3 | 0.93 | 0.76 | 1-3 |
-| 270 De la República-Ponciano Arr | 0 / 21 | 0.90 | 0.00 | 3-10 |
-| 260 Av. Juárez-Balderas | 20 / 21 | 0.00 | 0.88 | 19-21 |
-| 041 Reforma - Av. de la Repúblic | 2 / 29 | 0.32 | 0.00 | 1-10 |
-| 263 Sadi Carnot - Gómez Farias | 1 / 29 | 0.28 | 0.00 | 0-3 |
+| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 1.00 | 19-21 |
+| 031 Hamburgo - Insurgentes | 0 / 2 | 0.91 | 0.91 | 2-2 |
+| 270 De la República-Ponciano Arr | 0 / 19 | 0.91 | 0.00 | 3-11 |
+| 086 Sullivan-Insurgentes | 16 / 17 | 0.00 | 0.79 | 14-17 |
+| 263 Sadi Carnot - Gómez Farias | 1 / 29 | 0.30 | 0.00 | 0-4 |
+| 118 Liverpool-Dinamarca | 14 / 19 | 0.00 | 0.12 | 13-18 |
 
 ### Plan recomendado del camión
 
-1. Llevar **10 bicis** de 260 (20/21) a 041 (2/29)
-2. Llevar **9 bicis** de 086 (16/16) a 112 (3/22)
+1. Llevar **13 bicis** de 260 (21/21) a 263 (1/29)
+2. Llevar **8 bicis** de 086 (16/17) a 041 (4/32)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-806 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+807 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
