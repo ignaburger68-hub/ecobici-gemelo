@@ -983,6 +983,11 @@ def main():
     tz.add_argument("--hasta", required=True)
     tz.add_argument("--estacion", default=None, help="código de una estación (por defecto, las 30 sumadas)")
     tz.add_argument("--horas", default="08:00,13:00,18:00", help="horas para comparar entre días, separadas por coma")
+    cl = sub.add_parser("clima_logit", help="efecto del clima con regresión logística (vacía / llena)")
+    cl.add_argument("--desde", required=True)
+    cl.add_argument("--hasta", required=True)
+    cl.add_argument("--validar-desde", default=None, help="opcional: validar en otro periodo")
+    cl.add_argument("--validar-hasta", default=None)
     c = sub.add_parser("ciclo", help="un ciclo del gemelo en vivo: pronostica, registra y evalúa")
     c.add_argument("--t0", default=None, help="repetir un ciclo pasado (para probar)")
     for p in sub.choices.values():
@@ -1015,6 +1020,9 @@ def main():
         ajuste(gem, a.desde, a.hasta, a.R)
     elif a.cmd == "evaluar":
         evaluar(gem, a.desde, a.hasta, a.planes, a.R)
+    elif a.cmd == "clima_logit":
+        from clima_logit import comando as comando_clima_logit
+        comando_clima_logit(gem, a.desde, a.hasta, a.validar_desde, a.validar_hasta, a.R)
     elif a.cmd == "tasas":
         from tasas_gemelo import comando_tasas
         comando_tasas(gem, a.desde, a.hasta, [h.strip() for h in a.horas.split(",") if h.strip()], a.estacion)
