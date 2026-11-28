@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 07:55 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 08:09 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 07:55 a 08:55
+## Último pronóstico: 28/11 08:09 a 09:09
 
 ![Mapa](ultimo/mapa.png)
 
@@ -27,21 +27,20 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 003 Reforma - Insurgentes | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 008 Reforma - General Prim | 0 / 5 | 1.00 | 0.00 | 0-0 |
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
-| 263 Sadi Carnot - Gómez Farias | 0 / 29 | 0.99 | 0.00 | 0-1 |
-| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.98 | 13-16 |
-| 012 Río Lerma - Villalongín | 0 / 11 | 0.98 | 0.00 | 0-3 |
-| 031 Hamburgo - Insurgentes | 0 / 3 | 0.95 | 0.41 | 0-3 |
-| 270 De la República-Ponciano Arr | 0 / 21 | 0.95 | 0.00 | 1-6 |
-| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.66 | 0.00 | 0-4 |
+| 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 13-16 |
+| 031 Hamburgo - Insurgentes | 0 / 3 | 0.95 | 0.52 | 1-3 |
+| 270 De la República-Ponciano Arr | 0 / 21 | 0.94 | 0.00 | 1-7 |
+| 012 Río Lerma - Villalongín | 1 / 12 | 0.50 | 0.00 | 0-4 |
+| 041 Reforma - Av. de la Repúblic | 2 / 28 | 0.48 | 0.00 | 0-5 |
+| 117 Londres-Nápoles | 1 / 28 | 0.31 | 0.00 | 1-5 |
 
 ### Plan recomendado del camión
 
-1. Llevar **8 bicis** de 086 (16/16) a 041 (1/28)
-2. Llevar **5 bicis** de 256 (19/22) a 012 (0/11)
+1. Llevar **8 bicis** de 086 (16/16) a 041 (2/28)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-802 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+803 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |
