@@ -1,8 +1,8 @@
 # Gemelo digital Ecobici · en vivo
 
-Página actualizada automáticamente el 28/11/2026 08:23 (hora de Ciudad de México).
+Página actualizada automáticamente el 28/11/2026 08:38 (hora de Ciudad de México).
 
-## Último pronóstico: 28/11 08:23 a 09:23
+## Último pronóstico: 28/11 08:37 a 09:37
 
 ![Mapa](ultimo/mapa.png)
 
@@ -10,7 +10,7 @@ Página actualizada automáticamente el 28/11/2026 08:23 (hora de Ciudad de Méx
 
 _La hora todavía no termina: el clima es el pronóstico meteorológico (Open-Meteo)._
 
-**7.0 °C** · lluvia 1.7 mm/h · viento 3 km/h · día fin de semana
+**7.2 °C** · lluvia 1.3 mm/h · viento 2 km/h · día fin de semana
 
 El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,00 = sin efecto).
 
@@ -28,20 +28,20 @@ El clima multiplica los **retiros por 0.56** y las **devoluciones por 0.68** (1,
 | 008 Reforma - General Prim | 0 / 5 | 1.00 | 0.00 | 0-0 |
 | 020 Reforma- Río Támesis | 0 / 1 | 1.00 | 0.00 | 0-0 |
 | 086 Sullivan-Insurgentes | 16 / 16 | 0.00 | 0.99 | 13-16 |
-| 260 Av. Juárez-Balderas | 21 / 21 | 0.00 | 0.99 | 18-21 |
-| 031 Hamburgo - Insurgentes | 0 / 3 | 0.97 | 0.66 | 1-3 |
-| 270 De la República-Ponciano Arr | 0 / 21 | 0.93 | 0.00 | 2-8 |
-| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.74 | 0.00 | 0-6 |
-| 012 Río Lerma - Villalongín | 1 / 12 | 0.54 | 0.00 | 0-4 |
+| 012 Río Lerma - Villalongín | 0 / 11 | 0.98 | 0.00 | 0-3 |
+| 031 Hamburgo - Insurgentes | 0 / 4 | 0.94 | 0.55 | 1-4 |
+| 270 De la República-Ponciano Arr | 0 / 20 | 0.93 | 0.00 | 2-9 |
+| 260 Av. Juárez-Balderas | 20 / 21 | 0.00 | 0.79 | 18-21 |
+| 041 Reforma - Av. de la Repúblic | 1 / 28 | 0.68 | 0.00 | 0-7 |
 
 ### Plan recomendado del camión
 
-1. Llevar **12 bicis** de 260 (21/21) a 041 (1/28)
-2. Llevar **6 bicis** de 086 (16/16) a 012 (1/12)
+1. Llevar **9 bicis** de 086 (16/16) a 041 (1/28)
+2. Llevar **6 bicis** de 260 (20/21) a 012 (0/11)
 
 ## ¿Qué tan bien pronostica? (pronósticos hechos en tiempo real, ya evaluados)
 
-804 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
+805 pronósticos evaluados contra lo que ocurrió una hora después (sin estaciones con camión del operador). Menor es mejor; decir siempre 50 % da 0,25.
 
 | Modelo | Brier vacía | Brier llena |
 | --- | --- | --- |

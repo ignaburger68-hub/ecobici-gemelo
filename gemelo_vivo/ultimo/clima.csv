@@ -1,6 +1,6 @@
 hora,tipo_dia,fuente,temperatura_c,temp_dif_c,precipitacion_mm,viento_kmh,variable,categoria,factor_retiros,factor_devoluciones
-2026-11-28 08:00,fin de semana,pronosticado,6.95,-6.238,1.7,2.8,lluvia,moderada (1-4 mm/h),0.797,0.897
-2026-11-28 08:00,fin de semana,pronosticado,6.95,-6.238,1.7,2.8,lluvia previa,llovió en las 3 h previas,0.743,0.789
-2026-11-28 08:00,fin de semana,pronosticado,6.95,-6.238,1.7,2.8,temperatura,mucho más frío (< −3 °C),1.0,1.0
-2026-11-28 08:00,fin de semana,pronosticado,6.95,-6.238,1.7,2.8,viento,< 5 km/h,0.943,0.954
-2026-11-28 08:00,fin de semana,pronosticado,6.95,-6.238,1.7,2.8,efecto total en la hora,,0.558,0.675
+2026-11-28 09:00,fin de semana,pronosticado,7.2,-8.017,1.3,2.05,lluvia,moderada (1-4 mm/h),0.797,0.897
+2026-11-28 09:00,fin de semana,pronosticado,7.2,-8.017,1.3,2.05,lluvia previa,llovió en las 3 h previas,0.743,0.789
+2026-11-28 09:00,fin de semana,pronosticado,7.2,-8.017,1.3,2.05,temperatura,mucho más frío (< −3 °C),1.0,1.0
+2026-11-28 09:00,fin de semana,pronosticado,7.2,-8.017,1.3,2.05,viento,< 5 km/h,0.943,0.954
+2026-11-28 09:00,fin de semana,pronosticado,7.2,-8.017,1.3,2.05,efecto total en la hora,,0.558,0.675
